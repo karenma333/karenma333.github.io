@@ -344,6 +344,9 @@ iframe {
 .images >img{
   width:100%;
 }
+.images{
+  margin-bottom: 10px;
+}
 .logo{
   width:60px;
   height:60px;
