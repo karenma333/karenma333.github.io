@@ -126,14 +126,15 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
-  width:50px;
-  height:50px;
+  width:100px;
+  height: 100px;
+  position: center;
 }
 .header .profile-content .name {
   color: #49515a;
   font-size: 38px;
   margin-bottom: 5px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .header .profile-content .desc {
   color: #778492;
@@ -143,32 +144,9 @@ iframe {
   margin-top: 0;
   margin-bottom: 15px;
 }
-.header .profile-content .social a {
-  background: #b0b7bf;
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  color: #fff;
-  text-align: center;
-}
-.header .profile-content .social a:hover {
-  background: #778492;
-}
-.header .profile-content .social a .fa {
-  font-size: 20px;
-  padding-top: 8px;
-}
+
 /* ======= Sections======= */
 .sections-wrapper {
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 .section {
@@ -298,6 +276,9 @@ iframe {
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
+    width:100px;
+    height: 100px;
+    position: center;
   }
   .header .profile-content {
     float: none !important;
@@ -311,6 +292,56 @@ iframe {
     margin-bottom: 15px;
   }
 }
+/*Vertical menu*/
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #778492; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #479FC8; /* Add a green color to the "active/current" link */
+    color: white;
+}
+.previous {
+    background-color: #eee;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.next {
+    background-color: #479FC8;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.round {
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.round:hover{
+  color:#778492;
+}
+.navigate{
+  padding-bottom: 60px;
+}
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
