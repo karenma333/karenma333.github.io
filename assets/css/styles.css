@@ -140,7 +140,7 @@ iframe {
   color: #778492;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.8vw;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -341,7 +341,14 @@ iframe {
 .navigate{
   padding-bottom: 60px;
 }
-
+.images >img{
+  width:100%;
+}
+.logo{
+  width:60px;
+  height:60px;
+  margin-right:5px;
+}
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
