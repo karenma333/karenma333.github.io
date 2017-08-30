@@ -328,6 +328,14 @@ iframe {
     display: inline-block;
     padding: 8px 16px;
 }
+.proto{
+    background-color: #479FC8;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+}
 
 .round {
     border-radius: 10%;
