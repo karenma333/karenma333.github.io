@@ -4210,7 +4210,7 @@ nav ul a span.badge {
 nav {
   color: #fff;
   /*background-color: #ee6e73;*/
-  background-color:#A1C199;/*added by me*/
+  background-color:#345C75;/*added by me*/
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -8180,7 +8180,8 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  /*background-color: #4CAF50;*/
+  background-color: #26a69a;/*added by me*/
 }
 
 .carousel {
