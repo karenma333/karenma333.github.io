@@ -107,7 +107,6 @@ a.btn {
 }
 .card-panel{
   margin: auto !important;
-
   }
 .mobilepic{
   height:667px !important;
@@ -142,10 +141,17 @@ iframe{
 .research{
   width:100%;
 }
+/*projects page*/
 .logo{
-  width:50%;
+  height:4rem;
   display:block;
   margin:0 auto;
+  float:left;
+ }
+ .blurb-title{
+   padding: 24px;
+   padding-bottom: 0px !important;
+
  }
  /*Footer*/
  footer{
