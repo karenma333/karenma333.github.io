@@ -94,12 +94,38 @@ a.btn {
    padding-bottom: 0px !important;
 
  }
+ .card-action a{
+  color:#26A69A;
+ }
 /*home*/
 .homecon{
   margin: 0 auto;
 
 }
+.tabs .tab a{
+  color:#26A69A !important;
+  opacity:0.5;
+}
+.tabs .tab a.active{
+  opacity: 1;
+}
+.tabs .indicator{
+  color:#26A69A;
+  background-color: #26A69A !important; 
+}
+i{
+  padding-top: 2px;
+}
+.home{
+  transition: 0s !important;
+  box-shadow: none !important;
+}
+.home .card-content #featured .card-action a{
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
 
+}
 /*Resume/About Me page*/
 .spacer{
   height:10px;
