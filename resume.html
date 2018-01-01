@@ -6,68 +6,56 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
 
 </head> 
 
 <body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">                       
-            <div class="profile-content pull-left">
-                <h1 class="name">Karen Ma</h1>
-                <h2 class="desc">Looking for UXDesign/UXResearch Internships</h2>   
-            </div><!--//profile-->
-            <div class ="vertical-menu pull-right">
-                <a href="index.html">Home</a>
-                <a href= "project1.html">Projects</a>
-                <a href="resume.html" class="active">Resume</a>
+    <nav>
+        <div class ="menu nav-wrapper">
+            <div class="left">
+                <h5 class="name">Karen Ma</h5>
             </div>
-             
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="proj1 section">
-                    <img src="assets/resume.jpg" width="100%" height="100%">               
-                </section><!--//section-->
-            </div><!--//primary-->
-             <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Download Resume</h2>
-                        <div class="content">
-                            <a class="next round" href="/assets/resumeKarenMa.pdf" download> Download Resume</a>
-                        </div> 
-                    </div>              
-                </aside>
+            <ul class="right">
+                <li><a href="portfolio123.html">Home</a></li>
+                <li ><a href= "projects.html">All Projects</a></li>
+                <li class="active"><a href="resume.html">About Me/Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="spacer">
+    </div>
+    <div class="row">
+        <div class="col m8">
+            <img src="assets/resume.jpg" class="resume">               
+        </div><!--//section-->
+        <div class="col s12 m4">
+            <div class="card horizontal">
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h3> About me </h3>
+                        <p>I am a senior Cognitive Science HCI student at UCSD. I'm interested in Interaction Design, User Experience Research, and Computer Science, among other things. I'm looking for internships for the upcoming school year.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/assets/resumeKarenMa.pdf" download> Download Resume</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Template used created by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley.</a>Template has been altered</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+    </div>           
+
+
+ 
  
     <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
 
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
