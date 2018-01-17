@@ -259,6 +259,7 @@ footer a{
 
 
 }
+/*1280 x 720*/
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
