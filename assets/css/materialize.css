@@ -4840,10 +4840,7 @@ small {
   display: block;
   border-radius: 2px 2px 0 0;
   position: relative;
-  left: 10px;
-  right: 0;
-  top: 20px;
-  bottom: 0;
+
   width: 100%;
 }
 
@@ -5820,11 +5817,11 @@ button.btn-floating {
   height: 32px;
   font-size: 13px;
   font-weight: 500;
-  color: rgba(0, 0, 0, 0.6);
+  background-color: #A4BFA6;
+  color:white;
   line-height: 32px;
   padding: 0 12px;
   border-radius: 16px;
-  background-color: #e4e4e4;
   margin-bottom: 5px;
   margin-right: 5px;
 }

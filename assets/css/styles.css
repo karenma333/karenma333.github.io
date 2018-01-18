@@ -89,11 +89,12 @@ a.btn {
   margin:0 auto;
   float:left;
  }
- .blurb-title{
-   padding: 24px;
-   padding-bottom: 0px !important;
-
+ .blurb{
+  height:300px;
  }
+.card-image{
+  overflow: hidden;
+}
  .card-action a{
   color:#26A69A;
  }
@@ -102,6 +103,7 @@ a.btn {
   margin: 0 auto;
 
 }
+
 .tabs .tab a{
   color:#26A69A !important;
   opacity:0.5;
@@ -255,6 +257,19 @@ footer a{
 @media (max-width: 1151px) {
   .container {
     width: 1360px;
+  }
+  .chip{
+    visibility: hidden;
+  }
+
+
+}
+@media (max-width: 552px) {
+  .container {
+    width: 1360px;
+  }
+  .chip{
+    visibility: visible;
   }
 
 
