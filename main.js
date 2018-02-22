@@ -1,4 +1,4 @@
 jQuery(document).ready(function($) {
     $('.slider').slider();
-    $('.blurb').matchHeight();
+    $('.info .card-image').matchHeight();
 });
