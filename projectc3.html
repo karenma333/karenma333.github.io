@@ -17,24 +17,26 @@
 </head> 
 <body>
     <div class="container">
-    <nav>
+    <nav >
         <div class ="nav-wrapper">
             <div class="left">
                 <h5 class="name">Karen Ma</h5>
             </div>
             <ul class="right">
                 <li ><a href="index.html">Home</a></li>
-                <li><a href= "index.html#projects">Projects</a></li>
+                <li ><a href= "index.html#projects">Projects</a></li>
                 <li><a href="/assets/resumeKarenMa.pdf" target="_blank">Resume</a></li>
             </ul>
         </div>
     </nav>
+    <div class="spacer">
+    </div>
     
 <!--projects-->
     <main>
         <header class="header">
             <div class="card-panel">                       
-                <h3>Crime and Parks: Data Science Class Project</h3>
+                <h3>UCPool: Mobile Web Interaction Design</h3>
                 <hr>  
             </div><!--//profile-->
         </header><!--//header-->
@@ -43,32 +45,32 @@
                 <h4 >Overview</h4>
                 <div class="content">
                     <h5>Role/Tools</h5>
-                    <p>I participated in the search for viable datasets as well as in the coding of the project, cleaning up the initial data and finding ways to visualize the data for correlational purposes. <br/>
-                       <b> Tools: </b> Python, JupyterNotebook, pandas library
+                    <p>I focused on needfinding, creating initial wireframes to guide development and front-end coding as well as conducted usability testing with Google Analytics. <br/>
+                       <b> Tools: </b> HTML/CSS, Google Analytics, Javascript
                     </p>
                     <h5>Problem</h5>
-                    <p>Looking at previous studies on the internet, we discovered that there are two main stances on crime and park correlations. On the one hand, crime has been seen as having been correlated with an increase of the number of parks and vegetation nearby. On the other, an increase in park visitors is also correlated by more violent crimes in other studies. 
+                    <p> When looking at Facebook events, there are often hundreds of people interested in events but the actual turnout is much lower. We wanted to see if we could improve attendance rates at events. 
                     </p>
                     <h5>Solution</h5>
-                     <p>We used public datasets from San Francisco about the crimes in the past years, park data in the city as well as each park's score. After cleaning the datasets and pulling out the common link, location, we overlayed the park locations on top of the crime locations as a scatterplot. We also attempted to use hexbin plotting before switching over to the Nearest Neighbor method. The number of crimes was still too much so we ended up breaking down the crimes by neighborhood as well as parks. Ultimately, we did not find a correlation between the two.  <br/><br/>
-                    <a href= "https://github.com/karenma333/CrimeParks" class="btn"> Github Link</a>
-                    <a href= "assets/FinalProject.html" class="btn"> Jupyter Notebook</a>                
-                     </p>            
-                </div><!--//item--> 
+                     <p>We decided to improve ridesharing for events. Even though events are interesting, people are uncomfortable going to events when they do not know anyone and they don't want to go through the hassle of finding a way to get there. We created a mobile web application that pulled events that you were interested in on Facebook. Then you could either offer to drive or find a ride for each event. After inputting your pick-up location, we would find the most efficient route for carpooling purposes. We would also take into account mutual friends and Facebook interests in the hopes that the people you carpool with can be people you socialize with at the events themselves. <br/><br/>
+                    <!--h5>Challenges</h5>
+                    <p> Among the challenges we faced in this project, our decision to pivot, while critical to our solution, also meant we had do follow up interviews to delve in the direction we wanted to since our original interviews were insufficient. In addition, testing our prototype was difficult because we were giving our users imaginary trip prompts. People were not as invested as they would've been had it been a real trip. In addition, real trip planning is time intensive and it is possible people did not put in that amount of time for prototype testing.              
+                </div>--><!--//item--> 
             </div>          
-            <div class="section">
-                <ul>
-                    <p><b>The scatterplot results. Since we had too many data points, you can't really make any conclusions.</b></p>
-                    <li> <img  class="responsive-img" src="assets/images/cogs108/scatter.png" ></li>
-                    <p > <b>The result of the nearest neighbors method</b> </p>
-                    <li><img  class="responsive-img" src="assets/images/cogs108/nearest.png" ></li>
-
+            <div class="slider mobilepic" >
+                <ul class="slides mobilepic">
+                    <li class="picli"> <img src="assets/images/ucpool/home.png"></li>
+                    <li class="picli"><img src="assets/images/ucpool/pending.png"></li>
+                    <li class="picli"><img src="assets/images/ucpool/ridesearch.png"></li>
+                    <li class="picli"><img src="assets/images/ucpool/confirmed.png"></li>
+                    <li class="picli"><img src="assets/images/ucpool/history.png"></li>
                 </ul> 
-            </div>        
+            </div>      
         </div><!--//primary-->
     </main>
-    </div>
-    <footer>
+        </div>
+
+        <footer>
         <div class="contact ">
                 <p><i class="material-icons">email</i> karenma333@gmail.com
                 <i class="material-icons">call</i>925-297-9761

@@ -2,152 +2,134 @@
 <head>
     <title>Portfolio</title>
     <meta charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
 
+    <!-- Global CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
     <!-- Plugins CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/stylesA.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
 
 </head> 
 <body>
-    <nav class="z-depth-1">
-        <div class ="menu nav-wrapper">
-            <div class="left">
-                <h5 class="name">Karen Ma</h5>
+    <div class="container">
+        <nav>
+            <div class ="nav-wrapper">
+                <div class="left">
+                    <h5 class="name">Karen Ma</h5>
+                </div>
+                <ul class="right">
+                    <li><a href="index.html">Home</a></li>
+                    <li ><a href= "index.html#projects">Projects</a></li>
+                    <li><a href="/assets/resumeKarenMa.pdf" target="_blank">Resume</a></li>
+                </ul>
             </div>
-            <ul class="right">
-                <li><a href="index.html">Home</a></li>
-                <li  class="active"><a href= "index.html#projects">Projects</a></li>
-                <li><a href="resume.html">About Me/Resume</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="spacer">
+        </nav>
+    <!--projects-->
+        <main>
+            <header class="header">
+                    <div class="card-panel">                       
+                        <h3>Tripsy: An Interaction Design Studio Project</h3>
+                        <hr> 
+                    </div><!--//profile-->
+            </header><!--//header-->
+            <div class="primary">  
+               <div class="Problem section card-panel">
+                    <h4>Overview</h4>
+                    <div class="content">
+                        <h5>Role/Tools</h5>
+                        <p>I contributed to design research and played a main role in creating the mock ups and conducting user testing on the prototypes. <br/><b>Tools: </b>Adobe XD, Unbounce</p>
+                        <h5>Problem</h5>
+                        <p>For our Interaction Design Startup course, we looked into the sphere of itinerary creation. Travelers often want to be spontaneous in their traveling but also are interested in a local immersive experience. However, these two ideas are at odds with each other.  
+                        </p> 
+                        <h5>Solution</h5>            
+                        <p> Our final solution, Tripsy, consists of a desktop website supplemented with a mobile application. After using Tripsy like a normal itinerary creator, the application will show the best itinerary based on proximity of locations and ideal times to visit locations. This can be modified by the user before being opened on the mobile application while traveling. 
+                        The mobile application will allow users to follow and adjust their itinerary on the go. The mobile application will also allow the user to Explore Nearby and find things of interest nearby to deviate from their itinerary.<br>
+                        Below, we have sample screens of the mobile application and of the desktop application. To see an interactive prototype, click on the following links<br/><br/>
+                        <a href= "https://xd.adobe.com/view/60516d88-6f66-442c-a33f-28e2deda0d55" target="_blank" class="btn"> Mobile App Interactive Prototype</a>
+                        <a href="https://xd.adobe.com/view/5fe7a675-fa6a-4dd7-8bb7-d66717218e56" target="_blank" class="btn">Desktop App Interactive Prototype</a>
+                        
+                         </p>
+                    </div><!--//item-->   
+                </div>    
+                <div class="slider mobilepic" >
+                    <ul class="slides mobilepic">
+                        <li class="picli"> <img src="assets/images/projects/home.png"></li>
+                        <li class="picli"><img src="assets/images/projects/itinerary.png"></li>
+                        <li class="picli"><img src="assets/images/projects/details.png"></li>
+                        <li class="picli"><img src="assets/images/projects/explore.png"></li>
+
+                    </ul> 
+                </div>
+                <div class="section">
+                    <div class="slider">
+                    <ul class="slides">
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/home1.png">
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/bigben.png">
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/bestfit.png">
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/final.png">
+                    </li>
+                </div>
+                </div>
+                <div class="Process section card-panel">
+                    <h4>Process</h4>
+                    <div class="content">
+                        <h5> Interviews</h5>
+                        <p>We also found that even when using a product designed to show you the cheapest flights, hotels, best food, etc, people would still double check on other websites. As a result, there is a refusal to just check Expedia or just check Google Flights. We also noticed that websites that aimed to simplify steps for users by having flights, hotels, and car rentals at the same site did not affect user behavior. This led us to believe that with the internet at our fingertips, users are unwilling to trust one website or one application to do everything for them and would rather just put in some extra time themselves. </p>
+                        <h5>Persona Creation</h5>
+                        <p>
+                        We noticed three general types of travelers:<br/>
+                        <span style="font-weight:bold">Traveler A: </span>Created a schedule before departing and follows the schedule to a T with pre-determined time estimates. <br/>
+                        <span style="font-weight:bold">Traveler B: </span> Creates a loose list of things and plans for the trip but is willing to be sidetracked by unexpected finds.<br/>
+                        <span style="font-weight:bold">Traveler C:</span> Very “go with the flow” and more willing to just focus on “exploring the city”<br/><br/>      
+                        <h5>A/B Test Branding</h5>
+                        <p>Based on our initial idea to improve itinerary planning, we created paper prototypes and used Wizard of Oz to test out our idea with people we knew were in the process of planning trips for the summer.  We also created two branding options and bought ads on Google to see if our product would generate visuals/clicks by people searching on the internet. Our two branding alternatives were not only visually different but also tried to appeal to a different type of persona. This way we could also see if we needed to gear our product towards a particular audience. <br/><br/>
+
+                        From this, we learned that we did get clicks on our ads but the conversion rates (email sign ups) were the same for both branding options. This affirmed our belief that our product would be interesting to all types of travelers.</p> 
+                        <h5>User Testing and Prototype Iteration</h5>
+                        In line with our needfinding interviews, our testers said they used Google Docs and felt like having an itinerary that was just on a map would not be enough because Google Docs allows them to take notes. This led us to deciding to allow users to add notes to each destination. In addition, one user noted that just because he looks up a lot of things doesn’t mean he intends to do all them of. This led us to consider how to note points of interests without having them on the explicit itinerary. We accomplished this by having a separate category to list all points of interest that users don’t want to be set into an itinerary. <br/><br/>
+                        While discussing these features, another user brought up the need for offline maps since wifi is not always readily available and when traveling internationally, data can be expensive to use. From this comment, we realized that traveling, especially internationally, leads to a lot of small inconveniences. This became a main focus of our application. We wanted to have it easier for users to find bathrooms, public transit, and wifi hotspots. We also realized that many of the websites we rely on, such as Yelp for restaurants, are not international. We decided to tackle this by automatically using the local version of Yelp to provide food. For example, when going to Hong Kong, restaurants tend to be rated by Open Rice and in New Zealand, Zomato is more popular than yelp.<br/><br/>
+                        One of the last insights we came up with was photo spots. As we were thinking of features, we considered the importance of photography while traveling. So, as we went through our paper prototypes we showed users this feature and questioned their social media habits. Essentially, with the rise of social media, often the photos taken while traveling are just as important as the experiences. As is such, we decided to give photo spot recommendations in the application as well as consider how photogenic our navigation routes are. For example, if a route is a minute longer but passes by a series of murals, it would be more desirable.
+                    </div><!--//item-->    
+                </div>
+                <div class="section">
+                    <b>Paper prototypes we used to conduct user testing</b>
+                    <div class="slider">
+                    <ul class="slides">
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/mobile.jpg">
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/homedesk.jpg">
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/testdesk.jpg">
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/projects/testdesk2.jpg">
+                    </li>
+                </div>       
+            </div><!--//primary-->
+        </main>
     </div>
-    
-<!--projects-->
-    <main>
-        <header class="header">
-                <div class="card-panel">                       
-                    <h3>Tripsy: An Interaction Design Studio Project</h3>
-                    <hr> 
-                </div><!--//profile-->
-        </header><!--//header-->
-        <div class="primary">  
-           <div class="Problem section card-panel">
-                <h4>Overview</h4>
-                <div class="content">
-                    <h5>Role/Tools</h5>
-                    <p>I contributed to design research and played a main role in creating the mock ups and conducting user testing on the prototypes. <br/><b>Tools: </b>Adobe XD, Unbounce</p>
-                    <h5>Problem</h5>
-                    <p>For our Interaction Design Startup course, we looked into the sphere of itinerary creation. Travelers often want to be spontaneous in their traveling but also are interested in a local immersive experience. However, these two ideas are at odds with each other.  
-                    </p> 
-                    <h5>Solution</h5>            
-                    <p> Our final solution, Tripsy, consists of a desktop website supplemented with a mobile application. After using Tripsy like a normal itinerary creator, the application will show the best itinerary based on proximity of locations and ideal times to visit locations. This can be modified by the user before being opened on the mobile application while traveling. 
-                    The mobile application will allow users to follow and adjust their itinerary on the go. The mobile application will also allow the user to Explore Nearby and find things of interest nearby to deviate from their itinerary.<br>
-                    Below, we have sample screens of the mobile application and of the desktop application. To see an interactive prototype, click on the following links<br/><br/>
-                    <a href= "https://xd.adobe.com/view/60516d88-6f66-442c-a33f-28e2deda0d55" class="btn"> Mobile App Interactive Prototype</a>
-                    <a href="https://xd.adobe.com/view/5fe7a675-fa6a-4dd7-8bb7-d66717218e56" class="btn">Desktop App Interactive Prototype</a>
-                    
-                     </p>
-                </div><!--//item-->   
-            </div>    
-            <div class="slider mobilepic" >
-                <ul class="slides mobilepic">
-                    <li class="picli"> <img src="assets/images/projects/home.png"></li>
-                    <li class="picli"><img src="assets/images/projects/itinerary.png"></li>
-                    <li class="picli"><img src="assets/images/projects/details.png"></li>
-                    <li class="picli"><img src="assets/images/projects/explore.png"></li>
-
-                </ul> 
-            </div>
-            <div class="section">
-                <div class="slider">
-                <ul class="slides">
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/home1.png">
-                </li>
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/bigben.png">
-                </li>
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/bestfit.png">
-                </li>
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/final.png">
-                </li>
-            </div>
-            </div>
-            <div class="Process section card-panel">
-                <h4>Process</h4>
-                <div class="content">
-                    <h5> Interviews</h5>
-                    <p>We also found that even when using a product designed to show you the cheapest flights, hotels, best food, etc, people would still double check on other websites. As a result, there is a refusal to just check Expedia or just check Google Flights. We also noticed that websites that aimed to simplify steps for users by having flights, hotels, and car rentals at the same site did not affect user behavior. This led us to believe that with the internet at our fingertips, users are unwilling to trust one website or one application to do everything for them and would rather just put in some extra time themselves. </p>
-                    <h5>Persona Creation</h5>
-                    <p>
-                    We noticed three general types of travelers:<br/>
-                    <span style="font-weight:bold">Traveler A: </span>Created a schedule before departing and follows the schedule to a T with pre-determined time estimates. <br/>
-                    <span style="font-weight:bold">Traveler B: </span> Creates a loose list of things and plans for the trip but is willing to be sidetracked by unexpected finds.<br/>
-                    <span style="font-weight:bold">Traveler C:</span> Very “go with the flow” and more willing to just focus on “exploring the city”<br/><br/>      
-                    <h5>A/B Test Branding</h5>
-                    <p>Based on our initial idea to improve itinerary planning, we created paper prototypes and used Wizard of Oz to test out our idea with people we knew were in the process of planning trips for the summer.  We also created two branding options and bought ads on Google to see if our product would generate visuals/clicks by people searching on the internet. Our two branding alternatives were not only visually different but also tried to appeal to a different type of persona. This way we could also see if we needed to gear our product towards a particular audience. <br/><br/>
-
-                    From this, we learned that we did get clicks on our ads but the conversion rates (email sign ups) were the same for both branding options. This affirmed our belief that our product would be interesting to all types of travelers.</p> 
-                    <h5>User Testing and Prototype Iteration</h5>
-                    In line with our needfinding interviews, our testers said they used Google Docs and felt like having an itinerary that was just on a map would not be enough because Google Docs allows them to take notes. This led us to deciding to allow users to add notes to each destination. In addition, one user noted that just because he looks up a lot of things doesn’t mean he intends to do all them of. This led us to consider how to note points of interests without having them on the explicit itinerary. We accomplished this by having a separate category to list all points of interest that users don’t want to be set into an itinerary. <br/><br/>
-                    While discussing these features, another user brought up the need for offline maps since wifi is not always readily available and when traveling internationally, data can be expensive to use. From this comment, we realized that traveling, especially internationally, leads to a lot of small inconveniences. This became a main focus of our application. We wanted to have it easier for users to find bathrooms, public transit, and wifi hotspots. We also realized that many of the websites we rely on, such as Yelp for restaurants, are not international. We decided to tackle this by automatically using the local version of Yelp to provide food. For example, when going to Hong Kong, restaurants tend to be rated by Open Rice and in New Zealand, Zomato is more popular than yelp.<br/><br/>
-                    One of the last insights we came up with was photo spots. As we were thinking of features, we considered the importance of photography while traveling. So, as we went through our paper prototypes we showed users this feature and questioned their social media habits. Essentially, with the rise of social media, often the photos taken while traveling are just as important as the experiences. As is such, we decided to give photo spot recommendations in the application as well as consider how photogenic our navigation routes are. For example, if a route is a minute longer but passes by a series of murals, it would be more desirable.
-                </div><!--//item-->    
-            </div>
-            <div class="section">
-                <b>Paper prototypes we used to conduct user testing</b>
-                <div class="slider">
-                <ul class="slides">
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/mobile.jpg">
-                </li>
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/homedesk.jpg">
-                </li>
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/testdesk.jpg">
-                </li>
-                <li>
-                    <img class="responsive-img" src="assets/images/projects/testdesk2.jpg">
-                </li>
-            </div>       
-        </div><!--//primary-->
-    </main>
 <!-- Javascript -->
     <footer>
-        <div class="footmenu">
-            <h5>Projects</h5>
-            <ul class="footinner">
-                <li>Design</li>
-                <li ><a href="/projectd1.html">Travel Budgeting: UXResearch</a></li>
-                <li ><a href="/projectd3.html">Bus Commuting: UXResearch</a></li>
-                <li ><a href="/projectd2.html">Tripsy: UX/UI</a></li>
-            </ul>
-            <ul class="footinner">
-                <li>Code</li>
-                <li><a href="/projectc1.html">Eventory: Android/IA/PM</a></li>
-                <li ><a href="/projectc2.html">Crime and Parks: Data Science/Visualization</a></li>
-            </ul>
-        </div>
         <div class="contact ">
-            <h5>Contact Information</h5>
-            <ul>
-                <li><i class="material-icons">email</i> karenma333@gmail.com</li>
-                <li><i class="material-icons">call</i>925-297-9761</li>
-                <li><i class="material-icons">link</i><a href="https://www.linkedin.com/in/karenma333">linkedin.com/in/karenma333</a></li>
-            <ul>
+                <p><i class="material-icons">email</i> karenma333@gmail.com
+                <i class="material-icons">call</i>925-297-9761
+                <i class="material-icons">link</i><a href="https://www.linkedin.com/in/karenma333">linkedin.com/in/karenma333</a></p>
+            
         </div>
 
 
