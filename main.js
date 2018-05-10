@@ -8,6 +8,9 @@ setHeight();
 $(window).resize(function() {
 	setHeight();
 });
+$(".slides").click(function() {
+   $(this).toggleClass("bigger");
+});
 $('.slider').slider();
 $('.card-image-top').matchHeight();
 filterSelection("all")

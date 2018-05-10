@@ -32,6 +32,10 @@ a.btn {
   font-weight: bold;
   margin-bottom: 5px;
 }
+img .bigger {
+    height: 600px;
+    width: 600px;
+}
 /*Intro Home*/
 .intro{
   width:100%;
