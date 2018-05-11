@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	function setHeight() {
+	/*function setHeight() {
 	    windowHeight = $(window).innerHeight();
 	    $('.intro').css('min-height', windowHeight);
 };
@@ -7,11 +7,15 @@ setHeight();
 	  
 $(window).resize(function() {
 	setHeight();
-});
+});*/
 $('.slider').slider();
 $('.card-image-top').matchHeight();
 filterSelection("all")
 });
+
+
+
+
 
 function filterSelection(c) {
 

@@ -4336,13 +4336,14 @@ nav ul li {
 
 nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);
+  color: #A2586D;
 }
 
 nav ul a {
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   font-size: 1.5rem;
-  color: #A2586D;
+  color: #c696a4;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -4360,7 +4361,7 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
 nav ul.left {
