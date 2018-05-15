@@ -22,6 +22,10 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  margin-bottom: 0 !important
+}
+p{
+  margin-top: 0;
 }
 a:hover {
   color: #A2586D;
@@ -106,6 +110,9 @@ a.btn {
     display: block;
 }
 /* ======= Sections======= */
+.header h3{
+  text-align: center;
+}
 .heading {
   margin-top: 0;
   font-size: 24px !important;
