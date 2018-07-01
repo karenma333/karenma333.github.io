@@ -76,6 +76,12 @@ a.btn {
 }
 
 /*Projects Description*/
+fieldset{
+  border-color:#A2586D;
+}
+legend{
+  font-size: 40px;
+}
 .card-image{
   position: relative;
   text-align:center;
@@ -99,6 +105,7 @@ a.btn {
 .card-image-top{
   object-fit:contain;
 }
+
 /*FilterDivs*/
 .filterDiv {
     text-align: center;
@@ -147,7 +154,8 @@ iframe{
 .slider .slides li img{
   background-size:contain !important;
   background-repeat: no-repeat;
-  background-color:white;
+  background-color:#776f6f7a;
+  border-color:#776f6f7a;
 }
 .slider .indicators{
   z-index:2;
