@@ -4,18 +4,26 @@ jQuery(document).ready(function($) {
 	    $('.intro').css('min-height', windowHeight);
 };
 setHeight();
+
 	  
 $(window).resize(function() {
 	setHeight();
+<<<<<<< Updated upstream
 });
 $(".slides").click(function() {
    $(this).toggleClass("bigger");
 });
+=======
+});*/
+//finalcontent.style.display = "none";
+//finalcontent.visibility = "none";
+
+>>>>>>> Stashed changes
 $('.slider').slider();
 $('.card-image-top').matchHeight();
-filterSelection("all")
 });
 
+<<<<<<< Updated upstream
 function filterSelection(c) {
 
   var x, i;
@@ -26,30 +34,21 @@ function filterSelection(c) {
   for (i = 0; i < x.length; i++) {
     RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+=======
+
+function process(clicked_id){
+  
+  var x = document.getElementById(clicked_id +"content");
+  console.log(x.style.display);
+  if (x.style.display == "none"){
+    var y = document.getElementsByClassName("onscreen");
+    console.log(y);
+    $(y).hide();
+    $(y).removeClass("onscreen");
+    $(x).addClass("onscreen");
+    $(x).toggle();
+>>>>>>> Stashed changes
   }
+  
 }
 
-// Show filtered elements
-function AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-
-// Hide elements that are not selected
-function RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1); 
-    }
-  }
-  element.className = arr1.join(" ");
-}
