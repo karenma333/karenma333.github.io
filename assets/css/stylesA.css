@@ -65,8 +65,7 @@ img .bigger {
 }
 
 /*Projects Description*/
-<<<<<<< Updated upstream
-=======
+
 fieldset{
   border-color:#A2586D;
 }
@@ -79,7 +78,6 @@ legend{
 .navp .active{
   color: #A2586D;
 }
->>>>>>> Stashed changes
 .card-image{
   position: relative;
   text-align:center;
