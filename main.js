@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
-	function setHeight() {
+	/*function setHeight() {
 	    windowHeight = $(window).innerHeight();
 	    $('.intro').css('min-height', windowHeight);
 };
 setHeight();
+
 $('.slider').slider();
 $('.card-image-top').matchHeight();
 });
@@ -15,7 +16,6 @@ $(window).resize(function() {
 
 
 });
-//finalcontent.style.display = "none";
-//finalcontent.visibility = "none";
+
 
 

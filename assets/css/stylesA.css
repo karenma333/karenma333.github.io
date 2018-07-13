@@ -22,9 +22,13 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  margin-bottom: 0 !important
 }
-a:hover {
-  color: #5f6b77;
+p{
+  margin-top: 0;
+}
+nav a:hover {
+  color: #A2586D;
 }
 .btn,
 a.btn {
@@ -32,15 +36,24 @@ a.btn {
   font-weight: bold;
   margin-bottom: 5px;
 }
-img .bigger {
-    height: 600px;
-    width: 600px;
+
+/*nav bar*/
+.right{
+    color: #5f6b77;
+}
+.right .active{
+  color:#A2586D;
+
 }
 /*Intro Home*/
 .intro{
   width:100%;
   text-align: center;
   align-items:center;
+}
+.intro p{
+    color:#A2586D !important;
+
 }
 .profile{
   max-width: 25%;
@@ -72,12 +85,14 @@ fieldset{
 legend{
   font-size: 40px;
 }
+
 .navp .btn-flat{
   color: #c696a4;
 }
 .navp .active{
   color: #A2586D;
 }
+
 .card-image{
   position: relative;
   text-align:center;
@@ -111,6 +126,7 @@ legend{
 .card-image-top{
   object-fit:contain;
 }
+
 /*FilterDivs*/
 .filterDiv {
     text-align: center;
@@ -122,9 +138,14 @@ legend{
     display: block;
 }
 /* ======= Sections======= */
+.header h3{
+  text-align: center;
+}
 .heading {
   margin-top: 0;
   font-size: 24px !important;
+  padding: 10px;
+  box-shadow: 0 !important;
 }
 .card-panel{
   margin: auto !important;
@@ -154,7 +175,8 @@ iframe{
 .slider .slides li img{
   background-size:contain !important;
   background-repeat: no-repeat;
-  background-color:white;
+  background-color:#776f6f7a;
+  border-color:#776f6f7a;
 }
 .slider .indicators{
   z-index:2;
@@ -176,12 +198,9 @@ iframe{
  }
  .contact{
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
  }
- .contact i{
-  font-size: 2rem;
 
- }
 
 footer a{
   text-decoration: underline;
