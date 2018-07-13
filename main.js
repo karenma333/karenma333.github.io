@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 	    windowHeight = $(window).innerHeight();
 	    $('.intro').css('min-height', windowHeight);
 };
-setHeight();
+setHeight();*/
 
 $('.slider').slider();
 $('.card-image-top').matchHeight();
