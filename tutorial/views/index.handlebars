@@ -8,10 +8,11 @@
 </div>
 {{/each}}
 <div class = "slideshow">
-	{{#each projBlurb}}
+	{{#each projBlurbs}}
 	<div class="project">
 		<a href="">
-			<img src="images/{{image}}">
+			<!--<img src="images/{{image}}">-->
+			<img src={{image}}>
 			<div>
 				<h4>{{summary}}</h4>
 			</div>
