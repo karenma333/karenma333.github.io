@@ -4,6 +4,12 @@ var express = require('express'),
     app = express();
 var index = require('./index');
 
+//set path for finding files
+const path = require('path');
+const publicPath = path.join(__dirname, '../tutorial/public');
+app.use(express.static(publicPath));
+
+
 app.engine('handlebars', exphbs({defaultLayout: 'layout'}));
 app.set('view engine', 'handlebars');
 
