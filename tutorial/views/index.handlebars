@@ -1,24 +1,26 @@
-<div class = "bio">
-<p>made it to index</p>
-</div>
-<div>
-	{{#each skill}}
-	<div class= "skill">
+<div class="content">
+	<div class = "bio">
+	<p>made it to index</p>
 	</div>
-</div>
-{{/each}}
-<div class = "slideshow">
-	{{#each projBlurbs}}
-	<div class="project">
-		<a href="">
-			<!--<img src="images/{{image}}">-->
-			<img src={{image}}>
-			<div>
-				<h4>{{summary}}</h4>
-			</div>
-		</a>
+	<div>
+		{{#each skill}}
+		<div class= "skill">
+		</div>
 	</div>
 	{{/each}}
-</div>
-<div class = "about me">
+	<div class = "slideshow">
+		{{#each projBlurbs}}
+		<div class="project">
+			<a href="">
+				<!--<img src="images/{{image}}">-->
+				<img src={{image}}>
+				<div>
+					<h4>{{summary}}</h4>
+				</div>
+			</a>
+		</div>
+		{{/each}}
+	</div>
+	<div class = "about me">
+	</div>
 </div>
