@@ -5,14 +5,20 @@
 	<p>made it to index</p>
 	</div>
 	<div>
-		{{#each skill}}
-		<div class= "skill">
+		{{#each skills}}
+		<div class= "skill" id="{{id}}">
+			<p>{{summary}}</p>
 		</div>
 	</div>
 	{{/each}}
 	<div class = "slideshow">
+		<div class = "button" id="left">
+			<a href="#">
+				<p>left</p>
+			</a>
+		</div>
 		{{#each projBlurbs}}
-		<div class="project" id = "{{id}}">
+		<div class="{{class}}" id = "{{id}}">
 			<a href="/project">
 				<!--<img src="images/{{image}}">-->
 				<img src={{image}}>
@@ -22,6 +28,11 @@
 			</a>
 		</div>
 		{{/each}}
+		<div class="button" id="right">
+			<a href="#">
+				<p>right</p>
+			</a>
+		</div>
 	</div>
 	<div class = "about me">
 	</div>

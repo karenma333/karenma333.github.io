@@ -1,6 +1,9 @@
-var projBlurb = require("./projBlurb.json");
+var home = require("./home.json");
 exports.view = function(req, res) {
-    var image = req.params.image;
-    var summary = req.params.summary;
-    res.render('index', projBlurb);
+	
+	//show all projects
+	var projBlurb = home.projBlurbs;
+	console.log("home" + JSON.stringify(home["projBlurbs"]));
+	console.log("proj" +projBlurb);
+    res.render('index', home);
 }
