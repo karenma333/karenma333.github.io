@@ -14,11 +14,18 @@
 	"skills": [
 		{ 
 			"id": 0,
-			"summary": "research"
+			"category": "research",
+			"skill":["qualitative research","usability testing"]
 		},
 		{ 	
 			"id":1,
-			"summary": "design"
+			"category": "design"
+		}
+	],
+	"about":[
+		{
+			"pitch": "research and design focused product",
+			"summary":"Hi..."
 		}
 	]
 }

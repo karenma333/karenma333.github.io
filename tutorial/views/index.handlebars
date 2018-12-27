@@ -1,13 +1,19 @@
 <!doctype html>
 
 <div class="content">
-	<div class = "bio">
-	<p>made it to index</p>
+	<div id = "bio">
+	<p>{{about.pitch}}</p>
 	</div>
-	<div>
+	<div id = "skills">
 		{{#each skills}}
 		<div class= "skill" id="{{id}}">
-			<p>{{summary}}</p>
+			<p>{{category}}</p>
+			{{#each skill}}
+			<ul>
+				<li>{{this}}
+				</li>
+			</ul>
+			{{/each}}
 		</div>
 	</div>
 	{{/each}}
@@ -35,5 +41,6 @@
 		</div>
 	</div>
 	<div class = "about me">
+		<p>{{about.summary}}</p>
 	</div>
 </div>
