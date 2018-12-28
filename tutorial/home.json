@@ -22,10 +22,8 @@
 			"category": "design"
 		}
 	],
-	"about":[
-		{
+	"about":{
 			"pitch": "research and design focused product",
 			"summary":"Hi..."
 		}
-	]
 }
