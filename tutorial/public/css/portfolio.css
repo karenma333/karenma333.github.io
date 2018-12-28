@@ -16,6 +16,7 @@
 /* Page content */
 .content {
   padding: 16px;
+  width:70%;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -47,4 +48,20 @@ img {
 }
 .footer{
 	
+}
+
+/*HOME PAGE*/
+#skills{
+  display:flex;
+  flex-direction: row;
+}
+.skill{
+  justify-content: space-around;
+}
+.skill ul{
+  list-style-type: none;
+}
+
+.slideshow{
+  display:flex;
 }

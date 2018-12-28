@@ -15,11 +15,17 @@
 		{ 
 			"id": 0,
 			"category": "research",
-			"skill":["qualitative research","usability testing"]
+			"skill":["ethnographic studies","qualitative research","usability testing", "A/B Testing"]
 		},
 		{ 	
 			"id":1,
-			"category": "design"
+			"category": "design",
+			"skill":["human-centered design", "wireframes", "mockups", "journey maps","service blueprints","affinity diagrams"]
+		},
+		{ 	
+			"id":2,
+			"category": "deliver",
+			"skill":["product strategy", "requirements gathering", "stakeholder buy in", "product management"]
 		}
 	],
 	"about":{
