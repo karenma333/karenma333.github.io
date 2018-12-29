@@ -7,7 +7,7 @@ var project = require('./project');
 
 //set path for finding files
 const path = require('path');
-const publicPath = path.join(__dirname, '../tutorial/public');
+const publicPath = path.join(__dirname, '/public');
 app.use(express.static(publicPath));
 
 

@@ -4,12 +4,12 @@
 	"projBlurbs":[
 		{ 	"class":"project active",
 			"id": 0,
-			"image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg",
+			"image": "icon.png",
 			"summary": "proj1"
 		},
 		{ 	"class":"project",
 			"id":1,
-			"image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg",
+			"image": "icon.png",
 			"summary": "proj2"
 		}
 	],
