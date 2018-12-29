@@ -3,6 +3,9 @@
 <div class="content">
 	<div id = "bio">
 	<p>{{about.pitch}}</p>
+	{{#each links}}
+	<button>{{this}}</button>
+	{{/each}}
 	</div>
 	<div id = "skills">
 		{{#each skills}}

@@ -1,4 +1,6 @@
 {
+	"links":["Resume", "LinkedIn","Email"],
+
 	"projBlurbs":[
 		{ 	"class":"project active",
 			"id": 0,
