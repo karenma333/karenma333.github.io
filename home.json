@@ -5,12 +5,34 @@
 		{ 	"class":"project active",
 			"id": 0,
 			"image": "icon.png",
-			"summary": "proj1"
+			"title": "Flexible Travel Planning",
+			"description":[
+				{"type":"Tools: ",
+				"text":"Paper Prototypes, Interviews, Observations, Product Strategy, A/B Testing, Adobe XD"
+				},
+				{"type":"Role: ",
+				"text":"A four person team project spanning ten weeks that involved creating a start-up idea with a viable business model, marketing strategy, and product mockups. I completed needfinding research, created final mockups, conducted usability testing and supported the branding and marketing strategy."
+				},
+				{"type":"Problem: ",
+				"text":"Travelers do not have a central way of planning trips and referencing their notes quickly while on their adventure."
+				},
+				{"type":"Solution: ",
+				"text":"A desktop application for itinerary creation and a mobile accompaniment for following itineraries."
+				}
+			]
 		},
 		{ 	"class":"project",
 			"id":1,
 			"image": "icon.png",
-			"summary": "proj2"
+			"title": "proj2",
+			"description":[
+				{"type":"role",
+				"text":"I was the sole designer for this project."
+				},
+				{"type":"role",
+				"text":"I was the sole designer for this project."
+				}
+			]
 		}
 	],
 	"skills": [
@@ -31,7 +53,8 @@
 		}
 	],
 	"about":{
-			"pitch": "research and design focused product",
-			"summary":"Hi..."
+			"pitch": "Human-Centered Designer and Product Strategist",
+			"summary":"Hi, I'm Karen Ma",
+			"image":"self.jpg"
 		}
 }

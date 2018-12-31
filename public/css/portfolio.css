@@ -1,13 +1,14 @@
 /* Style the navbar */
 #nav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #fff;
+
 }
 /* Navbar links */
 #nav #menu a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -24,17 +25,23 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
-
+.navshadow{
+  box-shadow: 0px 1px 10px #999;
+}
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
 
 #menu{
-	
+	float:right;
 }
-
+.logo{
+  float:left;
+  color:black;
+}
 body{
   font-family:Open Sans;
 }
@@ -43,20 +50,28 @@ body .content{
 	margin-left:auto;
 	margin-right: auto;
 }
-.logo{
-	
-}
+
 .footer{
-	
+	height:2em;
 }
 
 /*HOME PAGE*/
+#bio{
+  margin:0 auto;
+  display:flex;
+}
+#bio h1{
+  font-family: Lora;
+}
 #skills{
   display:flex;
   flex-direction: row;
 }
 .skill{
   justify-content: space-around;
+}
+.skill legend{
+  font-family:Lora;
 }
 .skill ul{
   list-style-type: none;
@@ -67,10 +82,22 @@ body .content{
 }
 .project a{
   display:flex;
+  text-decoration: none;
+  color:#000;
+
+}
+.project a:hover{
+  box-shadow: 0px 1px 15px #999;
+}
+.project h4{
+  font-family:Lora;
 }
 .project img{
   /*max-width: 50%;
   height: auto;*/
+  object-fit: contain;
+  width:100%;
+
 }
 .image{
   max-width: 50%;
