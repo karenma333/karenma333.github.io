@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	initializePage();
+	//initializePage();
 })
 
 $(window).scroll(function(){
@@ -24,9 +24,7 @@ function initializePage() {
 }
 function hideBlurbs(){
 	$('.project').hide();
-	console.log($('.project').css("display"));
 	$('.active').show();	
-	console.log($('.project .active').css("display"));
 
 }
 function changeProj(e) {
@@ -42,7 +40,6 @@ function changeProj(e) {
 	$(newproj).show();
 	//$.get("/project/"+projectID,addDetails);
 	//$.get("/",addDetails(projectID));
-	console.log("User clicked on project " + newproj);
 }
 function addDetails(projectID, result){
 	var newID = ++projectID;
