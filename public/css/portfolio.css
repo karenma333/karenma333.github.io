@@ -52,7 +52,8 @@ body .content{
 }
 
 .footer{
-	height:2em;
+	height:6em;
+  background-color: #707070;
 }
 
 /*HOME PAGE*/
@@ -144,5 +145,12 @@ body .content{
 
 }
 .image{
+  max-width: 50%;
+}
+.subtitle h3{
+  font-family:Lora;
+  margin: 0px 10px 10px;
+}
+#about img{
   max-width: 50%;
 }
