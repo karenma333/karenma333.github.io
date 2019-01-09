@@ -1,21 +1,38 @@
-<div class="content">
-	<div class = "title">
-	<p>made it to project</p>
+<!doctype html>
+
+<div class="content container">
+	<div id = "name">
+		<h1>Flexible Travel Planning</h1>
 	</div>
-	<div class = "projSummary">
+	<div id = "description">
+		<div class="subtitle">
+			<p class="textLine">{{subtitle}}</p>
+		</div>
+	</div>
+	<div class = "projSummary row">
+		<div class = "col-md-12">
+			<img src="/images/{{image}}">
+		</div>
+			
 	</div>
 	<div class= "section">
+		<div class="subtitle">
+			<p class="textLine">Overview</p>
+		</div>
+		<p><span>Role: </span>{{role}}</p>
+			<p><span>Tools: </span>{{tools}}</p>
+			<button class="btn">Interactive Mobile Mockup</button>
+			<button class="btn">Interactive Desktop Mockup</button>
 	</div>
-	<div class = "slideshow">
-		{{#each projBlurb}}
-		<div class="{{class}}" id = "{{id}}">
-			<a href="">
-				<!--<img src="images/{{image}}">-->
-				<img src={{image}}>
+		{{#each image-sections}}
+		<div>
+			<div class="subtitle">
+				<p class="textLine">{{title}}</p>
+			</div>
+				<img src="/images/{{image}}">
 				<div>
-					<h4>{{summary}}</h4>
+					<h4>{{blurb}}</h4>
 				</div>
-			</a>
 		</div>
 		{{/each}}
 	</div>

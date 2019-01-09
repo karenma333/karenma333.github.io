@@ -147,6 +147,10 @@ body .content{
 .image{
   max-width: 50%;
 }
+img{
+  object-fit: contain;
+  width:100%;
+}
 .subtitle h3{
   font-family:Lora;
   margin: 0px 10px 10px;

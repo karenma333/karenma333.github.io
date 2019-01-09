@@ -1,0 +1,28 @@
+{
+	"projects":
+		[
+			{"id":0,
+			"project":"",
+			"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
+			"image":"bestfit.png",
+			"role":"UI Designer, Product Strategist, Qualitative Researcher",
+			"tools":"Adobe XD",
+			"buttons": [
+				"Interactive Mobile Prototype",
+				"Interactive Desktop Prototype"
+			],
+			"overview":"Introducing Tripsy, an application for ",
+			"image-sections":[
+				{"title":"interviews",
+				"blurb":"",
+				"image":""
+				},
+				{"title":"competitive analysis",
+				"blurb":"Completed a competitive analysis",
+				"image":""}
+			]
+		}
+		]
+
+	
+}
