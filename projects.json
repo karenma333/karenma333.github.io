@@ -13,13 +13,32 @@
 			],
 			"overview":"Introducing Tripsy, an application for ",
 			"image-sections":[
-				{"title":"interviews",
-				"blurb":"",
-				"image":""
+				{"title":"Interviews and secondary research",
+				"blurb":"This project started with a focus on travel planning. We found peers that ranged from only traveling to go home to world travel bloggers and looked at their travel planning process.",
+				"image":"Personas - temp.png"
 				},
-				{"title":"competitive analysis",
-				"blurb":"Completed a competitive analysis",
-				"image":""}
+				{"title":"Existing Solutions",
+				"blurb":"After taking a look at existing solutions out there, it is clear that there is a disconnect between creating itineraries and actually following them when you are on the trip itself.",
+				"image":"Comp Analysis-temp.png"
+				},
+				{"title":"Needfinding - Synthesis",
+				"blurb":"Across all the interviews and different personas, there are some overarching themes."
+				},
+				{"title":"Storytelling and Branding",
+				"blurb":"After ideating, my team was stuck at a crossroads; we realized that there was a team dissonance since there seemed to be two clear directions we could use to tackle this issue. This was even more evident as we brainstormed our branding and the stories we were painting. We decided to A/B to our market with Google Ads to help choose the direction to go in.",
+				"image":"branding.png",
+				"code":"<iframe frameborder=\"0\" class=\"juxtapose\" width=\"100%\" height=\"624.1775836972342\" src=\"https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ef6598f0-1d23-11e9-9dba-0edaf8f81e27\"></iframe>"
+				},
+				{"title":"Paper Prototyping and User Testing",
+				"blurb":"Following a session of parallel prototyping, we set up sessions to test our prototype with people who were in the midst of planning a trip.",
+				"image":"samplepng.png",
+				"list":""
+				}
+				{"title":"Final Product",
+				"blurb":"key features",
+				"image":""
+
+				}
 			]
 		}
 		]

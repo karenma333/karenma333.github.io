@@ -158,3 +158,9 @@ img{
 #about img{
   max-width: 50%;
 }
+.section img{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

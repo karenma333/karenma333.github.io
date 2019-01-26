@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<div class = "projSummary row">
-		<div class = "col-md-12">
+		<div class = "col-md-12 section">
 			<img src="/images/{{image}}">
 		</div>
 			
@@ -24,17 +24,19 @@
 			<button class="btn">Interactive Mobile Mockup</button>
 			<button class="btn">Interactive Desktop Mockup</button>
 	</div>
-		{{#each image-sections}}
-		<div>
-			<div class="subtitle">
-				<p class="textLine">{{title}}</p>
-			</div>
-				<img src="/images/{{image}}">
-				<div>
-					<h4>{{blurb}}</h4>
-				</div>
+	{{#each image-sections}}
+	<div class = "section">
+		<div class="subtitle">
+			<p class="textLine">{{title}}</p>
 		</div>
-		{{/each}}
+			<div>
+				<h4>{{blurb}}</h4>
+			</div>
+			<img src="/images/{{image}}" alt="">
+			{{code}}
+	</div>
+	{{/each}}
+	<iframe frameborder="0" class="juxtapose" width="100%" height="624.1775836972342" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ef6598f0-1d23-11e9-9dba-0edaf8f81e27"></iframe>
 	</div>
 	<div class = "about me">
 	</div>
