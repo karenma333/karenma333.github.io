@@ -31,12 +31,53 @@
 		</div>
 			<div>
 				<h4>{{blurb}}</h4>
+				{{#if list}}
+				<ul>
+					{{#each list}}
+					<li>{{this}}</li>
+					{{/each}}
+				</ul>
+				{{/if}}
 			</div>
+			{{#if image}}
 			<img src="/images/{{image}}" alt="">
-			{{code}}
+			{{/if}}
+			{{{code}}}
+			{{#if carousel}}
+			<div id="projCarousel" class="carousel slide" data-ride="carousel data-interval="false">
+				<ol class="carousel-indicators">
+					{{#each carousel}}
+					{{#if @first}}
+					<li data-target="#projCarousel" data-slide-to="{{this.id}}" class="active"></li>
+					{{else}}
+					<li data-target="#projCarousel" data-slide-to="{{this.id}}"></li>
+					{{/if}}
+					{{/each}}
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					{{#each carousel}}
+					{{#if @first}}
+					<div class = "item active" id="{{this.id}}">
+					{{else}}
+					<div class = "item" id="{{this.id}}">
+						{{/if}}
+						<img src="/images/{{this.link}}">
+					</div>
+
+					{{/each}}
+				</div>
+			    <a class="left carousel-control" href="#projCarousel" role="button" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#projCarousel" role="button" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      <span class="sr-only">Next</span>
+			    </a>	
+			</div>
+			{{/if}}
 	</div>
 	{{/each}}
-	<iframe frameborder="0" class="juxtapose" width="100%" height="624.1775836972342" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ef6598f0-1d23-11e9-9dba-0edaf8f81e27"></iframe>
 	</div>
 	<div class = "about me">
 	</div>
