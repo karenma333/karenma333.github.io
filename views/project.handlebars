@@ -17,7 +17,7 @@
 	</div>
 	<div class= "section">
 		<div class="subtitle">
-			<p class="textLine">Overview</p>
+			<h3 class="textLine">Overview</h3>
 		</div>
 		<p><span>Role: </span>{{role}}</p>
 			<p><span>Tools: </span>{{tools}}</p>
@@ -27,10 +27,10 @@
 	{{#each image-sections}}
 	<div class = "section">
 		<div class="subtitle">
-			<p class="textLine">{{title}}</p>
+			<h3 class="textLine">{{title}}</h3>
 		</div>
 			<div>
-				<h4>{{blurb}}</h4>
+				<p>{{blurb}}</p>
 				{{#if list}}
 				<ul>
 					{{#each list}}
@@ -44,7 +44,7 @@
 			{{/if}}
 			{{{code}}}
 			{{#if carousel}}
-			<div id="projCarousel" class="carousel slide" data-ride="carousel data-interval="false">
+			<div id="projCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 				<ol class="carousel-indicators">
 					{{#each carousel}}
 					{{#if @first}}

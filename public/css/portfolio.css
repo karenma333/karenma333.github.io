@@ -15,7 +15,7 @@
 
 /* Page content */
 .content {
-  padding: 16px;
+  /*padding: 16px;*/
   width:70%;
 }
 
@@ -153,7 +153,7 @@ img{
 }
 .subtitle h3{
   font-family:Lora;
-  margin: 0px 10px 10px;
+  margin: 0px 0px 10px;
 }
 #about img{
   max-width: 50%;
