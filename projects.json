@@ -1,50 +1,74 @@
 {
-	"projects":
-		[
-			{"id":0,
-			"project":"",
-			"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
-			"image":"bestfit.png",
-			"role":"UI Designer, Product Strategist, Qualitative Researcher",
-			"tools":"Adobe XD",
-			"buttons": [
-				"Interactive Mobile Prototype",
-				"Interactive Desktop Prototype"
-			],
-			"overview":"Introducing Tripsy, an application for ",
-			"image-sections":[
-				{"title":"Interviews and secondary research",
-				"blurb":"This project started with a focus on travel planning. We found peers that ranged from only traveling to go home to world travel bloggers and looked at their travel planning process.",
-				"image":"Personas - temp.png"
+	"projects":[
+		{"id":0,
+		"project":"Flexible Travel Planning",
+		"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
+		"image":"/projBlurbs/tripsyTitle.png",
+		"overview":[
+			{"Context:":"10 weeks/4 person team"},
+			{"Role:":"Product Strategist, Qualitative Researcher, UI Designer"},
+			{"Tools:":"Interviews, User Testing, Rapid Prototyping, Adobe XD"}
+		],
+		"problem":"While the internet provides a plethora of suggestions on where to eat and what to see, travel planners do not have a good way of consolidating the information, instead using a combination of different applications to meet their needs. Our solution explores how we can combine the differing uses of each application into a single platform for travel planning while avoiding feature bloat and keeping in mind a viable monetization strategy. ",
+		"image-sections":[
+			{"title":"Interviews and secondary research",
+			"blurb":"After deciding on the problem space of travel planning, we sought out frequent travelers and students with upcoming trips to discuss and show us their current methods of travel planning. We also followed up our qualitative data with a survey posted on various university groups to get some quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
+			"image":"Personas.png"
+			},
+			{"title":"Competitive Landscape",
+			"blurb":"In order to get a better idea of what options people currently have and what they were currently using to travel plan, I conducted a competitive analysis to compare the features across applications and examine market fit. ",
+
+			"image":"Comp Analysis.png"
+			},
+			{"title":"Needfinding - Synthesis",
+			"blurb":"Across all the interviews and different personas, there are some overarching themes."
+			},
+			{"title":"Storytelling and Branding",
+			"blurb":"After ideating, my team was stuck at a crossroads; we realized that there was a team dissonance since there seemed to be two clear directions we could use to tackle this issue. This was even more evident as we brainstormed our branding and the stories we were painting. We decided to A/B to our market with Google Ads to help choose the direction to go in.",
+			"image":"branding.png"
+			},
+			{"title":"Paper Prototyping and User Testing",
+			"blurb":"Following a session of parallel prototyping, we set up sessions to test our prototype with people who were in the midst of planning a trip.",
+			"image":"",
+			"list":[""],
+			"carousel":[
+				{ 
+				"link":"flexibleTravel/homePaper.jpg",
+				"id":0
 				},
-				{"title":"Existing Solutions",
-				"blurb":"After taking a look at existing solutions out there, it is clear that there is a disconnect between creating itineraries and actually following them when you are on the trip itself.",
-				"image":"Comp Analysis-temp.png"
+				{
+				"link":"flexibleTravel/addLayerPaper.jpg",
+				"id":1
 				},
-				{"title":"Needfinding - Synthesis",
-				"blurb":"Across all the interviews and different personas, there are some overarching themes."
+				{
+				"link":"flexibleTravel/tripPaper.jpg",
+				"id":2
 				},
-				{"title":"Storytelling and Branding",
-				"blurb":"After ideating, my team was stuck at a crossroads; we realized that there was a team dissonance since there seemed to be two clear directions we could use to tackle this issue. This was even more evident as we brainstormed our branding and the stories we were painting. We decided to A/B to our market with Google Ads to help choose the direction to go in.",
-				"image":"branding.png"
+				{
+				"link":"flexibleTravel/mobilePaper.jpg",
+				"id":3
+				}
+			]
+			},
+			{"title":"Final Product",
+			"blurb":"key features",
+			"image":"",
+			"list":["fully fledged navigation system","item 2","item 3"],
+			"carousel":[
+				{ 
+				"link":"samplepng.png",
+				"id":0
 				},
-				{"title":"Paper Prototyping and User Testing",
-				"blurb":"Following a session of parallel prototyping, we set up sessions to test our prototype with people who were in the midst of planning a trip.",
-				"image":"samplepng.png",
-				"list":[""]
-				},
-				{"title":"Final Product",
-				"blurb":"key features",
-				"image":"",
-				"list":["fully fledged navigation system","item 2","item 3"],
-				"carousel":[
-					{ "link":"samplepng.png",
-					"id":0
-					},
-					{"link":"branding.png",
-					"id":1
-					}
-				]
+				{
+				"link":"branding.png",
+				"id":1
+				}
+			]
+			},
+			{
+			"title":"Insights and Learnings",
+			"blurb":"",
+			"list":["","",""]
 			}
 		]
 			

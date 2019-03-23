@@ -2,7 +2,7 @@
 
 <div class="content container">
 	<div id = "name">
-		<h1>Flexible Travel Planning</h1>
+		<h1>{{project}}</h1>
 	</div>
 	<div id = "description">
 		<div class="subtitle">
@@ -10,19 +10,25 @@
 		</div>
 	</div>
 	<div class = "projSummary row">
-		<div class = "col-md-12 section">
+		<div class = "col-md-8 section">
 			<img src="/images/{{image}}">
+		</div>
+		<div class = "col-md-4">
+			<ul>
+			{{#each overview}}
+				{{#each this}}
+					<li><span>{{@key}}</span>{{this}}</li>
+				{{/each}}
+			{{/each}}
+		</ul>
 		</div>
 			
 	</div>
 	<div class= "section">
 		<div class="subtitle">
-			<h3 class="textLine">Overview</h3>
+			<h3 class="textLine">Problem Space</h3>
 		</div>
-		<p><span>Role: </span>{{role}}</p>
-			<p><span>Tools: </span>{{tools}}</p>
-			<button class="btn">Interactive Mobile Mockup</button>
-			<button class="btn">Interactive Desktop Mockup</button>
+		<p>{{problem}}</p>
 	</div>
 	{{#each image-sections}}
 	<div class = "section">
