@@ -24,32 +24,17 @@
 			"blurb":"Across all the interviews and different personas, there are some overarching themes."
 			},
 			{"title":"Storytelling and Branding",
-			"blurb":"After ideating, my team was stuck at a crossroads; we realized that there was a team dissonance since there seemed to be two clear directions we could use to tackle this issue. This was even more evident as we brainstormed our branding and the stories we were painting. We decided to A/B to our market with Google Ads to help choose the direction to go in.",
-			"image":"branding.png"
+			"blurb":"With our product strategy in place, we began to evaluate our branding and what kind of story we wanted our product to tell. As we brainstormed logos, product name and tagline, it became clear that there were actually two different approaches our product could take.",
+			"image":"flexibleTravel/branding.png",
+			"list":["Let’s make the perfect itinerary for a traveler.","Let’s help the traveler find things to do when they are free."]
 			},
 			{"title":"Paper Prototyping and User Testing",
-			"blurb":"Following a session of parallel prototyping, we set up sessions to test our prototype with people who were in the midst of planning a trip.",
-			"image":"",
-			"list":[""],
-			"carousel":[
-				{ 
-				"link":"flexibleTravel/homePaper.jpg",
-				"id":0
-				},
-				{
-				"link":"flexibleTravel/addLayerPaper.jpg",
-				"id":1
-				},
-				{
-				"link":"flexibleTravel/tripPaper.jpg",
-				"id":2
-				},
-				{
-				"link":"flexibleTravel/mobilePaper.jpg",
-				"id":3
-				}
-			]
+			"blurb":"Given the tight time constraint and in order to iterate rapidly, our team used a parallel paper prototyping process before using them as a basis for service enactments on a sample of users.",
+			"image":"flexibleTravel/paper.png"
 			},
+			{"title":"Market Fit",
+			"blurb":"Since we already established the problem, we turned to marketing to determine market desires. We set-up two different pages with differing branding and differing solutions for the user. We then set up Google Ads to drive traffic to our site to observe which solution would have a higher conversion rate. Both sites had a conversion rate of 18%, leading us to decide to take a dual-prong approach for our product. ",
+			"image":"flexibleTravel/abTest.png"},
 			{"title":"Final Product",
 			"blurb":"key features",
 			"image":"",

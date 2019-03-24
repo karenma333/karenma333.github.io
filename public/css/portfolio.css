@@ -60,11 +60,11 @@ body .content{
 /*HOME PAGE*/
 #name{
   margin:0 auto;
-  display:flex;
 }
 #name h1{
   font-family: Lora;
   font-size: 4em;
+  text-align: center;
 }
 .subtitle{
   text-align:center;
