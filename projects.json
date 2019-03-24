@@ -41,12 +41,28 @@
 			"list":["fully fledged navigation system","item 2","item 3"],
 			"carousel":[
 				{ 
-				"link":"samplepng.png",
+				"link":"flexibleTravel/final1x/Desktop Home.png",
 				"id":0
 				},
 				{
-				"link":"branding.png",
+				"link":"flexibleTravel/final1x/Search Desktop.png",
 				"id":1
+				},
+				{
+				"link":"flexibleTravel/final1x/Map Desktop.png",
+				"id":2
+				},
+				{
+				"link":"flexibleTravel/final1x/AddStop.png",
+				"id":3
+				},
+				{
+				"link":"flexibleTravel/final1x/mobile1.png",
+				"id":4
+				},
+				{
+				"link":"flexibleTravel/final1x/mobile2.png",
+				"id":5
 				}
 			]
 			},
