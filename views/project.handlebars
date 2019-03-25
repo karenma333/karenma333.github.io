@@ -10,10 +10,10 @@
 		</div>
 	</div>
 	<div class = "projSummary row">
-		<div class = "col-md-8 section">
+		<div class = "col-md-8 col-sm-12">
 			<img src="/images/{{image}}">
 		</div>
-		<div class = "col-md-4">
+		<div class = "col-md-4 col-sm-12">
 			<ul>
 			{{#each overview}}
 				{{#each this}}
@@ -35,19 +35,23 @@
 		<div class="subtitle">
 			<h3 class="textLine">{{title}}</h3>
 		</div>
-			<div>
-				<p>{{blurb}}</p>
-				{{#if list}}
-				<ul>
-					{{#each list}}
-					<li>{{this}}</li>
-					{{/each}}
-				</ul>
-				{{/if}}
+			<div class="baseSection">
+				<div class="projText">
+					<p>{{blurb}}</p>
+					{{#if list}}
+					<ul>
+						{{#each list}}
+						<li>{{this}}</li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</div>
+				<div class="projImage">
+					{{#if image}}
+					<img src="/images/{{image}}" alt="">
+					{{/if}}
+				</div>
 			</div>
-			{{#if image}}
-			<img src="/images/{{image}}" alt="">
-			{{/if}}
 			{{{code}}}
 			{{#if carousel}}
 			<div id="projCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -82,8 +86,8 @@
 			    </a>	
 			</div>
 			{{/if}}
-	</div>
-	{{/each}}
+		</div>
+		{{/each}}
 	</div>
 	<div class = "about me">
 	</div>
