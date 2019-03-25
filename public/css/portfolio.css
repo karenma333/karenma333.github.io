@@ -189,5 +189,7 @@ img{
 .projSummary{
   display:flex;
   align-items: center;
-
+}
+.projSummary span{
+  font-family: Lora;
 }
