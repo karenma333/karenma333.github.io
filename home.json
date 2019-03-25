@@ -1,0 +1,58 @@
+{
+	"links":["Resume", "LinkedIn","Email"],
+
+	"projBlurbs":[
+		{ 	"class":"project active",
+			"id": 0,
+			"image": "icon.png",
+			"title": "Flexible Travel Planning",
+			"description":[
+				{"type":"",
+				"text":"An application for creating itineraries and adjusting them to on the go"
+				},
+				{"type":"Role: ",
+				"text":"I completed needfinding research, created final mockups, conducted usability testing and supported the branding and marketing strategy."
+				},
+				{"type":"Tools: ",
+				"text":"Paper Prototypes, Interviews, Observations, Product Strategy, A/B Testing, Adobe XD"
+				}
+			]
+		},
+		{ 	"class":"project",
+			"id":1,
+			"image": "icon.png",
+			"title": "proj2",
+			"description":[
+				{"type":"role",
+				"text":"I was the sole designer for this project."
+				},
+				{"type":"role",
+				"text":"I was the sole designer for this project."
+				}
+			]
+		}
+	],
+	"skills": [
+		{ 
+			"id": "research",
+			"category": "Research",
+			"skill":["Ethnographic studies","Qualitative research","Usability testing", "A/B testing"]
+		},
+		{ 	
+			"id": "design",
+			"category": "Design",
+			"skill":["Human-centered design", "Wireframes", "Mockups", "Journey maps","Service blueprints","Affinity diagrams"]
+		},
+		{ 	
+			"id": "deliver",
+			"category": "Deliver",
+			"skill":["Product Strategy", "Requirements gathering", "Stakeholder buy-in", "Product Management"]
+		}
+	],
+	"about":{
+			"pitch": "Human-Centered Designer and Product Strategist",
+			"summary":"Hello, I’m Karen and I’m currently working as a product designer at NextCapital. In college, I studied Cognitive Science, specializing in Human-Computer Interaction after discovering an interest in ethnographic research and its application to product development. I love working in the intersection between design, research and development! Outside of work, I spend my time exploring my new home in the city of Chicago, reading (The Electric Kool Aid Acid Test!), and trying out new recipes for mealprepping. ",
+			"image":"karenMa.jpg",
+			"footer":"karenma333@gmail.com | 925-297-9761 |linkedin.com/karenma333"
+		}
+}

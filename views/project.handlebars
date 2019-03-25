@@ -1,0 +1,94 @@
+<!doctype html>
+
+<div class="content container">
+	<div id = "name">
+		<h1>{{project}}</h1>
+	</div>
+	<div id = "description">
+		<div class="subtitle">
+			<p class="textLine">{{subtitle}}</p>
+		</div>
+	</div>
+	<div class = "projSummary row">
+		<div class = "col-md-8 col-sm-12">
+			<img src="/images/{{image}}">
+		</div>
+		<div class = "col-md-4 col-sm-12">
+			<ul>
+			{{#each overview}}
+				{{#each this}}
+					<li><span>{{@key}}</span>{{this}}</li>
+				{{/each}}
+			{{/each}}
+		</ul>
+		</div>
+			
+	</div>
+	<div class= "section">
+		<div class="subtitle">
+			<h3 class="textLine">Problem Space</h3>
+		</div>
+		<p>{{problem}}</p>
+	</div>
+	{{#each image-sections}}
+	<div class = "section">
+		<div class="subtitle">
+			<h3 class="textLine">{{title}}</h3>
+		</div>
+			<div class="baseSection">
+				<div class="projText">
+					<p>{{blurb}}</p>
+					{{#if list}}
+					<ul>
+						{{#each list}}
+						<li>{{this}}</li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</div>
+				<div class="projImage">
+					{{#if image}}
+					<img src="/images/{{image}}" alt="">
+					{{/if}}
+				</div>
+			</div>
+			{{{code}}}
+			{{#if carousel}}
+			<div id="projCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+				<ol class="carousel-indicators">
+					{{#each carousel}}
+					{{#if @first}}
+					<li data-target="#projCarousel" data-slide-to="{{this.id}}" class="active"></li>
+					{{else}}
+					<li data-target="#projCarousel" data-slide-to="{{this.id}}"></li>
+					{{/if}}
+					{{/each}}
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					{{#each carousel}}
+					{{#if @first}}
+					<div class = "item active" id="{{this.id}}">
+					{{else}}
+					<div class = "item" id="{{this.id}}">
+						{{/if}}
+						<img src="/images/{{this.link}}">
+					</div>
+
+					{{/each}}
+				</div>
+			    <a class="left carousel-control" href="#projCarousel" role="button" data-slide="prev">
+			      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#projCarousel" role="button" data-slide="next">
+			      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      <span class="sr-only">Next</span>
+			    </a>	
+			</div>
+			{{/if}}
+		</div>
+		{{/each}}
+	</div>
+	<div class = "about me">
+	</div>
+</div>
