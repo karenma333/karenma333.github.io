@@ -1,0 +1,60 @@
+<!doctype html>
+<div class="content container">
+	<div id = "name">
+		<h1>Karen Ma</h1>
+	</div>
+	<div id = "description">
+		<div class="subtitle">
+			<p class="textLine">{{about.pitch}}</p>
+		</div>
+	</div>
+	<div class="row" id = "skills">
+		{{#each skills}}
+		<div class= "skill col-md-4">
+			<h2 id="{{id}}">{{category}}</h2>
+			{{#each skill}}
+			<ul>
+				<li>{{this}}
+				</li>
+			</ul>
+			{{/each}}
+		</div>
+	{{/each}}
+	</div>
+	<div class = "row" id="projBlurbs">
+		{{#each projBlurbs}}
+		<div class="{{class}}" id = "{{id}}">
+			<a href="/project/{{id}}">
+				<div>
+					<div class="col-md-12">
+					<h3>{{title}}</h3>
+					</div>
+					<div class="image col-md-6">
+						<img src="images/projBlurbs/{{image}}">
+					</div>
+					<div class="col-md-6">
+						{{#each description}}
+						<p><span>{{type}}</span>{{text}}</p>
+						{{/each}}
+					</div>
+					<div class="projButton col-md-12">
+						<p>View Case Study</p>
+					</div>
+				</div>
+
+			</a>
+		</div>
+		{{/each}}
+	</div>
+	<div class="row" id = "about">
+		<div class="subtitle">
+			<h3 class="textLine">About Me</h3>
+		</div>
+		<div>
+			<img class="circle col-md-6" src="images/{{about.image}}">
+			<p class="col-md-6">{{about.summary}}</p>
+		</div>
+	</div>
+</div>
+
+

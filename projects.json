@@ -1,6 +1,6 @@
 {
-	"projects":[
-		{"id":0,
+		"template":"project",
+		"id":0,
 		"project":"Flexible Travel Planning",
 		"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
 		"image":"/projBlurbs/tripsyTitle.png",
@@ -80,9 +80,6 @@
 			"code":""
 			}
 		]
-			
-		}
-	]
 
 	
 }
