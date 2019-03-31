@@ -1,0 +1,85 @@
+{
+		"template":"project",
+		"id":0,
+		"project":"Flexible Travel Planning",
+		"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
+		"image":"/projBlurbs/tripsyTitle.png",
+		"overview":[
+			{"Context:":"10 weeks/4 person team"},
+			{"Role:":"Product Strategist, Qualitative Researcher, UI Designer"},
+			{"Tools:":"Interviews, User Testing, Rapid Prototyping, Adobe XD"}
+		],
+		"problem":"While the internet provides a plethora of suggestions on where to eat and what to see, travel planners do not have a good way of consolidating the information, instead using a combination of different applications to meet their needs. Our solution explores how we can combine the differing uses of each application into a single platform for travel planning while avoiding feature bloat and keeping in mind a viable monetization strategy. ",
+		"image-sections":[
+			{"title":"Interviews and secondary research",
+			"blurb":"After deciding on the problem space of travel planning, we sought out frequent travelers and students with upcoming trips to discuss and show us their current methods of travel planning. We also followed up our qualitative data with a survey posted on various university groups to get some quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
+			"image":"flexibleTravel/Personas.png"
+			},
+			{"title":"Competitive Landscape",
+			"blurb":"In order to get a better idea of what options people currently have and what they were currently using to travel plan, I conducted a competitive analysis to compare the features across applications and examine market fit. ",
+
+			"image":"flexibleTravel/Comp Analysis.png"
+			},
+			{"title":"Needfinding - Synthesis",
+			"blurb":"Across all the interviews and different personas, there are some overarching themes."
+			},
+			{"title":"Storytelling and Branding",
+			"blurb":"With our product strategy in place, we began to evaluate our branding and what kind of story we wanted our product to tell. As we brainstormed logos, product name and tagline, it became clear that there were actually two different approaches our product could take.",
+			"image":"flexibleTravel/branding.png",
+			"list":["Let’s make the perfect itinerary for a traveler.","Let’s help the traveler find things to do when they are free."]
+			},
+			{"title":"Paper Prototyping and User Testing",
+			"blurb":"Given the tight time constraint and in order to iterate rapidly, our team used a parallel paper prototyping process before using them as a basis for service enactments on a sample of users.",
+			"image":"flexibleTravel/paper.png"
+			},
+			{"title":"Market Fit",
+			"blurb":"Since we already established the problem, we turned to marketing to determine market desires. We set-up two different pages with differing branding and differing solutions for the user. We then set up Google Ads to drive traffic to our site to observe which solution would have a higher conversion rate. Both sites had a conversion rate of 18%, leading us to decide to take a dual-prong approach for our product. ",
+			"image":"flexibleTravel/abTest.png"},
+			{"title":"Final Product",
+			"image":"",
+			"list":[
+				"- Map-based itinerary planner",
+				"- Desktop application for travel planning with mobile application for traveling itself",
+				"- On-the-go alerts for any changes to your itinerary (eg. bad weather, closed attractions)",
+				"- On-the-go recommendations sourced from locally used sites (eg. Open Rice vs Yelp)",
+				"- In-app navigation features"],
+			"carousel":[
+				{ 
+				"link":"flexibleTravel/final1x/Desktop Home.png",
+				"id":0
+				},
+				{
+				"link":"flexibleTravel/final1x/Search Desktop.png",
+				"id":1
+				},
+				{
+				"link":"flexibleTravel/final1x/Map Desktop.png",
+				"id":2
+				},
+				{
+				"link":"flexibleTravel/final1x/AddStop.png",
+				"id":3
+				},
+				{
+				"link":"flexibleTravel/final1x/mobile1.png",
+				"id":4
+				},
+				{
+				"link":"flexibleTravel/final1x/mobile2.png",
+				"id":5
+				}
+			]
+			},
+			{
+			"title":"Takeaways and Learnings",
+			"blurb":"",
+			"list":["1. Product Design is more than user experience. In order for your product to thrive, you have to consider business cases as well as user needs.",
+				"2. Team synchrony is important. Separation of responsibilities happens naturally on a team. While this worked initially, we ended up having to meet multiple times to reconcile our style guide and our vision.",
+				"3. You have to watch out for scope creep. It’s easy to want to make an app that solves everything but it leads to a lack of clearly defined product strategy."
+			],
+			"code":""
+			}
+		]
+
+	
+}
