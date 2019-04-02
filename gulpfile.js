@@ -11,8 +11,6 @@ var data = [homeData, projectData,project2Data];
 //create html files for static service
 	gulp.task('export', function(done){
 		//source files
-
-	console.log("test"+file);
 		options={
 			ignorePartials:true,
 		    batch:['./views/partials']
@@ -27,8 +25,8 @@ for(var i=0;i<data.length;i++){
 			}
 			   //save file to temp destination
 			return gulp.src('./views/layouts/layout.handlebars')
-		        .pipe(handlebars(file, options))
-		        .pipe(rename(name))
+		        .pipe(handlebars(homeData, options))
+		        .pipe(rename('index.html'))
 		        .pipe(gulp.dest('.'));
 
 
