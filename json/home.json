@@ -5,7 +5,7 @@
 	"projBlurbs":[
 		{ 	"class":"project active",
 			"id": 0,
-			"image": "icon.png",
+			"image": "tripsyTitle.png",
 			"title": "Flexible Travel Planning",
 			"description":[
 				{"type":"",

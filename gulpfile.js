@@ -17,7 +17,7 @@ var data = [homeData, projectData,project2Data];
 		}
 for(var i=0;i<data.length;i++){
 	var file = data[i];
-	var name = i.toString();
+	var name = i.toString()+".html";
 	gulp.src('./views/layouts/layout.handlebars')
 		        .pipe(handlebars(file, options))
 		        .pipe(rename(name))
@@ -26,7 +26,7 @@ for(var i=0;i<data.length;i++){
 			   //save file to temp destination
 			return gulp.src('./views/layouts/layout.handlebars')
 		        .pipe(handlebars(homeData, options))
-		        .pipe(rename('index'))
+		        .pipe(rename('index.html'))
 		        .pipe(gulp.dest('.'));
 
 

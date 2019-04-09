@@ -1,7 +1,8 @@
 /* Style the navbar */
 #nav {
   overflow: hidden;
-  background-color:#F2F2F2;
+  background-color: white;
+  border-bottom: 1px solid gray;
 }
 /* Navbar links */
 #nav #menu a {
@@ -43,7 +44,7 @@
 }
 body{
   font-family:Open Sans;
-  background-color:#F2F2F2 ;
+  background-color: #c4ccc1;
   font-size: 18px;
 }
 body .content{
@@ -68,21 +69,8 @@ body .content{
 }
 .subtitle{
   text-align:center;
-  /*display:flex;
-  flex-basis: 100%;
-  align-items: center;*/
   overflow:hidden;
 }
-/*.subtitle::after{
-  content: "";
-  flex-grow: 1;
-  background: black;
-  height: 1px;
-  font-size: 0px;
-  line-height: 0px;
-  margin: 0px 10px 10px;
-  vertical-align: middle;
-}*/
 
 #skills{
   display:flex;
@@ -115,6 +103,8 @@ ul{
 .project{
   background-color:white;
   margin-bottom: 20px;
+  border: 1px solid #dde5da;
+  border-radius: 5px;
 }
 .project a{
   display:flex;
@@ -123,7 +113,7 @@ ul{
 
 }
 .project a:hover{
-  box-shadow: 0px 1px 15px #999;
+  box-shadow: 0px 1px 15px #dde5da;
 }
 .project a:hover .projButton{
   background-color:#739581;
