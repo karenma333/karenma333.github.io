@@ -31,18 +31,3 @@ for(var i=0;i<data.length;i++){
 
 
 });
-
-
-/*var gulp = require('gulp');
-var hb = require('gulp-hb');
-
-gulp.task('export',function(){
-	var hbStream = hb({debug:true})
-		.partials('./views/partials/*')
-		.data('./json/*.json')
-
-	return gulp.src('./views/layouts/layout.handlebars')
-		.pipe(hbStream)
-		.pipe(gulp.dest('./temp'));
-});
-*/
