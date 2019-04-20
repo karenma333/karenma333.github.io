@@ -25,10 +25,10 @@
 		{{#each projBlurbs}}
 		<div class="{{class}}" id = "{{id}}">
 			<a href="{{id}}.html">
-				<div>
-					<div class="col-md-12">
+				<div class="col-md-12">
 					<h3>{{title}}</h3>
-					</div>
+				</div>
+				<div class= "projContent col-md-12">
 					<div class="image col-md-6">
 						<img src="./public/images/projBlurbs/{{image}}">
 					</div>
@@ -37,9 +37,9 @@
 						<p><span>{{type}}</span>{{text}}</p>
 						{{/each}}
 					</div>
-					<div class="projButton col-md-12">
-						<p>View Case Study</p>
-					</div>
+				</div>
+				<div class="projButton col-md-12">
+					<p>View Case Study</p>
 				</div>
 
 			</a>

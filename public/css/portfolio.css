@@ -16,7 +16,6 @@
 
 /* Page content */
 .content {
-  /*padding: 16px;*/
   width:70%;
 }
 
@@ -105,9 +104,18 @@ ul{
   margin-bottom: 20px;
   border: 1px solid #dde5da;
   border-radius: 5px;
+  min-height: 350px;
+  display:flex;
+}
+
+.project .projContent{
+  min-height:301px;
+  /*Change later to set a minimum based on text sizing divs*/
+}
+.projContent span{
+  font-weight: bold;
 }
 .project a{
-  display:flex;
   text-decoration: none;
   color:#000;
 
@@ -122,19 +130,11 @@ ul{
 .project h3{
   font-family:Lora;
 }
-.project img{
-  /*max-width: 50%;
-  height: auto;*/
-  object-fit: contain;
-  width:100%;
-
-}
 .projButton{
   align-items: center;
   text-align: center;
   padding:0px 0px 0px 0px;
   width:100%;
-
 }
 .image{
   max-width: 50%;
@@ -151,13 +151,11 @@ img{
   max-width: 50%;
 }
 .section img{
-  /*width:70%;*/
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
 }
-/*.section p*/
 .section p,
 .projText p{
   max-width:700px;
@@ -172,9 +170,6 @@ img{
   min-width: 350px;
   margin:0 auto;
 }
-/*.baseSection{
-  display:flex;
-}*/
 
 .projSummary{
   display:flex;

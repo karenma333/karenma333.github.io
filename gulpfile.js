@@ -6,7 +6,7 @@ var homeData = require("./json/home.json");
 var projectData = require("./json/projects.json");
 var project2Data = require("./json/project2.json");
 
-var data = [homeData, projectData,project2Data];
+var data = [projectData,project2Data];
 
 //create html files for static service
 	gulp.task('export', function(done){
