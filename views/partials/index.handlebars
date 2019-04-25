@@ -21,31 +21,33 @@
 		</div>
 	{{/each}}
 	</div>
-	<div class = "row" id="projBlurbs">
-		{{#each projBlurbs}}
-		<div class="{{class}}" id = "{{id}}">
-			<a href="{{id}}.html">
-				<div class="col-md-12">
+	{{#each projBlurbs}}
+	<div class="{{class}}" id = "{{id}}">
+		<a href="{{id}}.html">
+			<div class="row">
+				<div class="projTitle col-lg-12 col-md-12">
 					<h3>{{title}}</h3>
 				</div>
-				<div class= "projContent col-md-12">
-					<div class="image col-md-6">
-						<img src="./public/images/projBlurbs/{{image}}">
-					</div>
-					<div class="col-md-6">
-						{{#each description}}
-						<p><span>{{type}}</span>{{text}}</p>
-						{{/each}}
-					</div>
+			</div>
+			<div class= "row projContent">
+				<div class="image col-md-6">
+					<img src="./public/images/projBlurbs/{{image}}">
 				</div>
+				<div class="col-md-6">
+					{{#each description}}
+					<p><span>{{type}}</span>{{text}}</p>
+					{{/each}}
+				</div>
+			</div>
+			<div class="row">
 				<div class="projButton col-md-12">
 					<p>View Case Study</p>
 				</div>
+			</div>
 
-			</a>
-		</div>
-		{{/each}}
+		</a>
 	</div>
+	{{/each}}
 	<div class="row" id = "about">
 		<div class="subtitle">
 			<h3 class="textLine">About Me</h3>

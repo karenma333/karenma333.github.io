@@ -4,7 +4,7 @@
 	<title>Karen Ma - Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--<link href="/css/bootstrap.min.css" rel="stylesheet">-->
+	<link href="./public/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="./public/css/portfolio.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
@@ -20,10 +20,10 @@
 	<div id = "nav" class = "sticky">
 		<div class="content">
 			<div class = "logo">
-				<h3>Karen Ma</h3>
+				<img src = "./public/images/">
 			</div>
 			<div id = "menu">
-				<a href=""><p>Home</p></a>
+				<a href="./index.html"><p>Home</p></a>
 				<a href = "#projBlurbs"><p>Projects</p></a>
 				<a href ="#about"><p>About Me</p></a>
 			</div>
@@ -106,48 +106,54 @@
 				</ul>
 			</div>
 		</div>
-		<div class = "row" id="projBlurbs">
-			<div class="project active" id = "0">
-				<a href="0.html">
-					<div>
-						<div class="col-md-12">
+		<div class="project active" id = "0">
+			<a href="0.html">
+				<div class="row">
+					<div class="projTitle col-lg-12 col-md-12">
 						<h3>Flexible Travel Planning</h3>
-						</div>
-						<div class="image col-md-6">
-							<img src="./public/images/projBlurbs/tripsyTitle.png">
-						</div>
-						<div class="col-md-6">
-							<p><span></span>An application for creating itineraries and adjusting them to on the go</p>
-							<p><span>Role: </span>I completed needfinding research, created final mockups, conducted usability testing and supported the branding and marketing strategy.</p>
-							<p><span>Tools: </span>Paper Prototypes, Interviews, Observations, Product Strategy, A/B Testing, Adobe XD</p>
-						</div>
-						<div class="projButton col-md-12">
-							<p>View Case Study</p>
-						</div>
 					</div>
+				</div>
+				<div class= "row projContent">
+					<div class="image col-md-6">
+						<img src="./public/images/projBlurbs/tripsyTitle.png">
+					</div>
+					<div class="col-md-6">
+						<p><span></span>An application for creating itineraries and adjusting them to on the go</p>
+						<p><span>Role: </span>Product Strategist, Qualitative Researcher, UI Designer</p>
+						<p><span>Tools: </span>Interviews, User Testing, Rapid Prototyping, Adobe XD</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="projButton col-md-12">
+						<p>View Case Study</p>
+					</div>
+				</div>
 	
-				</a>
-			</div>
-			<div class="project" id = "1">
-				<a href="1.html">
-					<div>
-						<div class="col-md-12">
+			</a>
+		</div>
+		<div class="project" id = "1">
+			<a href="1.html">
+				<div class="row">
+					<div class="projTitle col-lg-12 col-md-12">
 						<h3>proj2</h3>
-						</div>
-						<div class="image col-md-6">
-							<img src="./public/images/projBlurbs/icon.png">
-						</div>
-						<div class="col-md-6">
-							<p><span>role</span>I was the sole designer for this project.</p>
-							<p><span>role</span>I was the sole designer for this project.</p>
-						</div>
-						<div class="projButton col-md-12">
-							<p>View Case Study</p>
-						</div>
 					</div>
+				</div>
+				<div class= "row projContent">
+					<div class="image col-md-6">
+						<img src="./public/images/projBlurbs/icon.png">
+					</div>
+					<div class="col-md-6">
+						<p><span>role</span>I was the sole designer for this project.</p>
+						<p><span>role</span>I was the sole designer for this project.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="projButton col-md-12">
+						<p>View Case Study</p>
+					</div>
+				</div>
 	
-				</a>
-			</div>
+			</a>
 		</div>
 		<div class="row" id = "about">
 			<div class="subtitle">
@@ -161,12 +167,16 @@
 	</div>
 	
 	
+	<div class=footer>
+		<a href = "https://www.linkedin.com/in/karenma333"></a>
+		<a href = "https://www.github.com/karenma333"></a>
+		<a href = "karenma333@gmail.com"></a>
 
-	<div class = "footer">
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/portfolio.js"></script>
+	<script src="jquery-1.11.3.js"></script>
+	<script src="./public/js/portfolio.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!--	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/.js"></script>-->
