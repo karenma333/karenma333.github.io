@@ -1,14 +1,15 @@
 $(document).ready(function() {
-	initializePage();
-})
 
-$(window).scroll(function(){
+$(document).scroll(function(){
+           $('#nav').addClass('navshadow');
+
     if ($(this).scrollTop() > 50) {
        $('#nav').addClass('navshadow');
     } else {
        $('#nav').removeClass('navshadow');
     }
 });
+
 $("nav").find("a").click(function(e) {
     e.preventDefault();
     var section = $(this).attr("href");
@@ -16,6 +17,5 @@ $("nav").find("a").click(function(e) {
         scrollTop: $(section).offset().top
     });
 });
-function initializePage() {
 
-}
+})
