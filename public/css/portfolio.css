@@ -11,6 +11,10 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-family: Lora;
+}
+#nav #menu a:hover{
+  color:#739581;
 }
 
 /* Page content */
@@ -38,7 +42,6 @@
 }
 .logo{
   float:left;
-  color:black;
 }
 body{
   font-family:Open Sans;
