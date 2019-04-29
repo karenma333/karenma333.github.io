@@ -30,11 +30,6 @@
 .navshadow{
   box-shadow: 0px 1px 15px #dde5da;
 }
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-
 #menu{
 	float:right;
 }
@@ -51,7 +46,7 @@ body .content{
 	margin-left:auto;
 	margin-right: auto;
 }
-
+/*footer CSS*/
 .footer{
 	height:6em;
   background-color: #707070;
@@ -59,15 +54,14 @@ body .content{
   display:flex;
   justify-content: center;
 }
-.footer i{
+.footer i,
+.footer img{
   font-size: 20px;
   color:black;
   vertical-align: middle;
-}
-.footer img{
   height:20px;
   width: auto;
-  vertical-align: middle;
+
 }
 .footer span{
   text-decoration: none;
@@ -84,6 +78,9 @@ body .content{
 }
 
 /*HOME PAGE*/
+.homeContent{
+  margin-top: 120px;
+}
 #name{
   margin:0 auto;
 }
@@ -121,7 +118,6 @@ ul{
   list-style-type: none;
   padding:0px;
 }
-
 .slideshow{
   display:flex;
 }
@@ -205,16 +201,20 @@ img{
   min-width: 350px;
   margin:0 auto;
 }
+.projText {
+  margin-bottom: 30px;
+}
 .section{
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .section ul{
   max-width:700px;
   min-width: 350px;
   margin:0 auto;
 }
-
 .projSummary{
   display:flex;
   align-items: center;
