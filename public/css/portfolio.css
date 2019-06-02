@@ -89,7 +89,7 @@ body .content{
 #skills{
   display:flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .skill{
   justify-content: space-around;
@@ -112,6 +112,24 @@ ul{
   list-style-type: none;
   padding:0px;
 }
+/*About Section*/
+.circle{
+  border-radius: 50%;
+}
+#about img{
+  max-width: 50%;
+}
+.alignCenter{
+  display: flex;
+  align-items: center;
+}
+.textLine{
+  text-align: left;
+  font-size: 2em;
+  font-family: Lora;
+  line-height: 3em;
+}
+/*Project Page*/
 .slideshow{
   display:flex;
 }
@@ -179,9 +197,6 @@ img{
 .subtitle h3{
   font-family:Lora;
   margin: 0px 0px 10px;
-}
-#about img{
-  max-width: 50%;
 }
 .section img{
   display: block;

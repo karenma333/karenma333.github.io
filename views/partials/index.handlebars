@@ -5,7 +5,7 @@
 	</div>
 	<div id = "description">
 		<div class="subtitle">
-			<p class="textLine">{{about.pitch}}</p>
+			<p>{{about.pitch}}</p>
 		</div>
 	</div>
 	<div class="row" id = "skills">
@@ -49,12 +49,12 @@
 	</div>
 	{{/each}}
 	<div class="row section " id = "about">
-		<div class="subtitle">
-			<h3 class="textLine">About Me</h3>
-		</div>
-		<div>
+		<div class = "alignCenter">
 			<img class="circle col-md-6" src="./public/images/{{about.image}}">
-			<p class="col-md-6">{{about.summary}}</p>
+			<div class="col-md-6">
+				<p class="textLine">About Me</p>
+				<p>{{about.summary}}</p>
+			</div>
 		</div>
 	</div>
 </div>
