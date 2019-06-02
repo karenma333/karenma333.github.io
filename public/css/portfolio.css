@@ -49,32 +49,24 @@ body .content{
 /*footer CSS*/
 .footer{
 	height:6em;
-  background-color: #707070;
   margin-top: 20px;
   display:flex;
-  justify-content: center;
-}
-.footer i,
-.footer img{
-  font-size: 20px;
-  color:black;
-  vertical-align: middle;
-  height:20px;
-  width: auto;
-
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer span{
   text-decoration: none;
-  line-height: 6em;
-  color:#f5f5f5;
+  line-height: 8em;
+  font-size: 0.8em;
 }
 .footer a{
-  margin-left: 5px;
-  margin-right: 5px;
   text-decoration: none;
+  color:#739581;
 }
 .footer a:hover span{
-  color:#739581;
+  color:black;
 }
 
 /*HOME PAGE*/
@@ -97,6 +89,7 @@ body .content{
 #skills{
   display:flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 .skill{
   justify-content: space-around;
@@ -104,6 +97,7 @@ body .content{
 .skill h2{
   font-family:Lora;
   font-size:2em;
+  padding-left: 5px;
 }
 .skill #research{
   background-color:#E26E6E;
