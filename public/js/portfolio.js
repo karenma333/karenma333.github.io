@@ -14,7 +14,7 @@ $(document).ready(function() {
     e.preventDefault();
     /*CHANGE PATHNAME TO REAL URL*/
     /*if on home page*/
-    var home = "www.noodlelime.me/index.html";
+    var home = "/index.html";
     var section;
     if(!(window.location.pathname == home)){
       section = $(this).attr("href");
