@@ -231,3 +231,13 @@ img{
 .projSummary span{
   font-family: Lora;
 }
+/*Override Carousel Controls*/
+.carousel a div{
+  min-width: 50px;
+  min-height: 40px;
+  background-color: #a0a0a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+}
