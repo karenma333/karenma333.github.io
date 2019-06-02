@@ -11,14 +11,23 @@ $(document).scroll(function(){
 
 $("#menu").find("a").click(function(e) {
   console.log(window.location.pathname);
-  if(window.location.pathname == "index.html"){
-      e.preventDefault();
-      var section = $(this).attr("name");
-      console.log(section);
-      $("html, body").animate({
-          scrollTop: $(section).offset().top - 100
-      }, 'slow');
+  e.preventDefault();
+  /*CHANGE PATHNAME TO REAL URL*/
+  /*if on home page*/
+  var home = "/Users/karen/Desktop/karenma333.github.io/index.html";
+  var section;
+  if(!(window.location.pathname == home)){
+    section = $(this).attr("href");
+    window.location.href = section;    
+  }   
+  else{
+    var section = $(this).attr("name");
+    $("html, body").animate({
+      scrollTop: $(section).offset().top - 100
+    }, 'slow');
   }
+
+  //}
 });
 
 })
