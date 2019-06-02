@@ -68,12 +68,12 @@
 					{{#if @first}}
 					<div class = "carousel-item active" id="{{this.id}}">
 						<img class= "d-block w-100" src="./public/images/{{this.link}}">
-					{{/if}}
+					</div>
 					{{else}}
 					<div class = "carousel-item" id="{{this.id}}">
 						<img class= "d-block w-100" src="./public/images/{{this.link}}">
 					</div>
-
+					{{/if}}
 					{{/each}}
 				</div>
 			    <a class="carousel-control-prev" href="#projCarousel" role="button" data-slide="prev">

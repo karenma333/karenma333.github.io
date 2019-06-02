@@ -241,3 +241,9 @@ img{
   justify-content: center;
   border-radius: 15%;
 }
+.carousel-indicators li{
+  background-color: green !important;
+}
+.carousel-indicators .active{
+  background-color: black !important;
+}
