@@ -209,6 +209,8 @@ img{
   flex-direction:column;
   align-items: center;
   padding: 10px;
+  padding-bottom:3em;
+  margin-bottom: 3em;
 }
 .subtitle h3,
 .catTitle h3{
