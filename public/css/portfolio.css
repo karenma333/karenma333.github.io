@@ -2,6 +2,7 @@
 #nav {
   overflow: hidden;
   background-color: white;
+  height:55px;
 }
 /* Navbar links */
 #nav #menu a {
@@ -19,10 +20,7 @@
 #menu a p{
   margin: auto;
 }
-/* Page content */
-.content {
-  width:70%;
-}
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -49,6 +47,7 @@ body .content{
 	margin-left:auto;
 	margin-right: auto;
 }
+
 /*footer CSS*/
 .footer{
 	height:6em;
@@ -152,7 +151,11 @@ ul{
   /*Change later to set a minimum based on text sizing divs*/
   display:flex;
   align-items: center;
+  background-color:white;
+  padding-top: 0px;
+  margin-top:100px;
 }
+
 .projContent span{
   font-weight: bold;
 }
@@ -197,12 +200,26 @@ img{
   max-width: 100%;
 }
 .projContent{
-  background-color: white;
-  margin-top: 100px
+  padding-top: 45px;
+  margin-top: 55px;
 }
-.subtitle h3{
+.summary{
+  background-color: aliceblue;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 10px;
+}
+.subtitle h3,
+.catTitle h3{
   font-family:Open Sans;
   margin: 0px 0px 10px;
+}
+.catTitle{
+  padding-left: 10px;
+}
+.catTitle:nth-of-type(n+1){
+  color: lightcoral;
 }
 .section img{
   display: block;
@@ -211,13 +228,21 @@ img{
   margin-top: 30px;
 }
 .section p,
-.projText p{
+.projText p,
+.section ul
+{
   max-width:700px;
   min-width: 350px;
-  margin:0 auto;
+  padding-left: 10px;
 }
-.projText {
-  margin-bottom: 30px;
+.baseSection{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projImage img{
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 .projText ul li{
   margin-bottom: 10px;
@@ -228,11 +253,6 @@ img{
   padding-left: 20px;
   padding-right: 20px;
 }
-.section ul{
-  max-width:700px;
-  min-width: 350px;
-  margin:0 auto;
-}
 .projSummary{
   display:flex;
   align-items: center;
@@ -240,6 +260,13 @@ img{
 .projSummary span{
   font-family: Lora;
   font-weight: bolder;
+}
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2;
 }
 /*Override Carousel Controls*/
 .carousel a div{
