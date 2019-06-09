@@ -26,16 +26,20 @@
 		</div>
 		<div class="projText">
 			<div class="catTitle">
-				<h3>Problem Space</h3>
+				<h1>Problem Space</h1>
 			</div>
 			<p>{{problem}}</p>
 		</div>
 	</div>
+	{{#each category}}
 	{{#each image-sections}}
 	<div class = "section">
 		<div class="baseSection ">
 			<div class="projText">
 				<div class="catTitle">
+					{{#if @first}}
+					<h1> {{../title}}</h1>
+					{{/if}}
 					<h3>{{title}}</h3>
 				</div>
 				<p>{{blurb}}</p>
@@ -43,6 +47,15 @@
 				<ul>
 					{{#each list}}
 					<li>{{this}}</li>
+					{{/each}}
+				</ul>
+				{{/if}}
+				{{#if listPair}}
+				<ul>
+					{{#each listPair}}
+					{{#each this}}
+					<li><span>{{@key}}</span><br>{{this}}</li>
+					{{/each}}
 					{{/each}}
 				</ul>
 				{{/if}}
@@ -93,6 +106,7 @@
 		</div>
 		{{/if}}
 	</div>
+	{{/each}}
 	{{/each}}
 </div>
 

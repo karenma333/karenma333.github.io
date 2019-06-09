@@ -8,7 +8,7 @@
 #nav #menu a {
   float: left;
   display: block;
-  color: black;
+  color: inherit;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -41,6 +41,7 @@ body{
   font-family:Lora;
   background-color: white;
   font-size: 18px;
+  color:darkslategrey;
 }
 body .content{
 	width: 70%;
@@ -220,8 +221,10 @@ img{
 .catTitle{
   padding-left: 10px;
 }
-.catTitle:nth-of-type(n+1){
-  color: lightcoral;
+.catTitle h1{
+  padding-bottom:0.5em;
+  padding-top:1em;
+  color:lightcoral;
 }
 .section img{
   display: block;
