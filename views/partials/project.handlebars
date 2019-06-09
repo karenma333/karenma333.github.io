@@ -25,10 +25,12 @@
 				
 		</div>
 		<div class="projText">
+			{{#each problem}}
 			<div class="catTitle">
-				<h1>Problem Space</h1>
+				<h1>{{@key}}</h1>
 			</div>
-			<p>{{problem}}</p>
+			<p>{{this}}</p>
+			{{/each}}
 		</div>
 	</div>
 	{{#each category}}

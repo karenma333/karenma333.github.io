@@ -2,29 +2,27 @@
 		"template":"project",
 		"id":1,
 		"project":"NextCapital",
-		"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
-		"image":"/projBlurbs/tripsyTitle.png",
+		"subtitle":"A B2B2C financial technology startup focused on creating a digital advice platform for retirement planning",
+		"image":"/projBlurbs/nc.webp",
 		"overview":[
-			{"Context:":"10 weeks/4 person team"},
-			{"Role:":"Product Delivery, Technical Software Design, UX Researcher, UI Designer"},
-			{"Tools:":"Requirements Gathering, Implementation Strategy"}
+			{"Current Role: ":"Designer | Oct 2018 - Now"},
+			{"Previous Roles: ":"Product Design Intern | Jun 2018 - Aug 2018"},
+			{"Responsibilities: ":"Requirements Gathering, Product Design, Technical Software Design, UX Research, Agile Management"}
 		],
-		"problem":"While the internet provides a plethora of suggestions on where to eat and what to see, travel planners do not have a good way of consolidating the information, instead using a combination of different applications to meet their needs. Our solution explores how we can combine the differing uses of each application into a single platform for travel planning while avoiding feature bloat and keeping in mind a viable monetization strategy. ",
-		"image-sections":[
-			{"title":"Interviews and secondary research",
-			"blurb":"After deciding on the problem space of travel planning, we sought out frequent travelers and students with upcoming trips to discuss and show us their current methods of travel planning. We also followed up our qualitative data with a survey posted on various university groups to get some quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
-			"image":"flexibleTravel/Personas.png"
-			},
-			{
-			"title":"Takeaways and Learnings",
-			"blurb":"",
-			"list":["1. Product Design is more than user experience. In order for your product to thrive, you have to consider business cases as well as user needs.",
-				"2. Team synchrony is important. Separation of responsibilities happens naturally on a team. While this worked initially, we ended up having to meet multiple times to reconcile our style guide and our vision.",
-				"3. You have to watch out for scope creep. It’s easy to want to make an app that solves everything but it leads to a lack of clearly defined product strategy."
-			],
-			"code":""
-			}
-		]
-
-	
+		"problem":{"Features":"heelllo"},
+		"category":[{
+			"title":"Hello",
+			"image-sections":[
+				{"title":"UX Research",
+				"blurb":"I designed and led usability studies for parallel design processes. I led and conducted research to inform information architecture design decisions."				},
+				{
+				"title":"Management",
+				"blurb":"I supported agile software development cycle by conducting daily stand-ups, sprint planning and sprint retrospectives. I determined work estimates to inform feature deadlines and resource prioritization."
+				},
+				{
+				"title":"Product Design ",
+				"blurb":"I gathered requirements and created design documentation for technical and nontechnical stakeholders. I worked with developers to determine full stack implementation strategies using existing design patterns. I conducted product validation testing to define implementation success. "
+				}
+			]
+		}]
 }

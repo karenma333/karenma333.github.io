@@ -252,6 +252,9 @@ img{
 .summary .projText{
   margin-top:2em;
 }
+.summary ul li{
+  padding-bottom: 1em;
+}
 .projText ul li{
   margin-bottom: 10px;
 }
