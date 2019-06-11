@@ -9,12 +9,14 @@
 			{"Previous Roles: ":"Product Design Intern | Jun 2018 - Aug 2018"},
 			{"Responsibilities: ":"Requirements Gathering, Product Design, Technical Software Design, UX Research, Agile Management"}
 		],
-		"problem":{"Features":"heelllo"},
+		"problem":{"Summary":"Working at NextCapital, I wear many hats, from creating new features to improving internal processes, such as design hiring initiatives, agile sprint reports, and product management processes. My feature work involves different forms of investor communication, enrollment flows and handling interactions from the end user using our platform as a medium to interact with other applications. I’ve highlighted my day-to-day responsibilities below. "},
 		"category":[{
-			"title":"Hello",
+			"title":"My Day-to-Day",
 			"image-sections":[
 				{"title":"UX Research",
-				"blurb":"I designed and led usability studies for parallel design processes. I led and conducted research to inform information architecture design decisions."				},
+				"blurb":"I designed and led usability studies for parallel design processes. I led and conducted research to inform information architecture design decisions."	,			
+				"logo":"/projBlurbs/designLogo.png"
+				},
 				{
 				"title":"Management",
 				"blurb":"I supported agile software development cycle by conducting daily stand-ups, sprint planning and sprint retrospectives. I determined work estimates to inform feature deadlines and resource prioritization."
