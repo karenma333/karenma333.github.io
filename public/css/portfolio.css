@@ -167,14 +167,13 @@ ul{
   margin-bottom: 20px;
   border: 1px solid #dde5da;
   border-radius: 5px;
-  height: 450px;
   display:flex;
 }
 .project .row{
   margin: 0 0 0 0 !important;
 }
 .project .projContent{
-  height:326px;
+  height:306px;
   /*Change later to set a minimum based on text sizing divs*/
   display:flex;
   align-items: center;
@@ -198,8 +197,10 @@ ul{
  background-color:#739581;
   color:white;
 }
-.project h3{
+.project h1{
   font-family:Open Sans;
+  margin-top:10px;
+  margin-left:10px;
 }
 .projTitle{
   padding-top: 10px;
