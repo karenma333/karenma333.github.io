@@ -87,6 +87,7 @@ body .content{
 .subtitle{
   text-align:center;
   overflow:hidden;
+  padding-bottom:2em;
 }
 
 #skills{

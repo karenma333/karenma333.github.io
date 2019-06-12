@@ -23,7 +23,6 @@ for(var i=0;i<data.length;i++){
 		        .pipe(rename(name))
 		        .pipe(gulp.dest('.'));
 	}
-			   //save file to temp destination
 			return gulp.src('./views/layouts/layout.handlebars')
 		        .pipe(handlebars(homeData, options))
 		        .pipe(rename('index.html'))
