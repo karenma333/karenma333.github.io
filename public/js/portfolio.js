@@ -1,7 +1,7 @@
 $(document).ready(function() {
   /*sticky header*/
   $(document).scroll(function(){
-             $('#nav').addClass('navshadow');
+      $('#nav').addClass('navshadow');
       if ($(this).scrollTop() > 50) {
          $('#nav').addClass('navshadow');
       } else {
@@ -29,5 +29,4 @@ $(document).ready(function() {
 
     //}
   });
-  /*Carousel buttons override*/
 })

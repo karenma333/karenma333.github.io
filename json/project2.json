@@ -3,7 +3,7 @@
 		"id":1,
 		"project":"NextCapital",
 		"subtitle":"A B2B2C financial technology startup focused on creating a digital advice platform for retirement planning",
-		"image":"/projBlurbs/nc.webp",
+		"image":"/projBlurbs/Group.png",
 		"overview":[
 			{"Current Role: ":"Designer | Oct 2018 - Now"},
 			{"Previous Roles: ":"Product Design Intern | Jun 2018 - Aug 2018"},
@@ -14,17 +14,13 @@
 			"title":"My Day-to-Day",
 			"image-sections":[
 				{"title":"UX Research",
-				"blurb":"I designed and led usability studies for parallel design processes. I led and conducted research to inform information architecture design decisions."	,			
-				"logo":"/projBlurbs/designLogo.png"
-				},
+				"blurb":"I designed and led usability studies for parallel design processes. I led and conducted research to inform information architecture design decisions."					},
 				{
 				"title":"Management",
-				"blurb":"I supported agile software development cycle by conducting daily stand-ups, sprint planning and sprint retrospectives. I determined work estimates to inform feature deadlines and resource prioritization."
-				},
+				"blurb":"I supported agile software development cycle by conducting daily stand-ups, sprint planning and sprint retrospectives. I determined work estimates to inform feature deadlines and resource prioritization."				},
 				{
 				"title":"Product Design ",
-				"blurb":"I gathered requirements and created design documentation for technical and nontechnical stakeholders. I worked with developers to determine full stack implementation strategies using existing design patterns. I conducted product validation testing to define implementation success. "
-				}
+				"blurb":"I gathered requirements and created design documentation for technical and nontechnical stakeholders. I worked with developers to determine full stack implementation strategies using existing design patterns. I conducted product validation testing to define implementation success. "				}
 			]
 		}]
 }
