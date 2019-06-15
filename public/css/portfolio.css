@@ -11,40 +11,48 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-family: Open Sans;
+  font-size: 1.25em;
 }
-#nav #menu a:hover{
-  color:#739581;
+#nav #menu a,
+.projButton,
+.footer{
+    font-family: 'Lato',sans-serif;
 }
+.projButton,
+#nav #menu a,
+.footer a{
+  color:#FBBA93;
+}
+.project a:hover .projButton{
+  background-color:#F89153;
+  color:white;
+}
+
+.footer a:hover span,
+#nav #menu a:hover
+{
+  color:#F89153;
+}
+body,
+a,
+a:hover{
+  color:#474747;
+}
+.catTitle h1, .skill h2{
+  color:#8FD4FE;
+}
+
+.summary, .skill{
+  background-color:aliceblue;
+}
+.skill h2, .skill ul{
+    padding-left:10px;
+
+}
+
 #menu a p{
   margin: auto;
 }
-.dropdown{
-  position: relative;
-  display:inline-block;
-  overflow:hidden;
-  float:left;
-}
-.dropdown-btn{
-  float:none !important;
-}
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  z-index: 1;
-}
-.dropdown-content a {
-  float:none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block; overflow:visible;}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -54,7 +62,7 @@
   z-index: 1000;
 }
 .navshadow{
-  box-shadow: 0px 1px 15px #dde5da;
+  box-shadow: 0px 1px 15px #FDE9DE;
 }
 #menu{
 	float:right;
@@ -63,10 +71,9 @@
   float:left;
 }
 body{
-  font-family:Lora;
+  font-family:'Merriweather',serif;
   background-color: white;
   font-size: 18px;
-  color:darkslategrey;
 }
 body .content{
 	width: 70%;
@@ -91,11 +98,8 @@ body .content{
 }
 .footer a{
   text-decoration: none;
-  color:#739581;
 }
-.footer a:hover span{
-  color:black;
-}
+
 
 /*HOME PAGE*/
 .homeContent{
@@ -105,7 +109,6 @@ body .content{
   margin:0 auto;
 }
 #name h1{
-  font-family: Open Sans;
   font-size: 4em;
   text-align: center;
 }
@@ -120,22 +123,21 @@ body .content{
   flex-direction: row;
   margin-bottom: 40px;
 }
+.skillGroup{
+  display:flex;
+  align-items: stretch;
+  align-content: stretch;
+}
 .skill{
   justify-content: space-around;
+  width:inherit;
+  padding:10px;
 }
 .skill h2{
-  font-family:Open Sans;
   font-size:2em;
-  padding-left: 5px;
 }
-.skill #research{
-  background-color:#E26E6E;
-}
-.skill #design{
-  background-color:#E2B4AD;
-}
-.skill #deliver{
-  background-color:#FCDED6;
+.skill ul{
+  margin:0px;
 }
 ul{
   list-style-type: none;
@@ -145,18 +147,14 @@ ul{
 .circle{
   border-radius: 50%;
 }
-#about img{
-  max-width: 50%;
-}
-.alignCenter{
+#about{
   display: flex;
   align-items: center;
+  line-height: 
 }
 .textLine{
   text-align: left;
   font-size: 2em;
-  font-family: Open Sans;
-  line-height: 3em;
 }
 /*Project Page*/
 .slideshow{
@@ -165,7 +163,7 @@ ul{
 .project{
   background-color:white;
   margin-bottom: 20px;
-  border: 1px solid #dde5da;
+  border: 1px solid #FDE9DE;
   border-radius: 5px;
   display:flex;
 }
@@ -187,18 +185,12 @@ ul{
 }
 .project a{
   text-decoration: none;
-  color:#000;
   width:100%;
 }
 .project a:hover{
-  box-shadow: 0px 1px 15px #dde5da;
-}
-.project a:hover .projButton{
- background-color:#739581;
-  color:white;
+  box-shadow: 0px 1px 15px #FDE9DE;
 }
 .project h1{
-  font-family:Open Sans;
   margin-top:10px;
   margin-left:10px;
 }
@@ -233,7 +225,6 @@ img{
   margin-top: 55px;
 }
 .summary{
-  background-color: aliceblue;
   display:flex;
   flex-direction:column;
   align-items: center;
@@ -243,7 +234,6 @@ img{
 }
 .subtitle h3,
 .catTitle h3{
-  font-family:Open Sans;
   margin: 0px 0px 10px;
 }
 .catTitle{
@@ -252,7 +242,6 @@ img{
 .catTitle h1{
   padding-bottom:0.5em;
   padding-top:1em;
-  color:lightcoral;
 }
 .section img{
   display: block;
@@ -302,16 +291,9 @@ img{
   align-items: center;
 }
 .projSummary span{
-  font-family: Lora;
   font-weight: bolder;
 }
-table{
-  border-collapse:collapse;
-  width:100%;
-}
-tr:nth-child(even){
-  background-color: #f2f2f2;
-}
+
 /*Override Carousel Controls*/
 .carousel a div{
   min-width: 50px;
@@ -321,10 +303,4 @@ tr:nth-child(even){
   align-items: center;
   justify-content: center;
   border-radius: 15%;
-}
-.carousel-indicators li{
-  background-color: green !important;
-}
-.carousel-indicators .active{
-  background-color: black !important;
 }

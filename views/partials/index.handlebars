@@ -10,14 +10,17 @@
 	</div>
 	<div class="row" id = "skills">
 		{{#each skills}}
-		<div class= "skill col-md-4">
-			<h2 id="{{id}}">{{category}}</h2>
-			{{#each skill}}
-			<ul>
-				<li>{{this}}
-				</li>
-			</ul>
-			{{/each}}
+		<div class="skillGroup col-md-4">
+
+			<div class= "skill">
+				<h2 id="{{id}}">{{category}}</h2>
+				{{#each skill}}
+				<ul>
+					<li>{{this}}
+					</li>
+				</ul>
+				{{/each}}
+			</div>
 		</div>
 	{{/each}}
 	</div>
@@ -49,14 +52,14 @@
 	</div>
 	{{/each}}
 	<div class="row section " id = "about">
-		<div class = "alignCenter">
-			<img class="circle col-md-6" src="./public/images/{{about.image}}">
-			<div class="col-md-6">
+		<div class = "col-md-5">
+			<img class="circle" src="./public/images/{{about.image}}">
+		</div>
+			<div class="col-md-7">
 				<p class="textLine">About Me</p>
 				<p>{{about.summary}}</p>
 			</div>
 		</div>
-	</div>
 </div>
 
 
