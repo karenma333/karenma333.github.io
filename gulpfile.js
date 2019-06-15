@@ -3,8 +3,8 @@ var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
 
 var homeData = require("./json/home.json");
-var projectData = require("./json/projects.json");
-var project2Data = require("./json/project2.json");
+var project2Data = require("./json/projects.json");
+var projectData = require("./json/project2.json");
 
 var data = [projectData,project2Data];
 

@@ -3,24 +3,8 @@
 	"links":["Resume", "LinkedIn","Email"],
 
 	"projBlurbs":[
-		{ 	"class":"project active",
-			"id": 0,
-			"image": "tripsyTitle.png",
-			"title": "Flexible Travel Planning",
-			"description":[
-				{"type":"",
-				"text":"An application for creating itineraries and adjusting them to on the go"
-				},
-				{"type":"Role: ",
-				"text":"Product Strategist, Qualitative Researcher, UI Designer"
-				},
-				{"type":"Responsibilities: ",
-				"text":"Interviews, User Testing, Rapid Prototyping, Adobe XD"
-				}
-			]
-		},
 		{ 	"class":"project",
-			"id":1,
+			"id":0,
 			"image": "Group.png",
 			"title": "NextCapital",
 			"description":[
@@ -34,7 +18,24 @@
 				"text":"Requirements Gathering, Product Design, Technical Software Design, UX Research, Agile Management"
 				}
 			]
+		},
+		{ 	"class":"project active",
+			"id": 1,
+			"image": "tripsyTitle.png",
+			"title": "Flexible Travel Planning",
+			"description":[
+				{"type":"",
+				"text":"An application for creating itineraries and adjusting them to on the go"
+				},
+				{"type":"Role: ",
+				"text":"Product Strategist, Qualitative Researcher, UI Designer"
+				},
+				{"type":"Responsibilities: ",
+				"text":"Interviews, User Testing, Rapid Prototyping, Adobe XD"
+				}
+			]
 		}
+		
 	],
 	"skills": [
 		{ 
