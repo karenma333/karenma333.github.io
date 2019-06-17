@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+## Format
+Originally built dynamically with Express and Handlebars Templating, the discovery of Github Pages as only supporting static pages has shifted this project. 
 
-You can use the [editor on GitHub](https://github.com/karenma333/karenma333.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Now, it consists of handlebars templates filled by separate json files per page. These are compiled using a gulp script to be served statically. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/karenma333/karenma333.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Previous files related to the dynamic version of this site may still exist in this repo but can be ignored. 
