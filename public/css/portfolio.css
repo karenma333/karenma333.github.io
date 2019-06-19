@@ -21,7 +21,7 @@
 .projButton,
 #nav #menu a,
 .footer a{
-  color:#FBBA93;
+  color:#F89153;
 }
 .project a:hover .projButton{
   background-color:#F89153;
@@ -31,7 +31,7 @@
 .footer a:hover span,
 #nav #menu a:hover
 {
-  color:#F89153;
+  color:#F5670F;
 }
 body,
 a,
@@ -39,11 +39,11 @@ a:hover{
   color:#474747;
 }
 .catTitle h1, .skill h2{
-  color:#8FD4FE;
+  color:#4c7cad;
 }
 
 .summary, .skill{
-  background-color:aliceblue;
+  background-color:#F0f8ff;
 }
 .skill h2, .skill ul{
     padding-left:10px;
