@@ -9,58 +9,58 @@
 		</div>
 	</div>
 	<div class="row">
-	<div class="col-md-6" id = "skills">
-		{{#each skills}}
-		<div class="skillGroup">
+		<div class="col-md-6" id = "skills">
+			{{#each skills}}
+			<div class="skillGroup">
 
-			<div class= "skill">
-				<h2 id="{{id}}">{{category}}</h2>
-				{{#each skill}}
-				<ul>
-					<li>{{this}}
-					</li>
-				</ul>
-				{{/each}}
-			</div>
-		</div>
-	{{/each}}
-	</div>
-	{{#each projBlurbs}}
-	<div class="{{class}}" id = "{{id}}">
-		<a href="{{id}}.html" >
-			<div class="row">
-				<div class="projTitle col-lg-12 col-md-12">
-					<h1>{{title}}</h1>
-				</div>
-			</div>
-			<div class= "row projContent">
-				<div class="image col-md-6">
-					<img src="./public/images/projBlurbs/{{image}}">
-				</div>
-				<div class="col-md-6">
-					{{#each description}}
-					<p><span>{{type}}</span>{{text}}</p>
+				<div class= "skill">
+					<h2 id="{{id}}">{{category}}</h2>
+					{{#each skill}}
+					<ul>
+						<li>{{this}}
+						</li>
+					</ul>
 					{{/each}}
 				</div>
 			</div>
-			<div class="row">
-				<div class="projButton col-md-12">
-					<p>View Case Study</p>
+		{{/each}}
+		</div>
+		{{#each projBlurbs}}
+		<div class="{{class}}" id = "{{id}}">
+			<a href="{{id}}.html" >
+				<div class="row">
+					<div class="projTitle col-lg-12 col-md-12">
+						<h1>{{title}}</h1>
+					</div>
+				</div>
+				<div class= "row projContent">
+					<div class="image col-md-6">
+						<img src="./public/images/projBlurbs/{{image}}">
+					</div>
+					<div class="col-md-6">
+						{{#each description}}
+						<p><span>{{type}}</span>{{text}}</p>
+						{{/each}}
+					</div>
+				</div>
+				<div class="row">
+					<div class="projButton col-md-12">
+						<p>View Case Study</p>
+					</div>
+				</div>
+
+			</a>
+		</div>
+		{{/each}}
+		<div class="row section " id = "about">
+			<div class = "col-md-5">
+				<img class="circle" src="./public/images/{{about.image}}">
+			</div>
+				<div class="col-md-7">
+					<h1 class="textLine">About Me</h1>
+					<p>{{about.summary}}</p>
 				</div>
 			</div>
-
-		</a>
 	</div>
-	{{/each}}
-	<div class="row section " id = "about">
-		<div class = "col-md-5">
-			<img class="circle" src="./public/images/{{about.image}}">
-		</div>
-			<div class="col-md-7">
-				<h1 class="textLine">About Me</h1>
-				<p>{{about.summary}}</p>
-			</div>
-		</div>
 </div>
-
 
