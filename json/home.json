@@ -38,7 +38,7 @@
 		}
 		
 	],
-	"skills": [
+	"skill": [
 		{ 
 			"id": "research",
 			"category": "Research",

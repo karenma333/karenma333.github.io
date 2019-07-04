@@ -15,8 +15,9 @@ $(document).ready(function() {
     /*CHANGE PATHNAME TO REAL URL*/
     /*if on home page*/
     var home = "/";
+    var index = "/index.html"
     var section;
-    if(!(window.location.pathname == home)){
+    if(!(window.location.pathname == home) && !(window.location.pathname == index) ){
       section = $(this).attr("href");
       window.location.href = section;    
     }   
