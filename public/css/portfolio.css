@@ -16,8 +16,11 @@
 }
 #nav #menu a,
 .projButton,
-.footer{
-    font-family: 'Lato',sans-serif;
+.footer, 
+.project h1,
+.catTitle,
+#name h1{
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 .projButton,
 #nav #menu a,
