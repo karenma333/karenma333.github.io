@@ -22,6 +22,18 @@
 #name h1{
   font-family: 'IBM Plex Sans', sans-serif;
 }
+h1{
+  font-size:3em;
+}
+h2{
+  font-size: 2.25em;
+}
+h3{
+  font-size: 1.75em;
+}
+li span, h4{
+  font-size: 1.125em;
+}
 .projButton,
 #nav #menu a,
 .footer a{
@@ -113,7 +125,7 @@ body .content{
   margin:0 auto;
 }
 #name h1{
-  font-size: 4em;
+  font-size: 5em;
   text-align: center;
 }
 .subtitle{
@@ -137,9 +149,6 @@ body .content{
   width:inherit;
   padding:10px;
 }
-.skill h2{
-  font-size:2em;
-}
 .skill ul{
   margin:0px;
   line-height: 2em;
@@ -160,7 +169,6 @@ ul{
 }
 .textLine{
   text-align: left;
-  font-size: 2em;
 }
 /*Project Page*/
 .slideshow{
@@ -243,11 +251,8 @@ img{
   margin-bottom: 1em;
 }
 .subtitle h3,
-.catTitle h3{
+.catTitle h2{
   margin: 0px 0px 10px;
-}
-.catTitle{
-  padding-left: 10px;
 }
 .catTitle h1{
   padding-bottom:0.5em;
@@ -262,10 +267,10 @@ img{
 }
 .section p,
 .projText p,
-.section ul
+.section ol
 {
   max-width:700px;
-  padding-left: 10px;
+  list-style-type: none;
 }
 .baseSection{
   display:flex;
@@ -289,8 +294,11 @@ img{
   margin-top: 0px;
   padding-top: 0px;
 }
-.projText ul li{
+.projText ol li{
   margin-bottom: 10px;
+}
+.listPair{
+  padding-left: 0px;
 }
 .section{
   padding-left: 20px;

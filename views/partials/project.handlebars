@@ -45,7 +45,7 @@
 		<div class="row">
 			<div class="projText col-md-12">
 				<div class="catTitle">
-					<h3>{{title}}</h3>
+					<h2>{{title}}</h2>
 				</div>
 				<p>{{blurb}}</p>
 			</div>
@@ -57,24 +57,24 @@
 					{{#if @first}}
 					<h1> {{../title}}</h1>
 					{{/if}}
-					<h3>{{title}}</h3>
+					<h2>{{title}}</h2>
 				</div>
 				<p>{{blurb}}</p>
 				{{#if list}}
-				<ul>
+				<ol>
 					{{#each list}}
 					<li>{{this}}</li>
 					{{/each}}
-				</ul>
+				<ol>
 				{{/if}}
 				{{#if listPair}}
-				<ul>
+				<ol class = "listPair">
 					{{#each listPair}}
 					{{#each this}}
 					<li><span>{{@key}}</span><br>{{this}}</li>
 					{{/each}}
 					{{/each}}
-				</ul>
+				</ol>
 				{{/if}}
 			</div>
 			<div class="projImage ">
