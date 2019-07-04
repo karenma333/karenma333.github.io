@@ -41,23 +41,24 @@
 	"skill": [
 		{ 
 			"id": "research",
-			"category": "Research",
-			"skill":["Ethnographic studies","Qualitative research","Usability testing", "A/B testing"]
+			"category": "Researcher",
+			"skill":["- Socialized human-centered design practices to design organization","- Conducted qualitative research ranging from interviews to ethnographic observations and usability studies","- Managed and mentored newer researchers"]
 		},
+		
 		{ 	
 			"id": "design",
-			"category": "Design",
-			"skill":["Human-centered design", "Wireframes", "Mockups", "Journey maps","Service blueprints","Affinity diagrams"]
+			"category": "Designer",
+			"skill":["- Translated designs from wireframes and requirements to technical specs", "- Determined product strategy through user research, business requirements and technical constraints", "- Created appropriate documentation such as wireframes, affinity diagrams, journey maps, and service blueprints"]
 		},
 		{ 	
 			"id": "deliver",
-			"category": "Deliver",
-			"skill":["Product Strategy", "Requirements gathering", "Stakeholder buy-in", "Product Management"]
+			"category": "Manager",
+			"skill":["- Led multiple teams ranging from 4 to 10 people to complete projects. ", "- Utilized agile methodology with stand ups, retrospectives, and sprint planning", "- Reviewed product backlog to prioritize upcoming work", "- Triaged internal and external stakeholders to come to a common understanding"]
 		}
 	],
 	"about":{
 			"pitch": "Human-Centered Designer and Product Strategist",
-			"summary":"Currently working as a product designer at NextCapital, I spend my days right in the intersection between design, research and development! Outside of work, I have been taking advantage of the nice weather and exploring the city of Chicago while trying out all new foods this city has to offer. ",
+			"summary":"Currently working as a product designer at NextCapital, I spend my days right in the intersection between design, research and development! I consider myself first and foremost a human-centered designer with a jack-of-all trades mentality. Understanding the constraints and negotiating with stakeholders allows me to create designs that solve problems for the end user as well as the business. Outside of work, I have been taking advantage of the nice weather and exploring the city of Chicago while trying out all new foods this city has to offer. ",
 			"image":"karenMa.jpg"
 		}
 }

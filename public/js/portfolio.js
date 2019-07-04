@@ -27,7 +27,4 @@ $(document).ready(function() {
         scrollTop: $(section).offset().top - 100
       }, 'slow');
     }
-
-    //}
-  });
 })

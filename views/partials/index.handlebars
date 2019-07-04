@@ -5,12 +5,13 @@
 	</div>
 	<div id = "description">
 		<div class="subtitle">
-			<p>{{about.pitch}}</p>
+			<h4>{{about.pitch}}</h4>
 		</div>
 	</div>
-	<div class="row" id = "skills">
+	<div class="row">
+	<div class="col-md-6" id = "skills">
 		{{#each skills}}
-		<div class="skillGroup col-md-4">
+		<div class="skillGroup">
 
 			<div class= "skill">
 				<h2 id="{{id}}">{{category}}</h2>
@@ -56,7 +57,7 @@
 			<img class="circle" src="./public/images/{{about.image}}">
 		</div>
 			<div class="col-md-7">
-				<p class="textLine">About Me</p>
+				<h1 class="textLine">About Me</h1>
 				<p>{{about.summary}}</p>
 			</div>
 		</div>
