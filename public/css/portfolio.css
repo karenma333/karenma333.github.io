@@ -20,7 +20,10 @@
 .project h1,
 .catTitle,
 #name h1,
-.textLine{
+.textLine,
+.workContent h4,
+.workContent h3,
+#about a{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 h1{
@@ -40,6 +43,7 @@ li span, h4{
 .footer a{
   color:#F89153;
 }
+#about a,
 .project a:hover .projButton{
   background-color:#F89153;
   color:white;
@@ -55,11 +59,15 @@ a,
 a:hover{
   color:#474747;
 }
-.catTitle h1, .skill h2{
+.catTitle h1, 
+.skill h2, 
+.workContent h4,
+.workContent h3,
+.projContent #name {
   color:#4c7cad;
 }
 
-.summary, .skill{
+.summary, .skill, .workContent{
   background-color:#F0f8ff;
 }
 .skill h2, .skill ul{
@@ -139,30 +147,20 @@ body .content{
   padding-bottom:2em;
 }
 
-#skills{
-  display:flex;
-  flex-direction: row;
-  /*margin-bottom: 40px;*/
-  flex-wrap: wrap;
-}
-.skillGroup{
-  display:flex;
-  align-items: stretch;
-  align-content: stretch;
-}
-.skill{
-  justify-content: space-around;
-  width:inherit;
-  padding:10px;
-}
-.skill ul{
-  margin:0px;
-  line-height: 2em;
-  padding-left: 10px;
-}
 ul{
   list-style-type: none;
   padding:0px;
+}
+.workContent{
+  width:100%;
+  padding: 15px;
+}
+.workDesc{
+  display:flex;
+  justify-content: space-around;
+}
+.workContent h3{
+  padding-bottom: 20px;
 }
 /*About Section*/
 .circle{
@@ -173,6 +171,15 @@ ul{
   align-items: center;
   line-height: 
 }
+#about a{
+  padding:10px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+#about a:hover{
+  box-shadow: 0px 0px 5px #ffbb96;
+}
 .textLine{
   text-align: left;
   padding-bottom: 20px;
@@ -180,6 +187,15 @@ ul{
 /*Project Page*/
 .slideshow{
   display:flex;
+}
+.tag p{
+  background-color:#8FD694;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.tag{
+  margin: 20px auto;
 }
 .project{
   background-color:white;

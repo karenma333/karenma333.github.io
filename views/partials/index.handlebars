@@ -9,28 +9,41 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-6" id = "skills">
-			{{#each skills}}
-			<div class="skillGroup">
-
-				<div class= "skill">
-					<h2 id="{{id}}">{{category}}</h2>
-					{{#each skill}}
-					<ul>
-						<li>{{this}}
-						</li>
-					</ul>
-					{{/each}}
+		{{#each workBlurbs}}
+		<div class="{{class}}" id = "{{id}}">
+			<div class="row">
+				<div class="projTitle col-lg-12 col-md-12 col-sm-12">
+					<h3>{{role}}</h3>
 				</div>
 			</div>
-		{{/each}}
+			<div class= "row">
+				<div class="col-md-5">
+				<p>{{text}}</p>
+				</div>
+				<div class ="workDesc col-md-7">
+				{{#each description}}
+				<div>
+					<h4>{{type}}</h4>
+					<ul>
+					{{#each text}}
+						<li>{{this}}</li>
+					{{/each}}
+					</ul>
+				</div>
+				{{/each}}
+			</div>
+			</div>
 		</div>
+		{{/each}}
 		{{#each projBlurbs}}
 		<div class="{{class}}" id = "{{id}}">
 			<a href="{{id}}.html" >
 				<div class="row">
-					<div class="projTitle col-lg-12 col-md-12">
+					<div class="projTitle col-lg-9 col-md-3">
 						<h1>{{title}}</h1>
+					</div>
+					<div class="tag col-lg-3 col-md-9">
+						<p>Selected Student Work</p>
 					</div>
 				</div>
 				<div class= "row projContent">
@@ -59,6 +72,7 @@
 				<div class="col-md-7">
 					<h1 class="textLine">About Me</h1>
 					<p>{{about.summary}}</p>
+					<a href ="./public/resumeKarenMa.pdf" target="_blank">Resume</a>
 				</div>
 			</div>
 	</div>
