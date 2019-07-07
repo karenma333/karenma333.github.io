@@ -20,7 +20,9 @@
 .project h1,
 .catTitle,
 #name h1,
-.textLine{
+.textLine,
+.workContent h4,
+.workContent h3{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 h1{
@@ -55,11 +57,15 @@ a,
 a:hover{
   color:#474747;
 }
-.catTitle h1, .skill h2{
+.catTitle h1, 
+.skill h2, 
+.workContent h4,
+.workContent h3,
+.projContent #name {
   color:#4c7cad;
 }
 
-.summary, .skill{
+.summary, .skill, .workContent{
   background-color:#F0f8ff;
 }
 .skill h2, .skill ul{
@@ -139,30 +145,20 @@ body .content{
   padding-bottom:2em;
 }
 
-#skills{
-  display:flex;
-  flex-direction: row;
-  /*margin-bottom: 40px;*/
-  flex-wrap: wrap;
-}
-.skillGroup{
-  display:flex;
-  align-items: stretch;
-  align-content: stretch;
-}
-.skill{
-  justify-content: space-around;
-  width:inherit;
-  padding:10px;
-}
-.skill ul{
-  margin:0px;
-  line-height: 2em;
-  padding-left: 10px;
-}
 ul{
   list-style-type: none;
   padding:0px;
+}
+.workContent{
+  width:100%;
+  padding: 15px;
+}
+.workDesc{
+  display:flex;
+  justify-content: space-around;
+}
+.workContent h3{
+  padding-bottom: 20px;
 }
 /*About Section*/
 .circle{
@@ -180,6 +176,14 @@ ul{
 /*Project Page*/
 .slideshow{
   display:flex;
+}
+.tag p{
+  background-color:#8FD694;
+  padding: 10px;
+  color:black;
+}
+.tag{
+  margin: 20px auto;
 }
 .project{
   background-color:white;

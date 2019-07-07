@@ -19,20 +19,18 @@
 				"text":"Interviews, User Testing, Rapid Prototyping, Adobe XD"
 				}
 			]
-		},
-		{ 	"class":"project",
-			"id":1,
-			"image": "Group.png",
-			"title": "NextCapital",
+		}],
+	"workBlurbs":[
+		{ 	"class":"workContent",
+			"role":"Product Designer at NextCapital | Oct 2018 - Now",
+			"text":"A fintech B2B2C startup, designing at NextCapital means I have to consider a multitude of stakeholders, deal with ever-evolving ambiguity and design carefully to guide our users' financial futures. Talk to me to learn more!",
 			"description":[
-				{"type":"",
-				"text":"A B2B2C financial technology startup focused on creating a digital advice platform for retirement planning"
+
+				{"type":"Responsibilities",
+				"text":["- Requirements Gathering", "- Product Design", "- Technical Software Design", "- UX Research", "- Agile Management"]
 				},
-				{"type":"Role: ",
-				"text":"Designer | Oct 2018 - Now"
-				},
-				{"type":"Responsibilities: ",
-				"text":"Requirements Gathering, Product Design, Technical Software Design, UX Research, Agile Management"
+				{"type":"Projects",
+				"text":["- Investor Communications", "- Enrollment", "- Investor Documents"]
 				}
 			]
 		}
