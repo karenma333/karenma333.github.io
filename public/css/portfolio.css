@@ -154,6 +154,9 @@ ul{
 .workContent{
   width:100%;
   padding: 15px;
+  padding-left:2em;
+  margin-bottom: 3em;
+  
 }
 .workDesc{
   display:flex;
