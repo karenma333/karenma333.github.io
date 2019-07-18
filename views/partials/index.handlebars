@@ -65,14 +65,13 @@
 			</a>
 		</div>
 		{{/each}}
-		<div class="section">
-			<h1 class="textLine">About Me</h1>
-		</div>
+
 		<div class="row section " id = "about">
 			<div class = "col-md-5 col-sm-12">
-				<img class="circle" src="./public/images/{{about.image}}">
+				<img  src="./public/images/{{about.image}}">
 			</div>
 				<div class="col-md-7 col-sm-12">
+					<h1 class="textLine">About Me</h1>
 					{{#each about.summary}}
 					<p>{{this}}</p>
 					{{/each}}
