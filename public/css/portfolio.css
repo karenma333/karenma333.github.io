@@ -172,7 +172,6 @@ ul{
 #about{
   display: flex;
   align-items: center;
-  line-height: 
 }
 #about a{
   padding:10px;
@@ -199,7 +198,7 @@ ul{
 }
 .tag{
   margin: 20px auto;
-  text-align: center;
+  text-align: center; 
 }
 .project{
   background-color:white;
@@ -215,8 +214,6 @@ ul{
   margin: 0 0 0 0 !important;
 }
 .project .projContent{
-  height:306px;
-  /*Change later to set a minimum based on text sizing divs*/
   display:flex;
   align-items: center;
   background-color:white;
@@ -348,4 +345,11 @@ img{
   align-items: center;
   justify-content: center;
   border-radius: 15%;
+}
+
+@media 1321{
+  body .content,
+  .footer{
+    width:100%;
+  }
 }
