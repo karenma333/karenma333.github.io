@@ -7,7 +7,24 @@
 		{ 	"class":"project active",
 			"id": 0,
 			"image": "tripsyTitle.png",
+			"title": "Investor Communications Framework",
+			"description":[
+				{"type":"",
+				"text":"Creating a framework to standardize the voice and feel of each investor communication touchpoint"
+				},
+				{"type":"Role: ",
+				"text":"Lead Designer, Product Strategist, Qualitative Researcher"
+				},
+				{"type":"Responsibilities: ",
+				"text":"Interviews, Usability Testing, Parallel Design Prototyping"
+				}
+			]
+		},
+		{ 	"class":"project",
+			"id": 1,
+			"image": "tripsyTitle.png",
 			"title": "Flexible Travel Planning",
+			"tag":"Selected Student Work",
 			"description":[
 				{"type":"",
 				"text":"An application for creating itineraries and adjusting them to on the go"
@@ -20,22 +37,7 @@
 				}
 			]
 		}],
-	"workBlurbs":[
-		{ 	"class":"workContent",
-			"role":"Product Designer at NextCapital | Oct 2018 - Now",
-			"text":"A fintech B2B2C startup, designing at NextCapital means I have to consider a multitude of stakeholders, deal with ever-evolving ambiguity and design carefully to guide our users' financial futures. Talk to me to learn more!",
-			"description":[
-
-				{"type":"Responsibilities",
-				"text":["- Requirements Gathering", "- Product Design", "- Technical Software Design", "- UX Research", "- Agile Management"]
-				},
-				{"type":"Projects",
-				"text":["- Investor Communications", "- Enrollment", "- Investor Documents"]
-				}
-			]
-		}
-		
-	],
+	"workBlurbs":[],
 	"skill": [
 		{ 
 			"id": "research",

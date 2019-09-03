@@ -38,14 +38,21 @@
 		{{#each projBlurbs}}
 		<div class="{{class}}" id = "{{id}}">
 			<a href="{{id}}.html" >
+				{{#if tag}}
 				<div class="row">
 					<div class="projTitle col-lg-9 col-md-6">
 						<h1>{{title}}</h1>
 					</div>
 					<div class="tag col-lg-3 col-md-6">
-						<p>Selected Student Work</p>
+						<p>{{tag}}</p>
 					</div>
 				</div>
+				{{else}}
+				<div class="projTitle">
+						<h1>{{title}}</h1>
+			</div>
+				{{/if}}
+
 				<div class= "row projContent">
 					<div class="image col-md-6 col-sm-12">
 						<img src="./public/images/projBlurbs/{{image}}">
