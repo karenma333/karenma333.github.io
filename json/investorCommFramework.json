@@ -7,7 +7,7 @@
 		"overview":[
 			{"Context: ": "Worked alongside two visually-focused designers"},
 			{"Role: ":"Lead Designer, Qualitative Researcher"},
-			{"Tools: ":"Requirements Gathering, Interviews, Usability Testing, Parallel Design Prototyping, Surveys"}
+			{"Tools: ":"Requirements Gathering, Surveys"}
 		],
 		"problem":{"Problem Space":"Due to the fact that a large part of the anticipated user base is expected to infrequently interact with the applicaton, communications to the users are a crucial part of their experience with the service. However, because each investor communication, from email correspondence to generated PDFs, had been designed individually by differing designers, a user's experience would be drastically different from one piece of communication to another. I took the opportunity to take a holistic look at all possible forms of communication to build out a thematic framework and suggested design language for all investor communications to follow."},
 		"category":[
@@ -33,10 +33,12 @@
 				{"title":"Visual Layout Guidelines",
 				"blurb":"",
 				"image":"TouchpointMap.png"
-			},{"title":"Framework in Practice",
-				"blurb":"We sought out frequent travelers and students with upcoming trips and asked them to show us their current methods of travel planning. To back up qualitative data, we solicited survey responses for quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
-				"image":"Personas.png"
-		}
+				},
+				{"title":"Framework in Practice",
+				"blurb":"We sought out frequent travelers and students with upcoming trips and asked them to show us their current methods of travel planning. To back up qualitative data, we solicited survey responses for quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience."
+				},
+				{"title":"Challenges/Learnings"
+				}
 			]
 		}]
 }

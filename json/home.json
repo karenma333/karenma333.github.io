@@ -23,6 +23,22 @@
 		{ 	"class":"project",
 			"id": 1,
 			"image": "tripsyTitle.png",
+			"title": "Advice Proposal PDF",
+			"description":[
+				{"type":"",
+				"text":"blah blah blah"
+				},
+				{"type":"Role: ",
+				"text":"Lead Designer, Qualitative Researcher"
+				},
+				{"type":"Responsibilities: ",
+				"text":"Interviews, Usability Testing, blah blah"
+				}
+			]
+		},
+		{ 	"class":"project",
+			"id": 2,
+			"image": "tripsyTitle.png",
 			"title": "Flexible Travel Planning",
 			"tag":"Selected Student Work",
 			"description":[

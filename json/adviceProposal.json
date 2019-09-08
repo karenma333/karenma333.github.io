@@ -1,0 +1,55 @@
+{
+		"template":"project",
+		"id":1,
+		"project":"Advice Proposal PDF",
+		"subtitle":"How can we summarize our service into one document?",
+		"image":"/projBlurbs/Group.png",
+		"overview":[
+			{"Context: ": "Team of 3 Designers"},
+			{"Role: ":"Lead Designer, Qualitative Researcher"},
+			{"Tools: ":"Requirements Gathering, Interviews, Usability Testing, Parallel Design Prototyping, Card Sort"}
+		],
+		"problem":{"Problem Space":"At any point in a user's interaction with the managed accounts platform, they can view . blah blah"},
+		"category":[
+			{"title":"Evaluating the Foundation",
+				"image-sections":[
+					{"title":"The Foundation",
+					"blurb":"We sought out frequent travelers and students with upcoming trips and asked them to show us their current methods of travel planning. To back up qualitative data, we solicited survey responses for quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
+					"image":"Personas.png"
+					},
+					{"title":"Card Sort",
+					"blurb":"",
+					"image":"TouchpointMap.png"
+					}
+				]
+			},
+			{"title":"Redesigning blah blah",
+				"image-sections":[
+					{"title":"Divergent Designs",
+						"blurb":"",
+						"image":"",
+					"listPair":[{"1. Product Design is more than user experience.":" In order for your product to thrive, you have to consider business cases as well as user needs."},
+						{"2. Team synchrony is important.":" Separation of responsibilities happens naturally on a team. While this worked initially, we ended up having to meet multiple times to reconcile our style guide and our vision."},
+						{"3. You have to watch out for scope creep.":" It’s easy to want to make an app that solves everything but it leads to a lack of clearly defined product strategy."}
+					]
+					},
+					{"title":"Usability Testing",
+					"blurb":"",
+					"image":"TouchpointMap.png"
+					},
+					{"title":"Converging to the Final",
+					"blurb":"We sought out frequent travelers and students with upcoming trips and asked them to show us their current methods of travel planning. To back up qualitative data, we solicited survey responses for quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
+					"image":"Personas.png"
+					}
+				]
+			},
+			{"title":"Conclusion",
+				"image-sections":[
+					{"title":"Final Design"
+					},
+					{"title":"Challenges"
+					}
+				]
+			}
+		]
+}
