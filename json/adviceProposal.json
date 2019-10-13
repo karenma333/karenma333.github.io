@@ -9,43 +9,58 @@
 			{"Role: ":"Lead Designer, Qualitative Researcher"},
 			{"Tools: ":"Requirements Gathering, Interviews, Usability Testing, Parallel Design Prototyping, Card Sort"}
 		],
-		"problem":{"Problem Space":"At any point in a user's interaction with the managed accounts platform, they can view . blah blah"},
+		"problem":{"Problem Space":"At any point in a user's interaction with the managed accounts platform, they can view a pdf snapshot of their account. The wide variety of user states and scenarios means this document needs to be multi-functional without being overwhelming with information."},
 		"category":[
 			{"title":"Evaluating the Foundation",
 				"image-sections":[
-					{"title":"The Foundation",
-					"blurb":"We sought out frequent travelers and students with upcoming trips and asked them to show us their current methods of travel planning. To back up qualitative data, we solicited survey responses for quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
-					"image":"Personas.png"
+					{
+					"blurb":"Using the existing version of this document as a basis, I created cards to represent the pieces of information to perform a hybrid card sort. This allowed me to see what information users were still interested in seeing and what gaps of information the current document did not fill. Below, you’ll see the existing version of this document with some notes overlaid. ",
+					"image":"CurrP1.png"
 					},
-					{"title":"Card Sort",
-					"blurb":"",
-					"image":"TouchpointMap.png"
+					{
+						"image":"CurrP2.png"
 					}
 				]
 			},
 			{"title":"Redesigning blah blah",
 				"image-sections":[
 					{"title":"Divergent Designs",
+						"blurb":"The card sort results combined with internal stakeholder needs informed the content of this document. From there, we mocked-up multiple visuals of the PDF. Using these visuals we performed a series of usability tests as well as A/B preference tests to help us converge into our final design.",
+						"image":"AEUsability.png"
+					},
+					{
+						"title": "Versions",
 						"blurb":"",
-						"image":"",
-					"listPair":[{"1. Product Design is more than user experience.":" In order for your product to thrive, you have to consider business cases as well as user needs."},
-						{"2. Team synchrony is important.":" Separation of responsibilities happens naturally on a team. While this worked initially, we ended up having to meet multiple times to reconcile our style guide and our vision."},
-						{"3. You have to watch out for scope creep.":" It’s easy to want to make an app that solves everything but it leads to a lack of clearly defined product strategy."}
-					]
-					},
-					{"title":"Usability Testing",
-					"blurb":"",
-					"image":"TouchpointMap.png"
-					},
-					{"title":"Converging to the Final",
-					"blurb":"We sought out frequent travelers and students with upcoming trips and asked them to show us their current methods of travel planning. To back up qualitative data, we solicited survey responses for quantitative data on travel planning habits. From the research, I drew up three personas to capture our target users and audience.",
-					"image":"Personas.png"
-					}
+						"carousel":[
+							{ 
+							"link":"Artboard 6.png",
+							"id":0
+							},
+							{
+							"link":"Artboard 7.png",
+							"id":1
+							},
+							{
+							"link":"Artboard 8.png",
+							"id":2
+							},
+							{
+							"link":"Artboard 10.png",
+							"id":3
+							}
+						]
+					} 
+					
 				]
 			},
 			{"title":"Conclusion",
 				"image-sections":[
-					{"title":"Final Design"
+					{"title":"Final Design",
+						"list":[],
+						"image":"Frame 1.png"
+					},
+					{
+						"image":"Frame 2.png"
 					},
 					{"title":"Challenges"
 					}
