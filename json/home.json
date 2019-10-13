@@ -6,7 +6,7 @@
 		
 		{ 	"class":"project active",
 			"id": 0,
-			"image": "tripsyTitle.png",
+			"image": "../TouchpointMap.png",
 			"title": "Investor Communications Framework",
 			"description":[
 				{"type":"",
