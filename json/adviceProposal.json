@@ -11,6 +11,15 @@
 		],
 		"problem":{"Problem Space":"At any point in a user's interaction with the managed accounts platform, they can view a pdf snapshot of their account. The wide variety of user states and scenarios means this document needs to be multi-functional without being overwhelming with information."},
 		"category":[
+			{"title":"Summary",
+				"image-sections":[{
+					"listPair":[
+					{"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.":""},
+					{"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.":""},
+					{"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to ":""}
+				]
+			}]
+			},
 			{"title":"Evaluating the Foundation",
 				"image-sections":[
 					{

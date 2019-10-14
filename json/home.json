@@ -22,7 +22,7 @@
 		},
 		{ 	"class":"project",
 			"id": 1,
-			"image": "tripsyTitle.png",
+			"image": "../Frame 1.png",
 			"title": "Advice Proposal PDF",
 			"description":[
 				{"type":"",
