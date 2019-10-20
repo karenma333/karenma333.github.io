@@ -11,61 +11,59 @@
 		],
 		"problem":{"Problem Space":"At any point in a user's interaction with the managed accounts platform, they can view a pdf snapshot of their account. The wide variety of user states and scenarios means this document needs to be multi-functional without being overwhelming with information."},
 		"category":[
-			{"title":"Summary",
+			{"title":"Process",
 				"image-sections":[{
-					"listPair":[
-					{"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.":""},
-					{"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.":""},
-					{"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to ":""}
+					"list":[
+					"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.",
+					"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.",
+					"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to "
 				]
-			}]
 			},
 			{"title":"Evaluating the Foundation",
-				"image-sections":[
-					{
-					"blurb":"Using the existing version of this document as a basis, I created cards to represent the pieces of information to perform a hybrid card sort. This allowed me to see what information users were still interested in seeing and what gaps of information the current document did not fill. Below, you’ll see the existing version of this document with some notes overlaid. ",
-					"image":"CurrP1.png"
+					
+			"blurb":"Using the existing version of this document as a basis, I created cards to represent the pieces of information to perform a hybrid card sort. This allowed me to see what information users were still interested in seeing and what gaps of information the current document did not fill. Below, you’ll see the existing version of this document with some notes overlaid. ",
+			"image":"CurrP1.png"
+			},
+			{
+				"image":"CurrP2.png"
+				
+				
+			},
+			{"title":"Divergent Designs",
+				"blurb":"The card sort results combined with internal stakeholder needs informed the content of this document. From there, we mocked-up multiple visuals of the PDF. Using these visuals we performed a series of usability tests as well as A/B preference tests to help us converge into our final design.",
+				"image":"AEUsability.png"
+			},
+			{
+				"title": "Versions",
+				"blurb":"",
+				"carousel":[
+					{ 
+					"link":"Artboard 6.png",
+					"id":0
 					},
 					{
-						"image":"CurrP2.png"
+					"link":"Artboard 7.png",
+					"id":1
+					},
+					{
+					"link":"Artboard 8.png",
+					"id":2
+					},
+					{
+					"link":"Artboard 10.png",
+					"id":3
 					}
 				]
-			},
-			{"title":"Redesigning blah blah",
-				"image-sections":[
-					{"title":"Divergent Designs",
-						"blurb":"The card sort results combined with internal stakeholder needs informed the content of this document. From there, we mocked-up multiple visuals of the PDF. Using these visuals we performed a series of usability tests as well as A/B preference tests to help us converge into our final design.",
-						"image":"AEUsability.png"
-					},
-					{
-						"title": "Versions",
-						"blurb":"",
-						"carousel":[
-							{ 
-							"link":"Artboard 6.png",
-							"id":0
-							},
-							{
-							"link":"Artboard 7.png",
-							"id":1
-							},
-							{
-							"link":"Artboard 8.png",
-							"id":2
-							},
-							{
-							"link":"Artboard 10.png",
-							"id":3
-							}
-						]
-					} 
-					
-				]
-			},
+			} 
+		]},
 			{"title":"Conclusion",
 				"image-sections":[
 					{"title":"Final Design",
-						"list":[],
+						"blurb":"",
+						"listPair":[{"1. Removal of Current vs. Proposed Concept":"Emphaiss on the advice and recommendations provided."},
+							{"2. Emphasis of retirement readiness metric":"While already on the first page, we made it take more space to give it the same importance users were giving it"},
+							{"3. Improved Contribution Details":"As this is one of the few things a user has control over, we gave more details to allow users to maximize their potential"},
+							{"4. Deemphasis of Portfolio":"Since the goal of the service is managed advice and adjusting your portfolio over time, we've removed the callouts to the Portfolio."}],
 						"image":"Frame 1.png"
 					},
 					{
