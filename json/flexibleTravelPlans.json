@@ -5,12 +5,21 @@
 		"project":"Flexible Travel Planning",
 		"subtitle":"How can we help travelers follow and adjust their itineraries on the go?",
 		"image":"/projBlurbs/tripsyTitle.png",
+		"summary":{
+			"title":"Summary",
+			"blurb":"While the internet provides a plethora of suggestions on where to eat and what to see, travel planners do not have a good way of consolidating the information, instead using a combination of different applications to meet their needs. Our solution explores how we can combine the differing uses of each application into a single platform for travel planning while avoiding feature bloat and keeping in mind a viable monetization strategy. ",
+			"list":[
+				"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.",
+				"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.",
+				"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to "
+			]
+		},
 		"overview":[
 			{"Context: ":"10 weeks/4 person team"},
 			{"Role: ":"Product Strategist, Qualitative Researcher, UI Designer"},
 			{"Tools: ":"Interviews, User Testing, Rapid Prototyping, Adobe XD"}
 		],
-		"problem":{"Problem Space":"While the internet provides a plethora of suggestions on where to eat and what to see, travel planners do not have a good way of consolidating the information, instead using a combination of different applications to meet their needs. Our solution explores how we can combine the differing uses of each application into a single platform for travel planning while avoiding feature bloat and keeping in mind a viable monetization strategy. "},
+
 		"category":[
 			{"title":"Research",
 			"image-sections":[
