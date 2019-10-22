@@ -14,23 +14,19 @@
 			{"Tools: ":"Requirements Gathering, Interviews, Usability Testing, Parallel Design Prototyping, Card Sort"}
 		],
 		"category":[
-			{"title":"Insights",
-				"image-sections":[
+			{"image-sections":[
 			{"list":[
 					"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.",
 					"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.",
 					"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to "
 				]
-			},{
-				"title":"Hello",
+			},
+			{"title":"Hello",
 				"list":[
 				"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.",
 				"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.",
 				"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to "
-			]
-			}]},
-			{"title":"Process",
-				"image-sections":[
+			]},
 			{"title":"Evaluating the Foundation",
 					
 			"blurb":"Using the existing version of this document as a basis, I created cards to represent the pieces of information to perform a hybrid card sort. This allowed me to see what information users were still interested in seeing and what gaps of information the current document did not fill. Below, you’ll see the existing version of this document with some notes overlaid. ",
@@ -66,22 +62,17 @@
 					"id":3
 					}
 				]
-			} 
-		]},
-			{"title":"Conclusion",
-				"image-sections":[
-					{"title":"Final Design",
-						"blurb":"",
-						"listPair":[{"1. Removal of Current vs. Proposed Concept":"Emphaiss on the advice and recommendations provided."},
-							{"2. Emphasis of retirement readiness metric":"While already on the first page, we made it take more space to give it the same importance users were giving it"},
-							{"3. Improved Contribution Details":"As this is one of the few things a user has control over, we gave more details to allow users to maximize their potential"},
-							{"4. Deemphasis of Portfolio":"Since the goal of the service is managed advice and adjusting your portfolio over time, we've removed the callouts to the Portfolio."}],
-						"image":"Frame 1.png"
-					},
-					{
-						"image":"Frame 2.png"
-					}
-				]
-			}
-		]
+			},
+		{"title":"Final Design",
+			"blurb":"",
+			"listPair":[{"1. Removal of Current vs. Proposed Concept":"Emphaiss on the advice and recommendations provided."},
+				{"2. Emphasis of retirement readiness metric":"While already on the first page, we made it take more space to give it the same importance users were giving it"},
+				{"3. Improved Contribution Details":"As this is one of the few things a user has control over, we gave more details to allow users to maximize their potential"},
+				{"4. Deemphasis of Portfolio":"Since the goal of the service is managed advice and adjusting your portfolio over time, we've removed the callouts to the Portfolio."}],
+			"image":"Frame 1.png"
+		},
+		{
+			"image":"Frame 2.png"
+		}
+	]}]
 }
