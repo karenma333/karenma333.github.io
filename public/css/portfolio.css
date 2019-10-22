@@ -27,10 +27,10 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 h1{
-  font-size:3em;
+  font-size:2em;
 }
 h2{
-  font-size: 2.25em;
+  font-size: 2em;
 }
 h3{
   font-size: 1.75em;
@@ -281,7 +281,6 @@ img{
 .catTitle h1{
   padding-bottom:0.5em;
   padding-top:1em;
-  font:;
 }
 .section img{
   display: block;
@@ -299,7 +298,7 @@ img{
 .baseSection{
   display:flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 .projImage img{
   margin-top: 2em;
@@ -329,7 +328,6 @@ img{
   padding-right: 20px;
 }
 .projSummary{
-  display:flex;
   align-items: center;
 }
 .projSummary span{

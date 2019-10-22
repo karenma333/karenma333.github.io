@@ -12,29 +12,22 @@
 	<div class = "col-lg-12 col-md-12 col-sm-12">
 		<img src="./public/images/{{image}}">
 	</div>
-	<div class="summary">
-		<div class = "section projSummary row">
-			<div class="projText col-lg-8 col-md-7 col-sm-12">
-				<div class="catTitle">
-					<h1>{{summary.title}}</h1>
-				</div>
+	<div class = "section projSummary">
+		<div class="catTitle">
+			<h1>{{summary.title}}</h1>
+		</div>
+		<div class = "row">
+			<div class="projText col-lg-7 col-md-7 col-sm-12">
 				<p>{{summary.blurb}}</p>
-				{{#if summary.list}}
-				<ol>
-					{{#each summary.list}}
-					<li>{{this}}</li>
-					{{/each}}
-				<ol>
-				{{/if}}
 			</div>
-			<div class = "col-lg-4 col-md-7 col-sm-12">
+			<div class = "col-lg-5 col-md-7 col-sm-12">
 				<ul>
-				{{#each overview}}
-					{{#each this}}
-						<li><span>{{@key}}</span>{{this}}</li>
+					{{#each overview}}
+						{{#each this}}
+							<li><span>{{@key}}</span>{{this}}</li>
+						{{/each}}
 					{{/each}}
-				{{/each}}
-			</ul>
+				</ul>
 			</div>	
 		</div>
 	</div>
