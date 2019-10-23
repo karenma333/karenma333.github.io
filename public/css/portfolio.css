@@ -27,10 +27,10 @@
   font-family: 'IBM Plex Sans', sans-serif;
 }
 h1{
-  font-size:2em;
+  font-size:2.25em;
 }
 h2{
-  font-size: 2em;
+  font-size: 1.75em;
 }
 h3{
   font-size: 1.75em;
@@ -201,7 +201,7 @@ ul{
   text-align: center; 
 }
 .project{
-  background-color:white;
+  background-color:#F89153;
   margin-bottom: 3em;
   margin-top: 2em;
   border: 2px solid #ffbb96;
@@ -216,13 +216,18 @@ ul{
 .project .projContent{
   display:flex;
   align-items: center;
-  background-color:white;
   padding-top: 0px;
   margin-top:100px;
 }
 
 .projContent span{
   font-weight: bold;
+}
+.projContent img,
+.projTitle{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 .project a{
   text-decoration: none;
@@ -237,6 +242,7 @@ ul{
 }
 .projTitle{
   padding-top: 10px;
+  background-color: white;
 }
 .projButton{
   align-items: center;
@@ -278,6 +284,7 @@ img{
 .subtitle h3,
 .catTitle h2{
   margin: 0px 0px 10px;
+  margin-top: 2em;
 }
 .catTitle h1{
   padding-bottom:0.5em;
@@ -303,7 +310,6 @@ img{
 }
 .projImage img{
   margin-top: 2em;
-  margin-bottom: 4em;
 }
 .summary img{
   margin-bottom:2em;

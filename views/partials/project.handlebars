@@ -14,7 +14,7 @@
 	</div>
 	<div class = "section projSummary">
 		<div class="catTitle">
-			<h1>{{summary.title}}</h1>
+			<h2>{{summary.title}}</h2>
 		</div>
 		<div class = "row">
 			<div class="projText col-lg-7 col-md-7 col-sm-12">
@@ -35,11 +35,13 @@
 	{{#each image-sections}}
 	<div class = "section">
 		{{#if logo}}
+		{{#if ../title}}
 		<div class="catTitle">
 			{{#if @first}}
 			<h1> {{../title}}</h1>
 			{{/if}}
 		</div>
+		{{/if}}
 		<div class="row">
 			<div class="projText col-md-12">
 				<div class="catTitle">
@@ -50,12 +52,10 @@
 		</div>
 		{{else}}
 		<div class="baseSection">
+			{{#if title}}
 			<div class="projText">
 				<div class="catTitle">
-					{{#if @first}}
-					<h1> {{../title}}</h1>
-					{{/if}}
-					<h2>{{title}}</h2>
+					<h2> {{title}}</h2>
 				</div>
 				<p>{{blurb}}</p>
 				{{#if list}}
@@ -75,6 +75,7 @@
 				</ol>
 				{{/if}}
 			</div>
+			{{/if}}
 			<div class="projImage ">
 				{{#if image}}
 				<img src="./public/images/{{image}}" alt="">
