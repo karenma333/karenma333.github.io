@@ -8,19 +8,19 @@
 			"id": 0,
 			"image": "../TouchpointMap.png",
 			"title": "Investor Communications Framework",
-			"description":"Creating a framework to standardize the voice and feel of each investor communication touchpoint"
+			"description":"A framework to standardize and align investor communications"
 
 		},
 		{ 	"class":"project",
 			"id": 1,
 			"image": "../Frame 1.png",
 			"title": "Advice Proposal PDF",
-			"description":""
+			"description":"Investor Outreach document"
 		},
 		{ 	"class":"project",
 			"id": 2,
 			"image": "tripsyTitle.png",
-			"title": "Flexible Travel Planning",
+			"title": "Flexible Travel Planning Application",
 			"tag":"Selected Student Work",
 			"description":"An application for creating itineraries and adjusting them to on the go"
 
