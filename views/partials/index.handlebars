@@ -10,18 +10,19 @@
 	</div>
 	<div class="row">
 		{{#each projBlurbs}}
-		<div class = "col-lg-4 col-md-4 col-sm-12">
-		<div class="{{class}}" id = "{{id}}">
+		<div class = "col-lg-4 col-md-6 col-sm-12">
 			<a href="{{id}}.html" >
-				<div class= "projContent">
-					<img src="./public/images/projBlurbs/{{image}}">
+				<div class="{{class}}" id = "{{id}}">
+						<div class= "projContent">
+							<img src="./public/images/projBlurbs/{{image}}">
+						</div>
+						<div class="projTitle">
+							<h4>{{title}}</h4>
+							<p>{{description}}</p>
+					</div>
 				</div>
-				<div class="projTitle">
-					<h4>{{title}}</h4>
-					<p>{{description}}</p>
-			</div>
-			</a>
-		</div>
+			</a >
+
 	</div>
 		{{/each}}
 	</div>

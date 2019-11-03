@@ -3,7 +3,7 @@
 		"id":0,
 		"project":"Investor Communications Framework",
 		"subtitle":"How can we maintain a consistent identity across multiple investor touchpoints?",
-		"image":"/projBlurbs/Group.png",
+		"image":"/LayoutGuidelines.png",
 		"summary":{
 			"title":"Summary",
 			"blurb":"Due to the fact that a large part of the anticipated user base is expected to infrequently interact with the applicaton, communications to the users are a crucial part of their experience with the service. However, because each investor communication, from email correspondence to generated PDFs, had been designed individually by differing designers, a user's experience would be drastically different from one piece of communication to another. I took the opportunity to take a holistic look at all possible forms of communication to build out a thematic framework and suggested design language for all investor communications to follow.",

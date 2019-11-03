@@ -6,20 +6,20 @@
 		
 		{ 	"class":"project active",
 			"id": 0,
-			"image": "../TouchpointMap.png",
+			"image": "Group.png",
 			"title": "Investor Communications Framework",
 			"description":"A framework to standardize and align investor communications"
 
 		},
 		{ 	"class":"project",
 			"id": 1,
-			"image": "../Frame 1.png",
+			"image": "../blanks.png",
 			"title": "Advice Proposal PDF",
 			"description":"Investor Outreach document"
 		},
 		{ 	"class":"project",
 			"id": 2,
-			"image": "tripsyTitle.png",
+			"image": "phone.png",
 			"title": "Flexible Travel Planning Application",
 			"tag":"Selected Student Work",
 			"description":"An application for creating itineraries and adjusting them to on the go"
