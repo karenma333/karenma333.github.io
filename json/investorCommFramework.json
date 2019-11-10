@@ -19,6 +19,12 @@
 			{"Tools: ":"Requirements Gathering, Surveys"}
 		],
 		"category":[
+			{"title":"Process",
+				"list":[
+				"1. I gathered data to determine the needs and expectations different users have on our platform.",
+				"2. Based on this data, I drew out a touchpoint map to better understand where a user is at when they receive documentation.",
+				"3. The final deliverable for this project takes the form of a loose framework for building out new documents and revising old investor documents."
+			]},
 			{"title":"OUR TARGET AUDIENCE",
 				"image-sections":[
 					{"title":"Personas",
