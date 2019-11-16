@@ -1,12 +1,14 @@
 
 /* Style the navbar */
+.navigationBar{
+  display:flex;
+  justify-content: center;
+  padding-top: 15px;
+}
 #nav {
-  overflow: hidden;
+  padding-top: 20px;
   background-color: white;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 18px;
-  width: inherit;
+  width:100%;
 }
 /* Navbar links */
 #nav #menu a {
@@ -74,11 +76,10 @@ a:hover{
 .sticky {
   position: fixed;
   top: 0;
-  left:0;
   z-index: 1000;
 }
 .navshadow{
-  box-shadow: 0px 1px 15px #FDE9DE;
+  box-shadow: 0px 1px 15px -10px #FDE9DE;
 }
 body{
   font-family:'IBM Plex Sans',sans-serif;
@@ -97,7 +98,6 @@ body .content{
   margin-top: 20px;
   display:flex;
   justify-content: space-between;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -113,7 +113,7 @@ body .content{
 
 /*HOME PAGE*/
 .homeContent{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .subtitle{
@@ -243,8 +243,12 @@ img{
   padding-bottom:3em;
   margin-bottom: 1em;
 }
-#name h1{
-  text-align: center;
+
+#name{
+  float:left;
+}
+#menu{
+  float:right;
 }
 .subtitle h3,
 .catTitle h2{
@@ -320,9 +324,15 @@ img{
   border-radius: 15%;
 }
 
-@media 1321{
+@media screen and (min-width:1321px){
   body .content,
   .footer{
     width:100%;
+  }
+}
+@media screen and (max-width:1000px){
+  #name{
+    text-align: right;
+    float:right
   }
 }
