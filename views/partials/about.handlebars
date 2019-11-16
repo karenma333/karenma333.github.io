@@ -1,0 +1,12 @@
+	<div class="row section " id = "about">
+		<div class = "col-md-5 col-sm-12">
+			<img  src="./public/images/{{about.image}}">
+		</div>
+			<div class="col-md-7 col-sm-12">
+				<h1 class="textLine">About Me</h1>
+				{{#each about.summary}}
+				<p>{{this}}</p>
+				{{/each}}
+				<a href ="./public/resumeKarenMa.pdf" target="_blank">Resume</a>
+			</div>
+		</div>
