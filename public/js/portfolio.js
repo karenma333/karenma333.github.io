@@ -21,7 +21,8 @@ $(document).ready(function() {
       section = $(this).attr("href");
       window.location.href = section;    
     }   
-    else{
+    //if not on section
+    else if($(this).attr("name")){
       var section = $(this).attr("name");
       $("html, body").animate({
         scrollTop: $(section).offset().top - 100
