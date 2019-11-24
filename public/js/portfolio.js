@@ -17,12 +17,16 @@ $(document).ready(function() {
     var home = "/";
     var index = "/index.html"
     var section;
+    //if we're not on the home page
     if(!(window.location.pathname == home) && !(window.location.pathname == index) ){
+      console.log(!(window.location.pathname == home))
       section = $(this).attr("href");
-      window.location.href = section;    
+      window.location.href = section;
+      console.log(section);    
     }   
     //if not on section
     else if($(this).attr("name")){
+      console.log("on the right place!");
       var section = $(this).attr("name");
       $("html, body").animate({
         scrollTop: $(section).offset().top - 100
