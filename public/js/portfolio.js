@@ -16,13 +16,11 @@ $(document).ready(function() {
     var home = "/";
     var index = "/index.html"
     var section;
-    if((window.location.pathname == home) || (window.location.pathname == index) ){
-      if($(this).attr("name")){
+    if(((window.location.pathname == home) || (window.location.pathname == index)) && $(this).attr("name")){
         var section = $(this).attr("name");
         $("html, body").animate({
           scrollTop: $(section).offset().top - 100
         }, 'slow');
-        }
     }   
     else{
       section = $(this).attr("href");
