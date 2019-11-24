@@ -17,7 +17,7 @@ $(document).ready(function() {
     var index = "/index.html"
     var section;
     if((window.location.pathname == home) || (window.location.pathname == index) ){
-      if($(this).attr("name"){
+      if($(this).attr("name")){
         var section = $(this).attr("name");
         $("html, body").animate({
           scrollTop: $(section).offset().top - 100
