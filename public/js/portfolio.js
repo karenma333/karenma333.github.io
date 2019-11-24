@@ -18,9 +18,9 @@ $(document).ready(function() {
     var section;
     if((window.location.pathname == home) || (window.location.pathname == index) ){
       if($(this).attr("name")){
-        /*var section = $(this).attr("name");*/
+        var section = $(this).attr("name");
         $("html, body").animate({
-          scrollTop: $("#0").offset().top - 100
+          scrollTop: $(section).offset().top - 100
         }, 'slow');
         }
     }   
