@@ -2,45 +2,43 @@
 		"template":"project",
 		"id":1,
 		"project":"Investor Communications Framework",
-		"subtitle":"How can we maintain a consistent identity across multiple investor touchpoints?",
-		"image":"/LayoutGuidelines.png",
+		"subtitle":"Conveying Personalization to Investors",
+		"image":"TouchpointMap.png",
 		"summary":{
 			"title":"SUMMARY",
-			"blurb":"Due to the fact that a large part of the anticipated user base is expected to infrequently interact with the applicaton, communications to the users are a crucial part of their experience with the service. However, because each investor communication, from email correspondence to generated PDFs, had been designed individually by differing designers, a user's experience would be drastically different from one piece of communication to another. I took the opportunity to take a holistic look at all possible forms of communication to build out a thematic framework and suggested design language for all investor communications to follow.",
-			"list":[
-				"1. I conducted a series of hybrid card sorts to gain an understanding of what users were looking for when evaluating their retirement planning strategy.",
-				"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.",
-				"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to "
-			]
+			"blurb":"Because the anticipated user base is expected to interact infrequently with the service, communication to users is a crucial part of the experience. Communication to investors is a key differentiation factor to convey the management and personalization value-add of our product."
 		},
 		"overview":[
 			{"Context: ": "Sole Designer"},
-			{"Role: ":"Designer, Qualitative Researcher"},
-			{"Tools: ":"Requirements Gathering, Surveys"}
+			{"Role: ":"Strategist, Designer, Qualitative Researcher"},
+			{"Tools: ":"Requirements Gathering, Surveys, Documentation, Socialization"}
 		],
 		"category":[
-			{"title":"Process",
+			{"image-sections":[
+				{"title":"Process",
 				"list":[
 				"1. I gathered data to determine the needs and expectations different users have on our platform.",
-				"2. Based on this data, I drew out a touchpoint map to better understand where a user is at when they receive documentation.",
-				"3. The final deliverable for this project takes the form of a loose framework for building out new documents and revising old investor documents."
+				"2. Based on this data, I drew out a touchpoint map to better understand when and where user's currently receive commmunication.",
+				"3. The final deliverable for this project takes the form of a loose framework for building out new documents.",
+				"4. This research also provides the basis to explore new forms of communication that can be used to build out investor relationships based on the touchpoint mapping."
+				]}
 			]},
-			{"title":"OUR TARGET AUDIENCE",
-				"image-sections":[
-					{"title":"Personas",
-				"blurb":"By supplementing existing survey results with additional targeted questions focused towards the way employer-sponsored retirement services communicate with users, I created three personas representative of the product’s target audience. These personas needed to account for the range of investment knowledge and retirement planning prioritization levels as anyone could have a retirement account. Such a broad audience meant that I targeted designing for the extremes as a method to improve overall user accommodation.",
+		{"title":"OUR TARGET AUDIENCE",
+			"image-sections":[
+				{"title":"Personas",
+				"blurb":"By supplementing existing research with additional targeted surveys focused towards the way employer-sponsored retirement services communicate with users, I created three personas representative of the product’s target audience. These personas needed to account for the range of investment knowledge and retirement planning prioritization levels as anyone could have a retirement account. Such a broad audience meant that I targeted designing for the extremes as a method to improve overall user accommodation.",
 				"image":"Personas.png"
 				},
 				{"title":"Touchpoint Map",
-					"blurb":"Not only is the target user base wide, users also have a multitude of paths with which to interact with the application. By mapping the three most likely user journeys, I was able to examine the touchpoints and scenarios each document might be viewed from. This allows me to ensure the document can serve the varied situations it is required to perform within.",
+					"blurb":"Not only is the target user base wide, users also have a multitude of paths with which to interact with the application. By mapping the three most likely user journeys, I was able to examine the touchpoints and scenarios each existing document might be viewed from. This allows me to review the way current communications are being received and highlighted potential gaps in communication.",
 					"image":"TouchpointMap.png"
-			}
+				}
 			]
 		},
 		{"title":"FINAL FRAMEWORK",
 			"image-sections":[
-				{"title":"Thematic Content Guidelines",
-				"blurb":"With each opportunity to communicate with an investor, there are three themes to leverage in creation of the content, such as the copy and messaging.",
+				{"title":"Thematic Guidelines",
+				"blurb":"With each opportunity to communicate with an investor, there are three themes to leverage in determining whether or not a new communication is necessary.",
 				"listPair":[
 					{"1. Remind the user of the service.":" Since part of the user base is unlikely to interact frequently with our service, we need to reiterate the purpose of the service with each touchpoint."},
 					{"2. Reiterate the value of the service.":" The true value of managed advice is the long term benefits. A reminder to this effect aims to dissuade hasty decisions based on short-term results."},

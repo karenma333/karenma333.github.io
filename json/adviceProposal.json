@@ -21,15 +21,12 @@
 				"2. This research formed a basis for me to negotiate internal stakeholder requirements and technical limitations to come up with clear requirements and visual design constraints.",
 				"3. To encourage diversity of designs, we ran A/B preference tests alongside usability tests to confirm readability and visual preferences."
 			]},
-			{"title":"Evaluating the Foundation",
-					
+			{"title":"Evaluating the Foundation",			
 			"blurb":"Using the existing version of this document as a basis, I created cards to represent the pieces of information to perform a hybrid card sort. This allowed me to see what information users were still interested in seeing and what gaps of information the current document did not fill. Below, you’ll see the existing version of this document with some notes overlaid. ",
 			"image":"currP1.png"
 			},
 			{
 				"image":"currP2.png"
-				
-				
 			},
 			{"title":"Divergent Designs",
 				"blurb":"The card sort results combined with internal stakeholder needs informed the content of this document. From there, we mocked-up multiple visuals of the PDF. Using these visuals we performed a series of usability tests as well as A/B preference tests to help us converge into our final design.",
