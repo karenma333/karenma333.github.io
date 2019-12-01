@@ -333,14 +333,28 @@ img{
 
 @media screen and (min-width:1321px){
   body .content,
-  .footer div{
+  .footer{
     width:100%;
   }
 }
-@media screen and (max-width:400px){
-  #name{
-    text-align: right;
-    float:right;
+@media screen and (max-width:550px){
+  .footer div{
     width:100%;
+    text-align: center;
+  }
+  .footer span{
+    line-height: 15px;
+  }
+  .footer{
+    display:block;
+  }
+}
+@media screen and (max-width:400px){
+  #name, #menu{
+    text-align: center;
+    float:none;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
   }
 }
