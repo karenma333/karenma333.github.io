@@ -333,13 +333,14 @@ img{
 
 @media screen and (min-width:1321px){
   body .content,
-  .footer{
+  .footer div{
     width:100%;
   }
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:400px){
   #name{
     text-align: right;
-    float:right
+    float:right;
+    width:100%;
   }
 }
