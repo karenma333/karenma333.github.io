@@ -8,14 +8,14 @@
 			"id": 1,
 			"image": "Group.png",
 			"title": "Investor Communications Framework",
-			"description":"A framework to standardize and align investor communications"
+			"description":"A framework for creating a communication journey that conveys personalization to users. "
 
 		},
 		{ 	"class":"project",
 			"id": 2,
 			"image": "../blanks.png",
 			"title": "Advice Proposal PDF",
-			"description":"Investor Outreach document"
+			"description":"A concise document to summarize our product's key values."
 		},
 		{ 	"class":"project",
 			"id": 3,
