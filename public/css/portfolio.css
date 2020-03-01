@@ -38,34 +38,36 @@ li span, h4{
 .projButton,
 #nav #menu a,
 .footer a{
-  color:#F89153;
+  color:#e05a00;
 }
 #about a,
 .project:hover .projButton{
-  background-color:#F89153;
+  background-color:#e05a00;
   color:white;
 }
 
 .footer a:hover span,
 #nav #menu a:hover
 {
-  color:#F5670F;
+  color:#e05a00;
 }
-body,
-a,
-a:hover{
+body{
   color:#474747;
+}
+body a,
+body a:hover{
+  color:#3b6187;
 }
 .catTitle h1, 
 .catTitle h2,
 .skill h2, 
 .workContent h4,
 .workContent h3{
-  color:#4c7cad;
+  color:#3b6187;
 }
 
 .summary, .skill, .workContent{
-  background-color:#F0f8ff;
+  background-color::#e05a00;
 }
 .skill h2, .skill ul{
     padding-left:10px;
