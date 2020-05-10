@@ -1,7 +1,9 @@
+/*Generic Styles*/
 body{
   font-family: Raleway;
   background-color:#FFFFFB;
   color:#303342;
+  margin-top: 6em;
 }
 p{
   font-family: Lora;
@@ -10,6 +12,7 @@ p{
 }
 h1{
   font-size: 36px;
+  color:#667962;
 }
 h2{
   font-size:24px;
@@ -28,6 +31,9 @@ h5{
   font-size:14px;
   font-variant:small-caps;
 }
+a{
+  color:inherit;
+}
 .link{
   color:#B36348;
 }
@@ -37,7 +43,13 @@ h5{
 .background{
   background-color:#C2D2DB;
 }
-.footer a , span{
+/*Footer*/
+.footerwrap{
+  position: absolute;
+  bottom:0;
+  width:100%;
+}
+.footer a,span{
   color:white;
 }
 .footer{
@@ -45,4 +57,16 @@ h5{
   justify-content: space-evenly;
   padding-top:25px;
   padding-bottom:25px;
+}
+/*Photos*/
+.half_photo{
+  border: 1px solid #303342;
+  padding:30px;
+  border-radius:2px;
+}
+.half_photo img{
+  border: 1px solid #303342;
+  border-radius:2px;
+  max-width: 100%;
+  height:auto;
 }

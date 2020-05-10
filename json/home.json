@@ -7,20 +7,20 @@
 		{ 	"class":"project active",
 			"id": 1,
 			"image": "Group.png",
-			"title": "Investor Communications Framework",
+			"title": "investor communications framework",
 			"description":"A framework for creating a communication journey that conveys personalization to users. "
 
 		},
 		{ 	"class":"project",
 			"id": 2,
 			"image": "../blanks.png",
-			"title": "Advice Proposal PDF",
+			"title": "advice proposal pdf",
 			"description":"A concise document to summarize our product's key values."
 		},
 		{ 	"class":"project",
 			"id": 3,
 			"image": "phone.png",
-			"title": "Flexible Travel Planning Application",
+			"title": "flexible travel planning application",
 			"tag":"Selected Student Work",
 			"description":"An application for creating itineraries and adjusting them to on the go"
 
