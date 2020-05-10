@@ -45,14 +45,14 @@ a{
 }
 /*Footer*/
 .footerwrap{
-  position: absolute;
-  bottom:0;
+
   width:100%;
 }
 .footer a,span{
   color:white;
 }
 .footer{
+  margin-top: 6em;
   display:flex;
   justify-content: space-evenly;
   padding-top:25px;
@@ -69,4 +69,11 @@ a{
   border-radius:2px;
   max-width: 100%;
   height:auto;
+}
+/*Home Page*/
+.read_more{
+  text-decoration: underline;
+}
+.about{
+  padding-right:65px;
 }
