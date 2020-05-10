@@ -1,362 +1,48 @@
-
-/* Style the navbar */
-.navigationBar{
-  display:flex;
-  justify-content: center;
-  padding-top: 15px;
+body{
+  font-family: Raleway;
+  background-color:#FFFFFB;
+  color:#303342;
 }
-#nav {
-  padding-top: 20px;
-  background-color: white;
-  width:100%;
-}
-/* Navbar links */
-#nav #menu a {
-  float: left;
-  color: inherit;
-  text-align: center;
-  padding: 0px 14px 14px 14px;
-  text-decoration: none;
-}
-#nav #menu a,
-#top{
-  margin-bottom: 0px !important;
-  font-size: 1.25em;
+p{
+  font-family: Lora;
+  font-size: 16px;
+  line-height: 24px;
 }
 h1{
-  font-size:2.25em;
+  font-size: 36px;
 }
 h2{
-  font-size: 1.75em;
+  font-size:24px;
+  font-variant:small-caps;
 }
 h3{
-  font-size: 1.25em;
+  font-size: 24px;
+  font-variant:small-caps;
 }
-li span, h4{
-  font-size: 1.125em;
+h4{
+  font-size:16;
+  font-weight: 550;
+  font-variant: small-caps;
 }
-.projButton,
-#nav #menu a,
-.footer a{
-  color:#e05a00;
+h5{
+  font-size:14px;
+  font-variant:small-caps;
 }
-#about a,
-.project:hover .projButton{
-  background-color:#e05a00;
+.link{
+  color:#B36348;
+}
+.secondary{
+  background-color:#667962;
+}
+.background{
+  background-color:#C2D2DB;
+}
+.footer a , span{
   color:white;
 }
-
-.footer a:hover span,
-#nav #menu a:hover
-{
-  color:#e05a00;
-}
-body{
-  color:#474747;
-}
-body a,
-body a:hover{
-  color:#3b6187;
-}
-.catTitle h1, 
-.catTitle h2,
-.skill h2, 
-.workContent h4,
-.workContent h3{
-  color:#3b6187;
-}
-
-.summary, .skill, .workContent{
-  background-color::#e05a00;
-}
-.skill h2, .skill ul{
-    padding-left:10px;
-
-}
-
-#menu a p{
-  margin: auto;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
-.navshadow{
-  box-shadow: 0px 1px 15px -10px #FDE9DE;
-}
-body{
-  font-family:'IBM Plex Sans',sans-serif;
-  background-color: white;
-  font-size: 16px;
-}
-body .content{
-	width: 70%;
-	margin-left:auto;
-	margin-right: auto;
-}
-
-/*footer CSS*/
 .footer{
-	height:6em;
-  margin-top: 20px;
   display:flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
-}
-.footer span{
-  text-decoration: none;
-  line-height: 8em;
-  font-size: 0.8em;
-}
-.footer a{
-  text-decoration: none;
-}
-
-
-/*HOME PAGE*/
-.homeContent{
-  margin-top: 6em;
-}
-.intro{
-  padding-left: 0px;
-}
-.subtitle{
-  text-align:center;
-  overflow:hidden;
-}
-
-ul{
-  list-style-type: none;
-  padding:0px;
-}
-.workContent{
-  width:100%;
-  padding: 15px;
-  padding-left:2em;
-  margin-bottom: 3em;
-  
-}
-.workDesc{
-  display:flex;
-  justify-content: space-around;
-}
-.workContent h3{
-  padding-bottom: 20px;
-}
-/*About Section*/
-.circle{
-  border-radius: 50%;
-}
-.row{
-  margin-top: 40px;
-}
-#about{
-  display: flex;
-  align-items: center;
-}
-#about a{
-  padding:10px;
-  text-decoration: none;
-  border-radius: 5px;
-
-}
-#about a:hover{
-  box-shadow: 0px 0px 5px #ffbb96;
-}
-.textLine{
-  text-align: left;
-  padding-bottom: 20px;
-}
-/*Project Page*/
-.slideshow{
-  display:flex;
-}
-.tag p{
-  background-color:#8FD694;
-  padding: 10px;
-  border-radius: 5px;
-
-}
-.tag{
-  margin: 20px auto;
-  text-align: center; 
-}
-.project{
-  background-color:#F89153;
-  margin-bottom: 3em;
-  margin-top: 2em;
-  border-radius: 3px;
-  box-shadow: 0px 1px 15px #FDE9DE;
-  min-height: 400px;
-  display:flex;
-  flex-direction: column;
-  align-items: flex-end;
-  flex-flow:wrap;
-}
-.project .row{
-  margin: 0 0 0 0 !important;
-}
-img,
-.projTitle{
-  padding: 15px 15px 15px 15px;
-  border-radius: 0px 0px 3px 3px;
-  width:100%;
-}
-.project:hover{
-  box-shadow: 0px 1px 15px #ffbb96;
-}
-.project h1{
-  margin-top:10px;
-  margin-left:10px;
-}
-.projTitle{
-  padding-top: 10px;
-  background-color: white;
-  min-height: 150px;
-}
-.projButton{
-  align-items: center;
-  text-align: center;
-  padding:0px 0px 0px 0px;
-  width:100%;
-  height:71px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  margin-top: 1em;
-}
-.projButton p{
-  line-height: 68px;
-  text-decoration: underline;
-}
-.image{
-  height:100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-img{
-  object-fit: contain;
-  max-height:500px;
-  max-width: 100%;
-}
-.summary{
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  padding: 10px;
-  padding-bottom:3em;
-  margin-bottom: 1em;
-}
-
-#name{
-  float:left;
-}
-#menu{
-  float:right;
-}
-.subtitle h3,
-.catTitle h2{
-  margin: 0px 0px 10px;
-  margin-top: 2em;
-}
-.catTitle h1{
-  padding-bottom:0.5em;
-  padding-top:1em;
-}
-.section img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-.section p,
-.projText p,
-.section ol
-{
-  max-width:700px;
-  list-style-type: none;
-}
-.baseSection{
-  display:flex;
-  flex-direction: column;
-  align-items: left;
-}
-.projImage img{
-  margin-top: 2em;
-}
-.summary img{
-  margin-bottom:2em;
-}
-.summary ul li{
-  padding-bottom: 1em;
-}
-.summary .projSummary{
-  margin-top:30px;
-}
-.summary img, .summary h1{
-  margin-top: 0px;
-  padding-top: 0px;
-}
-.projText ol li{
-  margin-bottom: 10px;
-}
-.listPair{
-  padding-left: 0px;
-}
-.section{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.projSummary{
-  align-items: center;
-}
-.projSummary span{
-  font-weight: bolder;
-}
-.projectTitle{
-  text-align: center;
-  padding-top: 2em;
-}
-/*Override Carousel Controls*/
-.carousel a div{
-  min-width: 50px;
-  min-height: 40px;
-  background-color: #a0a0a0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 15%;
-}
-
-@media screen and (min-width:1321px){
-  body .content,
-  .footer{
-    width:100%;
-  }
-}
-@media screen and (max-width:550px){
-  .footer div{
-    width:100%;
-    text-align: center;
-  }
-  .footer span{
-    line-height: 15px;
-  }
-  .footer{
-    display:block;
-  }
-}
-@media screen and (max-width:400px){
-  #name, #menu{
-    text-align: center;
-    float:none;
-    margin:auto;
-    display:flex;
-    justify-content: space-around;
-  }
+  justify-content: space-evenly;
+  padding-top:25px;
+  padding-bottom:25px;
 }
