@@ -1,126 +1,29 @@
 <!doctype html>
-	<div class = "projectTitle">
-		<h1>{{project}}</h1>
+	<div>
+	<a href="javascript:history.back()" class="link"><h3><- BACK</h3></a>
 	</div>
-	<div id = "description">
-		<div class="subtitle">
-			<p>{{subtitle}}</p>
+	<div class="proj_title">
+		<h1>{{project}}</h1>
+		<div class="proj_details">
+			<h5>ROLE: DESIGNER TIME FRAME: 4 WEEKS</h5>
+			<h5>ROLE: DESIGNER TIME FRAME: 4 WEEKS</h5>
 		</div>
 	</div>
-	<div class = "col-lg-12 col-md-12 col-sm-12">
+	<div class="background full_photo">
 		<img src="./public/images/{{image}}">
 	</div>
-	<div class = "section projSummary">
-		<div class="catTitle">
-			<h2>{{summary.title}}</h2>
+	<h4>design process</h4>
+	<div class="row">
+		<div class="col-lg-5">	
+			<h3> THE SOLUTION </h3>
 		</div>
-		<div class = "row">
-			<div class="projText col-lg-7 col-md-7 col-sm-12">
-				<p>{{summary.blurb}}</p>
-			</div>
-			<div class = "col-lg-5 col-md-7 col-sm-12">
-				<ul>
-					{{#each overview}}
-						{{#each this}}
-							<li><span>{{@key}}</span>{{this}}</li>
-						{{/each}}
-					{{/each}}
-				</ul>
-			</div>	
+		<div class="col-lg-7">
+			<p>paragraph of content here In reviewing the product line I was working on, enrollment rates were not as high as anticipated. 
+Upon investigation:
+- Looking at the existing web analytics, drop off rates during part of the enrollment flow were up to 60%
+- When asking customer feedback, we also learned that users were discouraged because they did not how far along the flow they were. 
+- Sometimes, issues with user flow. leading to users feeling overwhelmed by the number of steps. Feeling like there was no payoff in sight.
+</p>
 		</div>
 	</div>
-	{{#each category}}
-	{{#each image-sections}}
-	<div class = "section">
-		{{#if logo}}
-		{{#if ../title}}
-		<div class="catTitle">
-			{{#if @first}}
-			<h1> {{../title}}</h1>
-			{{/if}}
-		</div>
-		{{/if}}
-		<div class="row">
-			<div class="projText col-md-12">
-				<div class="catTitle">
-					<h2>{{title}}</h2>
-				</div>
-				<p>{{blurb}}</p>
-			</div>
-		</div>
-		{{else}}
-		<div class="baseSection">
-			{{#if title}}
-			<div class="projText">
-				<div class="catTitle">
-					<h2> {{title}}</h2>
-				</div>
-				<p>{{blurb}}</p>
-				{{#if list}}
-				<ol>
-					{{#each list}}
-					<li>{{this}}</li>
-					{{/each}}
-				<ol>
-				{{/if}}
-				{{#if listPair}}
-				<ol class = "listPair">
-					{{#each listPair}}
-					{{#each this}}
-					<li><span>{{@key}}</span><br>{{this}}</li>
-					{{/each}}
-					{{/each}}
-				</ol>
-				{{/if}}
-			</div>
-			{{/if}}
-			<div class="projImage ">
-				{{#if image}}
-				<img src="./public/images/{{image}}" alt="">
-				{{/if}}
-			</div>
-		</div>
-		{{/if}}
-		{{{code}}}
-		{{#if carousel}}
-		<div id="projCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-			<ol class="carousel-indicators">
-				{{#each carousel}}
-				{{#if @first}}
-				<li data-target="#projCarousel" data-slide-to="{{this.id}}" class="active"></li>
-				{{else}}
-				<li data-target="#projCarousel" data-slide-to="{{this.id}}"></li>
-				{{/if}}
-				{{/each}}
-			</ol>
-			<div class="carousel-inner">
-				{{#each carousel}}
-				{{#if @first}}
-				<div class = "carousel-item active" id="{{this.id}}">
-					<img class= "d-block w-100" src="./public/images/{{this.link}}">
-				</div>
-				{{else}}
-				<div class = "carousel-item" id="{{this.id}}">
-					<img class= "d-block w-100" src="./public/images/{{this.link}}">
-				</div>
-				{{/if}}
-				{{/each}}
-			</div>
-		    <a class="carousel-control-prev" href="#projCarousel" role="button" data-slide="prev">
-		    	<div>
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				      <span class="sr-only">Previous</span>
-				  </div>
-		    </a>
-		    <a class="carousel-control-next" href="#projCarousel" role="button" data-slide="next">
-		      <div>
-		      	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		      	<span class="sr-only">Next</span>
-		      </div>
-		    </a>	
-		</div>
-		{{/if}}
-	</div>
-	{{/each}}
-	{{/each}}
 
