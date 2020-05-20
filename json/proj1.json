@@ -1,0 +1,29 @@
+{
+		"template":"project",
+		"id":2,
+		"project":"Advice Proposal PDF",
+		"subtitle":"How can we summarize our service into one document?",
+		"image":"/splashImage.png",
+		"summary":{
+			"title":"Summary",
+			"blurb":"At any point in a user's interaction with the managed accounts platform, they can view a pdf snapshot of their account. The wide variety of user states and scenarios means this document needs to be multi-functional without being overwhelming with information."
+		},
+		"overview":[
+			{"Context: ": "Team of 3 Designers"},
+			{"Role: ":"Lead Designer, Qualitative Researcher"},
+			{"Tools: ":"Requirements Gathering, Interviews, Usability Testing, Parallel Design Prototyping, Card Sort"}
+		],
+		"category":[
+			{"Title":"DESIGN OPPORTUNITY",
+			"Paragraph":"Working in a product area where users tend to have a “set it or forget it” attitude. As the product was receiving a facelift and moving to a new framework, it seemed like a good idea to revisit our idea of participant communications."
+			},
+			{"Title":"GOALS",
+			"Paragraph":"Increase user awareness of product and make them feel involved. Break down complex concepts to be consumable by quick updates. Increase quality of data and subsequent product improved with better user data. ",
+			"image":"/temp.png"},
+			{
+			"Title":"USER RESEARCH",
+			"Paragraph":"To gather more data on habits of users, I sent out some surveys to ask about their habits when it came to: 1. How often do they check on their accounts?2. How often do they update information?3. What information are they checking for. "
+			}
+			]
+		
+}

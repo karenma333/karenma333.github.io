@@ -113,3 +113,10 @@ a:hover .read_more, .read_more:hover{
   padding-right: 10px;
   padding-left:10px;
 }
+
+/*Responsiveness*/
+@media screen and (min-width: 1200px){
+body .homeContent{ 
+    max-width: 925px;
+}
+}

@@ -13,17 +13,18 @@
 		<img src="./public/images/{{image}}">
 	</div>
 	<h4>design process</h4>
+	{{#each category}}
 	<div class="row">
 		<div class="col-lg-5">	
-			<h3> THE SOLUTION </h3>
+			<h3> {{Title}}</h3>
 		</div>
 		<div class="col-lg-7">
-			<p>paragraph of content here In reviewing the product line I was working on, enrollment rates were not as high as anticipated. 
-Upon investigation:
-- Looking at the existing web analytics, drop off rates during part of the enrollment flow were up to 60%
-- When asking customer feedback, we also learned that users were discouraged because they did not how far along the flow they were. 
-- Sometimes, issues with user flow. leading to users feeling overwhelmed by the number of steps. Feeling like there was no payoff in sight.
-</p>
+			<p>{{Paragraph}}</p>
 		</div>
+		{{#if image}}
+		<div class="background full_photo">
+			<img src="./public/images/{{image}}">
+		</div>
+		{{/if}}
 	</div>
-
+	{{/each}}
