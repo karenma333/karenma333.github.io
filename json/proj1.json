@@ -1,28 +1,34 @@
 {
 		"template":"project",
 		"id":2,
-		"project":"Advice Proposal PDF",
-		"subtitle":"How can we summarize our service into one document?",
-		"image":"/splashImage.png",
-		"summary":{
-			"title":"Summary",
-			"blurb":"At any point in a user's interaction with the managed accounts platform, they can view a pdf snapshot of their account. The wide variety of user states and scenarios means this document needs to be multi-functional without being overwhelming with information."
-		},
+		"project":"Increasing User Engagement",
 		"overview":[
-			{"Context: ": "Team of 3 Designers"},
-			{"Role: ":"Lead Designer, Qualitative Researcher"},
-			{"Tools: ":"Requirements Gathering, Interviews, Usability Testing, Parallel Design Prototyping, Card Sort"}
+			{"Context: ": "team size: 1"},
+			{"Role: ":"role: product & design"},
+			{"Tools: ":"skillset: ux research/design, service design"}
 		],
 		"category":[
-			{"Title":"DESIGN OPPORTUNITY",
-			"Paragraph":"Working in a product area where users tend to have a “set it or forget it” attitude. As the product was receiving a facelift and moving to a new framework, it seemed like a good idea to revisit our idea of participant communications."
+			{"Title":"PRODUCT OPPORTUNITY",
+			"Paragraph":"In this general design space, users tend to interact infrequently with the service. As the product offering was receiving a facelift and receiving a visual refresh, I took advantage of this time to revisit the idea of participant communications. Since the existing formats would not be visually consistent with the new design identity and would need to be redesigned anyway, I spent time evaluating the goals and intentions of each communication to ensure it was still playing the intended role.",
+					"image":"/temp3.png"
 			},
-			{"Title":"GOALS",
-			"Paragraph":"Increase user awareness of product and make them feel involved. Break down complex concepts to be consumable by quick updates. Increase quality of data and subsequent product improved with better user data. ",
-			"image":"/temp.png"},
+			{"Group":"design process",
+			"Title":"GOALS",
+			"Paragraph":"I took a look at both email communications to users as well as provided documents. Having improved participant communications would increase the value-add of the product as a business, letting users feel like they are receiving more services from the product. Additionally, improving the personalization and targeted nature of the communications further improves the users experience with the service by notifying users when they are missing out on maximizing the quality of the service."
+			},
+			{"Title":"USER RESEARCH",
+			"Paragraph":"As mentioned earlier, users tend to interact infrequently with this product area. To get a more real-world picture of exactly what that meant, I surveyed our target audience for qualitative and quantitative data concerning their habits. Since our product requires up-to-date information on the user to function best, the surveys focused on what prompted users to log into their accounts and what/how often they updated personal information on their accounts. These insights were used to inform a journey map of one segment of our target audience",
+				"image":"/temp2.png"
+			},
 			{
-			"Title":"USER RESEARCH",
-			"Paragraph":"To gather more data on habits of users, I sent out some surveys to ask about their habits when it came to: 1. How often do they check on their accounts?2. How often do they update information?3. What information are they checking for. "
+				"Group":"conclusion",
+			"Title":"FINAL SOLUTION",
+			"Paragraph":"Illustrated below in the service blueprint, I added two new communications: plan update and information update. For users who rarely checked on the progress of their plan, a regularly scheduled plan update document would provide insight on how they are tracking towards their end goal. Based on the user research, I distilled the key metrics that users were looking at into a 1 page infographic. As for the information update, users who were detected to be missing crucial information would be notified of the impact on the product and invited to review any existing defaults.",
+			"image":"/temp.png"
+			},
+			{
+			"Title":"MEASURING SUCCESS",
+			"Paragraph":"Measuring the success of this feature requires a mixture of user analytics on both the application and the communication outreach. While we cannot directly measure if more users are feeling the benefit of personalized service, an increase in the number of users opening and/or clicking through an email to enter the application would indicate an improvement in the usefulness of our emails to users. Likewise, tracking the percentage of users who make updates to their plan before and after the release of this feature would indicate success."
 			}
 			]
 		

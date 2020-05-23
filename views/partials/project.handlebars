@@ -5,15 +5,18 @@
 	<div class="proj_title">
 		<h1>{{project}}</h1>
 		<div class="proj_details">
-			<h5>ROLE: DESIGNER TIME FRAME: 4 WEEKS</h5>
-			<h5>ROLE: DESIGNER TIME FRAME: 4 WEEKS</h5>
+			{{#each overview}}
+			{{#each this}}
+			<h5>{{this}}</h5>
+			{{/each}}
+			{{/each}}
 		</div>
 	</div>
-	<div class="background full_photo">
-		<img src="./public/images/{{image}}">
-	</div>
-	<h4>design process</h4>
 	{{#each category}}
+	<div class ="paragraph">
+		{{#if Group}}
+		<h4>{{Group}}</h4>
+		{{/if}}
 	<div class="row">
 		<div class="col-lg-5">	
 			<h3> {{Title}}</h3>
@@ -27,4 +30,5 @@
 		</div>
 		{{/if}}
 	</div>
+</div>
 	{{/each}}
