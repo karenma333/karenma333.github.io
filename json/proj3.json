@@ -1,0 +1,40 @@
+{
+		"template":"project",
+		"id":3,
+		"project":"Travel Budgeting",
+		"overview":[
+			{"Context: ": "team size: 4"},
+			{"Role: ":"role: product & design"},
+			{"Tools: ":"skillset: ux research/design"}
+		],
+		"category":[
+			{"Title":"PRODUCT OPPORTUNITY",
+			"Paragraph":"For many college students, budget is the limiting factor for everything when it comes to traveling (flights, hotels, etc.). Students in particular don’t really have a disposable income, so their budget is smaller and becomes a real obstacle to traveling. ",
+				"image":"/temp14.png"
+			},
+			{"Group":"design process",
+			"Title":"AFFINITY DIAGRAM",
+			"Paragraph":"This project started with an examination of the travel planning process. After asking students to step us through their typical travel planning process, we created an affinity diagram to consolidate our findings.",
+				"image":"/temp9.png"
+			},
+			{"Title":"MIND MAP",
+			"Paragraph":"From the affinity diagram, the initial conclusion was that users needed a better tool to make comparisons when booking travel. After conducting a comparative analysis, research indicated that plenty of comparison tools already exist on the market. In fact, the true issue lies within travel budgeting. Our target audience was conducting travel planning without a good gauge on what their budget looked like. ",
+				"image":"/temp10.png"
+			},
+			{"Title":"PERSONAS",
+			"Paragraph":"From this design pivot to focus on budgeting, I created a survey focused on travel budgeting habits and used the results to create three distinct personas to explore how budget impacts their travel behavior.",
+				"image":"/temp12.png"
+			},
+			{"Title":"USER TESTING",
+			"Paragraph":"From here, we started ideating on ways we could solve this problem and created two solutions we felt were strongest. Using paper prototypes, I walked some users through a wizard-of-oz scenario to see how our solution could fit into their existing travel planning process.",
+				"image":"/temp11.png"
+			},
+			{
+			"Group":"conclusion",
+			"Title":"FINAL SOLUTION",
+			"Paragraph":"The final solution consists of a site with no search capability of its own, instead focused on providing a place for users to consolidate their travel options and compare the impact on their budgets. Users would also be provided a sample breakdown of their budget as well as a target budget based on the cost of other traveler's trips. ",
+			"image":"/temp13.png"
+			}
+			]
+		
+}

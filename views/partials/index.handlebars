@@ -1,25 +1,29 @@
 <!doctype html>
-		<h1>Human-Centered Designer + Product Strategist</h1>
-	<div class = "col-lg-8 intro">
-		<h3>Problem solving in innovative fields and using my skills to improve our world, from small usability fixes to broad product concepts </h3>
-		<p>Check out some of my recent work below!</p>
-
+	<div>
+		<h1> KAREN MA</h1>
 	</div>
-	<div class="row" id="0">
-		{{#each projBlurbs}}
-		<div class = "col-lg-4 col-md-6 col-sm-12">
-			<a href="{{id}}.html" >
-				<div class="{{class}}" id = "{{id}}">
-						<div class= "projContent">
-							<img src="./public/images/projBlurbs/{{image}}">
-						</div>
-						<div class="projTitle">
-							<h4>{{title}}</h4>
-							<p>{{description}}</p>
-					</div>
-				</div>
-			</a >
+	<div class="row">
+		<div class="col-lg-5 about">
+			<p>{{about}} <br/><br/> To chat, email me at <b>karenma333@gmail.com</b> </p>
+			<a href="./public/resumeKarenMa.pdf" target="_blank" class="link read_more">View My Resume</a> 
+			<div class="half_photo">
+				<img src="./public/images/half.png">
+			</div>
 		</div>
-		{{/each}}
+		<div class="col-lg-7">
+			{{#each projBlurbs}}
+			<div>
+				<a href="{{id}}.html" >
+					<div class="projBlurbs">
+						<h3>{{title}}</h3>
+						<h5> {{tags}}</h5>
+						<p>{{description}}</p>
+						<p class = "link read_more">Read More -></p>
+					</div>
+				</a >
+			</div>
+			{{/each}}
+		</div>
+	</div>
 
 
