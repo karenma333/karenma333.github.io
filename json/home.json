@@ -1,27 +1,22 @@
 {
 	"template":"index",
-	"links":["Resume", "LinkedIn","Email"],
-
+	"about":"Currently located in Chicago, I work as a product designer at NextCapital. At work, you can find me negotiating product requirements, leading user research and ensuring the initial vision shines through in the end product, despite technical constraints. Outside of work, I spend my time listening to podcasts (Twenty Thousand Hertz!), hunting for the best tacos in Chicago and planning my next trip to explore the world. ",
 	"projBlurbs":[
 		
-		{ 	"class":"project active",
+		{ 	"class":"project",
 			"id": 1,
-			"image": "Group.png",
-			"title": "investor communications framework",
-			"description":"A framework for creating a communication journey that conveys personalization to users. "
+			"title": "increasing user engagement",
+			"description":"A framework for creating a communication journey that conveys personalization to users."
 
 		},
 		{ 	"class":"project",
 			"id": 2,
-			"image": "../blanks.png",
-			"title": "advice proposal pdf",
+			"title": "summarizing proposal value",
 			"description":"A concise document to summarize our product's key values."
 		},
 		{ 	"class":"project",
 			"id": 3,
-			"image": "phone.png",
-			"title": "flexible travel planning application",
-			"tag":"Selected Student Work",
+			"title": "improving travel budgeting",
 			"description":"An application for creating itineraries and adjusting them to on the go"
 
 		}]
