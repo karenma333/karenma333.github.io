@@ -6,18 +6,18 @@
 		{ 	"class":"project",
 			"id": 1,
 			"title": "increasing user engagement",
-			"description":"A framework for creating a communication journey that conveys personalization to users."
+			"description":"Examining the user touchpoints during the product lifecycle and leveraging communication to improve a user's experience"
 
 		},
 		{ 	"class":"project",
 			"id": 2,
-			"title": "summarizing proposal value",
-			"description":"A concise document to summarize our product's key values."
+			"title": "condensing product value",
+			"description":"Creating a summary of the product value through translation from digital to print"
 		},
 		{ 	"class":"project",
 			"id": 3,
 			"title": "improving travel budgeting",
-			"description":"An application for creating itineraries and adjusting them to on the go"
+			"description":"Providing budgeting guidance for young adult travelers to support their travel planning"
 
 		}]
 

@@ -1,22 +1,21 @@
 <!doctype html>
-	<div>
+	<div class = "heading">
 		<h1> KAREN MA</h1>
 	</div>
 	<div class="row">
-		<div class="col-lg-5 about">
+		<div class="col-lg-6 about">
 			<p>{{about}} <br/><br/> To chat, email me at <b>karenma333@gmail.com</b> </p>
 			<a href="./public/resumeKarenMa.pdf" target="_blank" class="link read_more">View My Resume</a> 
 			<div class="half_photo">
 				<img src="./public/images/half.JPG">
 			</div>
 		</div>
-		<div class="col-lg-7">
+		<div class="col-lg-6">
 			{{#each projBlurbs}}
 			<div>
 				<a href="{{id}}.html" >
 					<div class="projBlurbs">
 						<h3>{{title}}</h3>
-						<h5> {{tags}}</h5>
 						<p>{{description}}</p>
 						<p class = "link read_more">Read More -></p>
 					</div>
@@ -25,5 +24,6 @@
 			{{/each}}
 		</div>
 	</div>
+
 
 
