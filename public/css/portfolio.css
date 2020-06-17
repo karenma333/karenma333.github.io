@@ -92,12 +92,18 @@ a, a:hover{
 }
 .read_more{
   text-decoration: underline;
+  font-family: Raleway;
 }
 .about{
   padding-right:2.5em;
 }
+.projLayout{
+  margin-bottom: 2em;
+}
 .projBlurbs{
   padding-left:5px;
+  border-left: 5px solid transparent;
+
 }
 /*projBlurbs hover functionality*/
 a:hover .projBlurbs{
@@ -105,7 +111,7 @@ a:hover .projBlurbs{
   border-radius:2px;
 }
 a:hover .read_more, .read_more:hover{
-  font-weight: 550;
+  font-weight: 700;
 }
 /*project details*/
 .proj_title h1{
