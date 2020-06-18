@@ -10,26 +10,26 @@
 		"category":[
 			{"Title":"PRODUCT OPPORTUNITY",
 			"Paragraph":"Less than 10% of millenials make financial decisions by themselves, often asking financial advice from others. To better allow millenials to share the financial advice from our application, I piloted a feature to allow users to receive a snapshot of their advice to reference in posterity and display with others.",
-				"image":"/after.png"
+				"image":"/highLevelProposal.png"
 			},
 			{"Group":"design process",
 			"Title":"HEURISTIC EVALUATION",
 			"Paragraph":"I took a look at the initial state of the feature to be redesigned using Nielsen's usability heuristics. Based on my evaluation, I noticed that the terminology was unfamiliar to audiences, the information lacked consistency and switched between different modes, such as between total vs singular account data. The visual was also not flexible, mixing sections that were not always applicable and too confusing for the base audience.",
-				"image":"/before.png"
+				"image":"/beforeProposal.png"
 			},
 			{"Title":"INFORMATION HIERARCHY",
 			"Paragraph":"After conducting a hybrid card sort with 14 people, I used the qualitative and quantitative results to create an information hierarchy diagram.",
-				"image":"/temp5.png"
+				"image":"/informationArchitecture.png"
 			},
 			{"Title":"USER TESTING",
 			"Paragraph":"Using the insights from our initial research, combined with technical constraints and customer feedback, we created two parallel designs and conducted usability tests with the two to gain qualitative and quantitative data. ",
-				"image":"/temp6.png"
+				"image":"/ABProposal.png"
 			},
 			{
 			"Group":"conclusion",
 			"Title":"FINAL SOLUTION",
 			"Paragraph":"At a high level, the final solution consisted of a summary page which displayed key plan metrics and plan status. The intent here was to allow users to skim the first page and receive all the information they needed. Following those pages were two pages displayed the plan recommendations.",
-			"image":"/temp7.png"
+			"image":"/afterProposal.png"
 			},
 			{
 			"Title":"MEASURING SUCCESS",
