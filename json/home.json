@@ -2,23 +2,24 @@
 	"template":"index",
 	"about":"Currently located in Chicago, I work as a product designer at NextCapital. At work, you can find me negotiating product requirements, leading user research and ensuring the initial vision shines through in the end product, despite technical constraints. Outside of work, I spend my time listening to podcasts (Twenty Thousand Hertz!), hunting for the best tacos in Chicago and planning my next trip to explore the world. ",
 	"projBlurbs":[
-		
+	
 		{ 	"class":"project",
 			"id": 1,
-			"title": "increasing user engagement",
-			"description":"Examining the user touchpoints during the product lifecycle and leveraging communication to improve a user's experience"
-
-		},
-		{ 	"class":"project",
-			"id": 2,
 			"title": "condensing product value",
 			"description":"Creating a summary of the product value through translation from digital to print"
 		},
 		{ 	"class":"project",
-			"id": 3,
+			"id": 2,
 			"title": "improving travel budgeting",
 			"description":"Providing budgeting guidance for young adult travelers to support their travel planning"
 
-		}]
+		},
+		{ 	"class":"project",
+			"id": 3,
+			"title": "increasing user engagement",
+			"description":"Examining the user touchpoints during the product lifecycle and leveraging communication to improve a user's experience"
+
+		}
+	]
 
 }
