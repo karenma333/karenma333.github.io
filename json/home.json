@@ -16,6 +16,12 @@
 		},
 		{ 	"class":"project",
 			"id": 3,
+			"title": "improving the onboarding wizard",
+			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
+
+		},
+		{ 	"class":"project",
+			"id": 4,
 			"title": "increasing user engagement",
 			"description":"Examining the user touchpoints during the product lifecycle and leveraging communication to improve a user's experience"
 

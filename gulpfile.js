@@ -5,8 +5,9 @@ var rename = require('gulp-rename');
 var homeData = require("./json/home.json");
 var project2Data = require("./json/travelBudgeting.json");
 var project3Data = require("./json/increasingUserEngagement.json");
+var project4Data = require("./json/improveOnboardingWizard.json");
 var projectData = require("./json/condensingProductValue.json");
-var data = [ homeData, projectData,project2Data, project3Data];
+var data = [ homeData, projectData,project2Data, project3Data,project4Data];
 
 //create html files for static service
 	gulp.task('export', function(done){
