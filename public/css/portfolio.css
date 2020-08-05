@@ -51,8 +51,9 @@ a, a:hover{
 .footerwrap{
   width:100%;
 }
-.footer a,span{
+.footer a, .footer p{
   color:white;
+  font-family: Raleway
 }
 .footer{
   margin-top: 6em;
@@ -60,6 +61,9 @@ a, a:hover{
   justify-content: space-evenly;
   padding-top:1em;
   padding-bottom:1em;
+}
+.mobile_spacer{
+  display:none;
 }
 /*Photos*/
 .half_photo{
@@ -135,5 +139,31 @@ a:hover .read_more, .read_more:hover{
 @media screen and (min-width: 1200px){
 body .homeContent{ 
     max-width: 925px;
+}
+
+}
+@media screen and (max-width: 780px){
+.full_photo{
+  padding: 1em;
+}
+.footer{
+  display:flex;
+  flex-wrap:wrap;
+  padding-bottom: 0;
+}
+.half_photo{
+  padding:5px;
+}
+}
+@media screen and (max-width: 575px){
+.about .half_photo{
+display:none;
+}
+.about{
+  margin-bottom:2em;
+  padding-left:20px;
+}
+.projBlurbs{
+  padding-left:0px;
 }
 }
