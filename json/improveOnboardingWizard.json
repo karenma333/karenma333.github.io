@@ -10,18 +10,21 @@
 		"category":[
 			{"Title":"PRODUCT OPPORTUNITY",
 			"Paragraph":"In transitioning our product to be investor-facing, we saw drop off rates of 60% in our onboarding wizard. Combined with user data, I sought to propose an improved wizard experience. ",
-					"image":"/finalWizardFlow.png"
+					"image":"/finalWizardFlow.png",
+					"altText":"The final condensed three step wizard,consisting of profile input, questions and projection screens"
 			},
 			{"Group":"design process",
 			"Title":"USER RESEARCH",
 			"Paragraph":"Talking to some of our end users, I found out that users were discouraged due to the lack of progress indicators; they couldn't tell how many more steps were in the progress. I combined this with analytics data on which steps in the existing wizard were most important by referencing time spent on the step and user interactions on the step.",
-				"image":"/AnalyticsDashboard.png"
+				"image":"/AnalyticsDashboard.png",
+				"altText":"55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps."
 			},
 			{
 				"Group":"conclusion",
 			"Title":"FINAL SOLUTION",
 			"Paragraph":"Using the user data, I decreased the steps in the wizard and adjusted the proposal page to have calls to action for any users who would've been interested in those steps. This allowed the wizard to cater to the larger audience while still supporting the smaller segments of our target audience.",
-			"image":"/finalWizardComparison.png"
+			"image":"/finalWizardComparison.png",
+			"altText":"Compared to the original wizard, 4 steps were condensed into 1 single quesionnaire, and 3 steps were condensed into one projection screen."
 			}
 			]
 		
