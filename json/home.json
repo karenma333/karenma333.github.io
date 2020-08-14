@@ -5,8 +5,9 @@
 	
 		{ 	"class":"project",
 			"id": 1,
-			"title": "condensing product value",
-			"description":"Creating a summary of the product value through translation from digital to print"
+			"title": "improving the onboarding wizard",
+			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
+
 		},
 		{ 	"class":"project",
 			"id": 2,
@@ -16,9 +17,8 @@
 		},
 		{ 	"class":"project",
 			"id": 3,
-			"title": "improving the onboarding wizard",
-			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
-
+			"title": "condensing product value",
+			"description":"Creating a summary of the product value through translation from digital to print"
 		},
 		{ 	"class":"project",
 			"id": 4,
