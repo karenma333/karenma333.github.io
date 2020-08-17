@@ -27,11 +27,11 @@
 			<a href="javascript:history.back()" class="link"><h3><- BACK</h3></a>
 			</div>
 			<div class="proj_title">
-				<h1>Condensing Product Value</h1>
+				<h1>Improving the Onboarding Wizard</h1>
 				<div class="proj_details">
-					<h5>team size: 3</h5>
-					<h5>role: product strategy, research &amp; design</h5>
-					<h5>skillset: card sort, heuristic evaluation, usability testing</h5>
+					<h5>team size: 1</h5>
+					<h5>role: sole designer</h5>
+					<h5>skillset: user analytics</h5>
 				</div>
 			</div>
 			<main>
@@ -41,10 +41,10 @@
 					<h3> PRODUCT OPPORTUNITY</h3>
 				</div>
 				<div class="col-lg-7">
-					<p>Less than 10% of millenials make financial decisions by themselves, often asking for financial advice from others. To better allow millenials to share the financial advice from an online finance product, I piloted a feature to allow users to receive a snapshot of their advice to reference in posterity and review with others.</p>
+					<p>In transitioning our product to be investor-facing, we saw drop off rates of 60% in our onboarding wizard. Combined with user data, I sought to propose an improved wizard experience. </p>
 				</div>
 				<div class="background full_photo">
-					<img src="./public/images//highLevelProposal.png" alt="">
+					<img src="./public/images//wizardIterations.png" alt="The final condensed three step wizard,consisting of profile input, questions and projection screens">
 				</div>
 			</div>
 		</div>
@@ -52,39 +52,39 @@
 				<h4>design process</h4>
 			<div class="row">
 				<div class="col-lg-5">	
-					<h3> HEURISTIC EVALUATION</h3>
+					<h3> USER RESEARCH</h3>
 				</div>
 				<div class="col-lg-7">
-					<p>Because I was not starting from scratch, I started out by conducting a heuristic evaluation on the existing state of the solution - a 5 page document summarizing the user&#x27;s advice and recommendations. Based on my evaluation, I noticed that the terminology used was unfamiliar to audiences or not industry-standard, the information lacked consistency and switched between different modes, such as between total vs singular account data. The visual was also not flexible for use, switching between standard content useful for base users and information only relevant and understandable to power user. </p>
+					<p>Talking to some of our end users, I found out that users were discouraged due to the lack of progress indicators; they couldn&#x27;t tell how many more steps were in the progress. I combined this with analytics data on which steps in the existing wizard were most important by referencing time spent on the step and user interactions on the step.</p>
 				</div>
 				<div class="background full_photo">
-					<img src="./public/images//beforeProposal.png" alt="Image of the original advice proposal pdf document.">
+					<img src="./public/images//AnalyticsDashboard.png" alt="55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps.">
 				</div>
 			</div>
 		</div>
 			<div class ="paragraph">
 			<div class="row">
 				<div class="col-lg-5">	
-					<h3> INFORMATION ARCHITECTURE</h3>
+					<h3> INITIAL THOUGHTS</h3>
 				</div>
 				<div class="col-lg-7">
-					<p>In order to both review what content should be displayed and how, I decided to conduct a hybrid card sort. This card sort started our users with a set of the information in the current document and the current sections of the document and also allowed users to add cards/section. Users were also not required to use all the cards. To delve a little further, I also asked users to highlight the most important information in each section by attempting to remove up to 10 cards from their original card sort. After conducting the card sort with 14 people, I created an information hierarchy diagram, with the darker purple cards highlighting card that 70% of our users placed in these groupings even after being asked to remove the cards. This diagram dictated the information architecture structure of the final solution.</p>
+					<p>Using the user data, I decreased the steps in the wizard and adjusted the proposal page to have calls to action for any users who would&#x27;ve been interested in those steps. This allowed the wizard to cater to the larger audience while still supporting the smaller segments of our target audience.</p>
 				</div>
 				<div class="background full_photo">
-					<img src="./public/images//informationArchitecture.png" alt="Card sort results consisted of four groupings, summary, contributions, accounts, asset allocation, with the summary including the projected retirement income and recommended retirement age.">
+					<img src="./public/images//wizardComparison.png" alt="Compared to the original wizard, 4 steps were condensed into 1 single quesionnaire, and 3 steps were condensed into one projection screen.">
 				</div>
 			</div>
 		</div>
 			<div class ="paragraph">
 			<div class="row">
 				<div class="col-lg-5">	
-					<h3> USER TESTING</h3>
+					<h3> REALISTIC CONSTRAINTS</h3>
 				</div>
 				<div class="col-lg-7">
-					<p>Using the insights from my user research, combined with technical constraints and customer feedback, we created two parallel designs and conducted usability tests with the two designs to iterate. The two designs differed in what visual metaphor was used to communicate certain ideas as well as what information was emphasized on the first page, a summary page. I conducted various types of usability tests with each iteration, such as longer-form tests, asking users to locate information in the document to evaluate success of metaphors, and 5-second tests to gain a user&#x27;s first impression. I reviewed the error rates on the tasks as well as time taken to complete tasks to inform our future design iterations.</p>
+					<p>Based on the tight two week deadline, I needed to adjust the designs to work within the current component system and minimize the implementation work needed. Talking to technical leads and also identifying the key information necessary led to a streamlined one step wizard, also eliminating the need for a step counter.</p>
 				</div>
 				<div class="background full_photo">
-					<img src="./public/images//ABProposal.png" alt="Two of the samples of the parallel designs">
+					<img src="./public/images//wizardReview.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -95,10 +95,20 @@
 					<h3> FINAL SOLUTION</h3>
 				</div>
 				<div class="col-lg-7">
-					<p>At a high level, the final solution consisted of a summary page which displayed key plan metrics and plan status. The intent here was to allow users to skim the first page and receive all the information they needed. Following the summary, two pages displayed the plan recommendations in more detail, starting with information that would impact the user most to least. In comparison to the original state of this feature, the information was condensed to be a shorter document and maintained one overall line of focus - the user&#x27;s plan. The terminology was also updated to be more consistent to standard and more easily comprehended by users. The highlight of the document shifted from what is changing to what the impact of the change would be.</p>
+					<p>In the end, I landed on a one step wizard consisting of the primary important information. As a one step wizard, no step counter is necessary. I&#x27;ve shortened the amount of time it takes for a user to get to see the primary value of the product. Since launch, total number of enrolled users have increased 68%. The rate of new user enrollment has multiplied 5x from the previous iteration.</p>
 				</div>
 				<div class="background full_photo">
-					<img src="./public/images//afterProposal.png" alt="Finalized PDF product">
+					<img src="./public/images//finalWizardFlow.png" alt="Compared to the original wizard, 9 steps were condensed into a 1 page form.">
+				</div>
+			</div>
+		</div>
+			<div class ="paragraph">
+			<div class="row">
+				<div class="col-lg-5">	
+					<h3> NEXT STEPS/INFORMING PRODUCT STRATEGY</h3>
+				</div>
+				<div class="col-lg-7">
+					<p>While the initial solution sought to streamline our enrollment process, and we have successfully moved from a nine-step wizard to a one-step wizard. After talking to subject matter experts, I learned that the most important steps for users to interact with were in the last few steps where we were seeing less than 20% interaction. The original wizard was lengthy in order to prove users with a sense of personalization but failed to actually encourage personalization. How can we improve and highlight the need for users to provide important information?</p>
 				</div>
 			</div>
 		</div>
