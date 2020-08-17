@@ -12,7 +12,7 @@ p{
 }
 h1{
   font-size: 36px;
-  color:#667962;
+  color:#40806a;
 }
 h2{
   font-size:24px;
@@ -39,10 +39,10 @@ a, a:hover{
 
 }
 .link{
-  color:#B36348;
+  color:#d64541;
 }
 .secondary{
-  background-color:#667962;
+  background-color:#40806a;
 }
 .background{
   background-color:#C2D2DB;
@@ -115,7 +115,7 @@ a, a:hover{
 }
 /*projBlurbs hover functionality*/
 a:hover .projBlurbs{
-  border-left: 5px solid #B36348;
+  border-left: 5px solid #d64541;
   border-radius:2px;
 }
 a:hover .read_more, .read_more:hover{
