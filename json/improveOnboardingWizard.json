@@ -10,31 +10,32 @@
 		"category":[
 			{"Title":"PRODUCT OPPORTUNITY",
 			"Paragraph":"In transitioning our product to be investor-facing, we saw drop off rates of 60% in our onboarding wizard. Combined with user data, I sought to propose an improved wizard experience. ",
-					"image":"/wizardIterations.png",
+					"image":"wizardIterations.png",
 					"altText":"The final condensed three step wizard,consisting of profile input, questions and projection screens"
 			},
 			{"Group":"design process",
 			"Title":"USER RESEARCH",
 			"Paragraph":"Talking to some of our end users, I found out that users were discouraged due to the lack of progress indicators; they couldn't tell how many more steps were in the progress. I combined this with analytics data on which steps in the existing wizard were most important by referencing time spent on the step and user interactions on the step.",
-				"image":"/AnalyticsDashboard.png",
+				"image":"AnalyticsDashboard.png",
 				"altText":"55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps."
 			},
 			{
 			"Title":"INITIAL THOUGHTS",
 			"Paragraph":"Using the user data, I decreased the steps in the wizard and adjusted the proposal page to have calls to action for any users who would've been interested in those steps. This allowed the wizard to cater to the larger audience while still supporting the smaller segments of our target audience.",
-			"image":"/wizardComparison.png",
+			"image":"wizardComparison.png",
 			"altText":"Compared to the original wizard, 4 steps were condensed into 1 single quesionnaire, and 3 steps were condensed into one projection screen."
 			},
 			{
 			"Title":"REALISTIC CONSTRAINTS",
 			"Paragraph":"Based on the tight two week deadline, I needed to adjust the designs to work within the current component system and minimize the implementation work needed. Talking to technical leads and also identifying the key information necessary led to a streamlined one step wizard, also eliminating the need for a step counter.",
-			"image":"/wizardReview.png"
+			"image":"wizardReview.png",
+			"altText":""
 			},
 			{
 				"Group":"conclusion",
 			"Title":"FINAL SOLUTION",
 			"Paragraph":"In the end, I landed on a one step wizard consisting of the primary important information. As a one step wizard, no step counter is necessary. I've shortened the amount of time it takes for a user to get to see the primary value of the product. Since launch, total number of enrolled users have increased 68%. The rate of new user enrollment has multiplied 5x from the previous iteration.",
-			"image":"/finalWizardFlow.png",
+			"image":"finalWizardFlow.png",
 			"altText":"Compared to the original wizard, 9 steps were condensed into a 1 page form."
 			},
 			{

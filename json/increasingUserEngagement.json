@@ -10,20 +10,20 @@
 		"category":[
 			{"Title":"PRODUCT OPPORTUNITY",
 			"Paragraph":" In this design space, investment, I was examining an audience of users who tend to interact infrequently with the service. With that in mind, having the service stand out amongst its competitors required a well-designed experience both within the application and in our external customer interactions. As the product offering I was working on was receiving a facelift and receiving a visual refresh, I took advantage of this time to revisit the idea of participant communications. Since the existing formats would not be visually consistent with the new design identity and would need to be redesigned, I took some additional time to evaluate the goals and intentions of new and existing communication to ensure it was still playing the intended role.",
-					"image":"/emailsPDF.png",
+					"image":"emailsPDF.png",
 					"altText":""
 			},
 			{"Group":"design process",
 			"Title":"USER RESEARCH",
 			"Paragraph":"Users tend to interact infrequently with this product area. In an ideal world, users would interact with our service to receive updates of their investments and to update information when it became outdated. To get a more real-world picture of how our target audience, I created a survey to gain qualitative and quantitative data concerning their investment account habits. Since our product requires up-to-date information on the user to function best, the surveys focused on what prompted users to log into their accounts and what/how often they updated personal information on their accounts. These insights were used to inform a journey map of one segment of our target audience. While the habits of users varied from logging into their accounts daily or 'just that one time to set it up', all users were fairly consistent in saying their account information was rarely updated. Users were also surprised at the idea of updating information, often assuming information would automatically be updated.",
-				"image":"/journeyMap.png",
+				"image":"journeyMap.png",
 				"altText":"Journey map of a typical user using our product"
 			},
 			{
 				"Group":"conclusion",
 			"Title":"FINAL SOLUTION",
 			"Paragraph":"Illustrated below in the service blueprint, I added two new communications: plan update and information update. For users who rarely checked on the progress of their plan, a regularly scheduled plan update document would provide insight on how they are tracking towards their end goal. Based on the user research, I distilled the key metrics that users were looking at into a 1 page infographic. As for the information update, users who were detected to be missing crucial information would be notified of the impact on the product and invited to update the information as well as review any other information that may be out of date.",
-			"image":"/serviceBlueprint.png",
+			"image":"serviceBlueprint.png",
 			"altText":"Service blueprint of ideal solution"
 			},
 			{
