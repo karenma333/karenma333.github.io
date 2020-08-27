@@ -28,7 +28,7 @@
 			{
 			"Title":"REALISTIC CONSTRAINTS",
 			"Paragraph":"Based on the tight two week deadline, I needed to adjust the designs to work within the current component system and minimize the implementation work needed. Talking to technical leads and also identifying the key information necessary led to a streamlined one step wizard, also eliminating the need for a step counter.",
-			"image":"finalWizardFlow.png",
+			"image":"wizardReview.png",
 			"altText":" "
 			},
 			{
