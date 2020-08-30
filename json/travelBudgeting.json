@@ -3,40 +3,40 @@
 		"id":2,
 		"project":"Travel Budgeting",
 		"overview":[
-			{"Context: ": "team size: 4"},
-			{"Role: ":"role: research & design"},
-			{"Tools: ":"skillset: contextual inquiry, surveys, paper prototyping, ui design"}
+			{"Context: ": "Team size: 4"},
+			{"Role: ":"Role: Research & design"},
+			{"Tools: ":"Skillset: Contextual inquiry, surveys, paper prototyping, ui design"}
 		],
 		"category":[
-			{"Title":"PRODUCT OPPORTUNITY",
+			{"Title":"Product Opportunity",
 			"Paragraph":"For many college students, budget is the limiting factor for everything when it comes to traveling (flights, hotels, etc.). Students in particular don’t really have a disposable income, so their budget is smaller and becomes a real obstacle to traveling. However, this audience also tends to not have a budget in mind when planning their trips. In this project, we seeked to reconcile these two realities. ",
 				"image":"highLevelTravelBudget.png",
 				"altText":"Preview of finished solution"
 			},
-			{"Group":"design process",
-			"Title":"AFFINITY DIAGRAM",
+			{"Group":"Design Process",
+			"Title":"Affinity Diagram",
 			"Paragraph":"This project started with an examination of the travel planning process. After asking students to step us through their typical travel planning process, we created an affinity diagram to consolidate our findings. Students were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These students were asked to step through their standard travel planning process while thinking out loud as we observed. While we made many grouping in our affinity diagram, our initial conclusion was at every step, from flights to hotels to things to do, we observed users opening up to 15 tabs to compare prices before making a decision.",
 				"image":"affinityDiagram.png",
 				"altText":"Affinity Diagram of post-it notes on a wall"
 			},
-			{"Title":"EXPERIENCE MAP",
+			{"Title":"Experience Map",
 			"Paragraph":"From the affinity diagram, the initial conclusion was that users needed a better tool to make comparisons when booking travel. But after conducting a comparative analysis, research indicated that plenty of comparison tools already exist on the market, so we needed to revisit why the tools weren't sufficient. By creating an mind map, we realized the original user journey we pictured was missing a few steps. The true issue lies within travel budgeting. Our target audience was conducting travel planning without a good gauge on what their budget looked like, leading them to be uncertain when they found a good price. I created an experience map to better layout the missing steps in the travel process.",
 				"image":"experienceMap.png",
 				"altText":"Experience map showing users steps, user tasks, user thoughts"
 			},
-			{"Title":"PERSONAS",
+			{"Title":"Personas",
 			"Paragraph":"From this design pivot to focus on budgeting, I created a survey focused on travel budgeting habits and used the results to create three distinct personas to explore how budget impacts their travel behavior. These personas helped inform and view the designs from different angles.",
 				"image":"personas.png",
 				"altText":"Three personas, with goals and frustrations from low-budget and low flexibility to high budget and high flexibility"
 			},
-			{"Title":"USER TESTING",
+			{"Title":"User Testing",
 			"Paragraph":"From here, we started ideating on ways we could solve this problem and created two solutions we felt were strongest. Using paper prototypes, I walked some users through a wizard-of-oz scenario to see how our solution could fit into their existing travel planning process. As users were on a computer looking up bookings, the paper prototypes were updated to reflect their situation. In comparison to the original contextual inquiries, this time, users were requested to start by stating their travel budget and directed more to plan with their budget in mind. While our solution kept users more aware of the budget and were able to adjust their budget and travel plans while planning, users still struggled with coming up with the initial budget number.",
 				"image":"paperPrototypes.png",
 				"altText":"Two paper prototypes used for testing"
 			},
 			{
-			"Group":"conclusion",
-			"Title":"FINAL SOLUTION",
+			"Group":"Conclusion",
+			"Title":"Final Solution",
 			"Paragraph":"The final solution focused on providing a place for users to consolidate their travel options and compare the impact on their budgets. Users started out with some general travel information allowing us to provide them with a sample breakdown of their budget as well as a target budget based on the cost of other traveler's trips. This gave users an idea of how much each part of the trip should cost and whether or not their original budget was in the correct ballpark. Users then could add in the travel options they were considering to compare the impact to their budget. ",
 			"image":"finalTravelBudget.png",
 			"altText":"Final mock ups of application"

@@ -1,12 +1,12 @@
 /*Generic Styles*/
 body{
-  font-family: Raleway;
+  font-family: Lora;
   background-color:#FFFFFB;
   color:#39465F;
   margin-top: 6em;
 }
 p{
-  font-family: Lora;
+  font-family: Raleway;
   font-size: 16px;
   line-height: 24px;
 }
@@ -16,21 +16,16 @@ h1{
 }
 h2{
   font-size:24px;
-  font-variant:small-caps;
 }
 h3{
   font-size: 24px;
-  font-variant:small-caps;
 }
 h4{
   font-size:18px;
-  font-weight: 750;
-  font-variant: small-caps;
   color:#5F6666;
 }
 h5{
   font-size:16px;
-  font-variant:small-caps;
 
 }
 a, a:hover{
@@ -53,7 +48,7 @@ a, a:hover{
 }
 .footer a, .footer p{
   color:white;
-  font-family: Raleway
+  font-family: Lora
 }
 .footer{
   margin-top: 6em;
@@ -100,7 +95,7 @@ a, a:hover{
 }
 .read_more{
   text-decoration: underline;
-  font-family: Raleway;
+  font-family: Lora;
 }
 .about{
   padding-right:2.5em;
