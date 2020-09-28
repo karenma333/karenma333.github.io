@@ -11,26 +11,39 @@
 			{{/each}}
 			{{/each}}
 		</div>
+		<div class = "full_photo">
+			<img src="./public/images/{{image}}" alt="{{altText}}">
+		</div>
 	</div>
 	<main>
 	{{#each category}}
+	{{#if type}}
+	<div class = "splash">
+		<div>
+			<h4>{{Title}}</h4>
+			<p>{{Paragraph}}</p>
+		</div>
+	</div>
+	{{else}}
 	<div class ="paragraph">
 		{{#if Group}}
 		<h4>{{Group}}</h4>
 		{{/if}}
-	<div class="row">
-		<div class="col-lg-5">	
-			<h3> {{Title}}</h3>
+		<div class="row">
+			<div class="col-lg-5">	
+				<h3> {{Title}}</h3>
+			</div>
+			<div class="col-lg-7">
+				<p class = "bold">{{Subtitle}}</p>
+				<p>{{Paragraph}}</p>
+			</div>
+			{{#if image}}
+			<div class="background full_photo">
+				<img src="./public/images/{{image}}" alt="{{altText}}">
+			</div>
+			{{/if}}
 		</div>
-		<div class="col-lg-7">
-			<p>{{Paragraph}}</p>
-		</div>
-		{{#if image}}
-		<div class="background full_photo">
-			<img src="./public/images/{{image}}" alt="{{altText}}">
-		</div>
-		{{/if}}
 	</div>
-</div>
+	{{/if}}
 	{{/each}}
 </main>

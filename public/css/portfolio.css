@@ -35,6 +35,15 @@ a, a:hover{
   text-decoration: none;
 
 }
+.splash p{
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.bold{
+  font-weight: 700;
+}
 .link{
   color:#BD520A;
 }
@@ -125,7 +134,6 @@ a:hover .read_more, .read_more:hover{
 .proj_details{
   display:flex;
   justify-content: center;
-  margin-bottom: 3em;
 }
 .proj_details h5{
   padding-right: 10px;

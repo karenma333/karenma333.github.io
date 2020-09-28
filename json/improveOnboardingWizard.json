@@ -8,43 +8,41 @@
 			{"Tools: ":"Skillset: User analytics"}
 		],
 		"category":[
-			{"Title":"Product Opportunity",
+			{"type" :"splash",
+				"Title":"Product Opportunity",
 			"Paragraph":"After launching our first user-facing product, the analytics data for enrollment showed a drop-off rate during the initial welcome flow.",
 					"image":"wizardIterations.png",
 					"altText":"The final condensed three step wizard,consisting of profile input, questions and projection screens"
 			},
-			{"Title":"Role + Design Process",
+			{"Title":"Design Overview",
 			"Paragraph":"I was the sole designer on this project and utilized a combination of web analytics data, qualitative surveys and market research to provide design insights."
 			},
-			{"Group":"Design Process",
-			"Title":"Insights #1",
-			"Paragraph":"Users do not find our wizard useful.",
-				"image":"AnalyticsDashboard.png",
-				"altText":"55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps."
+			{"Title":"Initial Insights",
+			"Paragraph":"I was the sole designer on this project and utilized a combination of web analytics data, qualitative surveys and market research to provide design insights."
 			},
-			{"Title":"Insights #2",
-			"Paragraph":"Wizard is intimidating"
+			{
+			"Subtitle":"Users are not finishing the enrollment process. ",
+			"Paragraph":"Over 60% of users are dropping off, users are disinclined to continue and give up because they have no insight on how many steps are in our enrollment process."
 			},
-			{"Group":"Design Process",
+			{"Subtitle":"Users are not using our wizard as desired. ",
+			"Paragraph":"On the last three steps, users are clicking ‘Next’ without interacting with the application. Users are ignoring and not recognizing our request for personalization. "
+			},
+			{"type":"splash",
 			"Title":"Redefined Problem Statement",
 			"Paragraph":"How can we improve the way we personalize the experience?",
 				"image":"AnalyticsDashboard.png",
 				"altText":"55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps."
 			},
-			{"Group": "Solutioning",
-				"Title":"Insights #1",
-			"Paragraph":"Not all personalization is equal"
+			{"Title":"Design Highlights",
+				"Paragraph":"In this redesign, we also reviewed the copy and standardized key terminology as well as consistency in number formatting, such as rounding and input validation."
 			},
 			{
-			"Title":"Insights #2",
-			"Paragraph":"Feeling personalized even when it is not personalized"
+			"Subtitle":" Simplified Introductory Wizard.",
+			"Paragraph":" Since the wizard isn’t being used, I condensed the wizard into a single page. "
 			},
 			{
-				"Group":"Conclusion",
-			"Title":"Final Solution",
-			"Paragraph":"In the end, I landed on a one step wizard consisting of the primary important information. As a one step wizard, no step counter is necessary. I've shortened the amount of time it takes for a user to get to see the primary value of the product. Since launch, total number of enrolled users have increased 68%. The rate of new user enrollment has multiplied 5x from the previous iteration.",
-			"image":"finalWizardFlow.png",
-			"altText":"Compared to the original wizard, 9 steps were condensed into a 1 page form."
+			"Subtitle":"Highlighted Key Personalization.",
+			"Paragraph":"  While the more information we know is better, I determined the most important and easiest pieces of personalization to request. "
 			},
 			{
 			"Title":"Next Steps",

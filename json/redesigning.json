@@ -1,0 +1,67 @@
+{
+		"template":"project",
+		"id":1,
+		"project":"Full Redesign to 2.0",
+		"overview":[
+			{"Context: ": "Team: 3 Designers"},
+			{"Role: ":"Role: Lead Designer"},
+			{"Time: ":"Length of Project: 10 Months"}
+		],
+		"image":"newProposal.png",
+		"altText":"",
+		"category":[
+			{"type" :"splash",
+				"Title":"Product Opportunity",
+				"Paragraph":"After creating an internal design system with a new component library, we sought to update our existing application to be compliant with our new design principles."
+			},
+			{"Title":"Design Overview",
+			"Paragraph":"I worked with two other UX designers on this 10 month project. I focused on leading design critiques and review sessions with internal stakeholders, worked across teams to determine the scope of the MVP release and owned some of the specific designs of the overall application."
+			},
+			{
+			"Title":"Initial Insights",
+			"Paragraph":"Upon receiving this task, we were able to review existing user pain point research and conduct surveys for additional research to gain an understanding of what parts of the application we may want to take this opportunity to redesign.",
+			"image":"oldProposal.png",
+			"altText":""
+
+			},
+			{"Subtitle":"The way projections were modelled did not match users' mental model.",
+			"Paragraph":"Our initial display used a tabbing format to allow users to compare two different scenarios. However, we saw user confusion. They did not understand why the values are changing and why not all of the values changed. "
+			},
+			{"Subtitle":"The application load time was not proportional to payoff for users.",
+			"Paragraph":"In areas where our application takes a long time, users were dropping off. It was clear we needed to decrease the load time as well as improve our loading pattterns."
+			},
+			{"Subtitle":"The primary dashboard was too cluttered",
+			"Paragraph":"Because the existing visual hierarchy of the dashboard had many items on the same level, there was no clear indicator what users should be paying the most attention to. There was no differentiation between items that were prone to change and items that are seldom accessed. "
+			},
+			{
+				"type":"splash",
+				"Title":"Redefined Problem Statement",
+			"Paragraph":"How can we simplify the cognitive load of our application for users?"
+			},
+			{"Title":"Design Highlights",
+			"Paragraph":" "
+			},
+			{
+			"Subtitle":"Consistency is key",
+			"Paragraph":"In this redesign, we also reviewed the copy and standardized key terminology as well as consistency in number formatting, such as rounding and input validation."
+			},
+			{
+			"Subtitle":"Loading should be pleasant too",
+			"Paragraph":"Taking notes from gaming loading screens, the existing loading screens were replaced with loading screens that gave users something to look at while they waited."
+			},
+			{
+			"Subtitle":"Give users control over saving",
+			"Paragraph":"Previously, all changes were saved on blur, as soon as users clicked out of a editable box, a load was initiated to save updated information. This ensured information was always as up-to-date as possible but wasted a lot of time. Updates were made so the save behavior only occurred when a user clicks a save button, allowing users more freedom to interact without having their user flow interrupted by loading time."
+			},
+			{
+			"Subtitle":"Comparisons are easier side-by-side.",
+			"Paragraph":"In the tabbing style, the two scenarios could not be seen side-by-side; users would need to memorize the differences themselves. By placing the two scenarios on the same page, users were better able to draw their own conclusions to pros and cons.",
+			"image":"newProposal.png"
+			},
+			{
+			"Title":"Impact + Next Steps",
+			"Paragraph":""
+			}
+			]
+		
+}
