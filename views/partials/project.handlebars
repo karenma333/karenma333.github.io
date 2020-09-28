@@ -37,12 +37,14 @@
 				<p class = "bold">{{Subtitle}}</p>
 				<p>{{Paragraph}}</p>
 			</div>
-			{{#if image}}
-			<div class="background full_photo">
-				<img src="./public/images/{{image}}" alt="{{altText}}">
-			</div>
-			{{/if}}
 		</div>
+			{{#if image}}
+			<h3>{{caption}}</h3>
+			<div class="background full_photo">
+					<img src="./public/images/{{image}}" alt="{{altText}}">
+			</div>
+
+			{{/if}}
 	</div>
 	{{/if}}
 	{{/each}}

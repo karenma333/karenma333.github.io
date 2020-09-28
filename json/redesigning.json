@@ -1,7 +1,7 @@
 {
 		"template":"project",
 		"id":1,
-		"project":"Full Redesign to 2.0",
+		"project":"Application Redesign to Version 2.0",
 		"overview":[
 			{"Context: ": "Team: 3 Designers"},
 			{"Role: ":"Role: Lead Designer"},
@@ -20,6 +20,7 @@
 			{
 			"Title":"Initial Insights",
 			"Paragraph":"Upon receiving this task, we were able to review existing user pain point research and conduct surveys for additional research to gain an understanding of what parts of the application we may want to take this opportunity to redesign.",
+			"caption":"Existing UI",
 			"image":"oldProposal.png",
 			"altText":""
 
@@ -59,7 +60,7 @@
 			"image":"newProposal.png"
 			},
 			{
-			"Title":"Impact + Next Steps",
+			"Title":"",
 			"Paragraph":""
 			}
 			]

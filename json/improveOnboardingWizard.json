@@ -1,12 +1,13 @@
 {
 		"template":"project",
 		"id":1,
-		"project":"Improving Personalization",
+		"project":"Balancing Customization with Efficiency",
 		"overview":[
 			{"Context: ": "Team size: 1"},
 			{"Role: ":"Role: Sole designer"},
 			{"Tools: ":"Skillset: User analytics"}
 		],
+		"image":"newWiz.png",
 		"category":[
 			{"type" :"splash",
 				"Title":"Product Opportunity",
@@ -18,7 +19,9 @@
 			"Paragraph":"I was the sole designer on this project and utilized a combination of web analytics data, qualitative surveys and market research to provide design insights."
 			},
 			{"Title":"Initial Insights",
-			"Paragraph":"I was the sole designer on this project and utilized a combination of web analytics data, qualitative surveys and market research to provide design insights."
+			"Paragraph":"I was the sole designer on this project and utilized a combination of web analytics data, qualitative surveys and market research to provide design insights.",
+			"image":"AnalyticsDashboard.png",
+				"altText":"55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps."
 			},
 			{
 			"Subtitle":"Users are not finishing the enrollment process. ",
@@ -29,12 +32,11 @@
 			},
 			{"type":"splash",
 			"Title":"Redefined Problem Statement",
-			"Paragraph":"How can we improve the way we personalize the experience?",
-				"image":"AnalyticsDashboard.png",
-				"altText":"55% of users failed to complete the wizard, more than 84% made zero interactions on the last three steps."
+			"Paragraph":"How can we improve the way we personalize the experience?"
 			},
 			{"Title":"Design Highlights",
-				"Paragraph":"In this redesign, we also reviewed the copy and standardized key terminology as well as consistency in number formatting, such as rounding and input validation."
+				"Paragraph":"In this redesign, we also reviewed the copy and standardized key terminology as well as consistency in number formatting, such as rounding and input validation.",
+				"image":"newWiz.png"
 			},
 			{
 			"Subtitle":" Simplified Introductory Wizard.",

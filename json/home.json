@@ -5,27 +5,28 @@
 	
 		{ 	"class":"project",
 			"id": 1,
-			"title": "Improving the Onboarding Wizard",
-			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
+			"title": "Application Redesign to Version 2.0",
+			"description":"Redesigning an application with new design system guidelines"
 
 		},
 		{ 	"class":"project",
 			"id": 2,
+			"title": "Balancing Customization with Efficiency",
+			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
+
+		},
+		{ 	"class":"project",
+			"id": 3,
 			"title": "Improving Travel Budgeting",
 			"description":"Providing budgeting guidance for young adult travelers to support their travel planning"
 
 		},
 		{ 	"class":"project",
-			"id": 3,
+			"id": 4,
 			"title": "Condensing Product Value",
 			"description":"Creating a summary of the product value through translation from digital to print"
-		},
-		{ 	"class":"project",
-			"id": 4,
-			"title": "Increasing User Engagement",
-			"description":"Examining the user touchpoints during the product lifecycle and leveraging communication to improve a user's experience"
-
 		}
+		
 	]
 
 }
