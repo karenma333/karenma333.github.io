@@ -10,7 +10,7 @@
 		"image":"newWiz.png",
 		"category":[
 			{"type" :"splash",
-				"Title":"Product Opportunity",
+				"Title":"product opportunity",
 			"Paragraph":"After launching our first user-facing product, the analytics data for enrollment showed a drop-off rate during the initial welcome flow.",
 					"image":"wizardIterations.png",
 					"altText":"The final condensed three step wizard,consisting of profile input, questions and projection screens"
@@ -31,7 +31,7 @@
 			"Paragraph":"On the last three steps, users are clicking ‘Next’ without interacting with the application. Users are ignoring and not recognizing our request for personalization. "
 			},
 			{"type":"splash",
-			"Title":"Redefined Problem Statement",
+			"Title":"redefined problem statement",
 			"Paragraph":"How can we improve the way we personalize the experience?"
 			},
 			{"Title":"Design Highlights",

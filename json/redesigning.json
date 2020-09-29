@@ -11,7 +11,7 @@
 		"altText":"",
 		"category":[
 			{"type" :"splash",
-				"Title":"Product Opportunity",
+				"Title":"product opportunity",
 				"Paragraph":"After creating an internal design system with a new component library, we sought to update our existing application to be compliant with our new design principles."
 			},
 			{"Title":"Design Overview",
@@ -36,7 +36,7 @@
 			},
 			{
 				"type":"splash",
-				"Title":"Redefined Problem Statement",
+				"Title":"redefined problem statement",
 			"Paragraph":"How can we simplify the cognitive load of our application for users?"
 			},
 			{"Title":"Design Highlights",
