@@ -7,8 +7,9 @@ body{
 }
 p{
   font-family: Raleway, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
+  font-weight: 300;
 }
 h1{
   font-size: 36px;
@@ -16,6 +17,8 @@ h1{
 }
 h2{
   font-size:24px;
+  font-weight: 700;
+  font-variant: small-caps;
 }
 h3{
   font-size: 24px;
@@ -36,7 +39,7 @@ a, a:hover{
 
 }
 .splash{
-    background-color: #87B2A3;
+    background-color: #B9CDC6;
     background-clip:padding-box;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -55,7 +58,7 @@ a, a:hover{
   background-color:#40806a;
 }
 .background{
-  background-color:#C2D2DB;
+  background-color:#F0F5F4;
 }
 /**/
 .homeContent{
@@ -112,8 +115,7 @@ a, a:hover{
   min-width: 100%;
   display:flex;
   justify-content: center;
-
-
+  background-clip:padding-box;
 }
 .full_photo img{
   max-width: 100%;
@@ -165,9 +167,9 @@ a:hover .read_more, .read_more:hover{
 
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
-body .container{ 
-    padding-right: 8em;
-    padding-left: 8em;
+body .container>div, main>div{ 
+    padding-right: 15em;
+    padding-left: 15em;
 
 }
 
