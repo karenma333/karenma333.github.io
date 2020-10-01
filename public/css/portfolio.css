@@ -2,7 +2,7 @@
 body{
   font-family: Raleway, sans-serif;
   background-color:#FFFFFB;
-  color:#040303;
+  color:#303342;
   margin-top: 6em;
 }
 p{
@@ -16,9 +16,9 @@ h1{
   font-weight: 300;
 }
 h2{
-  font-size:24px;
-  font-weight: 700;
-  font-variant: small-caps;
+  font-size:32px;
+  font-weight: 300;
+  line-height: 
 }
 h3{
   font-size: 24px;
@@ -39,8 +39,6 @@ a, a:hover{
 
 }
 .splash{
-    background-color: #B9CDC6;
-    background-clip:padding-box;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -94,6 +92,14 @@ a, a:hover{
   display:none;
 }
 /*Photos*/
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon img{
+  max-height: 96px;
+}
 .half_photo{
   margin-top: 3em;
   border: 1px solid #303342;
@@ -108,10 +114,10 @@ a, a:hover{
   height:auto;
 }
 .full_photo{
-  padding:60px;
+  padding-top:60px;
+  padding-bottom: 60px;
   border-radius: 3px;
   margin-top: 20px;
-  margin-bottom: 20px;
   min-width: 100%;
   display:flex;
   justify-content: center;

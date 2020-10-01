@@ -14,11 +14,11 @@
 				"Title":"product opportunity",
 				"Paragraph":"After creating an internal design system with a new component library, we sought to update our existing application to be compliant with our new design principles."
 			},
-			{"Title":"Design Overview",
+			{"Title":"design overview",
 			"Paragraph":"I worked with two other UX designers on this 10 month project. I focused on leading design critiques and review sessions with internal stakeholders, worked across teams to determine the scope of the MVP release and owned some of the specific designs of the overall application."
 			},
 			{
-			"Title":"Initial Insights",
+			"Title":"initial insights",
 			"Paragraph":"Upon receiving this task, we were able to review existing user pain point research and conduct surveys for additional research to gain an understanding of what parts of the application we may want to take this opportunity to redesign.",
 			"caption":"Existing UI",
 			"image":"oldProposal.png",
@@ -39,11 +39,12 @@
 				"Title":"redefined problem statement",
 			"Paragraph":"How can we simplify the cognitive load of our application for users?"
 			},
-			{"Title":"Design Highlights",
+			{"Title":"design highlights",
 			"Paragraph":" "
 			},
 			{
 			"Subtitle":"Consistency is key",
+			"icon":"hourglass.png",
 			"Paragraph":"In this redesign, we also reviewed the copy and standardized key terminology as well as consistency in number formatting, such as rounding and input validation."
 			},
 			{

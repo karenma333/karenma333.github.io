@@ -11,17 +11,18 @@
 			{{/each}}
 			{{/each}}
 		</div>
-		<div class = "full_photo">
+		
+	</div>
+	<div class = "background full_photo">
 			<img src="./public/images/{{image}}" alt="{{altText}}">
 		</div>
-	</div>
 	<main>
 	{{#each category}}
 	{{#if type}}
 	<div class = "splash">
 		<div>
-			<h2>{{Title}}</h2>
-			<h1>{{Paragraph}}</h1>
+			<h4>{{Title}}</h4>
+			<h2>{{Paragraph}}</h2>
 		</div>
 	</div>
 	{{else}}
@@ -31,7 +32,10 @@
 		{{/if}}
 		<div class="row">
 			<div class="col-lg-5">	
-				<h2> {{Title}}</h2>
+				<h4> {{Title}}</h4>
+				<div class="icon">
+				<img src="./public/icons/{{icon}}" alt="" ></img>
+			</div>
 			</div>
 			<div class="col-lg-7">
 				<p class = "bold">{{Subtitle}}</p>
