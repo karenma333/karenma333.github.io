@@ -69,8 +69,6 @@ a, a:hover{
   padding: 0;
 }
 .container>div, main>div{
-  padding-right: 8em;
-  padding-left: 8em;
   background-clip:padding-box;
 }
 /*Footer*/
@@ -193,6 +191,9 @@ body .container>div, main>div{
 .half_photo{
   padding:5px;
 }
+body .container>div, main>div{ 
+    padding-right: 1em;
+    padding-left: 1em;
 }
 @media screen and (max-width: 575px){
 .about .half_photo{
