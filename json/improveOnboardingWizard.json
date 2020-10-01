@@ -25,9 +25,11 @@
 			},
 			{
 			"Subtitle":"Users are not finishing the enrollment process. ",
+			"icon":"decline_icon.png",
 			"Paragraph":"Over 60% of users are dropping off, users are disinclined to continue and give up because they have no insight on how many steps are in our enrollment process."
 			},
 			{"Subtitle":"Users are not using our wizard as desired. ",
+			"icon":"fastforward_icon.png",
 			"Paragraph":"On the last three steps, users are clicking ‘Next’ without interacting with the application. Users are ignoring and not recognizing our request for personalization. "
 			},
 			{"type":"splash",
@@ -40,10 +42,14 @@
 			},
 			{
 			"Subtitle":" Simplified Introductory Wizard.",
+			"icon":"wizard_icon.png",
+
 			"Paragraph":" Since the wizard isn’t being used, I condensed the wizard into a single page. "
 			},
 			{
 			"Subtitle":"Highlighted Key Personalization.",
+			"icon":"highlight_icon.png",
+
 			"Paragraph":"  While the more information we know is better, I determined the most important and easiest pieces of personalization to request. "
 			},
 			{
