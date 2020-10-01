@@ -15,14 +15,14 @@
 				"Paragraph":"After creating an internal design system with a new component library, we sought to update our existing application to be compliant with our new design principles."
 			},
 			{"Title":"design overview",
-			"Paragraph":"I worked with two other UX designers on this 10 month project. I focused on leading design critiques and review sessions with internal stakeholders, worked across teams to determine the scope of the MVP release and owned some of the specific designs of the overall application."
+			"Paragraph":"I worked with two other UX designers on this 10 month project. I focused on leading design critiques and review sessions with internal stakeholders, worked across teams to determine the scope of the MVP release and owned some of the specific designs of the overall application.",
+			"caption":"The existing user interface getting redesigned",
+			"image":"oldProposal.png",
+			"altText":""
 			},
 			{
 			"Title":"initial insights",
-			"Paragraph":"Upon receiving this task, we were able to review existing user pain point research and conduct surveys for additional research to gain an understanding of what parts of the application we may want to take this opportunity to redesign.",
-			"caption":"Existing UI",
-			"image":"oldProposal.png",
-			"altText":""
+			"Paragraph":"Upon receiving this task, we were able to review existing user pain point research and conduct surveys for additional research to gain an understanding of what parts of the application we may want to take this opportunity to redesign."
 
 			},
 			{
@@ -45,8 +45,7 @@
 				"Title":"redefined problem statement",
 			"Paragraph":"How can we simplify the cognitive load of our application for users?"
 			},
-			{"Title":"design highlights",
-			"Paragraph":" "
+			{"Title":"design highlights"
 			},
 			{
 			"Subtitle":"Consistency is key",

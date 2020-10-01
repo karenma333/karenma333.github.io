@@ -44,9 +44,11 @@
 		</div>
 	</div>
 	{{#if image}}
-	<div class = "background full_photo">
-		<h3>{{caption}}</h3>
+	<div class = "background full_photo row">
 		<img src="./public/images/{{image}}" alt="{{altText}}">
+		<div class = "col-lg-12">
+			<p>{{caption}}</p>
+		 </div>
 	</div>
 	{{/if}}
 
