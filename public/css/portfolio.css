@@ -68,8 +68,11 @@ a, a:hover{
   max-width: none;
   padding: 0;
 }
-.container>div, main>div{
+
+.container>div, article>div{
   background-clip:padding-box;
+  padding-right: 8em;
+  padding-left: 8em;
 }
 /*Footer*/
 .footerwrap{
@@ -88,6 +91,20 @@ a, a:hover{
 }
 .mobile_spacer{
   display:none;
+}
+button{
+background-color: #BF532F;
+border-width:0px;
+color: white;
+border-radius: 2px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+button:hover{
+  box-shadow: 2px 2px 5px #BF532F
 }
 /*Photos*/
 .icon{
@@ -172,7 +189,7 @@ a:hover .read_more, .read_more:hover{
 
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
-body .container>div, main>div{ 
+.container>div, article>div{ 
     padding-right: 15em;
     padding-left: 15em;
 
@@ -191,7 +208,7 @@ body .container>div, main>div{
 .half_photo{
   padding:5px;
 }
-body .container>div, main>div{ 
+.container>div, article>div{ 
     padding-right: 1em;
     padding-left: 1em;
 }
