@@ -2,27 +2,46 @@
 	<div class = "heading">
 		<header>
 			<h1> Karen Ma</h1>
+			<h3>Lead Product Designer & Strategist</h3>
 		</header>
-		<h4>end-to-end product generalist</h4>
+
 	</div>
-	<div class="row">
-		<div class="col-lg-6 col-md-6 col-sm-6 about">
-			<p>{{about}} <br/><br/> To chat, email me at <b>karenma333@gmail.com</b> </p>
-			<a href="./public/resumeKarenMa.pdf" target="_blank" class="link read_more"><button>View My Resume </button></a>
-			<div class="half_photo">
-				<img src="./public/images/half.JPG" alt="Photo of Karen">
-			</div>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6">
+	<div class= "homeContent">
+	<div class="about">
+		<h3>About Me</h3>
+		<p>Currently located in Chicago, I work as a Lead Designer at NextCapital where I’m looking to improve the end-user experience for users of our core products. For more details, you can find <span><a href="./public/resumeKarenMa.pdf" target="_blank">my full resume here</a>. </span></p>
+		<p> Outside of work, I enjoy learning about design across all disclipines, by listening to podcasts like 99% Invisible and Twenty Thousand Hertz. I’ve started writing to collect all my design and product musing into <span><a href="https://medium.com/@karenma" target="_blank">one space.</a></span> </p>
+		<p>
+		Some Recommendations from me:<br>
+		Recent Books:
+		<ul>
+			<li>Never Let Me Go, Kazuo Ishiguro</li>
+		</ul>
+		Recent Recipes:
+
+		<ul>
+			<li>Japanese Cheesecake</li>
+
+		</ul>
+		</p>
+		<p> Where else to find me: 
+			<span><a href="https://www.linkedin.com/in/karenma333 target="_blank">LinkedIn</a></span> ,
+			<span><a href="https://www.github.com/karenma333 target="_blank">GitHub</a></span> ,
+			<span><a href="https://www.medium.com/@karenma"target="_blank">Medium</a></span> ,
+			<span><a href=""target="_blank"> email( karenma333@gmail.com)</a></span> 
+		</p>
+	</div>
+		<div class="projects">
+			<h3>Selected Work</h3>
 			{{#each projBlurbs}}
 			<div class = "projLayout">
 				<a href="{{id}}.html" >
 					<div class="projBlurbs">
-						<h3>{{title}}</h3>
+						<h4>{{title}}</h4>
 						<p>{{description}}</p>
-						<p class = "link read_more"> Read Case Study</p>
 					</div>
 				</a >
+			<hr>
 			</div>
 			{{/each}}
 		</div>

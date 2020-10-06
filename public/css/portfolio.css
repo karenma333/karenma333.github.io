@@ -1,13 +1,13 @@
 /*Generic Styles*/
 body{
   font-family: Raleway, sans-serif;
-  background-color:#FFFFFB;
+  background-color:#FAFAFA;
   color:#303342;
   margin-top: 6em;
 }
 p{
-  font-family: Raleway, sans-serif;
-  font-size: 20px;
+  font-family: Lora;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 300;
 }
@@ -25,9 +25,8 @@ h3{
   font-weight: 300;
 }
 h4{
-  font-size:24px;
+  font-size:16px;
   font-weight:700;
-  font-variant: small-caps;
 }
 h5{
   font-size:16px;
@@ -59,7 +58,7 @@ a, a:hover{
   background-color:#F0F5F4;
 }
 /**/
-.homeContent{
+main{
   display:flex;
   justify-content: center;
 }
@@ -74,38 +73,13 @@ a, a:hover{
   padding-right: 8em;
   padding-left: 8em;
 }
-/*Footer*/
-.footerwrap{
-  width:100%;
-}
-.footer a, .footer p{
-  color:white;
-  font-weight: 300;
-}
-.footer{
-  margin-top: 6em;
-  display:flex;
-  justify-content: space-evenly;
-  padding-top:1em;
-  padding-bottom:1em;
+.about{
+  padding-left:8em;
 }
 .mobile_spacer{
   display:none;
 }
-button{
-background-color: #BF532F;
-border-width:0px;
-color: white;
-border-radius: 2px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-right: 10px;
-padding-left: 10px;
-}
 
-button:hover{
-  box-shadow: 2px 2px 5px #BF532F
-}
 /*Photos*/
 .icon{
   display: flex;
@@ -115,19 +89,7 @@ button:hover{
 .icon img{
   max-height: 100px;
 }
-.half_photo{
-  margin-top: 3em;
-  border: 1px solid #303342;
-  padding:30px;
-  border-radius:2px;
-  margin-right: 20px;
-}
-.half_photo img{
-  border: 1px solid #303342;
-  border-radius:2px;
-  max-width: 100%;
-  height:auto;
-}
+
 .full_photo{
   padding-top:60px;
   padding-bottom: 60px;
@@ -145,30 +107,41 @@ button:hover{
 }
 /*Home Page*/
 .heading{
-  padding-bottom: 1em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
 }
-.read_more{
-  text-decoration: underline;
+.homeContent{
+  padding:0 !important;
+  display:flex;
 }
-.about{
-  padding-right:2.5em;
+.about, .projects{
+  width:50%;
+}
+.projects h3, .projLayout{
+  padding-left:.5rem;
+}
+.about h3{
+  padding-bottom: .5em;
 }
 .projLayout{
-  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-right: 8em;
 }
 .projBlurbs{
-  padding-left:5px;
-  border-left: 5px solid transparent;
-
+  padding-bottom: 0.5em;
+}
+hr{
+  margin:0;
 }
 
 /*projBlurbs hover functionality*/
-a:hover .projBlurbs{
-  border-left: 5px solid #BD520A;
-  border-radius:2px;
+.projLayout:hover{
+background-clip: padding-box;
+background-color: #C2DCCB;
 }
-a:hover .read_more, .read_more:hover{
-  font-weight: 700;
+.projLayout:hover hr{
+  display:none;
 }
 /*project details*/
 .proj_title h1{
@@ -194,16 +167,18 @@ a:hover .read_more, .read_more:hover{
     padding-left: 15em;
 
 }
+.about{
+  padding-left: 15em;
+  padding-right: 1em;
+}
+.projLayout{
+  padding-right:15em;
+}
 
 }
 @media screen and (max-width: 780px){
 .full_photo{
   padding: 1em;
-}
-.footer{
-  display:flex;
-  flex-wrap:wrap;
-  padding-bottom: 0;
 }
 .half_photo{
   padding:5px;
@@ -212,10 +187,15 @@ a:hover .read_more, .read_more:hover{
     padding-right: 1em;
     padding-left: 1em;
 }
-@media screen and (max-width: 575px){
-.about .half_photo{
-display:none;
+.about{
+  padding-left: 1em;
 }
+.projLayout{
+  padding-right: 1em;
+}
+}
+@media screen and (max-width: 575px){
+
 .about{
   margin-bottom:2em;
   padding-left:20px;
