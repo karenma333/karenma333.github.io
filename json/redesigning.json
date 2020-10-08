@@ -3,74 +3,75 @@
 		"id":1,
 		"project":"Application Redesign to Version 2.0",
 		"overview":[
-			{"Context: ": "Team: 3 Designers"},
 			{"Role: ":"Role: Lead Designer"},
-			{"Time: ":"Length of Project: 10 Months"}
+			{"Time: ":"Timeline: 10 Months (2020)"},
+			{"Context: ": "Team: 3 Designers"}
 		],
 		"image":"newProposal.png",
 		"altText":"",
+		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
 		"category":[
 			{"type" :"splash",
-				"Title":"product opportunity",
-				"Paragraph":"After creating an internal design system with a new component library, we sought to update our existing application to be compliant with our new design principles."
+				"Title":"Product Opportunity",
+				"Paragraph":"With the creation of a new internal design system and framework, I worked on redesigning our existing product to meet our new design specifications and iterate upon the existing platform. "
 			},
-			{"Title":"design overview",
-			"Paragraph":"I worked with two other UX designers on this 10 month project. I focused on leading design critiques and review sessions with internal stakeholders, worked across teams to determine the scope of the MVP release and owned some of the specific designs of the overall application.",
-			"caption":"The existing user interface getting redesigned",
+			{"Title":"Design Overview",
+			"Paragraph":"I worked with two other UX designers on this 10 month project. I focused on leading design critiques and review sessions with internal stakeholders, working across teams to determine the scope of the MVP release and owning some of the specific designs of the overall redesign.",
+			"caption":"The user interface before getting redesigned",
 			"image":"oldProposal.png",
 			"altText":""
 			},
 			{
-			"Title":"initial insights",
-			"Paragraph":"Upon receiving this task, we were able to review existing user pain point research and conduct surveys for additional research to gain an understanding of what parts of the application we may want to take this opportunity to redesign."
+			"Title":"Key Use Cases",
+			"Paragraph":"The initial scope of the application redesign was enormous. Research was conducted to distill the key use cases we wanted to resolve in the first launch. "
 
 			},
 			{
-			"Subtitle":"The way projections were modelled did not match users' mental model.",
+			"Subtitle":"Our modelling of projections did not match users' mental model.",
 			"icon":"brain_icon.png",
-			"Paragraph":"Our initial display used a tabbing format to allow users to compare two different scenarios. However, we saw user confusion. They did not understand why the values are changing and why not all of the values changed. "
+			"Paragraph":"Our initial display used a tabbing format to allow users to compare different scenarios. However, we saw user confusion. They did not understand why the values are changing and why not all of the values changed. "
 			},
 			{"Subtitle":"The application load time was not proportional to payoff for users.",
 			"icon":"loading_icon.png",
-
-			"Paragraph":"In areas where our application takes a long time, users were dropping off. It was clear we needed to decrease the load time as well as improve our loading pattterns."
+			"Paragraph":"In areas where our application takes a long time to load, users were dropping off. It was clear we needed to decrease the load time as well as improve our loading pattterns."
 			},
 			{"Subtitle":"The primary dashboard was too cluttered",
 			"icon":"clutter_icon.png",
-
-			"Paragraph":"Because the existing visual hierarchy of the dashboard had many items on the same level, there was no clear indicator what users should be paying the most attention to. There was no differentiation between items that were prone to change and items that are seldom accessed. "
+			"Paragraph":"Because the existing visual hierarchy of the dashboard had many items on the same level, there was no clear indicator as to what users should be paying the most attention to. There was no differentiation between items that were prone to change and items that are seldom accessed. "
 			},
 			{
-				"type":"splash",
-				"Title":"redefined problem statement",
+			"type":"splash",
+			"Title":"Redefined Problem Statement",
 			"Paragraph":"How can we simplify the cognitive load of our application for users?"
 			},
-			{"Title":"design highlights"
+			{"Title":"Design Highlights",
+			"Paragraph":"While there were many things we wanted to change in the new application, our key use cases allowed us to hone in on what we would be solving for in this launch. Not only did we make changes for this application, we also developed design system guidelines from these solutions. "
 			},
 			{
-			"Subtitle":"Consistency is key",
+			"Subtitle":"Improved content through consistency",
 			"icon":"key_icon.png",
-			"Paragraph":"In this redesign, we also reviewed the copy and standardized key terminology as well as consistency in number formatting, such as rounding and input validation."
+			"Paragraph":"A content review was undertaken,  reviewing the copy, such as help text and info buttons, leading to standardized key terminology to reduce the vocabulary on the page.  Additionally, rules for displays of numbers were put in place, allowing for consistent expecatations of rounding and precision."
 			},
 			{
-			"Subtitle":"Loading should be pleasant too",
+			"Subtitle":"Engaged loading times",
 			"icon":"loading2_icon.png",
-			"Paragraph":"Taking notes from gaming loading screens, the existing loading screens were replaced with loading screens that gave users something to look at while they waited."
+			"Paragraph":"Taking notes from gaming loading screens, the existing loading screens were replaced with loading screens that gave users something to look at while they waited. Additionally, instead of constant loading, information was loaded on an as-needed basis."
 			},
 			{
-			"Subtitle":"Give users control over saving",
+			"Subtitle":"User controlled saving mechanisms",
 			"icon":"control_icon.png",
 			"Paragraph":"Previously, all changes were saved on blur, as soon as users clicked out of a editable box. This ensured information was always as up-to-date as possible but wasted a lot of time. Updates were made so the save behavior only occurred when a user clicks a save button, allowing users more freedom to interact without having their user flow interrupted by loading time."
 			},
 			{
-			"Subtitle":"Comparisons are easier side-by-side.",
+			"Subtitle":"Side-by-side comparisons",
 			"icon":"compare_icon.png",			
-			"Paragraph":"In the tabbing style, the two scenarios could not be seen side-by-side; users would need to memorize the differences themselves. By placing the two scenarios on the same page, users were better able to draw their own conclusions to pros and cons.",
-			"image":"newProposal.png"
+			"Paragraph":"In the previous tabbing style, the two scenarios could not be seen side-by-side; users would need to memorize the differences themselves. By placing the two scenarios on the same page, users were better able to draw their own conclusions to pros and cons.",
+			"image":"newProposal.png",
+			"caption":"The redesigned dashboard"
 			},
 			{
-			"Title":"",
-			"Paragraph":""
+			"Title":"Conclusion",
+			"Paragraph":"Given the timeline of the project, the primary focus for the first launch was to build a good foundation by setting up design patterns to follow when iterating on the application.  Not only does this new redesign make use of our new visual design library, it also puts into place user experience guidelines from content strategy to interaction design patterns."
 			}
 			]
 		

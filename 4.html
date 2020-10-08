@@ -24,35 +24,42 @@
 	<main>
 			<div class = "container">
 				<!doctype html>
-					<div>
-					<a href="javascript:history.back()" class="link"><h3><- BACK</h3></a>
-					</div>
 					<article>
 					<div class="proj_title">
+						<div class="backButton">
+							<a href="javascript:history.back()" > <img src="./public/icons/backArrow.png"><h3> BACK</h3></a>
+						</div>
 						<header>
-							<h1 role= "heading" aria-level="1">Condensing Product Value</h1>
+							<h1 role= "heading" aria-level="1">Retirement Proposal Document Redesign</h1>
 						</header>
 						<div class="proj_details">
 							<h5>Team size: 3</h5>
+							<h5>Timeline: 2 Months (2019)</h5>
 							<h5>Role: Product strategy, research &amp; design</h5>
-							<h5>Skillset: Card sort, heuristic evaluation, usability testing</h5>
 						</div>
-						
+						<div class="disclaimer">
+							<p ></p>
+						</div>
 					</div>
 					<div class = "background full_photo">
-							<img src="./public/images/highLevelProposal.png" alt="">
+							<img src="./public/images/afterProposal.png" alt="">
+					</div>
+					<div class = "splash">
+						<div>
+							<h4 role="heading" aria-level="2">Product Opportunity</h4>
+							<h2>To better allow less financially-educated users to understand advice from an online finance product, I piloted a feature to allow users to receive a snapshot of their advice to reference in posterity and review with others.</h2>
 						</div>
+					</div>
 					<div class ="paragraph">
 						<div class="row">
 							<div class="col-lg-5">	
-								<h4 role="heading" aria-level="2">  product</h4>
+								<h3 role="heading" aria-level="2">  The Current State</h3>
 								<div class="icon">
 								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
 							</div>
 							</div>
 							<div class="col-lg-7">
-								<p class = "bold" role="heading" aria-level="3"></p>
-								<p>Less than 10% of millenials make financial decisions by themselves, often asking for financial advice from others. To better allow millenials to share the financial advice from an online finance product, I piloted a feature to allow users to receive a snapshot of their advice to reference in posterity and review with others.</p>
+								<p>Because I was not starting from scratch, I started out by conducting a heuristic evaluation on the existing state of the solution - a 5 page document summarizing the user&#x27;s advice and recommendations. </p>
 							</div>
 						</div>
 					</div>
@@ -60,35 +67,78 @@
 					<div class ="paragraph">
 						<div class="row">
 							<div class="col-lg-5">	
-								<h4 role="heading" aria-level="2">  heuristic evaluation</h4>
+								<h3 role="heading" aria-level="2">  </h3>
 								<div class="icon">
-								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
+								<img src="./public/icons/confused.png" alt=""  aria-hidden="true"></img>
 							</div>
 							</div>
 							<div class="col-lg-7">
-								<p class = "bold" role="heading" aria-level="3"></p>
-								<p>Because I was not starting from scratch, I started out by conducting a heuristic evaluation on the existing state of the solution - a 5 page document summarizing the user&#x27;s advice and recommendations. Based on my evaluation, I noticed that the terminology used was unfamiliar to audiences or not industry-standard, the information lacked consistency and switched between different modes, such as between total vs singular account data. The visual was also not flexible for use, switching between standard content useful for base users and information only relevant and understandable to power user. </p>
+								<p class = "bold" role="heading" aria-level="3">Terminology used was unfamiliar to audiences or not industry-standard</p>
+								<p>The same concepts were referred to with different words in the same document.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/documents.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Information lacked consistency in formatting</p>
+								<p>The document shifted from future state to current state to previous state without clear indicators. </p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/clutter_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Relevant content was scattered</p>
+								<p>Detailed information that is only relevant to power users was intermixed, leading to confusion for our average user who did not need the extra detail.</p>
 							</div>
 						</div>
 					</div>
 					<div class = "background full_photo row">
-						<img src="./public/images/beforeProposal.png" alt="Image of the original advice proposal pdf document.">
+						<img src="./public/images/beforeProposal.png" alt="">
 						<div class = "col-lg-12">
-							<p></p>
+							<p>The original advice proposal pdf document.</p>
 						 </div>
 					</div>
 				
 					<div class ="paragraph">
 						<div class="row">
 							<div class="col-lg-5">	
-								<h4 role="heading" aria-level="2">  information archictecture</h4>
+								<h3 role="heading" aria-level="2">  Information Architecture</h3>
 								<div class="icon">
 								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
 							</div>
 							</div>
 							<div class="col-lg-7">
-								<p class = "bold" role="heading" aria-level="3"></p>
-								<p>In order to both review what content should be displayed and how, I decided to conduct a hybrid card sort. This card sort started our users with a set of the information in the current document and the current sections of the document and also allowed users to add cards/section. Users were also not required to use all the cards. To delve a little further, I also asked users to highlight the most important information in each section by attempting to remove up to 10 cards from their original card sort. After conducting the card sort with 14 people, I created an information hierarchy diagram, with the darker purple cards highlighting card that 70% of our users placed in these groupings even after being asked to remove the cards. This diagram dictated the information architecture structure of the final solution.</p>
+								<p>In order to both review what content should be displayed and how, I decided to conduct a hybrid card sort. This card sort started our users with a set of the information in the current document and the current sections of the document and also allowed users to add cards/section. Users were also not required to use all the cards. </p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p>To delve a little further, I also asked users to highlight the most important information in each section by attempting to remove up to 10 cards from their original card sort. After conducting the card sort with 14 people, I created an information hierarchy diagram, with the darker purple cards highlighting card that 70% of our users placed in these groupings even after being asked to remove the cards. This diagram dictated the information architecture structure of the final solution.</p>
 							</div>
 						</div>
 					</div>
@@ -102,35 +152,137 @@
 					<div class ="paragraph">
 						<div class="row">
 							<div class="col-lg-5">	
-								<h4 role="heading" aria-level="2">  user testing</h4>
+								<h3 role="heading" aria-level="2">  User Testing</h3>
 								<div class="icon">
 								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
 							</div>
 							</div>
 							<div class="col-lg-7">
-								<p class = "bold" role="heading" aria-level="3"></p>
-								<p>Using the insights from my user research, combined with technical constraints and customer feedback, we created two parallel designs and conducted usability tests with the two designs to iterate. The two designs differed in what visual metaphor was used to communicate certain ideas as well as what information was emphasized on the first page, a summary page. I conducted various types of usability tests with each iteration, such as longer-form tests, asking users to locate information in the document to evaluate success of metaphors, and 5-second tests to gain a user&#x27;s first impression. I reviewed the error rates on the tasks as well as time taken to complete tasks to inform our future design iterations.</p>
+								<p>Using the insights from my user research, combined with technical constraints and customer feedback, we created two parallel designs.I asked users to locate information in the document to evaluate success of metaphors, and conducted 5-second tests to gain a user&#x27;s first impression. I reviewed the error rates on the tasks as well as time taken to complete tasks to inform our future design iterations.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/table_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Asset Allocation should be grouped together.</p>
+								<p>While we attempted to separate out the highest level asset allocation information to the front page for our average user, it appeared that the average user did not care and the whole concept was considered advanced.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/money_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Contributions are really confusing.</p>
+								<p>Users had the highest error rates in this section, misreading what their overall contributions were, as well as their contributions per account. Our visual hierarchy was incorrect, users valued all their contribution information.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/charts_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Visuals are not always helpful.</p>
+								<p>The chart visual for contributions caused more confusion than clarity.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p></p>
 							</div>
 						</div>
 					</div>
 					<div class = "background full_photo row">
-						<img src="./public/images/ABProposal.png" alt="Two of the samples of the parallel designs">
+						<img src="./public/images/ABProposal.png" alt="">
 						<div class = "col-lg-12">
-							<p></p>
+							<p>Two of the samples of the parallel designs</p>
 						 </div>
 					</div>
 				
 					<div class ="paragraph">
 						<div class="row">
 							<div class="col-lg-5">	
-								<h4 role="heading" aria-level="2">  final solution</h4>
+								<h3 role="heading" aria-level="2">  Final Solution</h3>
 								<div class="icon">
 								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
 							</div>
 							</div>
 							<div class="col-lg-7">
-								<p class = "bold" role="heading" aria-level="3"></p>
-								<p>At a high level, the final solution consisted of a summary page which displayed key plan metrics and plan status. The intent here was to allow users to skim the first page and receive all the information they needed. Following the summary, two pages displayed the plan recommendations in more detail, starting with information that would impact the user most to least. In comparison to the original state of this feature, the information was condensed to be a shorter document and maintained one overall line of focus - the user&#x27;s plan. The terminology was also updated to be more consistent to standard and more easily comprehended by users. The highlight of the document shifted from what is changing to what the impact of the change would be.</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/target_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Target is most important.</p>
+								<p>In the two visual metaphors we tested, we chose to highlight either wealth or target income as the measure of plan status. Projections of the user&#x27;s retirement income provided the best understanding of how on track they were.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/focus_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Focus on recommendations.</p>
+								<p>The focus of the document begins with the recommendations provided to the user, the three concrete expectations of user behavior. This acts as a summary of the document and the continuing pages provide additional details for power users who may be interested.</p>
+							</div>
+						</div>
+					</div>
+				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  </h3>
+								<div class="icon">
+								<img src="./public/icons/money_icon.png" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p class = "bold" role="heading" aria-level="3">Provide details on tangible impacts</p>
+								<p>Contributions are the only sector where users will feel an immediate impact and thus are the area that users focus on. Providing all available details here supports user curiousity.</p>
 							</div>
 						</div>
 					</div>
@@ -141,11 +293,40 @@
 						 </div>
 					</div>
 				
+					<div class ="paragraph">
+						<div class="row">
+							<div class="col-lg-5">	
+								<h3 role="heading" aria-level="2">  Conclusion</h3>
+								<div class="icon">
+								<img src="./public/icons/" alt=""  aria-hidden="true"></img>
+							</div>
+							</div>
+							<div class="col-lg-7">
+								<p>This document redesign better maps to the dashboard in the application and focuses on a snapshot of the new recommendations instead of a comparison between the current state and ideal state. The existing document was so confusing that we fielded customer service complaints from users asking for explanations. I anticipate a decrease in the customer service complaints with regards to this feature, increased usage of this feature as well as increased enrollment for users who have downloaded a document.</p>
+							</div>
+						</div>
+					</div>
+				
 				</article>		</div>
 	</main>
+	<footer>
+		<div class="footerwrap">
+			<div class="footer">
+					<p
+					<a href = "">  karenma333@gmail.com </a> |
+					<a href = "https://www.linkedin.com/in/karenma333" target ="_blank"> LinkedIn</a> |
+					<a href = "https://www.github.com/karenma333" target ="_blank"> Github</a></p>
+					<p>Website Design and Content © 2020 Karen Ma |
+					<a href = "https://www.icons8.com" target ="_blank"> Icons by icons8</a>	</p>
+			</div>
+		</div>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>-->
+		<script src="./public/js/particles.js"></script>
+
 	<script src="./public/js/portfolio.js"></script>
 </body>
 </html>

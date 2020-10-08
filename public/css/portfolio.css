@@ -3,22 +3,20 @@ body{
   font-family: Raleway, sans-serif;
   background-color:#FAFAFA;
   color:#303342;
-  margin-top: 6em;
 }
 p{
   font-family: Lora;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 300;
 }
 h1{
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 300;
 }
 h2{
   font-size:32px;
   font-weight: 300;
-  line-height: 
 }
 h3{
   font-size: 24px;
@@ -41,23 +39,42 @@ a, a:hover{
     padding-top: 2em;
     padding-bottom: 2em;
 }
-.proj_title h1{
-  color:#40806a; 
-}
-
 .bold{
   font-weight: 700;
-}
-.link{
-  color:#BD520A;
 }
 .secondary{
   background-color:#40806a;
 }
 .background{
-  background-color:#F0F5F4;
+  background-color:#F2F3F9;
+}
+.about a, .readMore p, .backButton{
+  color: #586AC5;
+  text-decoration-color:#586AC5;
+;
+}
+.projLayout:hover{
+  background-color: #CFD6FA;
+}
+.projLayout:hover .readMore p{
+  color:#424A70;
 }
 /**/
+.backButton a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.backButton a img{
+  max-height: 20px;
+}
+.backButton a h3{
+  padding-left:5px;
+  margin-bottom: 0px;
+}
+header, .backButton{
+  margin-top: 2rem;
+}
 main{
   display:flex;
   justify-content: center;
@@ -68,7 +85,7 @@ main{
   padding: 0;
 }
 
-.container>div, article>div{
+.container>div, article>div, footer{
   background-clip:padding-box;
   padding-right: 8em;
   padding-left: 8em;
@@ -79,7 +96,44 @@ main{
 .mobile_spacer{
   display:none;
 }
+ul{
+  list-style-type: circle;
+}
+.footer{
+  margin-top: 6em;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  padding-top:1em;
+  padding-bottom:1em;
+  font-family: Lora;
+}
 
+.readMore{
+  padding: .5rem 1rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+}
+.readMore img{
+  max-height: 14px;
+  padding-left: 5px;
+  display: none;
+}
+.readMore p{
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: Raleway, sans-serif;
+  margin-bottom: 0rem;
+  font-weight: 700;
+
+}
+.projBlurbs p{
+  margin-bottom: 0rem;
+}
+.projLayout:hover .readMore img{
+  display:block;
+
+}
 /*Photos*/
 .icon{
   display: flex;
@@ -107,9 +161,13 @@ main{
 }
 /*Home Page*/
 .heading{
+  padding-top: 3em;
   padding-bottom: 3em;
   display: flex;
   justify-content: center;
+}
+.heading h1{
+  font-weight: 500;
 }
 .homeContent{
   padding:0 !important;
@@ -118,6 +176,13 @@ main{
 .about, .projects{
   width:50%;
 }
+.about p, span, a, .footer p{
+  font-size: 16px;
+}
+.about a{
+  text-decoration: underline;
+  font-weight: 700;
+}
 .projects h3, .projLayout{
   padding-left:.5rem;
 }
@@ -125,25 +190,18 @@ main{
   padding-bottom: .5em;
 }
 .projLayout{
-  padding-top: 1em;
-  padding-right: 8em;
+  padding: 1em 8em 1em .5rem;
 }
-.projBlurbs{
-  padding-bottom: 0.5em;
-}
-hr{
-  margin:0;
-}
-
 /*projBlurbs hover functionality*/
 .projLayout:hover{
 background-clip: padding-box;
-background-color: #C2DCCB;
-}
-.projLayout:hover hr{
-  display:none;
+/*background-color: #E9CAC3;*/
 }
 /*project details*/
+.proj_title{
+  padding-top: 2rem;
+
+}
 .proj_title h1{
   text-align: center; 
 }
@@ -159,10 +217,20 @@ background-color: #C2DCCB;
   padding-top: 20px;
 
 }
-
+.disclaimer{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.disclaimer p{
+  width:50%;
+  font-style:italic;
+  font-size: 14px;
+  color:grey;
+}
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
-.container>div, article>div{ 
+.container>div, article>div, footer{ 
     padding-right: 15em;
     padding-left: 15em;
 
@@ -183,7 +251,7 @@ background-color: #C2DCCB;
 .half_photo{
   padding:5px;
 }
-.container>div, article>div{ 
+.container>div, article>div, footer{ 
     padding-right: 1em;
     padding-left: 1em;
 }

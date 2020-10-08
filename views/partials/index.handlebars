@@ -1,34 +1,26 @@
 <!doctype html>
-	<div class = "heading">
+	<div class = "heading"id="particles-js">
 		<header>
 			<h1> Karen Ma</h1>
-			<h3>Lead Product Designer & Strategist</h3>
+			<h2>Lead Product Designer & Strategist</h2>
 		</header>
 
 	</div>
 	<div class= "homeContent">
 	<div class="about">
 		<h3>About Me</h3>
-		<p>Currently located in Chicago, I work as a Lead Designer at NextCapital where I’m looking to improve the end-user experience for users of our core products. For more details, you can find <span><a href="./public/resumeKarenMa.pdf" target="_blank">my full resume here</a>. </span></p>
-		<p> Outside of work, I enjoy learning about design across all disclipines, by listening to podcasts like 99% Invisible and Twenty Thousand Hertz. I’ve started writing to collect all my design and product musing into <span><a href="https://medium.com/@karenma" target="_blank">one space.</a></span> </p>
+		<p>Currently located in Chicago, I work as a Lead Designer at NextCapital where I'm focused on finding ways to encourage people to plan for retirement. For more details, take a look at <span><a href="./public/resumeKarenMa.pdf" target="_blank">my full resume</a>. </span></p>
+		<p> Outside of work, I enjoy learning about design across all disclipines and listen to design-related podcasts like 99% Invisible and Twenty Thousand Hertz. I started writing to collect all my design and product musing into <span><a href="https://medium.com/@karenma" target="_blank">one space</a></span> .</p>
 		<p>
-		Some Recommendations from me:<br>
-		Recent Books:
+		Recently Read:</p>
 		<ul>
-			<li>Never Let Me Go, Kazuo Ishiguro</li>
+			<li><p>Never Let Me Go, Kazuo Ishiguro</p></li>
 		</ul>
-		Recent Recipes:
-
-		<ul>
-			<li>Japanese Cheesecake</li>
-
-		</ul>
-		</p>
-		<p> Where else to find me: 
+		<p> Where else to find me:  <br>
 			<span><a href="https://www.linkedin.com/in/karenma333 target="_blank">LinkedIn</a></span> ,
 			<span><a href="https://www.github.com/karenma333 target="_blank">GitHub</a></span> ,
 			<span><a href="https://www.medium.com/@karenma"target="_blank">Medium</a></span> ,
-			<span><a href=""target="_blank"> email( karenma333@gmail.com)</a></span> 
+			<span> email (karenma333@gmail.com)</span> 
 		</p>
 	</div>
 		<div class="projects">
@@ -37,11 +29,13 @@
 			<div class = "projLayout">
 				<a href="{{id}}.html" >
 					<div class="projBlurbs">
-						<h4>{{title}}</h4>
+						<h4 id="{{@index}}">{{title}}</h4>
 						<p>{{description}}</p>
+						<div class= "readMore">
+							<p  aria-describedby="{{@index}}">VIEW PROJECT</p> <img src = "./public/icons/Arrow1.png">
+						</div>
 					</div>
 				</a >
-			<hr>
 			</div>
 			{{/each}}
 		</div>
