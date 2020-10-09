@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 197,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 962.0472365193136
       }
     },
     "color": {
-      "value": "#cf2222"
+      "value": "#586ac5"
     },
     "shape": {
       "type": "circle",
@@ -17,7 +17,7 @@
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 6
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -106,5 +106,5 @@
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }
