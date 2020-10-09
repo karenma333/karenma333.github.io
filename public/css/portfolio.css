@@ -4,7 +4,7 @@ body{
   background-color:#FAFAFA;
   color:#303342;
 }
-header, h3, p, ul, h5 .projBlurbs{
+header, .secondary{
   background-color: #FAFAFA;
 }
 p{
@@ -45,9 +45,6 @@ a, a:hover{
 .bold{
   font-weight: 700;
 }
-.secondary{
-  background-color:#40806a;
-}
 .background{
   background-color:#F2F3F9;
 }
@@ -59,7 +56,7 @@ a, a:hover{
 .projLayout:hover {
   background-color: #CFD6FA;
 }
-.projLayout:hover .projBlurbs, .projLayout:hover .projBlurbs p{
+.projLayout:hover .secondary{
   background-color: #CFD6FA;
 }
 .projLayout:hover .readMore p{
@@ -199,7 +196,10 @@ canvas{
   padding-bottom: .5em;
 }
 .projLayout{
-  padding: 1em 8em 1em .5rem;
+  padding-right: 8em;
+}
+.secondary{
+  padding: 1em 0em 1em .5rem;
 }
 /*projBlurbs hover functionality*/
 .projLayout:hover{

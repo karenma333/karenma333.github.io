@@ -6,15 +6,16 @@
 		</div>
 		<header>
 			<h1 role= "heading" aria-level="1">{{project}}</h1>
+				<div class="proj_details">
+					{{#each overview}}
+					{{#each this}}
+					<h5>{{this}}</h5>
+					{{/each}}
+					{{/each}}
+				</div>
 		</header>
-		<div class="proj_details">
-			{{#each overview}}
-			{{#each this}}
-			<h5>{{this}}</h5>
-			{{/each}}
-			{{/each}}
-		</div>
-		<div class="disclaimer">
+
+		<div class="disclaimer secondary">
 			<p >{{disclaimer}}</p>
 		</div>
 	</div>
