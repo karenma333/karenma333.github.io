@@ -39,16 +39,17 @@ a, a:hover{
 
 }
 .card{
+  border-width:2px;
   border-radius:0;
-  box-shadow: 5px 5px 0px 1px #BCD0C7;
-  border-color:#BCD0C7;
+  box-shadow: 9px 9px 0px 1px #586AC5;
+  border-color:#586AC5;
 }
 .about{
-  box-shadow: 5px 5px 0px 1px #427068;
-  border-color:#427068;
+  box-shadow: 9px 9px 0px 1px #58B8C5;
+  border-color:#58B8C5;
 }
  .heading{
-  box-shadow: 5px 5px 0px 1px #73C599;
+  box-shadow: 9px 9px 0px 1px #73C599;
   border-color:#73C599;
 }
 
@@ -164,7 +165,7 @@ canvas{
   margin-top:3rem;
 }
 .heading{
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .heading h2{
   font-weight: 500;
@@ -192,7 +193,7 @@ canvas{
   padding: 1em 0em 1em .5rem;
 }
 .projLayout{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 /*projBlurbs hover functionality*/
 .projLayout:hover .btn-outline-primary{
