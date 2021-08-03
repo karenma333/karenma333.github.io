@@ -1,0 +1,34 @@
+{
+	"template":"index",
+	"about":[
+		{}
+	],
+	"projBlurbs":[
+	
+		{ 	"class":"project",
+			"id": 1,
+			"title": "Application Redesign to Version 2.0",
+			"description":"Redesigning an application with new design system guidelines"
+
+		},
+		{ 	"class":"project",
+			"id": 2,
+			"title": "Balancing Customization with Efficiency",
+			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
+
+		},
+		{ 	"class":"project",
+			"id": 3,
+			"title": "Improving Travel Budgeting",
+			"description":"Providing budgeting guidance for young adult travelers to support their travel planning"
+
+		},
+		{ 	"class":"project",
+			"id": 4,
+			"title": "Retirement Proposal Document Redesign",
+			"description":"Creating a summary of the product value through translation from digital to print"
+		}
+		
+	]
+
+}

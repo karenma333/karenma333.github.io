@@ -1,0 +1,85 @@
+{
+		"template":"project",
+		"id":1,
+		"project":"Contributions Flow",
+		"overview":[
+			{"Role: ":"Role: Lead Designer"},
+			{"Time: ":"Timeline: 3 Months (2020)"},
+			{"Context: ": "Team: 2 Designers"}
+		],
+		"image":"newContributions.png",
+		"altText":"",
+		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
+		"category":[
+			{"type" :"splash",
+				"Title":"Product Opportunity",
+				"Paragraph":"This project was conducted in tandem with an overall application overhaul. Particular focus was given to this page due to its frequency of user interaction."
+			},
+			{"Title":"Design Overview",
+			"Paragraph":"I worked with one other UX designers on this 3 month project. I focused on working closely with software engineers to resolve technical constraints and conduct multiple rounds of rapid prototyping with user testing.",
+			"caption":"The user flow before getting redesigned",
+			"image":"ContribGifTest.gif",
+			"altText":""
+			},
+			{
+			"Title":"Key Use Cases",
+			"Paragraph":"The contributions section of the application has long been known to be a painpoint of user experience. Not only were we violating basic heuristic principles, our clients routinely informed us that their use cases were not resolved by the existing product."
+			},
+			{
+			"Subtitle":"User Calculations Required",
+			"icon":"brain_icon.png",
+			"Paragraph":"Contributions were not always displayed in a user's desired format. For example, since IRS limits are in dollar amounts, displaying contributions as a percent required a user to do the math themselves."
+			},
+			{"Subtitle":"Frequent Loading Sequences",
+			"icon":"loading_icon.png",
+			"Paragraph":"A full reload was conducted every time a user made any change. Each load took more than 30 seconds, breaking a user's train of thought and natural interaction flow."
+			},
+			{"Subtitle":"Unclear Error Messages",
+			"icon":"clutter_icon.png",
+			"Paragraph":"Error messages were not always placed in context of what caused the error and did not provide clear pathway to resolution."
+			},
+			{"Subtitle":"Extremely Nested User Flow",
+			"icon":"fastforward_icon.png",
+			"Paragraph":" Users needed to click into several pages to get into the contribution edit page. Navigation to the contributions section was not clear cut."
+			},
+			{
+			"type":"splash",
+			"Title":"Redefined Problem Statement",
+			"Paragraph":"How can we provide users with the contributions information and context desired?"
+			},
+			{"Title":"Design Highlights",
+			"Paragraph":"To resolve many of the pain points, the contributions section was overhauled to be a one page experience and all relevant information was moved into this space."
+			},
+			{
+			"Subtitle":"Current Contribution Comparison",
+			"icon":"dollar_icon.png",
+			"Paragraph":"Previously, users could not see their current contributions side-by-side with their new contributions. By placing them in one page, users can directly compare the two."
+			},
+			{
+			"Subtitle":"Percent + Dollar Conversion",
+			"icon":"calculator_icon.png",
+			"Paragraph":"Contributions are displayed with a dollar conversion to allow percent contributers to compare the dollar amount to IRS limits."
+			},
+			{
+			"Subtitle":"Employer Match Information",
+			"icon":"money_icon.png",
+			"Paragraph":"Across the industry, users are often recommended to at minimum, save to the employer match amount, to avoid losing 'free money'. Employer match information is displayed now alongside employee contributions."
+			},
+			{
+			"Subtitle":"Contextual Error Messages",
+			"icon":"highlight_icon.png",
+			"Paragraph":"By having all contributions on one page, users can see error messages and all potential inputs causing the error at the same time. Additionally, error messages were rewritten to be provide more context on the error, the inputs, and the recommended resolution."
+			},
+			{
+			"Subtitle":"User controlled saving mechanisms",
+			"icon":"control_icon.png",
+			"Paragraph":"Previously, all changes were saved on blur, as soon as users clicked out of a editable box. This ensured information was always as up-to-date as possible but wasted a lot of time. Updates were made so the save behavior only occurred when a user clicks a save button, allowing users more freedom to interact without having their user flow interrupted by loading time."
+			},
+			{
+			"caption":"The redesigned contributions experience",
+
+			"image":"newContributions.png"
+			}
+			]
+		
+}
