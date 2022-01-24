@@ -53,15 +53,16 @@ a, a:hover{
   border-color:#73C599;
 }
 
-.splash{
+.sectionTitle{
     padding-top: 2em;
     padding-bottom: 2em;
+    border: 1px solid;
 }
 .bold{
   font-weight: 700;
 }
 .background{
-  background-color:#F2F3F9;
+  /*background-color:#F2F3F9;*/
 }
 .about a, .readMore p, .backButton{
   color: #586AC5;
@@ -92,11 +93,22 @@ main{
   max-width: none;
   padding: 0;
 }
-
-.container>div, article>div, footer{
+.writeUp{
+  display:flex;
+  justify-content: center;
+}
+.section{
+  margin-bottom: 3em;
+}
+.sectionTitle, .sectionBody{
+  padding-right: 2em;
+  padding-left: 2em;
+  margin-top:-1px;
+}
+.container>div, article>div,  footer{
   background-clip:padding-box;
-  padding-right: 8em;
-  padding-left: 8em;
+  margin-right: 8em;
+  margin-left: 8em;
 }
 .mobile_spacer{
   display:none;
@@ -146,13 +158,12 @@ canvas{
 }
 
 .full_photo{
-  padding-top:60px;
-  padding-bottom: 60px;
+  padding-top:20px;
+  padding-bottom: 20px;
   border-radius: 3px;
-  margin-top: 20px;
   min-width: 100%;
   display:flex;
-  justify-content: center;
+  /*justify-content: center;*/
   background-clip:padding-box;
   text-align: center;
 }
@@ -203,32 +214,20 @@ canvas{
 
 }
 /*project details*/
-.proj_title{
-  padding-top: 2rem;
+.projTitle{
+  margin-bottom: 2rem;
 
-}
-.proj_title h1{
-  text-align: center; 
-}
-.proj_details{
-  display:flex;
-  justify-content: center;
 }
 .proj_details h5{
   padding-right: 10px;
   padding-left:10px;
 }
-.paragraph{
+.sectionBody{
   padding-top: 20px;
+  border: 1px solid;
 
 }
-.disclaimer{
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
-}
 .disclaimer p{
-  width:50%;
   font-style:italic;
   font-size: 14px;
   color:grey;
@@ -236,8 +235,8 @@ canvas{
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
 .container>div, article>div, footer{ 
-    padding-right: 15em;
-    padding-left: 15em;
+    padding-right: 8em;
+    padding-left: 8em;
 
 }
 .about{

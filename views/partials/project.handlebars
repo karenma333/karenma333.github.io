@@ -1,61 +1,63 @@
 <!doctype html>
 	<article>
-	<div class="proj_title">
-		<div class="backButton">
-			<a href="javascript:history.back()" > <img src="./public/icons/backArrow.png"><h3> BACK</h3></a>
-		</div>
-		<header class = "secondary">
-			<h1 role= "heading" aria-level="1">{{project}}</h1>
-				<div class="proj_details">
-					{{#each overview}}
-					{{#each this}}
-					<h5>{{this}}</h5>
-					{{/each}}
-					{{/each}}
+		<div class="row projTitle">
+			<div class="col-lg-2">
+				<div class="backButton">
+					<a href="javascript:history.back()" > <img src="./public/icons/backArrow.png"><h3> BACK</h3></a>
 				</div>
-		</header>
-
-		<div class="disclaimer secondary">
-			<p >{{disclaimer}}</p>
-		</div>
-	</div>
-	<div class = "background full_photo">
-			<img src="./public/images/{{image}}" alt="{{altText}}">
-	</div>
-	{{#each category}}
-	{{#if type}}
-	<div class = "splash">
-		<div>
-			<h4 role="heading" aria-level="2">{{Title}}</h4>
-			<h2>{{Paragraph}}</h2>
-		</div>
-	</div>
-	{{else}}
-	<div class ="paragraph">
-		<div class="row">
-			<div class="col-lg-5">	
-				<h3 role="heading" aria-level="2">  {{Title}}</h3>
-				<div class="icon">
-				<img src="./public/icons/{{icon}}" alt=""  aria-hidden="true"></img>
 			</div>
+			<div class= "proj_intro col-lg-10">
+				<div class="sectionTitle">
+					<h1 role= "heading" aria-level="1">{{project}}</h1>
+				</div>
 			</div>
-			<div class="col-lg-7">
-				{{#if Subtitle}}
-				<p class = "bold" role="heading" aria-level="3">{{Subtitle}}</p>
+		</div>
+		<div class="row section">
+			<div class="sectionTitle">
+				<h2> Context </h2>
+			</div>
+			<div class="sectionBody">
+				<header class = "secondary">
+					<div class="proj_details">
+						{{#each overview}}
+						{{#each this}}
+						<h5>{{this}}</h5>
+						{{/each}}
+						{{/each}}
+					</div>
+				</header>
+				<div class="disclaimer secondary">
+					<p >{{disclaimer}}</p>
+				</div>
+				<div class = "full_photo">
+					<img src="./public/images/{{image}}" alt="{{altText}}">
+				</div>
+			</div>
+		</div>
+	<div class="row writeUp">
+		{{#each category}}
+			<div class="section">
+			{{#if type}}
+				<div class = "sectionTitle splash">
+					<h3 role="heading" aria-level="2">{{Title}}</h3>
+				</div>
 				{{/if}}
-				<p>{{Paragraph}}</p>
-			</div>
-		</div>
-	</div>
-	{{#if image}}
-	<div class = "background full_photo row">
-		<img src="./public/images/{{image}}" alt="{{altText}}">
-		<div class = "col-lg-12">
-			<p>{{caption}}</p>
-		 </div>
-	</div>
-	{{/if}}
 
-	{{/if}}
-	{{/each}}
+				<div class="sectionBody">
+					<div class ="subsection">
+						<h4 role="heading" aria-level="2">  {{Title}}</h4>
+						<p>{{Paragraph}}</p>
+					</div>
+					{{#if image}}
+					<div class = "background full_photo row">
+						<img src="./public/images/{{image}}" alt="{{altText}}">
+						<div>
+							<p>{{caption}}</p>
+						 </div>
+					</div>
+					{{/if}}
+				</div>
+			</div>
+		{{/each}}
+	</div>
 </article>

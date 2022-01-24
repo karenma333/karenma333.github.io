@@ -27,15 +27,15 @@
 
 			},
 			{
-			"Subtitle":"Our modelling of projections did not match users' mental model.",
+			"Title":"Our modelling of projections did not match users' mental model.",
 			"icon":"brain_icon.png",
 			"Paragraph":"Our initial display used a tabbing format to allow users to compare different scenarios. However, we saw user confusion. They did not understand why the values are changing and why not all of the values changed. "
 			},
-			{"Subtitle":"The application load time was not proportional to payoff for users.",
+			{"Title":"The application load time was not proportional to payoff for users.",
 			"icon":"loading_icon.png",
 			"Paragraph":"In areas where our application takes a long time to load, users were dropping off. It was clear we needed to decrease the load time as well as improve our loading pattterns."
 			},
-			{"Subtitle":"The primary dashboard was too cluttered",
+			{"Title":"The primary dashboard was too cluttered",
 			"icon":"clutter_icon.png",
 			"Paragraph":"Because the existing visual hierarchy of the dashboard had many items on the same level, there was no clear indicator as to what users should be paying the most attention to. There was no differentiation between items that were prone to change and items that are seldom accessed. "
 			},
