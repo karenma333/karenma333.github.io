@@ -26,22 +26,22 @@
 				<!doctype html>
 					<article>
 						<div class="row projTitle">
-							<div class="col-lg-2">
+							<div class="col-lg-3">
 								<div class="backButton">
 									<a href="javascript:history.back()" > <img src="./public/icons/backArrow.png"><h3> BACK</h3></a>
 								</div>
 							</div>
-							<div class= "proj_intro col-lg-10">
+							<div class= "proj_intro col-lg-0">
 								<div class="sectionTitle">
 									<h1 role= "heading" aria-level="1">Retirement Proposal Document Redesign</h1>
 								</div>
 							</div>
 						</div>
-						<div class="row section">
-							<div class="sectionTitle">
+						<div class="row">
+							<div class="sectionTitle col-lg-3">
 								<h2> Context </h2>
 							</div>
-							<div class="sectionBody">
+							<div class="sectionBody col-lg-9">
 								<header class = "secondary">
 									<div class="proj_details">
 										<h5>Team size: 3</h5>
@@ -57,188 +57,126 @@
 								</div>
 							</div>
 						</div>
-					<div class="row writeUp">
-							<div class="section">
-								<div class = "sectionTitle splash">
-									<h3 role="heading" aria-level="2">Product Opportunity</h3>
-								</div>
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  Product Opportunity</h4>
-										<p>To better allow less financially-educated users to understand advice from an online finance product, I piloted a feature to allow users to receive a snapshot of their advice to reference in posterity and review with others.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  The Current State</h4>
-										<p>Because I was not starting from scratch, I started out by conducting a heuristic evaluation on the existing state of the solution - a 5 page document summarizing the user&#x27;s advice and recommendations. </p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>The same concepts were referred to with different words in the same document.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>The document shifted from future state to current state to previous state without clear indicators. </p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>Detailed information that is only relevant to power users was intermixed, leading to confusion for our average user who did not need the extra detail.</p>
-									</div>
-									<div class = "background full_photo row">
-										<img src="./public/images/beforeProposal.png" alt="">
-										<div>
-											<p>The original advice proposal pdf document.</p>
-										 </div>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  Information Architecture</h4>
-										<p>In order to both review what content should be displayed and how, I decided to conduct a hybrid card sort. This card sort started our users with a set of the information in the current document and the current sections of the document and also allowed users to add cards/section. Users were also not required to use all the cards. </p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>To delve a little further, I also asked users to highlight the most important information in each section by attempting to remove up to 10 cards from their original card sort. After conducting the card sort with 14 people, I created an information hierarchy diagram, with the darker purple cards highlighting card that 70% of our users placed in these groupings even after being asked to remove the cards. This diagram dictated the information architecture structure of the final solution.</p>
-									</div>
-									<div class = "background full_photo row">
-										<img src="./public/images/informationArchitecture.png" alt="Card sort results consisted of four groupings, summary, contributions, accounts, asset allocation, with the summary including the projected retirement income and recommended retirement age.">
-										<div>
-											<p></p>
-										 </div>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  User Testing</h4>
-										<p>Using the insights from my user research, combined with technical constraints and customer feedback, we created two parallel designs.I asked users to locate information in the document to evaluate success of metaphors, and conducted 5-second tests to gain a user&#x27;s first impression. I reviewed the error rates on the tasks as well as time taken to complete tasks to inform our future design iterations.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>While we attempted to separate out the highest level asset allocation information to the front page for our average user, it appeared that the average user did not care and the whole concept was considered advanced.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>Users had the highest error rates in this section, misreading what their overall contributions were, as well as their contributions per account. Our visual hierarchy was incorrect, users valued all their contribution information.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>The chart visual for contributions caused more confusion than clarity.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p></p>
-									</div>
-									<div class = "background full_photo row">
-										<img src="./public/images/ABProposal.png" alt="">
-										<div>
-											<p>Two of the samples of the parallel designs</p>
-										 </div>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  Final Solution</h4>
-										<p></p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>In the two visual metaphors we tested, we chose to highlight either wealth or target income as the measure of plan status. Projections of the user&#x27;s retirement income provided the best understanding of how on track they were.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>The focus of the document begins with the recommendations provided to the user, the three concrete expectations of user behavior. This acts as a summary of the document and the continuing pages provide additional details for power users who may be interested.</p>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  </h4>
-										<p>Contributions are the only sector where users will feel an immediate impact and thus are the area that users focus on. Providing all available details here supports user curiousity.</p>
-									</div>
-									<div class = "background full_photo row">
-										<img src="./public/images/afterProposal.png" alt="Finalized PDF product">
-										<div>
-											<p></p>
-										 </div>
-									</div>
-								</div>
-							</div>
-							<div class="section">
-				
-								<div class="sectionBody">
-									<div class ="subsection">
-										<h4 role="heading" aria-level="2">  Conclusion</h4>
-										<p>This document redesign better maps to the dashboard in the application and focuses on a snapshot of the new recommendations instead of a comparison between the current state and ideal state. The existing document was so confusing that we fielded customer service complaints from users asking for explanations. I anticipate a decrease in the customer service complaints with regards to this feature, increased usage of this feature as well as increased enrollment for users who have downloaded a document.</p>
-									</div>
-								</div>
-							</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2">Product Opportunity</h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
 					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2">The Current State</h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2">Information Architecture</h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2">User Testing</h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2">Final Solution</h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2"></h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+					<div class="row writeUp">	
+						<div class = "sectionTitle splash col-lg-3">
+							<h3 role="heading" aria-level="2">Conclusion</h3>
+						</div>
+						<div class="sectionBody col-lg-9">
+						</div>
+					</div>
+				
 				</article>		</div>
 	</main>
 	<footer>

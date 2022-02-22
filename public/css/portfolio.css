@@ -1,11 +1,11 @@
 /*Generic Styles*/
 body{
   font-family: Raleway, sans-serif;
-  background-color:#FAFAFA;
+  background-color:#FFFFFC;
   color:#303342;
 }
 .secondary{
-  background-color: #FAFAFA;
+  background-color: #FFFFFC;
 }
 p{
   font-family: Lora;
@@ -52,11 +52,12 @@ a, a:hover{
   box-shadow: 9px 9px 0px 1px #73C599;
   border-color:#73C599;
 }
-
+.row{
+  border-bottom: 1px solid;
+}
 .sectionTitle{
     padding-top: 2em;
     padding-bottom: 2em;
-    border: 1px solid;
 }
 .bold{
   font-weight: 700;
@@ -96,9 +97,6 @@ main{
 .writeUp{
   display:flex;
   justify-content: center;
-}
-.section{
-  margin-bottom: 3em;
 }
 .sectionTitle, .sectionBody{
   padding-right: 2em;
@@ -214,17 +212,13 @@ canvas{
 
 }
 /*project details*/
-.projTitle{
-  margin-bottom: 2rem;
-
-}
 .proj_details h5{
   padding-right: 10px;
   padding-left:10px;
 }
-.sectionBody{
+.sectionBody, .proj_intro{
   padding-top: 20px;
-  border: 1px solid;
+  border-left: 1px solid;
 
 }
 .disclaimer p{

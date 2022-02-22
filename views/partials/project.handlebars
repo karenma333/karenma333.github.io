@@ -1,22 +1,22 @@
 <!doctype html>
 	<article>
 		<div class="row projTitle">
-			<div class="col-lg-2">
+			<div class="col-lg-3">
 				<div class="backButton">
 					<a href="javascript:history.back()" > <img src="./public/icons/backArrow.png"><h3> BACK</h3></a>
 				</div>
 			</div>
-			<div class= "proj_intro col-lg-10">
+			<div class= "proj_intro col-lg-0">
 				<div class="sectionTitle">
 					<h1 role= "heading" aria-level="1">{{project}}</h1>
 				</div>
 			</div>
 		</div>
-		<div class="row section">
-			<div class="sectionTitle">
+		<div class="row">
+			<div class="sectionTitle col-lg-3">
 				<h2> Context </h2>
 			</div>
-			<div class="sectionBody">
+			<div class="sectionBody col-lg-9">
 				<header class = "secondary">
 					<div class="proj_details">
 						{{#each overview}}
@@ -34,22 +34,29 @@
 				</div>
 			</div>
 		</div>
-	<div class="row writeUp">
-		{{#each category}}
-			<div class="section">
-			{{#if type}}
-				<div class = "sectionTitle splash">
-					<h3 role="heading" aria-level="2">{{Title}}</h3>
-				</div>
-				{{/if}}
-
-				<div class="sectionBody">
+	{{#each category}}
+	<div class="row writeUp">	
+		<div class = "sectionTitle splash col-lg-3">
+			<h3 role="heading" aria-level="2">{{Title}}</h3>
+		</div>
+		<div class="sectionBody col-lg-9">
+			{{#each section}}
+				<div>
 					<div class ="subsection">
-						<h4 role="heading" aria-level="2">  {{Title}}</h4>
+						<h4 role="heading" aria-level="2">  {{Subtitle}}</h4>
 						<p>{{Paragraph}}</p>
 					</div>
+					{{#if Bullets}}
+					<div>
+						<ul>
+							{{#each Bullets}}
+							<li>{{this}}</li>
+							{{/each}}
+						</ul>
+						{{/if}}
+					</div>
 					{{#if image}}
-					<div class = "background full_photo row">
+					<div class = "background full_photo">
 						<img src="./public/images/{{image}}" alt="{{altText}}">
 						<div>
 							<p>{{caption}}</p>
@@ -57,7 +64,9 @@
 					</div>
 					{{/if}}
 				</div>
-			</div>
-		{{/each}}
+				{{/each}}
+		</div>
 	</div>
+	{{/each}}
+
 </article>
