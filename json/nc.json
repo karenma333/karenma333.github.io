@@ -1,0 +1,51 @@
+{
+		"template":"project",
+		"id":2,
+		"project":"Retirement Wizard",
+		"overview":[
+			{"Context: ": "Team size: 4"},
+			{"Time":"Timeline: 4 weeks (2016)"},
+			{"Role: ":"Role: Research & design"},
+			{"Notes":"Context: Student Project"}
+		],
+		"image":"highLevelTravelBudget.png",
+		"altText":"Preview of finished solution",
+		"category":[
+			{ "Title":"Context",
+			"section":[
+				{"Subtitle":"Summary", 
+				"Paragraph":"This project started with an examination of the travel planning process. User research candidates were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These candidates were asked to step through their standard travel planning process while thinking out loud as we observed.",
+				"image":"highLevelTravelBudget.png"
+				},
+				{"Subtitle":"Product Opportunity", 
+				"Paragraph":"This project started with an examination of the travel planning process. User research candidates were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These candidates were asked to step through their standard travel planning process while thinking out loud as we observed."
+				}]
+			},
+			{ "Title":"Initial Research",
+			"section":[
+				{"Subtitle":"Methods", 
+				"Paragraph":"This project started with an examination of the travel planning process. User research candidates were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These candidates were asked to step through their standard travel planning process while thinking out loud as we observed.",
+				"Bullets":["bullet", "bullet2"],
+				"image":"highLevelTravelBudget.png"
+				},
+				{"Subtitle":"Synthesis", 
+				"Paragraph":"This project started with an examination of the travel planning process. User research candidates were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These candidates were asked to step through their standard travel planning process while thinking out loud as we observed.",
+				"Bullets":["bullet", "bullet2"],
+				"image":"highLevelTravelBudget.png"
+				}]
+			},
+			{ "Title":"Design Solution",
+			"section":[
+				{"Subtitle":"Key Features", 
+				"Paragraph":"This project started with an examination of the travel planning process. User research candidates were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These candidates were asked to step through their standard travel planning process while thinking out loud as we observed.",
+				"Bullets":["bullet", "bullet2"],
+				"image":"highLevelTravelBudget.png"
+				},
+				{"Subtitle":"Results", 
+				"Paragraph":"This project started with an examination of the travel planning process. User research candidates were sourced with a variety of travel habits from frequent international travelers to group roadtrippers. These candidates were asked to step through their standard travel planning process while thinking out loud as we observed.",
+				"Bullets":["bullet", "bullet2"]
+				}]
+			}
+			]
+		
+}

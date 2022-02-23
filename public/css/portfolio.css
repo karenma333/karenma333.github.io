@@ -4,9 +4,6 @@ body{
   background-color:#FFFFFC;
   color:#303342;
 }
-.secondary{
-  background-color: #FFFFFC;
-}
 p{
   font-family: Lora;
   font-size: 20px;
@@ -38,21 +35,15 @@ a, a:hover{
   text-decoration: none;
 
 }
+
 .card{
-  border-width:2px;
-  border-radius:0;
-  box-shadow: 9px 9px 0px 1px #586AC5;
-  border-color:#586AC5;
+  border:0px;
 }
-.about{
-  box-shadow: 9px 9px 0px 1px #58B8C5;
-  border-color:#58B8C5;
+.projects, .infoBox{
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
- .heading{
-  box-shadow: 9px 9px 0px 1px #73C599;
-  border-color:#73C599;
-}
-.row{
+.projTitle, .writeUp{
   border-bottom: 1px solid;
 }
 .sectionTitle{
@@ -62,29 +53,11 @@ a, a:hover{
 .bold{
   font-weight: 700;
 }
-.background{
-  /*background-color:#F2F3F9;*/
-}
-.about a, .readMore p, .backButton{
+.readMore p{
   color: #586AC5;
   text-decoration-color:#586AC5;
 }
-/**/
-.backButton a{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.backButton a img{
-  max-height: 20px;
-}
-.backButton a h3{
-  padding-left:5px;
-  margin-bottom: 0px;
-}
-.backButton{
-  margin-top: 2rem;
-}
+
 main{
   display:flex;
   justify-content: center;
@@ -103,7 +76,7 @@ main{
   padding-left: 2em;
   margin-top:-1px;
 }
-.container>div, article>div,  footer{
+article>div,  footer{
   background-clip:padding-box;
   margin-right: 8em;
   margin-left: 8em;
@@ -172,30 +145,17 @@ canvas{
 /*Home Page*/
 .homeContent{
   margin-top:3rem;
-}
-.heading{
-  margin-bottom: 2rem;
-}
-.heading h2{
-  font-weight: 500;
-  font-size:36px;
-}
-.heading h3{
-  font-weight: 550;
+  margin-left:2rem;
+  margin-right:2rem;
+  border: 1px solid;
 }
 
-.about p, span, a, .footer p, .projBlurbs p{
+span, a, .footer p, .projBlurbs p{
   font-size: 16px;
 }
-.about a{
-  text-decoration: underline;
-  font-weight: 700;
-}
+
 .projects h3, .projLayout{
   padding-left:.5rem;
-}
-.about h3{
-  padding-bottom: .5em;
 }
 
 .secondary{
@@ -208,13 +168,19 @@ canvas{
 .projLayout:hover .btn-outline-primary{
   background-color:#586AC5;
   color:#FFFFFF;
-  border-color: #586AC5;
 
 }
 /*project details*/
+.stuck{
+  position: fixed;
+  top: 0;
+}
 .proj_details h5{
   padding-right: 10px;
   padding-left:10px;
+}
+.proj_details{
+  display: flex;
 }
 .sectionBody, .proj_intro{
   padding-top: 20px;
@@ -228,7 +194,7 @@ canvas{
 }
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
-.container>div, article>div, footer{ 
+ article>div, footer{ 
     padding-right: 8em;
     padding-left: 8em;
 
@@ -244,7 +210,7 @@ canvas{
 .half_photo{
   padding:5px;
 }
-.container>div, article>div, footer{ 
+article>div, footer{ 
     padding-right: 1em;
     padding-left: 1em;
 }

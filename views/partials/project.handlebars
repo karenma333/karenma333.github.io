@@ -1,23 +1,22 @@
 <!doctype html>
 	<article>
 		<div class="row projTitle">
-			<div class="col-lg-3">
-				<div class="backButton">
-					<a href="javascript:history.back()" > <img src="./public/icons/backArrow.png"><h3> BACK</h3></a>
-				</div>
-			</div>
-			<div class= "proj_intro col-lg-0">
+			<nav class="col-lg-2">
+				<ul>
+					<li> <a href="index.html" > Work</a></li>
+					<ul>
+						<li> <a href = "1.html"> Project 1 </a> </li>
+						<li> <a href = "2.html"> Project 2 </a> </li>
+						<li> <a href = "3.html"> Project 3 </a> </li>
+					</ul>
+					<li> <a href= "4.html"> About Me </a> </li>
+				</ul>
+			</nav>
+			<div class= "proj_intro col-lg-10">
 				<div class="sectionTitle">
 					<h1 role= "heading" aria-level="1">{{project}}</h1>
 				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="sectionTitle col-lg-3">
-				<h2> Context </h2>
-			</div>
-			<div class="sectionBody col-lg-9">
-				<header class = "secondary">
+				<header>
 					<div class="proj_details">
 						{{#each overview}}
 						{{#each this}}
@@ -29,42 +28,37 @@
 				<div class="disclaimer secondary">
 					<p >{{disclaimer}}</p>
 				</div>
-				<div class = "full_photo">
-					<img src="./public/images/{{image}}" alt="{{altText}}">
-				</div>
 			</div>
 		</div>
 	{{#each category}}
 	<div class="row writeUp">	
-		<div class = "sectionTitle splash col-lg-3">
-			<h3 role="heading" aria-level="2">{{Title}}</h3>
+		<div class = "sectionTitle splash col-lg-2">
+			<h3 class= "secTitle" role="heading" aria-level="2">{{Title}}</h3>
 		</div>
-		<div class="sectionBody col-lg-9">
+		<div class="sectionBody col-lg-10">
 			{{#each section}}
-				<div>
-					<div class ="subsection">
-						<h4 role="heading" aria-level="2">  {{Subtitle}}</h4>
-						<p>{{Paragraph}}</p>
-					</div>
-					{{#if Bullets}}
-					<div>
-						<ul>
-							{{#each Bullets}}
-							<li>{{this}}</li>
-							{{/each}}
-						</ul>
-						{{/if}}
-					</div>
-					{{#if image}}
-					<div class = "background full_photo">
-						<img src="./public/images/{{image}}" alt="{{altText}}">
-						<div>
-							<p>{{caption}}</p>
-						 </div>
-					</div>
-					{{/if}}
+				<div class ="subsection">
+					<h4 role="heading" aria-level="2">  {{Subtitle}}</h4>
+					<p>{{Paragraph}}</p>
 				</div>
-				{{/each}}
+				{{#if Bullets}}
+				<div>
+					<ul>
+						{{#each Bullets}}
+						<li>{{this}}</li>
+						{{/each}}
+					</ul>
+				</div>
+				{{/if}}
+				{{#if image}}
+				<div class = "background full_photo">
+					<img src="./public/images/{{image}}" alt="{{altText}}">
+					<div>
+						<p>{{caption}}</p>
+					 </div>
+				</div>
+				{{/if}}
+			{{/each}}
 		</div>
 	</div>
 	{{/each}}
