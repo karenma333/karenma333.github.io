@@ -1,14 +1,20 @@
 $(window).scroll(function(){
 	var scrollTop = $(window).scrollTop();
-  	if ( scrollTop > $("#first").offset().top ) { 
-    console.log("testing");
+  	if ( scrollTop > $("#first").offset().top ) {
+  	 $(".sticky").show();
+  	 $(".sticky").addClass("stuck");
+
+ 	}
+ 	else{
+ 	$(".sticky").hide();
+	
  	}
 })
 
 window.onload = function(){main()};
 
 $(document).ready(function(){
-		//$("nav").hide();
+	$(".sticky").hide();
 })
 function main(){
 	headerText();

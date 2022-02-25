@@ -53,9 +53,13 @@ a, a:hover{
 }
 .projTitle{
   display:flex;
+
 }
 .projTop{
   flex:1;
+  display:flex;
+  align-items: stretch;
+
 }
 .navMenu{
   padding-top: 3rem;
@@ -70,15 +74,20 @@ a, a:hover{
  .navMenu a:hover{
   color:blue;
  }
+ nav p{
+  padding-inline-start:40px;
+ }
  .sticky{
   z-index: 1000;
   display:flex;
   border-bottom: 1px solid;
-  padding-left: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  margin-left:0;
  }
-
+ .sticky div{
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
 .projTitle, .writeUp{
   border-bottom: 1px solid;
 }
@@ -91,6 +100,11 @@ a, a:hover{
   padding-left:2em;
   border-left: 1px solid;
   align-self:end;
+  height:100%;
+}
+.pageTitle{
+  border-left: 1px solid;
+  padding-left:2em;
 }
 .bold{
   font-weight: 700;
@@ -185,6 +199,8 @@ span, a, .footer p, .projBlurbs p{
 .stuck{
   position: fixed;
   top: 0;
+  width:100%;
+  background-color: white;
 }
 .proj_details h5{
   padding-right: 10px;
