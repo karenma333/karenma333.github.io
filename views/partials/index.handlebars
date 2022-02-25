@@ -1,25 +1,28 @@
 <!doctype html>
-
-	<div class = "row homeContent">
+<div class="homeContent">
+	<div class = "row">
 		<div class = "col-lg-8 infoBox">
-				<div class = "card">
+				<div class = "card col-lg-12">
 					<header class="card-body">
 						<h2> Karen Ma</h2>
-						<h3>Lead Product Designer & Strategist</h3>
+						<ul>
+							<li>Product Designer</li>
+							<li>Chicago/Remote</li>
+							<li>GRC, Fintech, Startups</li>
+							<li>Interests: DesignOps, Product Strategy, Design systems</li>
+
+						</ul>
 					</header>
 				</div>
 		</div>
 		{{#each projBlurbs}}
 		<div class="projects col-lg-4">
-			<div class = "projLayout card">
+			<div class = "projLayout card col-lg-12">
 				<div class=" card-body">
 					<a href="{{id}}.html" >
 						<div class="projBlurbs">
 							<h4 id="{{@index}}">{{title}}</h4>
 							<p>{{description}}</p>
-							<div class= "readMore">
-								<button  type="button" class="btn btn-outline-primary" aria-describedby="{{@index}}">View Project</button>
-							</div>
 						</div>
 					</a >
 				</div>
@@ -27,10 +30,10 @@
 		</div>
 		{{/each}}
 		<div class = "col-lg-4 infoBox">
-			<div class = "card">
-				<header class="card-body">
-					<h2> Resume Links here</h2>
-					<h3>Lead Product Designer & Strategist</h3>
+			<div class = "card col-lg-12">
+				<header class="card-body ">
+					<button  type="button" class="btn btn-outline-primary" aria-describedby="{{@index}}">Resume</button>
+					<button  type="button" class="btn btn-outline-primary" aria-describedby="{{@index}}">LinkedIn</button>
 				</header>
 			</div>
 		</div>
@@ -38,6 +41,7 @@
 	<div>
 		<p>placeholder</p>
 	</div>
+</div>
 
 
 

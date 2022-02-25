@@ -1,6 +1,20 @@
+$(window).scroll(function(){
+	var scrollTop = $(window).scrollTop();
+  	if ( scrollTop > $("#first").offset().top ) { 
+    console.log("testing");
+ 	}
+})
 
+window.onload = function(){main()};
 
-window.onload = function(){prepHeaders()};
+$(document).ready(function(){
+		//$("nav").hide();
+})
+function main(){
+	headerText();
+	//prepHeaders();
+	nav();
+}
 
 function prepHeaders(){
 	// Get the header
@@ -12,20 +26,49 @@ function prepHeaders(){
 		  group: "wpgroup",
 		  handler: function(dir){
 		  	//console.log(this.group.waypoints.length)
-		  	$(this.element).addClass("stuck")
-		  	var previousWaypoint = this.previous()
-		  	var nextWaypoint = this.next()
-		  	if(previousWaypoint){
-		  		$(previousWaypoint.element).removeClass("stuck")
+		  	if (dir === "up"){
+		  		console.log("going up");
 		  	}
-		  	if(nextWaypoint){
-		  		$(nextWaypoint.element).removeClass("stuck")
-	
-		  	}
-		  }
+		  	else{
+			  	$(this.element).addClass("stuck")
+			  	var previousWaypoint = this.previous()
+			  	var nextWaypoint = this.next()
+			  	if(previousWaypoint){
+			  		$(previousWaypoint.element).removeClass("stuck")
+			  	}
+			  	if(nextWaypoint){
+			  		$(nextWaypoint.element).removeClass("stuck")
+		
+			  	}
+			  }
+			}
+
 
 		})
 		array.push(sticky);
 	}
 
+}
+function headerText(){
+	var headers = document.getElementsByClassName('secTitle');  
+	array = [];
+	for (let item of headers) {
+	    var sticky = new Waypoint({
+	    	element: item,
+	    	handler: function(direction) {
+    		var title = this.element.getAttribute("data-title");
+    		$("#stickyTitle").text(title);
+    		if(this === this.group.first()){
+    			$(".sticky").show();
+    		}
+	    }
+		})
+		array.push(sticky);
+	}
+}
+function nav(){
+	$(".menu").click(function(){
+		$("nav").toggle();
+		console.log("click")
+	})
 }

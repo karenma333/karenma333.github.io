@@ -1,47 +1,45 @@
 {
 		"template":"project",
-		"id":2,
-		"project":"Retirement Wizard",
+		"id":1,
+		"project":"Automations Redesign",
 		"overview":[
-			{"Context: ": "Team size: 3"},
-			{"Time":"Timeline: 3 months (2019)"},
+			{"Context: ": "Team size: 1"},
+			{"Time":"Timeline: 6 months (2021)"},
 			{"Role: ":"Role: Research & design"}
 		],
 		"category":[
 			{ "Title":"Context",
 			"section":[
 				{"Subtitle":"Summary", 
-				"Paragraph":"The existing product was really good for the B2B market and we wanted to shift the target audience to a Direct to consumer model.",
-				"image":"afterProposal.png"
+				"Paragraph":"After joining the team, I took a pass to evaluate how well the current functionality met the needs of the users.",
+				"image":"newJobsModal.png"
 				},
 				{"Subtitle":"Product Opportunity", 
-				"Paragraph":"We needed to adjust our product to be more friendly and diagnosable to account for different levels of financial expertise and less patience."
+				"Paragraph":"How can we make automations less confusing and support the continued asks of our power users so we are not limited."
 				}]
 			},
 			{ "Title":"Initial Research",
 			"section":[
 				{"Subtitle":"Methods", 
-				"Paragraph":"I conducted a card sort, some analytics, usability tests and A/B tests to identify what to change.",
-				"Bullets":["bullet", "bullet2"],
-				"image":"AnalyticsDashboard.png.png"
+				"Paragraph":"I conducted contextual inquiry, surveys, dived into existing bugs and SRs, interviewed power users, looked at feature requets",
+				"Bullets":["bullet", "bullet2"]
 				},
 				{"Subtitle":"Synthesis", 
 				"Paragraph":"From our research we identified two key pain points.",
-				"Bullets":["Users were uninterested in enrolling because our flow took too long. Our time to value was too long.", "Users were not interested in our advice or recommendations."],
-				"image":"oldWiz.png"
+				"Bullets":["- Users wanted to create complicated jobs. Lots of duplicativeness in how jobs were created and what jobs to create, Difficult to reference different parts of a job, no overview of a job existed,(reviewing of jobs created)"]
 				}]
 			},
 			{ "Title":"Design Solution",
 			"section":[
-				{"Subtitle":"Improved Onboarding", 
+				{"Subtitle":"Jobs Modal", 
 				"Paragraph":"The onboarding flow was updated to provide users context on how many questions were involved, as well as decrease the number of questions asked upfront.",
 				"Bullets":["bullet", "bullet2"],
-				"image":"newWiz.png"
+				"image":"newModal.png"
 				},
-				{"Subtitle":"Improved Recommendations", 
+				{"Subtitle":"Jobs Table", 
 				"Paragraph":"The product information architecture was updated to better display the information in a manner that users would understand.",
 				"Bullets":["bullet", "bullet2"],
-				"image":"afterProposal.png"
+				"image":"newTable.png"
 				},
 				{"Subtitle":"Results", 
 				"Paragraph":"While the initial solution sought to streamline our enrollment process, and we have successfully moved from a nine-step wizard to a one-step wizard. After talking to subject matter experts, I learned that the most important steps for users to interact with were in the last few steps where we were seeing less than 20% interaction. The original wizard was lengthy in order to prove users with a sense of customization but failed to actually encourage customization. Enrollment rates have increased by 60%. 20% of users are willingly engaging in customization.",
