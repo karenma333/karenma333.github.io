@@ -4,7 +4,7 @@
 		<div class = "col-lg-8 infoBox">
 				<div class = "card col-lg-12">
 					<header class="card-body">
-						<h2> Karen Ma</h2>
+						<h1> Karen Ma</h1>
 						<ul>
 							<li>Product Designer</li>
 							<li>Chicago/Remote</li>
@@ -21,7 +21,7 @@
 				<div class=" card-body">
 					<a href="{{id}}.html" >
 						<div class="projBlurbs">
-							<h4 id="{{@index}}">{{title}}</h4>
+							<p class="cardTitle" id="{{@index}}">{{title}}</p>
 							<p>{{description}}</p>
 						</div>
 					</a >
@@ -29,20 +29,22 @@
 			</div>
 		</div>
 		{{/each}}
-		<div class = "col-lg-4 infoBox">
+		<!--<div class = "col-lg-4 infoBox">
 			<div class = "card col-lg-12">
-				<header class="card-body ">
-					<button  type="button" class="btn btn-outline-primary" aria-describedby="{{@index}}">Download Resume</button>
-					<p>Other Links</p>
-					<a href="">LinkedIn</a><br>
-					<a href="">Github</a><br>
-					<a href="">Medium(?)</a>
+				<div class="card-body ">
+					<div class="ilinks">
+						<b>Other Links</b><br>
+						<a href="">LinkedIn</a><br>
+						<a href="">Github</a><br>
+						<a href="">Medium(?)</a>
+					</div>
+					<button  type="button" class="btn btn-outline-primary" aria-describedby="{{@index}}">Download Resume</button><br>
+
 					<p>Mail to:karenma333@gmail.com</p>
 
-
-				</header>
+				</div>
 			</div>
-		</div>
+		</div>-->
 	</div>
 </div>
 

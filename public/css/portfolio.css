@@ -3,34 +3,25 @@ body{
   font-family: 'DM Sans', sans-serif;
   background-color:#FFFFFC;
   color:#303342;
-}
-p{
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 300;
 }
 h1{
-  font-size: 42px;
-  font-weight: 300;
+  font-size: 44px;
+  font-weight: 200;
 }
 h2{
-  font-size:32px;
+  font-size:28px;
   font-weight: 300;
 
 }
 h3{
+  font-size:20px;
+  font-weight: 500;
+}
+.cardTitle{
   font-size: 24px;
-  font-weight: 300;
-
-}
-h4{
-  font-size:16px;
-  font-weight:700;
-
-}
-h5{
-  font-size:16px;
-
 }
 .projblurbs h4, h1, h2{
   font-family: 'Archivo', sans-serif;
@@ -40,7 +31,9 @@ a, a:hover{
   text-decoration: none;
 
 }
-
+b{
+  font-weight: 700;
+}
 .card{
   border: 1px solid black;
   border-radius: 0px;
@@ -49,8 +42,25 @@ a, a:hover{
   /*box-shadow: 9px 9px 0px 1px black;*/
 
 }
+.navMenu li{
+  border-bottom: 1px solid
+
+}
+li{
+  list-style-type: "→ ";
+
+}
+.infoBox button{
+  margin-bottom: 1em;
+}
 .projects .card{
   box-shadow: 9px 9px 0px 1px black;
+}
+.ilinks{
+  margin-bottom: 1em;
+}
+.ilinks a{
+  text-decoration: underline;
 }
 .projects .card:hover{
   box-shadow: 9px 9px 0px 1px blue;
@@ -74,10 +84,10 @@ a, a:hover{
 
  }
  .navMenu li{
-  border-bottom: 1px solid
- }
- .navMenu>ul{
   list-style-type:none;
+ }
+ .navMenu>ul ul{
+  padding-inline-start:16px;
  }
  .navMenu a:hover{
   color:blue;
@@ -135,6 +145,7 @@ main{
 .writeUp{
   display:flex;
   justify-content: center;
+
 }
 .sectionTitle, .sectionBody{
   padding-right: 2em;
@@ -143,9 +154,6 @@ main{
 }
 .mobile_spacer{
   display:none;
-}
-ul{
-  list-style-type: circle;
 }
 .footer{
   margin-top: 6em;
@@ -191,7 +199,7 @@ canvas{
   margin: 2em;
 }
 
-span, a, .footer p, .projBlurbs p{
+span, a, .footer p{
   font-size: 16px;
 }
 
