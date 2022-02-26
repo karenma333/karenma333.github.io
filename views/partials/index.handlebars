@@ -17,16 +17,16 @@
 		</div>
 		{{#each projBlurbs}}
 		<div class="projects col-lg-4">
+			<a href="{{id}}.html" >
 			<div class = "projLayout card col-lg-12">
 				<div class=" card-body">
-					<a href="{{id}}.html" >
 						<div class="projBlurbs">
-							<p class="cardTitle" id="{{@index}}">{{title}} →</p>
+							<p class="cardTitle" id="{{@index}}">{{title}} <span>→</span></p>
 							<p>{{description}}</p>
 						</div>
-					</a >
 				</div>
 			</div>
+			</a >
 		</div>
 		{{/each}}
 		<!--<div class = "col-lg-4 infoBox">

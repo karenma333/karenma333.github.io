@@ -6,6 +6,10 @@ body{
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
+  cursor: url('../images/cursor.svg'), auto; 
+}
+li, a, button{
+  cursor: url('../images/cursor.svg'), auto !important; 
 }
 h1{
   font-size: 44px;
@@ -22,6 +26,11 @@ h3{
 }
 .cardTitle{
   font-size: 24px;
+  text-decoration: underline;
+}
+.projLayout:hover  .cardTitle{
+  transform: rotate(-2deg);
+  display: inline-block
 }
 .projblurbs h4, h1, h2{
   font-family: 'Archivo', sans-serif;
@@ -53,8 +62,11 @@ li{
 .infoBox button{
   margin-bottom: 1em;
 }
+.infoBox .card{
+  border-width: 6px;
+}
 .projects .card{
-  box-shadow: 9px 9px 0px 1px black;
+  /*box-shadow: 9px 9px 0px 1px black;*/
 }
 .ilinks{
   margin-bottom: 1em;
@@ -63,7 +75,7 @@ li{
   text-decoration: underline;
 }
 .projects .card:hover{
-  box-shadow: 9px 9px 0px 1px blue;
+  box-shadow: 9px 9px 0px 1px black;
 }
 .card-body ul{
   list-style-position: inside;
