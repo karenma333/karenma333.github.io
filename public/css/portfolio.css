@@ -1,6 +1,6 @@
 /*Generic Styles*/
 body{
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   background-color:#FFFFFC;
   color:#303342;
 }
@@ -12,29 +12,28 @@ p{
 h1{
   font-size: 42px;
   font-weight: 300;
-  font-family:'Darker Grotesque',sans-serif;
 }
 h2{
   font-size:32px;
   font-weight: 300;
-  font-family:'Darker Grotesque',sans-serif;
 
 }
 h3{
   font-size: 24px;
   font-weight: 300;
-  font-family:'Darker Grotesque',sans-serif;
 
 }
 h4{
   font-size:16px;
   font-weight:700;
-  font-family:'Darker Grotesque',sans-serif;
 
 }
 h5{
   font-size:16px;
 
+}
+.projblurbs h4, h1, h2{
+  font-family: 'Archivo', sans-serif;
 }
 a, a:hover{
   color:inherit;
