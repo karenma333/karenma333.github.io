@@ -81,6 +81,7 @@ li{
 }
 .navMenu{
   padding-top: 3rem;
+  padding-bottom: 1em;
 
  }
  .navMenu li{
@@ -97,6 +98,9 @@ li{
  }
  nav{
   display: block;
+ }
+ nav>ul{
+  margin-right:1rem;
  }
  nav p{
   padding-inline-start:40px;
@@ -120,7 +124,7 @@ li{
     padding-bottom: 2em;
 }
 .proj_intro{
-  padding-top: 2em;
+  padding-top: 3rem;
   padding-left:2em;
   border-left: 1px solid;
   align-self:end;
@@ -162,7 +166,6 @@ main{
   flex-wrap:wrap;
   padding-top:1em;
   padding-bottom:1em;
-  font-family: Lora;
 }
 canvas{
   z-index: -1000;
@@ -197,16 +200,6 @@ canvas{
 
 .homeContent{
   margin: 2em;
-}
-
-span, a, .footer p{
-  font-size: 16px;
-}
-
-
-
-.secondary{
-  padding: 1em 0em 1em .5rem;
 }
 .projects{
   margin-bottom: 1.5rem;
@@ -244,7 +237,7 @@ span, a, .footer p{
 @media screen and (min-width: 1200px){
  .sectionTitle, footer{ 
     padding-right: 2em;
-    padding-left: 8em;
+    padding-left: 2em;
 
 }
 .about{
@@ -261,7 +254,6 @@ span, a, .footer p{
 article>.writeUp, footer{ 
     padding-right: 1em;
     padding-left: 1em;
-}
 }
 @media screen and (max-width: 575px){
 
