@@ -15,6 +15,7 @@ window.onload = function(){main()};
 
 $(document).ready(function(){
 	$(".sticky").hide();
+	$("#scrollMenu").hide();
 })
 function main(){
 	headerText();
@@ -74,7 +75,7 @@ function headerText(){
 }
 function nav(){
 	$(".menu").click(function(){
-		$("nav").toggle();
+		$("#scrollMenu").toggle();
 		console.log("click")
 	})
 }

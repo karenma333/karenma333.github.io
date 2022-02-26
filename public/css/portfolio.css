@@ -1,11 +1,10 @@
 /*Generic Styles*/
 body{
-  font-family: Raleway, sans-serif;
+  font-family: 'Public Sans', sans-serif;
   background-color:#FFFFFC;
   color:#303342;
 }
 p{
-  font-family: Lora;
   font-size: 20px;
   line-height: 24px;
   font-weight: 300;
@@ -13,18 +12,25 @@ p{
 h1{
   font-size: 42px;
   font-weight: 300;
+  font-family:'Darker Grotesque',sans-serif;
 }
 h2{
   font-size:32px;
   font-weight: 300;
+  font-family:'Darker Grotesque',sans-serif;
+
 }
 h3{
   font-size: 24px;
   font-weight: 300;
+  font-family:'Darker Grotesque',sans-serif;
+
 }
 h4{
   font-size:16px;
   font-weight:700;
+  font-family:'Darker Grotesque',sans-serif;
+
 }
 h5{
   font-size:16px;
@@ -41,10 +47,13 @@ a, a:hover{
   border-radius: 0px;
   height:90%;
   min-height:200px;
-  box-shadow: 9px 9px 0px 1px black;
+  /*box-shadow: 9px 9px 0px 1px black;*/
 
 }
-.card:hover{
+.projects .card{
+  box-shadow: 9px 9px 0px 1px black;
+}
+.projects .card:hover{
   box-shadow: 9px 9px 0px 1px blue;
 }
 .card-body ul{
@@ -74,19 +83,25 @@ a, a:hover{
  .navMenu a:hover{
   color:blue;
  }
+ #scrollMenu{
+  padding-left: 0;
+ }
+ nav{
+  display: block;
+ }
  nav p{
   padding-inline-start:40px;
  }
  .sticky{
   z-index: 1000;
-  display:flex;
   border-bottom: 1px solid;
   margin-left:0;
- }
- .sticky div{
-    padding-left: 2em;
+
     padding-top: 1em;
     padding-bottom: 1em;
+ }
+ .sticky button{
+     margin-left: 2em;
  }
 .projTitle, .writeUp{
   border-bottom: 1px solid;

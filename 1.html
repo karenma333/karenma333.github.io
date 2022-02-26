@@ -16,8 +16,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="./public/css/portfolio.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway &display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Piazzolla:wght@300;400&display=swap" rel="stylesheet">
        
 </head>
 <body>
@@ -26,15 +27,21 @@
 			<!doctype html>
 				<article>
 					<header>
-						<div class="sticky row">
-							<div class="col-lg-3">
-								<button type="button" class="menu btn btn-outline-primary">Menu</button>
-							</div>
-							<div class=" pageTitle col-lg-9">
-								<p>Automations Redesign</p>
+						<div class="sticky">
+							<button type="button" class="menu btn btn-outline-primary">Menu</button>
+							<div id="scrollMenu" class="navMenu col-lg-3">
+								<ul>
+									<li> <a href="index.html" > Work</a></li>
+									<ul>
+										<li> <a href = "1.html"> Automations Redesign</a> </li>
+										<li> <a href = "2.html"> Automations Auditability </a> </li>
+										<li> <a href = "3.html"> Retirement Wizard </a> </li>
+									</ul>
+									<li> <a href= "4.html"> About Me </a> </li>
+								</ul>
 							</div>
 						</div>
-						<div class="projTitle">
+						<div class="container projTitle">
 								<div class="row projTop">
 									<nav class="navMenu col-lg-3">
 										<p>Menu</p>
@@ -45,8 +52,8 @@
 												<li> <a href = "2.html"> Automations Auditability </a> </li>
 												<li> <a href = "3.html"> Retirement Wizard </a> </li>
 											</ul>
-											<li> <a href= "4.html"> About Me </a> </li>
-										</ul>
+									<li> <a href= "4.html"> About Me </a> </li>
+								</ul>
 									</nav>
 			
 									<div class= "proj_intro col-lg-9">
