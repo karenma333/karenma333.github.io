@@ -6,10 +6,10 @@ body{
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  cursor: url('../images/cursor.svg'), auto; 
+  /*cursor: url('../images/cursor.svg'), auto; */
 }
 li, a, button{
-  cursor: url('../images/cursor.svg'), auto !important; 
+  /*cursor: url('../images/cursor.svg'), auto !important; */
 }
 h1{
   font-size: 44px;

@@ -1,0 +1,45 @@
+{
+		"template":"project",
+		"id":2,
+		"project":"Increasing Automations Auditability",
+		"overview":[
+			{"Context: ": "Team size: 1"},
+			{"Time":"Timeline: 6 months (2021)"},
+			{"Role: ":"Role: Research & design"}
+		],
+		"category":[
+			{ "Title":"Context",
+			"section":[
+				{"Subtitle":"Summary", 
+				"Paragraph":"Automations are integral to our users' experience; they control everything from due date notifications to auto-assigning work on a regular cadence. However, if automations are not reliable, users begin to lose trust and turn back to doing things manually instead. Our user base was consistently leveraging our help center to understand what was happening as well as sinking in time to manually cross check that automations were running as expected.",
+				"image":"newJobsModal.png"
+				},
+				{"Subtitle":"Product Opportunity", 
+				"Paragraph":"Users failed to understand why automations fired when they did and why they did not fire when they were anticipated to. I aimed to remove the mystery surrounding jobs and provide transparency to educate users."
+				}]
+			},
+			{ "Title":"Research",
+			"section":[
+				{"Subtitle":"Methods", 
+				"Paragraph":"I "},
+				{"Subtitle":"Synthesis", 
+				"Paragraph":"From our research we identified two key pain points:",
+				"Bullets":[""]
+				}]
+			},
+			{ "Title":"Design Solution",
+			"section":[
+				{"Subtitle":"Automations History", 
+				"Paragraph":"Previously, we only had two statuses, 'success' and 'failed' and users often did not understand why something was identified as 'failed'. I expanded the execution statuses and added explanations to provide users with more clarity on why automation jobs did not execute. I also provided links for users to clearly identify what triggered the job and what operations occurred.",
+				"image":"newTable.png"},
+				{"Subtitle":"Automations Scheduling", 
+				"Paragraph":"When creating jobs that fired on a schedule, users were often confused exactly how many times it would fire and when it would fire. To remediate this, I added a schedule visualizer and more clearly outlined expectations for any 'refire' and 'catch up' logic.",
+				"image":"newTable.png"
+				},
+				{"Subtitle":"Automations Platform Interactions", 
+				"Paragraph":"Because automations are connected to other parts of the platform, we wanted to highlight the previously unseen impacts to and from automations. I created a deletion consequences when deleting objects in the platform would break existing automations. I also added the ability for users to see what automations had previously acted upon records in the platform and what automations were planned to execute on records. ",
+				"image":"newTable.png"}]
+			}
+			]
+		
+}

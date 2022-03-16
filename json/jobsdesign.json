@@ -1,7 +1,7 @@
 {
 		"template":"project",
 		"id":1,
-		"project":"Automations Redesign",
+		"project":"Redesigned Automations Suite",
 		"overview":[
 			{"Context: ": "Team size: 1"},
 			{"Time":"Timeline: 6 months (2021)"},
@@ -11,39 +11,33 @@
 			{ "Title":"Context",
 			"section":[
 				{"Subtitle":"Summary", 
-				"Paragraph":"After joining the team, I took a pass to evaluate how well the current functionality met the needs of the users.",
+				"Paragraph":"While automations were supported in the platform, they were almost entirely set up by our own internal trained team members. Customers were too afraid and confused. In addition, automation capabilities were starting to be constrained by the layout of the user interface and a redesign was necessary to allow for expanded functionality.",
 				"image":"newJobsModal.png"
 				},
 				{"Subtitle":"Product Opportunity", 
-				"Paragraph":"How can we make automations less confusing and support the continued asks of our power users so we are not limited."
+				"Paragraph":"Since this feature predated the team having design resources, I planned to make some basic usability improvements and establish a foundation that would be more easily extensible for expansions to the automations suite. "
 				}]
 			},
-			{ "Title":"Initial Research",
+			{ "Title":"Research",
 			"section":[
 				{"Subtitle":"Methods", 
-				"Paragraph":"I conducted contextual inquiry, surveys, dived into existing bugs and SRs, interviewed power users, looked at feature requets",
-				"Bullets":["bullet", "bullet2"]
-				},
+				"Paragraph":"To learn more about how automations were currently used and what the future of automations might look like, I sent out surveys, conducted contextual inquiries, and reviewed automations-related feature requests. Then, we used a story map to identify our areas of focus. "},
 				{"Subtitle":"Synthesis", 
-				"Paragraph":"From our research we identified two key pain points.",
-				"Bullets":["- Users wanted to create complicated jobs. Lots of duplicativeness in how jobs were created and what jobs to create, Difficult to reference different parts of a job, no overview of a job existed,(reviewing of jobs created)"]
+				"Paragraph":"From our research we identified two key pain points:",
+				"Bullets":["The current creation flow to set up an automation job was confusing. The existing affordances were not clear to users and not as helpful as intended. In addition, it was difficult to reference different parts of a job and they could not see an overview of the job.","Users wanted to create complicated jobs. Due to the limitations of the creation flow, users had workarounds that involved a lot of duplicative work."]
 				}]
 			},
 			{ "Title":"Design Solution",
 			"section":[
-				{"Subtitle":"Jobs Modal", 
-				"Paragraph":"The onboarding flow was updated to provide users context on how many questions were involved, as well as decrease the number of questions asked upfront.",
-				"Bullets":["bullet", "bullet2"],
-				"image":"newModal.png"
-				},
+				{"Subtitle":"Goals", 
+				"Paragraph":"This redesign needed to avoid disrupting our existing user base while also be different enough to entice users to try again. I sought to design somethin that would fulfill these two goals:",
+				"Bullets":[" To make our customers more likely to create automation jobs by themselves", "To make jobs easier to create for our current users, especially our internal team who were often making jobs in bulk"]},
+				{"Subtitle":"Creation Flow", 
+				"Paragraph":"I updated the layout of the jobs creation flow to provide users with a overview of what they were creating in the sidebar and reorganized the flow to better match the natural flow of a job creation. This also allowed me to set up the base to support multiple conditions and operations in a singular job, allowing users to set up the complex jobs they desired. In addition, I updated the terminology used to be more consistent and added more guidance in areas where users were particularly prone to error.",
+				"image":"newTable.png"},
 				{"Subtitle":"Jobs Table", 
-				"Paragraph":"The product information architecture was updated to better display the information in a manner that users would understand.",
-				"Bullets":["bullet", "bullet2"],
+				"Paragraph":"Our internal team used the jobs table to review all the jobs that a user had made and confirm that they meet expectations. However, the existing design had many columns, requiring horizontal scroll and was not easily searchable when looking for specific jobs. I updated and condensed the columns to highlight information that was actually useful. I also added clarity to what was searchable and added filtering capabilities.",
 				"image":"newTable.png"
-				},
-				{"Subtitle":"Results", 
-				"Paragraph":"While the initial solution sought to streamline our enrollment process, and we have successfully moved from a nine-step wizard to a one-step wizard. After talking to subject matter experts, I learned that the most important steps for users to interact with were in the last few steps where we were seeing less than 20% interaction. The original wizard was lengthy in order to prove users with a sense of customization but failed to actually encourage customization. Enrollment rates have increased by 60%. 20% of users are willingly engaging in customization.",
-				"Bullets":["bullet", "bullet2"]
 				}]
 			}
 			]

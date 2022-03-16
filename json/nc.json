@@ -1,10 +1,10 @@
 {
 		"template":"project",
 		"id":2,
-		"project":"Retirement Wizard",
+		"project":"Self-service Retirement Wizard",
 		"overview":[
 			{"Context: ": "Team size: 3"},
-			{"Time":"Timeline: 3 months (2019)"},
+			{"Time":"Timeline: 6 months (2019)"},
 			{"Role: ":"Role: Research & design"}
 		],
 		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
@@ -12,41 +12,37 @@
 			{ "Title":"Context",
 			"section":[
 				{"Subtitle":"Summary", 
-				"Paragraph":"The existing product was really good for the B2B market and we wanted to shift the target audience to a Direct to consumer model.",
+				"Paragraph":"After finding success in the platform’s use as a retirement advice tool, our company wanted to expand to a new target audience. Previously, financial advisors (experts in the field) leveraged our platform as a tool to help users determine their best plan and investment strategy for retirement. Upon releasing the initial self-service product, usage was lower than anticipated. My work on this product updated the feature to better reflect the needs and user flow of the new target audience.",
 				"image":"afterProposal.png"
 				},
 				{"Subtitle":"Product Opportunity", 
-				"Paragraph":"We needed to adjust our product to be more friendly and diagnosable to account for different levels of financial expertise and less patience."
+				"Paragraph":"Based on its performance, it was clear the existing product was not a good fit for the self-service audience. Not only did we need to adapt our product to be friendlier and digestible for a more novice audience, we also needed to consider the change in the overall user journey. Users no longer had an trusted expert at hand to ask for help, meaning our product had to prove its value on its own."
 				}]
 			},
-			{ "Title":"Initial Research",
+			{ "Title":"Research",
 			"section":[
 				{"Subtitle":"Methods", 
-				"Paragraph":"I conducted a card sort, some analytics, usability tests and A/B tests to identify what to change.",
-				"Bullets":["bullet", "bullet2"],
-				"image":"AnalyticsDashboard.png.png"
+				"Paragraph":"To gain a better understanding of our new target user base, I took a backwards look at our analytics data and reviewed existing literature about retirement planning sentiments. Then to inform our design decisions, I conducted a card sort, usability tests and A/B tested parallel designs to come to our final solution."
+				},
+				{"Subtitle":"Analytics", 
+				"Paragraph":"After reviewing our analytics data, I noticed three trends:",
+				"Bullets":["There was a distinct drop-off in our enrollment flow at a point", "Users seldom changed the default information in our enrollment wizard, preferring to just click through", "For users who did complete enrollment, they were less likely to implement our recommended guidance, as compared to our advisor-led flow."],
+				"image":"AnalyticsDashboard.png"
 				},
 				{"Subtitle":"Synthesis", 
-				"Paragraph":"From our research we identified two key pain points.",
-				"Bullets":["Users were uninterested in enrolling because our flow took too long. Our time to value was too long.", "Users were not interested in our advice or recommendations."],
+				"Paragraph":"Based on analytics trends, additional research was focused on the enrollment flow and the recommendation proposal displaed. We learned that our users were not willing to put up with a lengthy enrollment flow and often completed the flow by relying on the default values we suggested. We needed to speed up the process and provide a faster 'time to value'. Once users landed on the proposal, users had difficulty understanding the suggested recommendations; the existing hierarchy and structure of information displayed on the proposal was not aligned with the mental model in our users' heads.",
 				"image":"oldWiz.png"
 				}]
 			},
 			{ "Title":"Design Solution",
 			"section":[
-				{"Subtitle":"Improved Onboarding", 
-				"Paragraph":"The onboarding flow was updated to provide users context on how many questions were involved, as well as decrease the number of questions asked upfront.",
-				"Bullets":["bullet", "bullet2"],
+				{"Subtitle":"Enrollment Flow Improvements", 
+				"Paragraph":"Without another person guiding them through the questions, users were discouraged by the number of questions asked and not as patient. The enrollment wizard was pared down to the questions that users were most likely to answer and change from their default value. Later on, users would receive notifications to update the defaulted answers for more personalized recommendations. This allowed users to see their initial results and understand the direct impact of further personalization.",
 				"image":"newWiz.png"
 				},
-				{"Subtitle":"Improved Recommendations", 
-				"Paragraph":"The product information architecture was updated to better display the information in a manner that users would understand.",
-				"Bullets":["bullet", "bullet2"],
+				{"Subtitle":"Recommendation Proposal Improvements", 
+				"Paragraph":"Based on our research, we identified the key metrics people used to think about retirement and highlighted those metrics at the forefront of the proposal. Also, the proposal page layout was updated to present current and proposed information at the same time instead of requiring users to tab back and forth between the scenarios presented. This allowed users to better understand what their recommended actions were and compare different scenarios before committing to a decision. These proposal improvements are reflected in the UI as well as the PDF used as a confirmation of their selected actions. ",
 				"image":"afterProposal.png"
-				},
-				{"Subtitle":"Results", 
-				"Paragraph":"While the initial solution sought to streamline our enrollment process, and we have successfully moved from a nine-step wizard to a one-step wizard. After talking to subject matter experts, I learned that the most important steps for users to interact with were in the last few steps where we were seeing less than 20% interaction. The original wizard was lengthy in order to prove users with a sense of customization but failed to actually encourage customization. Enrollment rates have increased by 60%. 20% of users are willingly engaging in customization.",
-				"Bullets":["bullet", "bullet2"]
 				}]
 			}
 			]
