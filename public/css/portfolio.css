@@ -55,6 +55,9 @@ b{
   border-bottom: 1px solid
 
 }
+.navMenu li a{
+  line-height: 32px;
+}
 li{
   list-style-type: "→ ";
 
@@ -63,7 +66,8 @@ li{
   margin-bottom: 1em;
 }
 .infoBox .card{
-  border-width: 6px;
+  background-color: #303342;
+  color:#FFFFFC;
 }
 .projects .card{
   /*box-shadow: 9px 9px 0px 1px black;*/
@@ -75,7 +79,7 @@ li{
   text-decoration: underline;
 }
 .projects .card:hover{
-  box-shadow: 9px 9px 0px 1px black;
+  box-shadow: 9px 9px 0px 1px #303342;
 }
 .card-body ul{
   list-style-position: inside;
@@ -139,7 +143,8 @@ li{
   padding-top: 3rem;
   padding-left:2em;
   border-left: 1px solid;
-  align-self:end;
+  /*align-self:end;*/
+  align-items: flex-end;
   height:100%;
 }
 .pageTitle{
@@ -167,6 +172,9 @@ main{
   padding-right: 2em;
   padding-left: 2em;
   margin-top:-1px;
+}
+.subsection p, .sectionBody div ul li{
+  max-width: 700px;
 }
 .mobile_spacer{
   display:none;
@@ -205,7 +213,7 @@ canvas{
   text-align: center;
 }
 .full_photo img{
-  max-width: 100%;
+  max-width: 700px;
   max-height:100%;
 }
 /*Home Page*/
@@ -235,6 +243,9 @@ canvas{
 .proj_details{
   display: flex;
 }
+.proj_details span{
+  padding-right: 16px;
+}
 .sectionBody{
   padding-top: 20px;
   border-left: 1px solid;
@@ -244,6 +255,8 @@ canvas{
   font-style:italic;
   font-size: 14px;
   color:grey;
+  max-width:700px;
+  padding-top:20px;
 }
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
