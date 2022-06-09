@@ -66,8 +66,9 @@ li{
   margin-bottom: 1em;
 }
 .infoBox .card{
-  background-color: #303342;
-  color:#FFFFFC;
+  background-color: #FFFFFC;
+  color:black;
+
 }
 .projects .card{
   /*box-shadow: 9px 9px 0px 1px black;*/
