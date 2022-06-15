@@ -7,42 +7,20 @@
 	
 		{ 	"class":"project",
 			"id": 1,
-<<<<<<< HEAD
-			"title": "Application Redesign to Version 2.0",
-			"description":"Redesigning an application with new design system guidelines"
-=======
 			"title": "Redesigned Automations Suite",
 			"description":"Redesigning automations interface to improve current functionality and extend into new areas"
->>>>>>> v2
 
 		},
 		{ 	"class":"project",
 			"id": 2,
-<<<<<<< HEAD
-			"title": "Balancing Customization with Efficiency",
-			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
-=======
 			"title": "Increasing Automations Auditability",
 			"description":"Increasing user trust in automations by providing clarity and tools"
->>>>>>> v2
 
 		},
 		{ 	"class":"project",
 			"id": 3,
-<<<<<<< HEAD
-			"title": "Contributions Redesign",
-			"description":"Improving users' understanding of recommendations and advice"
-
-		},
-		{ 	"class":"project",
-			"id": 4,
-			"title": "Retirement Proposal Document Redesign",
-			"description":"Creating a summary of the product value through translation from digital to print"
-=======
 			"title": "Self-service Retirement Wizard",
 			"description":"Creating an onboarding flow for a novice user base"
-
->>>>>>> v2
 		}
 		
 	]

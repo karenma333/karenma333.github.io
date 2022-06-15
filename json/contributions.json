@@ -1,6 +1,7 @@
 {
 		"template":"project",
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"id":1,
 		"project":"Contributions Flow",
 		"overview":[
@@ -81,6 +82,8 @@
 
 			"image":"newContributions.png"
 =======
+=======
+>>>>>>> v2
 		"id":2,
 		"project":"Self-service Retirement Wizard",
 		"overview":[
@@ -138,6 +141,9 @@
 				"Bullets":["The onboarding questionnaire was pared down to 1 step, using default information for all the other information. Then, users would receive calls-to-action later with more explanation of what information to provide and how we use it. ","The proposal page was restructured to place emphasis on the same things our users’ considered most important. Retirement age and retirement income were more closely placed together, since the two concepts are linked and this allowed users to modify either one and observe the impacts.","- The contributions flow was condensed to a single page view to allow users to see the immediate impact of our recommendation in its entirety. In addition, we started displaying both percent and dollar amounts to more tangibly visualize the contribution amount and encouraged users to play with their contribution numbers by offering an easy “undo” if they wanted to revisit our advice once again. "],
 				"image":"finalRetirementWiz.png"
 				}]
+<<<<<<< HEAD
+>>>>>>> v2
+=======
 >>>>>>> v2
 			}
 			]
