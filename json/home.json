@@ -7,20 +7,20 @@
 	
 		{ 	"class":"project",
 			"id": 1,
-			"title": "Application Redesign to Version 2.0",
-			"description":"Redesigning an application with new design system guidelines"
+			"title": "Redesigned Automations Suite",
+			"description":"Redesigning automations interface to improve current functionality and extend into new areas"
 
 		},
 		{ 	"class":"project",
 			"id": 2,
-			"title": "Balancing Customization with Efficiency",
-			"description":"Updating the set-up wizard to improve drop-off rates and adapt to user behavior"
+			"title": "Increasing Automations Auditability",
+			"description":"Increasing user trust in automations by providing clarity and tools"
 
 		},
 		{ 	"class":"project",
 			"id": 3,
-			"title": "Improving Travel Budgeting",
-			"description":"Providing budgeting guidance for young adult travelers to support their travel planning"
+			"title": "Self-service Retirement Wizard",
+			"description":"Creating an onboarding flow for a novice user base"
 
 		}
 		
