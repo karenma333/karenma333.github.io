@@ -3,9 +3,15 @@ var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
 
 var homeData = require("./json/home.json");
+<<<<<<< HEAD
 var project3Data = require("./json/contributions.json");
 var project2Data = require("./json/improveOnboardingWizard.json");
 var projectData = require("./json/redesigning.json");
+=======
+var project3Data = require("./json/retirementPlanner.json");
+var project2Data = require("./json/jobsaudit.json");
+var projectData = require("./json/jobsdesign.json");
+>>>>>>> v2
 var data = [ homeData, projectData,project2Data,project3Data];
 
 //create html files for static service
@@ -23,7 +29,11 @@ for(var i=0;i<data.length;i++){
 		        .pipe(rename(name))
 		        .pipe(gulp.dest('.'));
 	}
+<<<<<<< HEAD
 	return gulp.src('./views/layouts/layout.handlebars')
+=======
+			return gulp.src('./views/layouts/layout.handlebars')
+>>>>>>> v2
 		        .pipe(handlebars(homeData, options))
 		        .pipe(rename('index.html'))
 		        .pipe(gulp.dest('.'));
