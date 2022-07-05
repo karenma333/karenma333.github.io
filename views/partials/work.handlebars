@@ -1,0 +1,39 @@
+<!doctype html>
+<div class="homeContent">
+	<div class = "container ">
+
+	<div class = "row ">
+		<div class = "col-lg-12 header">
+			<header class= "top">
+				<p> Karen Ma</p>
+				<nav class="navMenu">
+					<a href="index.html">Home</a>
+					<a href= "work.html">Work</a>
+				</nav>
+			</header>
+		</div>
+	</div>
+	
+	<div class = "row">
+		{{#each projBlurbs}}
+		<div class="projects col-lg-4">
+			<a href="{{id}}encrypted.html" >
+			<div class = "projLayout card col-lg-12">
+				<div class=" card-body">
+						<div class="projBlurbs">
+							<p class="cardTitle" id="{{@index}}">{{title}}<span>→</span></p>
+							<p>{{description}}</p>
+						</div>
+				</div>
+			</div>
+			</a >
+		</div>
+		{{/each}}
+	</div>
+			</div>
+
+</div>
+
+
+
+

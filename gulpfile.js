@@ -26,7 +26,7 @@ for(var i=0;i<data.length;i++){
 	}
 			return gulp.src('./views/layouts/layout.handlebars')
 		        .pipe(handlebars(homeData, options))
-		        .pipe(rename('index.html'))
+		        .pipe(rename('work.html'))
 		        .pipe(gulp.dest('.'));
 
 

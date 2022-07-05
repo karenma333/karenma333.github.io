@@ -1,81 +1,72 @@
 <!doctype html>
 	<article>
 		<header>
-			<div class="sticky">
-				<button type="button" class="menu btn btn-outline-primary">Menu</button>
-				<div id="scrollMenu" class="navMenu col-lg-3">
-					<ul>
-						<li> <a href="index.html" > Work</a></li>
-						<ul>
-							<li> <a href = "1encrypted.html"> Redesigned Automations Suite</a> </li>
-							<li> <a href = "2encrypted.html"> Increasing Automations Auditability </a> </li>
-							<li> <a href = "3.html"> Self-Service Retirement Wizard </a> </li>
-						</ul>
-					</ul>
+		<div class="container">
+			<div class = "row header">
+				<div class = "col-lg-12">
+					<div class = "top">
+						<p> Karen Ma</p>
+						<nav class="navMenu">
+							<a href="index.html">Home</a>
+							<a href= "work.html">Work</a>
+						</nav>
+					</div>
+					</div>
 				</div>
 			</div>
 			<div class="container projTitle">
-					<div class="row projTop">
-						<nav class="navMenu col-lg-3">
-							<ul>
-								<li> <a href="index.html" > Work</a></li>
-								<ul>
-									<li> <a href = "1encrypted.html">Redesigned Automations Suite</a> </li>
-									<li> <a href = "2encrypted.html">Increasing Automations Auditability </a> </li>
-									<li> <a href = "3.html">Self-Service Retirement Wizard </a> </li>
-								</ul>
-					</ul>
-						</nav>
+				<div class="row projTop">
+					<div class= "proj_intro">
+						<div>
+							<h1 role= "heading" aria-level="1">{{project}}</h1>
+						</div>
 
-						<div class= "proj_intro col-lg-9">
-							<div>
-								<h1 role= "heading" aria-level="1">{{project}}</h1>
+							<div class="proj_details">
+								{{#each overview}}
+								{{#each this}}
+								<span>{{this}}</span>
+								{{/each}}
+								{{/each}}
 							</div>
-
-								<div class="proj_details">
-									{{#each overview}}
-									{{#each this}}
-									<span>{{this}}</span>
-									{{/each}}
-									{{/each}}
-								</div>
-							<div class="disclaimer secondary">
-								<p >{{disclaimer}}</p>
-							</div>
+						<div class="disclaimer secondary">
+							<p >{{disclaimer}}</p>
 						</div>
 					</div>
+				</div>
 			</div>
 		</header>
+	<div class="container">
 	{{#each category}}
-	<div class="row writeUp" id= "first">	
-		<div class = "sectionTitle splash col-lg-3">
-			<h2 class= "secTitle" id= "stickyTitle" data-title= {{Title}} role="heading" aria-level="2">{{Title}}</h2>
-		</div>
-		<div class="sectionBody col-lg-9">
-			{{#each section}}
-				<div class ="subsection">
-					<h3 role="heading" aria-level="2">  {{Subtitle}}</h3>
-					<p>{{Paragraph}}</p>
-				</div>
-				{{#if Bullets}}
-				<div>
-					<ul>
-						{{#each Bullets}}
-						<li>{{this}}</li>
-						{{/each}}
-					</ul>
-				</div>
-				{{/if}}
-				{{#if image}}
-				<div class = "background full_photo">
-					<img src="./public/images/{{image}}" alt="{{altText}}">
+	<div class="row sectionTitle">
+			<h2>{{Title}}</h2>
+	</div>	
+		<div class="row writeUp" id= "first">
+			<div class="sectionBody">
+				{{#each section}}
+					<div class ="subsection">
+						<h3 role="heading" aria-level="2">  {{Subtitle}}</h3>
+						<p>{{Paragraph}}</p>
+					</div>
+					{{#if Bullets}}
 					<div>
-						<p>{{caption}}</p>
-					 </div>
-				</div>
-				{{/if}}
-			{{/each}}
+						<ul>
+							{{#each Bullets}}
+							<li>{{this}}</li>
+							{{/each}}
+						</ul>
+					</div>
+					{{/if}}
+					{{#if image}}
+					<div class = "background full_photo">
+						<img src="./public/images/{{image}}" alt="{{altText}}">
+						<div>
+							<p>{{caption}}</p>
+						 </div>
+					</div>
+					{{/if}}
+				{{/each}}
+			</div>
 		</div>
+		{{/each}}
 	</div>
-	{{/each}}
 </article>
