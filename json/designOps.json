@@ -1,0 +1,34 @@
+{
+		"template":"project",
+		"id":2,
+		"project":"Design Operations",
+		"category":[
+			{ "Title":"Context",
+			"section":[
+				{"Subtitle":"Summary", 
+				"Paragraph":"",
+				"image":"newJobsModal.png"
+				}]
+			},
+			{ "Title":"Design Quality",
+			"section":[
+				{"Subtitle":"Methods", 
+				"Paragraph":"I "},
+				{"Subtitle":"Synthesis", 
+				"Paragraph":"From our research we identified two key pain points:",
+				"Bullets":[""]
+				}]
+			},
+			{ "Title":"Design Efficiency",
+			"section":[
+				{"Subtitle":"Data Explorer", 
+				"Paragraph":""}]
+			},
+			{ "Title":"Design Team",
+			"section":[
+				{"Subtitle":"Data Explorer", 
+				"Paragraph":""}]
+			}
+			]
+		
+}

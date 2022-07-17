@@ -6,21 +6,32 @@
 	"projBlurbs":[
 	
 		{ 	"class":"project",
-			"id": 1,
+			"id": "test",
+			"title": "Design Operations",
+			"description":"Measuring design quality, scaling design, design hiring and breaking down work silos."
+
+		},
+		{ 	"class":"project",
+			"id": "1encrypted.html",
 			"title": "Redesigned Automations Suite",
 			"description":"Redesigning automations interface to improve current functionality and extend into new areas"
 
 		},
 		{ 	"class":"project",
-			"id": 2,
+			"id": "2encrypted.html",
 			"title": "Increasing Automations Auditability",
 			"description":"Increasing user trust in automations by providing clarity and tools"
 
 		},
 		{ 	"class":"project",
-			"id": 3,
+			"id": "3.html",
 			"title": "Self-service Retirement Wizard",
 			"description":"Creating an onboarding flow for a novice user base"
+		},
+		{ 	"class":"project",
+			"id": "4.html",
+			"title": "Design@LogicGate",
+			"description":"General design contributions from my time at LogicGate outside of the big features."
 		}
 		
 	]

@@ -3,11 +3,12 @@ var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
 
 var homeData = require("./json/home.json");
+var project4Data = require("./json/integrations.json");
 var project3Data = require("./json/retirementPlanner.json");
 var project2Data = require("./json/jobsaudit.json");
 var projectData = require("./json/jobsdesign.json");
 
-var data = [ homeData, projectData,project2Data,project3Data];
+var data = [ homeData, projectData,project2Data,project3Data, project4Data];
 
 //create html files for static service
 	gulp.task('export', function(done){
