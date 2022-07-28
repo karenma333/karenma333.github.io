@@ -8,13 +8,13 @@
 			{"Role: ":"Role: Research & design"}
 		],
 		"category":[
-			{ "Title":"Context",
+			{ "Title":"",
 			"section":[
 				{"Subtitle":"Summary", 
 				"Paragraph":"As a B2B platform, LogicGate does not exist in a vacuum. When companies sign up to use our software, their employees to adopt us into their existing workflow. We conducted research to find out what our users' workflows looked like in order to make adoption smoother and more natural."
 				}]
 			},
-			{ "Title":"Integrations",
+			{ "Title":"",
 			"section":[
 				{"Subtitle":"Email Summary", 
 				"Paragraph":"Emails are the primary form of notification; users rely on emails to inform them of any work they have been assigned and any revisions necessary. However, the existing emails were causing user fatigue since in extreme cases, one user might get 200+ emails at one time. By collating these notifications into one email, users would be more inclined to read emails and enjoy a less cluttered inbox.",
@@ -27,7 +27,7 @@
 				"image":""
 				}]
 			},
-			{ "Title":"Conclusion",
+			{ "Title":"",
 			"section":[
 				{"Subtitle":"Goals + Future Vision", 
 				"Paragraph":"Integrations consider the touchpoints of our users outside of our platform to provide a holistic perspective on the users' experience with RiskCloud. By increasing the ease of which RiskCloud fits into our users' existing processes, users do not feel the friction of adopting a new tool. We also achieve an increased stickiness by having out-of-the-box integrations with their existing tools."}]

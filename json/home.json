@@ -6,7 +6,7 @@
 	"projBlurbs":[
 	
 		{ 	"class":"project",
-			"id": "test",
+			"id": "5.html",
 			"title": "Design Operations",
 			"description":"Measuring design quality, scaling design, design hiring and breaking down work silos."
 
@@ -30,8 +30,8 @@
 		},
 		{ 	"class":"project",
 			"id": "4.html",
-			"title": "Design@LogicGate",
-			"description":"General design contributions from my time at LogicGate outside of the big features."
+			"title": "Integrations@LogicGate",
+			"description":"Integrations to..."
 		}
 		
 	]
