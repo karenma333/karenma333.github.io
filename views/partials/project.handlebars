@@ -36,9 +36,15 @@
 		</header>
 	<div class="container">
 	{{#each category}}
+
+	{{#if sectionSplashImg}}
+	<div class="splashImage">
+		<img src="./public/images/{{sectionSplashImg}}">
+	</div>
+	{{/if}}
 	<div class="row sectionTitle">
 		<h2>{{Title}}</h2>
-	</div>	
+	</div>
 		<div class="row writeUp" id= "first">
 			<div class="sectionBody">
 				{{#each section}}
