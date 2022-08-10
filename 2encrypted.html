@@ -5,16 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <title>Password Protected Page</title>
+    <!DOCTYPE html>
+    <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Password Protected Page</title>
     <style>
         html, body {
             margin: 0;
             width: 100%;
             height: 100%;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'DM Sans', sans-serif;
         }
         #dialogText {
-            color: white;
-            background-color: #333333;
+            color: #303342;
+            font-weight: 600;
+            background-color: #FFFFFC;
+            border-bottom: 1px solid  #303342;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 20px;
         }
         
         #dialogWrap {
@@ -24,7 +37,8 @@
             width: 100%;
             height: 100%;
             display: table;
-            background-color: #EEEEEE;
+            background-color:#FFFFFC;
+
         }
         
         #dialogWrapCell {
@@ -34,23 +48,23 @@
         }
         
         #mainDialog {
-            max-width: 400px;
+            max-width: 700px;
             margin: 5px;
-            border: solid #AAAAAA 1px;
-            border-radius: 10px;
-            box-shadow: 3px 3px 5px 3px #AAAAAA;
+            border: 1px solid  #303342;
+            box-shadow: 9px 9px 0px 1px #303342;
             margin-left: auto;
             margin-right: auto;
-            background-color: #FFFFFF;
+            background-color: #FFFFFC;
             overflow: hidden;
             text-align: left;
         }
         #mainDialog > * {
-            padding: 10px 30px;
+            padding: 0px 16px;
         }
         #passArea {
-            padding: 20px 30px;
+            padding: 20px 16px;
             background-color: white;
+            font-size: 16px;
         }
         #passArea > * {
             margin: 5px auto;
@@ -63,8 +77,10 @@
         
         #messageWrapper {
             float: left;
-            vertical-align: middle;
-            line-height: 30px;
+            font-size:16px;
+            line-height: 24px;
+            width:100%;
+            padding-bottom: 8px;
         }
         
         .notifyText {
@@ -80,12 +96,37 @@
         }
         
         #submitPass {
-            font-size: 20px;
-            border-radius: 5px;
-            background-color: #E7E7E7;
-            border: solid gray 1px;
-            float: right;
+            font-size: 18px;
+            color: #303342;
+            background-color: #FFFFFC;
+            border: 1px solid  #303342;
+            float: left;
             cursor: pointer;
+            min-width:120px;
+            padding: 4px 8px;
+        }
+        #submitPass p{
+            margin:0;
+        }
+        #submitPass:hover{
+            text-decoration: underline;
+        }
+        #submitPass:hover
+        {
+            transform: rotate(-2deg);
+        }
+        #close:hover
+        {
+            transform: rotate(-15deg);
+        }
+        #close{
+           font-size: 18px;
+            color: #303342;
+            background-color: transparent;
+            border: none;
+            float: right;
+            cursor: pointer; 
+            padding: 4px 8px;
         }
         #contentFrame {
             position: absolute;
@@ -101,7 +142,6 @@
             right: 0;
             text-align: center;
             padding: 10px;
-            font-weight: bold;
             font-size: 0.8em;
         }
         #attribution, #attribution a {
@@ -111,6 +151,10 @@
             display: none;
             color: red;
         }
+        #passwordPrompt{
+            font-weight:700;
+            margin-top: 24px;
+        }
     </style>
   </head>
   <body>
@@ -118,19 +162,28 @@
     <div id="dialogWrap">
         <div id="dialogWrapCell">
             <div id="mainDialog">
-                <div id="dialogText">This page is password protected.</div>
+                <div id="dialogText">
+                    Password Protected
+                    <a href="index.html">
+                        <button id="close" type="button"><p>&#x2715</p></button>
+                    </a>
+                </div>
                 <div id="passArea">
-                    <p id="passwordPrompt">Password</p>
+                    <p>This case study is password protected.</p>
+                    <p id="passwordPrompt">Enter password</p>
                     <input id="pass" type="password" name="pass" autofocus>
-                    <div>
+                    <div >
                         <span id="messageWrapper">
-                            <span id="invalidPass" class="error">Sorry, please try again.</span>
+                            <span id="invalidPass" class="error">Incorrect password, please try again.</span>
                             <span id="trycatcherror" class="error">Sorry, something went wrong.</span>
                             <span id="success" class="notifyText">Success!</span>
                             &nbsp;
                         </span>
-                        <button id="submitPass" type="button">Submit</button>
+                        <div>
+                            <button id="submitPass" type="button"><p>Submit Password</p></button>
+                        </div>
                         <div style="clear: both;"></div>
+
                     </div>
                 </div>
                 <div id="securecontext" class="error">
@@ -149,6 +202,7 @@
     <div id="attribution">
         Protected by <a href="https://www.maxlaumeister.com/pagecrypt/">PageCrypt</a>
     </div>
+
     <script>
     (function() {
 
