@@ -7,30 +7,25 @@
 	
 		{ 	"class":"project",
 			"id": "5.html",
-			"title": "Design Operations",
-			"description":"Measuring design quality, scaling design, design hiring and breaking down work silos."
-
-		},
-		{ 	"class":"project",
-			"id": "1encrypted.html",
-			"title": "Redesigned Automations Suite",
-			"description":"Redesigning automations interface to improve current functionality and extend into new areas"
+			"title": "Cobalt - LogicGate Design System (2021)",
+			"subtitle":"Thoughts on buttons, and tone and voice guidelines"
 
 		},
 		{ 	"class":"project",
 			"id": "2encrypted.html",
-			"title": "Increasing Automations Auditability",
+			"title": "Increasing Automations Auditability (2022)",
 			"description":"Increasing user trust in automations by providing clarity and tools"
 
 		},
 		{ 	"class":"project",
 			"id": "3.html",
-			"title": "Self-service Retirement Wizard",
-			"description":"Creating an onboarding flow for a novice user base"
+			"title": "Self-service Retirement Wizard (2020)",
+			"subtitle":"Shifting from B2B to B2B2C: An alternative experience for the novice user base",
+			"description":[""]
 		},
 		{ 	"class":"project",
 			"id": "4.html",
-			"title": "Integrations@LogicGate",
+			"title": "Integrations@LogicGate (2021)",
 			"description":"Integrating our system smoothly into our user's holistic workflow"
 		}
 		
