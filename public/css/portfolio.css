@@ -33,26 +33,15 @@ h3{
   justify-content: space-between;
 
 }
-.homeHeader{
-  border:1px solid #303342;
-  background-color: #303342;
-  color:#FFFFFC;
-  padding-left: 20px;
-  padding-top: 1em;
+.project{
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  padding-top:20px;
 }
-.homeBlurb{
-  margin-bottom: 2em;
+.details{
+  display:none;
 }
-
-.projLayout{
-  height:90%;
-  min-height:200px;
-}
-.projLayout:hover  .cardTitle{
-  transform: rotate(-2deg);
-  display: inline-block
-}
-.projblurbs h4, h1, h2{
+.project h1, h3{
   font-family: 'Archivo', sans-serif;
 }
 a, a:hover{
@@ -75,13 +64,6 @@ li{
   list-style-type: "→ ";
 
 }
-.infoBox button{
-  margin-bottom: 1em;
-}
-.infoBox .card{
-  background-color: #FFFFFC;
-  color:#303342;
-
 }
 .project{
   display:flex;
@@ -89,31 +71,7 @@ li{
   border-bottom: 1px solid grey;
   margin-bottom: 20px;
 }
-.card-body ul{
-  list-style-position: inside;
-  padding-left: 0;
-}
-.projTitle{
-  display:flex;
-}
-.projTop{
-  flex:1;
-  display:flex;
-  align-items: stretch;
-  padding-left: 2em;
 
-}
-.sectionTitle{
-    padding-top: 2em;
-}
-.proj_intro{
-  padding-top: 3rem;
-  align-items: flex-end;
-  height:100%;
-}
-.pageTitle{
-  padding-left:2em;
-}
 .bold{
   font-weight: 700;
 }
@@ -127,31 +85,6 @@ main{
   padding: 0;
 }
 
-.writeUp{
-  display:flex;
-
-}
-.sectionTitle, .sectionBody{
-  padding-right: 2em;
-  padding-left: 2em;
-  margin-top:-1px;
-}
-.subsection p, .sectionBody div ul li{
-  max-width: 700px;
-
-}
-.mobile_spacer{
-  display:none;
-}
-
-.btn-outline-primary{
-  color:#303342;
-  border-color: #303342;
-  border-radius: 0;
-}
-.btn-outline-primary:hover{
-
-}
 /*Photos*/
 
 .full_photo{
@@ -180,34 +113,6 @@ main{
 
 .homeContent{
   margin: 2em;
-}
-.projects{
-  margin-bottom: 1.5rem;
-}
-.projLayout .card-body{
-  display:flex;
-  flex-wrap: wrap;
-  padding-top: 2em;
-  padding-left: 2em;
-}
-/*project details*/
-.stuck{
-  position: fixed;
-  top: 0;
-  width:100%;
-  background-color: #FFFFFC;
-}
-.proj_details h5{
-  padding-right: 10px;
-}
-.proj_details{
-  display: flex;
-}
-.proj_details span{
-  padding-right: 16px;
-}
-.sectionBody{
-  padding-top: 20px;
 }
 .disclaimer p{
   font-style:italic;
