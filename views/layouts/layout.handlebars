@@ -23,50 +23,30 @@
 </head>
 <body>
 	<main>
-			{{>(lookup . 'template')}}
 			<div class="homeContent">
 				<div class = "container ">
 					<div class = "row ">
-						<div class = "col-lg-4">
-							<h2>Karen Ma</h2>							
-							<p>Senior Product Designer @ SingleStore — As a designer, I like to discuss product strategy and product vision, define new guidelines for design systems, and grow design culture for a smoother more cohesive product development process. At SingleStore, I work on growth initiatives, security and developer experience.
+						<div class = "col-lg-3">
+							<h1>Karen Ma</h1>							
+							<p>Senior Product Designer @ SingleStore — growth, security, developer experience.
 							</p>
-							<p>Outside of design, I dabble in all sorts of crafts. Most recently, I've been taking workshops in glass flameworking and lost wax casting metals.
-							</p>
-							<h3>Links</h3>
+							<button><a href = "" target ="_blank"> Resume</a></button>
+
+							<!--<h3>Design Likes</h3>
 							<ul>
-								<li><a href = "">  karenma333@gmail.com </a></li>
-								<li><a href = "https://www.linkedin.com/in/karenma333" target ="_blank"> Resume</a></li>
-								<li><a href = "https://www.linkedin.com/in/karenma333" target ="_blank"> LinkedIn</a></li>
-								<li><a href ="
-	https://www.get-merit.com/p/karen-ma" target = "_blank"> Merit </a></li>
+								<li><p>Discussing product strategy and product vision</p></li>
+								<li><p>Writing new guidelines for design systems </p></li>
+								<li><p>Growing design culture for a smoother more cohesive product development process 
+							</p></li>
 							</ul>
-							<h3>What's on my mind - reading list</h3>
+							<h3>Away from Work</h3>
 							<ul>
-								<li><a href = ""> Invisible Child</a></li>
-								<li><a href = "https://www.linkedin.com/in/karenma333" target ="_blank"> Another book </a></li>
-								<li><a href = "https://www.linkedin.com/in/karenma333" target ="_blank"> LinkedIn</a></li>
-							</ul>
+								<li><a href = ""> Reading - Invisible Child</a></li>
+								<li><a href = "" target =""> Tinkering - Lost Wax Casting </a></li>
+								<li><a href ="https://www.get-merit.com/p/karen-ma" target = "_blank"> Mentoring - Merit </a></li>
+							</ul>-->
 						</div>
-						<div class = "col-lg-8">
-							{{#each project}}
-							<div class="project">
-								<div>
-								<h2>{{Title}}</h2>
-								<h3>{{Subtitle}}</h3>
-								</div>
-								<div class= "details">
-									<ul>
-										{{#each details}}
-										<li>{{this}} </li>							
-										{{/each}}
-									</ul>
-									<button>Read More</button>
-								</div>
-								
-							</div>
-							{{/each}}
-						</div>
+						{{>(lookup . 'template')}}
 					</div>
 				</div>
 			</div>
@@ -76,8 +56,6 @@
 			<div class="footer">
 					<a href = "">  karenma333@gmail.com </a> |
 					<a href = "https://www.linkedin.com/in/karenma333" target ="_blank"> LinkedIn</a> |
-					<a href = "https://www.github.com/karenma333" target ="_blank"> Github</a></p>
-
 					<p>Website Design and Content © 2023 Karen Ma</p>
 			</div>
 		</div>

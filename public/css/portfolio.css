@@ -6,37 +6,25 @@ body{
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  /*cursor: url('../images/cursor.svg'), auto; */
-}
-li, a, button{
-  /*cursor: url('../images/cursor.svg'), auto !important; */
 }
 h1{
-  font-size: 44px;
+  font-size: 28px;
   font-weight: 200;
 }
 h2{
-  font-size:28px;
+  font-size:20px;
   font-weight: 300;
 
 }
 h3{
-  font-size:20px;
+  font-size:16px;
   font-weight: 300;
 }
-.cardTitle{
-  font-size: 24px;
-  text-decoration: underline;
-}
-.top{
-  display:flex;
-  justify-content: space-between;
 
-}
 .project{
-  padding-bottom: 20px;
+  padding-bottom: 1em;
   border-bottom: 1px solid grey;
-  padding-top:20px;
+  padding-top:1em;
 }
 .details{
   display:none;
@@ -50,31 +38,14 @@ a, a:hover{
 */
 }
 
-b{
+b, .bold{
   font-weight: 700;
-}
-.card{
-  border: 1px solid #303342;
-  border-radius: 0px;
-  padding:0;
-  /*box-shadow: 9px 9px 0px 1px black;*/
-
 }
 li{
-  list-style-type: "→ ";
+  list-style-type: "* ";
 
 }
-}
-.project{
-  display:flex;
-  padding-bottom: 20px;
-  border-bottom: 1px solid grey;
-  margin-bottom: 20px;
-}
 
-.bold{
-  font-weight: 700;
-}
 main{
   display:flex;
   justify-content: center;
@@ -98,16 +69,6 @@ main{
 .full_photo img{
   max-height:100%;
   min-width: 100%
-}
-.splashImage{
-   display:flex;
-   justify-content: center; 
-}
-.splashImage img{
-  max-width: 500px;
-  width: auto;
-  height: auto;
-  max-height: 400px;
 }
 /*Home Page*/
 
