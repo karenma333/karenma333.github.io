@@ -73,7 +73,7 @@ main{
 /*Home Page*/
 
 .homeContent{
-  margin: 2em;
+  margin: 2rem;
 }
 .disclaimer p{
   font-style:italic;
@@ -84,31 +84,30 @@ main{
 }
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
- .sectionTitle, footer{ 
-    padding-right: 2em;
-    padding-left: 2em;
+footer{ 
+    padding-right: 2rem;
+    padding-left: 2rem;
 
 }
 .about{
-  padding-right: 1em;
+  padding-right: 1rem;
 }
 }
 @media screen and (max-width: 780px){
 .full_photo{
-  padding: 1em;
+  padding: 1rem;
 }
 .half_photo{
   padding:5px;
 }
-
-article>.writeUp, footer{ 
-    padding-right: 1em;
-    padding-left: 1em;
+footer{ 
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 @media screen and (max-width: 575px){
 
 .about{
-  margin-bottom:2em;
+  margin-bottom:2rem;
   padding-left:20px;
 }
 .projBlurbs{

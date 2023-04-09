@@ -1,43 +1,20 @@
 {
 		"template":"project",
-		"id":1,
-		"project":"Redesigned Automations Suite",
-		"overview":[
-			{"Context: ": "Team size: 1"},
-			{"Time":"Timeline: 8 months (2021)"},
-			{"Role: ":"Role: Research & design"}
-		],
+		"id":"1",
+		"Title":"Automations Rule Builder (2022)",
+		"Subtitle":"Defining product vision and patching UX debt",
 		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
 
 		"category":[
 			{ "Title":"Context",
-			"section":[
-				{"Subtitle":"Summary", 
-				"Paragraph":"As the team’s first designer, I was offered a blank slate to reimagine automations in our platform. After extensive user research, I identified actionable next steps to improve the existing functionality and established a longer term product vision to guide future feature discovery. ",
-				"image":"splashJobsRedesign.png"
-				},
-				{"Subtitle":"Product Opportunity", 
-				"Paragraph":"Users set up automated jobs for everything from due date notifications to automated field updates. As different teams added new functionality to expand our jobs offering, the automated jobs flow became an unwieldy amalgamation of features that overwhelmed our users. Users were confused and intimidated by the crowded user interface. It was evident that as we added complexity to our automations capabilities, the current platform layout limited our options for feature development. We needed to re-align the existing pieces of the platform to be more cohesive and create a more scalable strategy that considered the future of automations. "
-				}]
+			"details":["Automations, a rule builder that allowed users to automate parts of their work had long existed in the application. However, it proved too confusing for users and as a result, most automations were built by customer support staff on behalf of our customers. As the squad’s first product designer, I worked to define our long-term product strategy and immediate next steps."]
 			},
-			{ "Title":"Research",
-			"section":[
-				{"Subtitle":"Methods", 
-				"Paragraph":"To learn more about jobs and the pain points of the current flow, I sent out surveys, conducted contextual inquiries, and reviewed automations-related customer data. I wanted to understand what pitfalls new users encountered when they started to set up their automated jobs and what tricks our veteran staff leveraged to resolve these issues. I also needed to understand the real world use cases, and how simple or complex these automated jobs could become."},
-				{"Subtitle":"Synthesis", 
-				"Bullets":["The current creation flow to set up an automated job didn’t match users’ mental model. When watching new users, they struggled to understand what each step was asking for and where to click next. They were not able to quickly resolve any errors they encountered. The existing affordances were not clear to users, and even our power users sometimes misclicked during routine tasks.","Users needed an overview. Since you could only see one part of a job at one time, users were constantly clicking back and forth to reference information. ","Our jobs were hacky. Our power users proudly introduced us to a series of workarounds to create automated jobs. While it worked, it meant our existing functionality wasn’t exactly doing what users needed."]
-				}]
+			{ "Title":"Process",
+			"details":["After conducting some discovery research and facilitating a series of product workshops, we concluded that we needed to make Automations easier to use and more trustworthy. A interface without such a sharp learning curve would allow us to shift the user base from our internal customer support staff back to our users. Without this move, scaling the product would require hiring more staffers. In addition to the rule builder itself, we needed to provide new features to increase trust from our users."]
 			},
-			{ "Title":"Design Solution",
-			"section":[
-				{"Subtitle":"Creation Flow", 
-				"Bullets":["IA sidebar now displays the entire job in one view, allowing users to reference information from previous steps and easily understand what a job is supposed to do at one glance.","Conditions can now be added prior to saving a job, allowing users to create their jobs in the order that makes sense to them. ", "Operations have been atomized to be more distinct and allow for a future with multiple operations."],
-				"image":"finalJobsRedesign.png"},
-				{"Subtitle":"Refinements", 
-				"Paragraph":"As a flow where mis-steps can have egregious consequences and it is easy to lose user trust, details could not be overlooked. ",
-				"Bullets":["Terminology was updated to be more user-friendly and less technical in nature so that users had a clear understanding of what was being automated. ","More explicit warning and error messages provided users with necessary guidance in areas where users were particularly prone to error."]
-				}]
+			{ "Title":"Solution",
+			"details":["This project required an overhaul to taxonomy, for more user-friendly language, an overhaul to the rule building interface, as well as the addition of several audit capabilities, such as a history log, customer facing alerts, and automations preview, to provide a users a way to see what was going on.","Notably, our customers can create Automations via the UI, or via API and any changes we made needed to be compatible with developers who used our API. Power users also developed workarounds and hacks that relied on functionality that was technically broken. We needed to prevent anything from breaking while trying to pave the way for a future that didn’t need hacky workarounds."]
 			}
-			]
+		]
 		
 }

@@ -1,44 +1,17 @@
 {
 		"template":"project",
-		"id":2,
-		"project":"Increasing Automations Auditability",
-		"overview":[
-			{"Context: ": "Team size: 1"},
-			{"Time":"Timeline: 3 months (2022)"},
-			{"Role: ":"Role: Research & design"}
-		],
+		"id":"1",
+		"Title":"Cobalt - LogicGate Design System (2021)",
+		"Subtitle":"Fundamentals: guidelines for buttons and voice and tone",
 		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
 
 		"category":[
 			{ "Title":"Context",
-			"section":[
-				{"Subtitle":"Summary", 
-				"Paragraph":"What happens when a feature is released and isn’t as successful as you hoped? In this case, I worked to understand how the released functionality did manage to improve user workflows and what prevented the feature from becoming even more useful. Additional user research informed tweaks to how the existing features operated to improve adoption and usage.",
-				"image":"splashJobsAudit.png"
-				},
-				{"Subtitle":"Product Opportunity", 
-				"Paragraph":"In an effort to provide users with more visibility into their automations, a basic execution history and upcoming schedule was created for users. While conducting user research on a related project, it became clear that the MVP feature release of an automated jobs execution history and jobs schedule did not fully solve user problems. Instead of providing clarity, this actually brought about more questions and concerns about jobs. "
-				}]
+			"details":["At the time of my contributions, the design system was in its infancy. Among other contributions to the design system, my most impactful work related to auditing button usage across the platform and creating guidelines on button usage, and creating voice and tone guidelines for copywriting."]
 			},
-			{ "Title":"Research",
-			"section":[
-				{"Subtitle":"Synthesis", 
-				"Paragraph":"One of the goals in releasing this feature set was to decrease the workload on our support team. By letting customers see the status of their automated jobs, they would not feel the need to ask our support team to confirm everything was working as expected. I sat down with our users and our support team separately to understand how the features changed their workflow and what the current dynamic looked like. Ultimately, it came down to two things. ",
-				"Bullets":["Users disagreed with our definitions. Our decisions for what job executions succeeded or failed didn’t make sense to the users. ","They wanted more details. It wasn’t enough to know that a job had failed, users needed to know why something failed. Likewise, if a job claims to have succeeded but they didn’t see evidence, they wanted reassurance of what actions were actually executed."]}
-			]},
-			{ "Title":"Design Solution",
-			"section":[
-				{"Subtitle":"Automations History", 
-				"Paragraph":"Previously, we only had two statuses, 'success' and 'failed' and users often did not understand why something was identified as 'failed'. I expanded the execution statuses and added explanations to provide users with more clarity on why automation jobs did not execute. I also provided links for users to clearly identify what triggered the job and what operations occurred.",
-				"image":"finalJobsAudit.png"},
-				{"Subtitle-temp":"Automations Scheduling", 
-				"Paragraph-temp":"When creating jobs that fired on a schedule, users were often confused exactly how many times it would fire and when it would fire. To remediate this, I added a schedule visualizer and more clearly outlined expectations for any 'refire' and 'catch up' logic.",
-				"image-temp":"newTable.png"
-				},
-				{"Subtitle-temp":"Automations Platform Interactions", 
-				"Paragraph-temp":"Because automations are connected to other parts of the platform, we wanted to highlight the previously unseen impacts to and from automations. I created a deletion consequences when deleting objects in the platform would break existing automations. I also added the ability for users to see what automations had previously acted upon records in the platform and what automations were planned to execute on records. ",
-				"image":"newTable.png"}]
+			{ "Title":"Solution",
+			"details":["Buttons are a foundational component for design systems. They are widely used and providing guidelines for button usage gives a platform structure and consistency. After auditing our button usage across the application, I wrote guidelines on button placement, button copy, and button hierarchy.","Without a dedicated copywriter, copy was written by product managers, product designers, and front-end engineers. Inconsistencies are especially notable when it comes to error messages, empty states and guidance messaging. I facilitated a workshop to define our voice and wrote documentation for a more cohesive copywriting methodology."]
 			}
-			]
+		]
 		
 }

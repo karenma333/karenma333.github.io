@@ -1,36 +1,23 @@
 <!doctype html>
-	<article>
-	<div class="container">
-	{{#each category}}
-
-	{{#if sectionSplashImg}}
-	<div class="splashImage">
-		<img src="./public/images/{{sectionSplashImg}}">
-	</div>
-	{{/if}}
-	<div class="row sectionTitle">
-		<h2>{{Title}}</h2>
-	</div>
-		<div class="row writeUp" id= "first">
-			<div class="sectionBody">
-				{{#each section}}
-					<div class ="subsection">
-						<h3 role="heading" aria-level="2">  {{Subtitle}}</h3>
-						<p>{{Paragraph}}</p>
-					</div>
-					{{#if Bullets}}
-					<div class= "details" id="{{order}}">
-						<div class = "background full_photo">
-						 	<img class="d-block w-100" src="./public/images/splashRetirementWiz.png" alt="Third slide">
-						 </div>
-						<ul>
-							{{#each details}}
-							<li>{{this}} </li>							
-							{{/each}}
-						</ul>
-					</div>
-					{{/if}}
-				{{/each}}
+	<div class="col-lg-8">
+		<a href = "index.html">Back</a>
+		<div>
+			<h3>{{Title}}</h3>
+			<h4>{{Subtitle}}</h4>
+			<p>{{disclaimer}}</p>
+		</div>
+		<div class="full_photov">
+			<img src="./public/images/{{sectionSplashImg}}">
+		</div>
+		{{#each category}}
+		<div>
+			<h4>{{Title}}</h4>
+			<div>
+				<div>
+					{{#each details}}
+					<p>{{this}} </p>							
+					{{/each}}
+				</div>
 			</div>
 		</div>
 		{{/each}}
