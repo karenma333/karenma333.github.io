@@ -22,9 +22,10 @@ h3{
 }
 
 .project{
-  padding-bottom: 1em;
   border-bottom: 1px solid grey;
   padding-top:1em;
+  display:flex;
+  justify-content: space-between;
 }
 .details{
   display:none;
@@ -73,7 +74,16 @@ main{
 /*Home Page*/
 
 .homeContent{
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-left:6rem;
+  margin-right:6rem;
+  width:100%;
+}
+.intro{
+  margin-bottom: 2rem;
+}
+.moreAbout{
+  margin-top:2rem;
 }
 .disclaimer p{
   font-style:italic;
@@ -110,6 +120,7 @@ footer{
   margin-bottom:2rem;
   padding-left:20px;
 }
+
 .projBlurbs{
   padding-left:0px;
 }
