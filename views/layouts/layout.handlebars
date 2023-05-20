@@ -23,6 +23,39 @@
 </head>
 <body>
 	<main>
+
+		<div class="windowGroup">
+		 {{#each window}}
+		    <div id="window{{id}}" class="window">
+		        <div class="purple">
+		            <p class="windowTitle">{{Title}}</p>
+		        </div>
+		        <div class="mainWindow">
+		            <div>
+						<h3>{{Title}}</h3>
+						<h4>{{Subtitle}}</h4>
+						<p>{{disclaimer}}</p>
+					</div>
+					<div class="full_photo">
+						<img src="./public/images/{{sectionSplashImg}}">
+					</div>
+					{{#each category}}
+					<div>
+						<h4>{{Title}}</h4>
+						<div>
+							<div>
+								{{#each details}}
+								<p>{{this}} </p>							
+								{{/each}}
+							</div>
+						</div>
+					</div>
+					{{/each}}
+		        </div>
+		    </div>
+		    {{/each}}
+		</div>
+
 			<div class="homeContent">
 				<div class="intro">
 							<h1>Karen Ma</h1>							
@@ -30,7 +63,17 @@
 							</p>
 							<button><a href = "" target ="_blank"> Resume</a></button>
 				</div>
-				{{>(lookup . 'template')}}
+				<div class= "proj">
+					<h2>Selected Work</h2>
+					{{#each project}}
+					<div class="project">
+						<div class= "projBlurbs">
+						<button id="button{{id}}"><h3>{{Title}}</h3></button>
+						<p>{{Subtitle}}</p>
+						</div>	
+					</div>
+					{{/each}}
+				</div>	
 				<div class= "moreAbout">
 					<h2>More</h2>
 					<p>I started my career in product design because of my interest in Cognitive Science; I loved the interaction between the behavioral research and analytics and the technical applications of the field. Now, work keeps my engaged when I get to spend time discussing product strategy and product vision, writing new guidelines for design systems and growing design culture. Outside of work,I also mentor on <a href ="https://www.get-merit.com/p/karen-ma" target = "_blank">Merit </a>
@@ -57,5 +100,7 @@
 	<script src="./public/js/shortcuts/sticky.js"></script>
 
 	<script src="./public/js/portfolio.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/window-engine@latest/dist/window-engine.min.css">
+<script src="https://unpkg.com/window-engine@latest/dist/window-engine.min.js"></script> 
 </body>
 </html>

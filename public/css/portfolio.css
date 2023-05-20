@@ -68,11 +68,6 @@ main{
   min-width: 100%
 }
 /*Home Page*/
-
-.homeContent{
-  margin:2rem 20rem 4rem 20rem;
-  width:100%;
-}
 .moreAbout, .proj_details, .intro{
   margin:3rem 0 3rem 0;
 }
@@ -83,37 +78,49 @@ main{
   max-width:700px;
   padding-top:20px;
 }
-footer{
-  margin-left: 20rem;
-  margin-right:20rem;
-}
+
 .footer{
   display:flex;
 justify-content: space-between;
 }
 
+
+
+.window{
+  display:none;
+}
 /*Responsiveness*/
 @media screen and (min-width: 1200px){
-
-.about{
-  padding-right: 1rem;
+.homeContent{
+  margin:2rem 20rem 4rem 20rem;
+}
+footer{
+  margin-left: 20rem;
+  margin-right:20rem;
 }
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1199px){
 .full_photo{
   padding: 1rem;
 }
-.half_photo{
-  padding:5px;
+.homeContent{
+  margin:2rem 15rem 4rem 15rem;
 }
-@media screen and (max-width: 575px){
-
-.about{
-  margin-bottom:2rem;
-  padding-left:20px;
+footer{
+  margin-left: 15rem;
+  margin-right:15rem;
 }
+}
+@media screen and (max-width: 780px){
 
 .projBlurbs{
   padding-left:0px;
+}
+.homeContent{
+  margin:2rem 2rem 4rem 2rem;
+}
+footer{
+  margin-left: 2rem;
+  margin-right:2rem;
 }
 }
