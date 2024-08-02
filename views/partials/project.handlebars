@@ -1,77 +1,31 @@
-<!doctype html>
-	<article>
-		<header>
-		<div class="container">
-			<div class = "row header">
-				<div class = "col-lg-12">
-					<div class = "topProj">
-						<a href="index.html"><p>Karen Ma</p></a>
-						<nav>
-							<a href="index.html">Home</a>
-						</nav>
-					</div>
-					</div>
-				</div>
+<div class="windowGroup">
+ {{#each window}}
+    <div id="window{{id}}" class="window">
+        <div class="purple">
+            <p class="windowTitle">{{Title}}</p>
+        </div>
+        <div class="mainWindow">
+            <div>
+				<h3>{{Title}}</h3>
+				<h4>{{Subtitle}}</h4>
+				<p>{{disclaimer}}</p>
 			</div>
-			<div class="container projTitle">
-				<div class="row projTop">
-					<div class= "proj_intro">
-						<div>
-							<h1 role= "heading" aria-level="1">{{project}}</h1>
-						</div>
-
-							<div class="proj_details">
-								{{#each overview}}
-								{{#each this}}
-								<span>{{this}}</span>
-								{{/each}}
-								{{/each}}
-							</div>
-						<div class="disclaimer secondary">
-							<p >{{disclaimer}}</p>
-						</div>
-					</div>
-				</div>
+			<div class="full_photo">
+				<img src="./public/images/{{sectionSplashImg}}">
 			</div>
-		</header>
-	<div class="container">
-	{{#each category}}
-
-	{{#if sectionSplashImg}}
-	<div class="splashImage">
-		<img src="./public/images/{{sectionSplashImg}}">
-	</div>
-	{{/if}}
-	<div class="row sectionTitle">
-		<h2>{{Title}}</h2>
-	</div>
-		<div class="row writeUp" id= "first">
-			<div class="sectionBody">
-				{{#each section}}
-					<div class ="subsection">
-						<h3 role="heading" aria-level="2">  {{Subtitle}}</h3>
-						<p>{{Paragraph}}</p>
-					</div>
-					{{#if Bullets}}
+			{{#each category}}
+			<div>
+				<h4>{{Title}}</h4>
+				<div>
 					<div>
-						<ul>
-							{{#each Bullets}}
-							<li>{{this}}</li>
-							{{/each}}
-						</ul>
+						{{#each details}}
+						<p>{{this}} </p>							
+						{{/each}}
 					</div>
-					{{/if}}
-					{{#if image}}
-					<div class = "background full_photo">
-						<img src="./public/images/{{image}}" alt="{{altText}}">
-						<div>
-							<p>{{caption}}</p>
-						 </div>
-					</div>
-					{{/if}}
-				{{/each}}
+				</div>
 			</div>
-		</div>
-		{{/each}}
-	</div>
-</article>
+			{{/each}}
+        </div>
+    </div>
+    {{/each}}
+</div>

@@ -1,36 +1,11 @@
-<!doctype html>
-<div class="homeContent">
-	<div class = "container ">
-
-	<div class = "row ">
-		<div class = "col-lg-12 header">
-			<header class= "top">
-				<a href="index.html"><p>Karen Ma</p></a>
-
-			</header>
-		</div>
+<div class= "proj">
+	<h2>Selected Work</h2>
+	{{#each project}}
+	<div class="project">
+		<div class= "projBlurbs">
+		<h3>{{Title}}</h3>
+		<p>{{Subtitle}}</p>
+		</div>	
 	</div>
-	
-	<div class = "row">
-		{{#each projBlurbs}}
-		<div class="projects col-lg-4">
-			<a href="{{id}}" >
-			<div class = "projLayout card col-lg-12">
-				<div class=" card-body">
-						<div class="projBlurbs">
-							<p class="cardTitle" id="{{@index}}">{{title}}<span>→</span></p>
-							<p>{{description}}</p>
-						</div>
-				</div>
-			</div>
-			</a >
-		</div>
-		{{/each}}
-	</div>
-			</div>
-
-</div>
-
-
-
-
+	{{/each}}
+</div>	

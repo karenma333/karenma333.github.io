@@ -1,64 +1,17 @@
 {
 		"template":"project",
-		"id":3,
-		"project":"Self-service Retirement Wizard",
-		"overview":[
-			{"Context: ": "Team size: 3"},
-			{"Time":"Timeline: 9 months (2019)"},
-			{"Role: ":"Role: Research & design"}
-		],
+		"id":"1",
+		"Title":"Self-service Retirement Wizard (2020)",
+		"Subtitle":"Shifting from B2B to B2B2C: An alternative experience for the novice user base",
 		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
+
 		"category":[
 			{ "Title":"Context",
-			"section":[
-				{"Subtitle":"Summary", 
-				"Paragraph":"Over the course of 9 months, I worked with a team of 2 other designers to launch a product redesign to support a wider target audience. I led user research, defined a new platform information architecture, created wireframes and conducted usability testing. Ultimately, the new experience included a site-wide layout redesign, some updated functionality and the addition of more in-app guidance to support the new user base.",
-				"image":"splashRetirementWiz.png"
-				},
-				{"Subtitle":"Product Opportunity", 
-				"Paragraph":"This retirement planning tool was originally designed for financial advisors and experts to augment their retirement investment strategies. This start-up’s growth strategy included plans to expand our base platform into a self-service retirement planner, for your everyday American with a retirement account. I joined the team after the existing application had launched for our new strategy with dismal success. "
-				}]
-			},
-			{ "Title":"Research",
-			"section":[
-				{"Subtitle":"Goal", 
-				"Paragraph":"Instead of thinking of our new target audience as an extension of our existing audience and trying to force our existing product to fit their needs, I wanted to start by understanding our new audience segment and use that information to build their experience from both existing and new features as needed. I took a look at historical user analytics data to look for patterns, and conducted a card sort on our new target audience to better grasp their mental model for retirement planning and how it differed from the expert flow."
-				},
-				{"Subtitle":"Onboarding Insights", 
-				"Paragraph":"Looking at our user analytics data, it was clear our current onboarding flow was too long. Our existing flow was long to give experts the ability to customize as needed. However, these novice users didn’t have as many things to customize and preferred to rely on default best practices due to their lack of knowledge in retirement planning.",
-				"image":"statsRetirementWiz.png"
-				},
-				{"Subtitle":"Dashboard Insights", 
-				"Paragraph":"From our card sort results, we identified the information most important to our new users and their inherent mental model for thinking about retirement planning. When we mapped this to our current platform layout, it was clear that an information architecture refresh would be required to better align to user expectations. Novice users were overwhelmed by the information on the dashboard and ended up ignoring most of the graphs. They placed more emphasis on the immediate impact of retirement planning and had more flexibility on the terms of their retirement, like when they would retire and how much to budget per year in retirement. ",
-				"image":"researchRetirementWiz.png"
-				}]
-			},
-			{ "Title":"Ideation",
-			"section":[
-				{"Subtitle":"Design Vision", 
-				"Paragraph":"To accommodate our new, more broad audience, our product experience needed to:",
-				"Bullets":["take on a more guided role and provide scaffolding for users with less financial expertise","allow users to easily make changes and weigh their options"]
-				},
-				{"Subtitle":"User Testing", 
-				"Paragraph":"We explored different wizard lengths and designs and A/B tested skipping the wizard entirely versus adding progress bar visuals to indicate expected effort on our real user base. We leveraged usability tests to examine user interaction and wayfinding of our new dashboard configurations. ",
-				"image":"iterationRetirementWiz.png"
-				}]
+			"details":["Following a pivot in product strategy from financial advisors to the every day user, I worked to reframe our existing product for a more novice user base, including a simplified onboarding flow and educational dashboard experience. ","For this project, I worked on the onboarding and dashboard designs with a team of two other designers, as well as leading the technical integrations with 401k plan providers. This was also the first introduction of user experience design into the product development process, requiring design evangelization to the org."]
 			},
 			{ "Title":"Solution",
-			"section":[
-				{"Subtitle":"Final Design", 
-				"Bullets":["The onboarding questionnaire was pared down to 1 step, using default information for all the other information. Then, users would receive calls-to-action later with more explanation of what information to provide and how we use it. ","The proposal page was restructured to place emphasis on the same things our users’ considered most important. Retirement age and retirement income were more closely placed together, since the two concepts are linked and this allowed users to modify either one and observe the impacts.","The contributions flow was condensed to a single page view to allow users to see the immediate impact of our recommendation in its entirety. In addition, we started displaying both percent and dollar amounts to more tangibly visualize the contribution amount and encouraged users to play with their contribution numbers by offering an easy “undo” if they wanted to revisit our advice once again. "],
-				"image":"finalRetirementWiz.png"
-				},
-				{"Subtitle":"Refinements", 
-				"Paragraph":"Alongside these really big changes, we also took some time to make smaller changes to decrease the mental load for our users and provide a more polished feel. ",
-				"Bullets":["The number formatting was updated to be consistent in its rounding rules and decimal precision.","A language audit was conducted to make our terminology usage more consistent. Previously, the same concept might be referred to in four different ways.","We finally started using a design system, with updated components and visual guidelines.","Since our load times reached upwards of 30 seconds, a new loading screen was created to provide better indication that a page was actually loading and not spinning infinitely."],
-				"image":"loadingRetirementWiz.png"},
-				{"Subtitle":"Outcomes", 
-				"Paragraph":"Following the release of this redesign, our user enrollment rates increased over 40%. In addition, the percentage of users that were increasing their contributions almost doubled.  As a retirement planning tool, knowing that users were taking our advice and recommendations indicated that users trust us enough to make an immediate change in their lives. Our sales team was also able to take this information to their B2B2C sales calls and prove that using our software leads to better outcomes for their end users. This platform overhaul is more visually appealing to users and better matches user expectations, making retirement planning a more user friendly experience."}
-
-			]
+			"details":["I led generative research to shape our design strategy for the new target audience and set up usability metrics to inform iterations as we started shipping our features. Novice users were overwhelmed by personalization options in the original interface and needed more education on recommended actions. Not only did we see an increase in users, we also saw better outcomes for our users, for a product-led growth strategy."]
 			}
-			]
+		]
 		
 }

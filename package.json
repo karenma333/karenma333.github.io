@@ -5,7 +5,11 @@
   "main": "gulpfile.js",
   "dependencies": {
     "express": "^4.16.4",
-    "express3-handlebars": "^0.5.0"
+    "express3-handlebars": "^0.5.0",
+    "gulp": "^4.0.2",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^2.0.0",
+    "window-engine": "^4.3.7"
   },
   "devDependencies": {
     "pagecrypt": "^5.4.0"

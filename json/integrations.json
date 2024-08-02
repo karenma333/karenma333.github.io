@@ -1,39 +1,16 @@
 {
 		"template":"project",
-		"id":5,
-		"project":"Integrations @ LogicGate",
-		"overview":[
-			{"Context: ": "Team size: 1"},
-			{"Time":"Timeline: 6 months (2021)"},
-			{"Role: ":"Role: Research & design"}
-		],
+		"id":"2",
+		"Title":"Integrations@LogicGate (2021)",
+		"Subtitle":"Looking at the user's holistic workflow beyond our application",
 		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
 
 		"category":[
 			{ "Title":"Context",
-			"section":[
-				{"Subtitle":"Summary", 
-				"Paragraph":"As a B2B platform, LogicGate does not exist in a vacuum. When companies sign up to use our software, their employees to adopt us into their existing workflow. We conducted research to find out what our users' workflows looked like in order to make adoption smoother and more natural."
-				}]
+			"details":["Especially when it comes to SaaS, the more embedded your product is into the users’ workflow, the less likely your customers will go through the effort of changing vendors. For this project, I worked with a product manager to explore ways we could increase stickiness through added convenience. We ended up with a Microsoft365 integration and a RiskCloud Documents offering."]
 			},
-			{ "Title":"Integrations",
-			"section":[
-				{"Subtitle":"Email Summary", 
-				"Paragraph":"Emails are the primary form of notification; users rely on emails to inform them of any work they have been assigned and any revisions necessary. However, the existing emails were causing user fatigue; in extreme cases, one user received more than 200 emails every day. By collating these notifications into one email, we decreased the email fatigue and increased the utility of emails.",
-			"image":"email"},
-				{"Subtitle":"Microsoft Online + RiskCloud Documents", 
-				"Paragraph":"While many GRC software options exist in the market, final deliverables are oftentimes still presented in the form of excel spreadsheets, word documents and PDFs. Rather than force users to adopt a software-only approach, we integrated with Microsoft and Formstack. Users can now preview attachments in-app and make edits without having to download and re-upload documents. Instead of manually transfering information from RiskCloud to a document, users can export data with their own customized document template. Integrating with their existing systems reduced the duplicate work necessary to transition between different formats of the same data..",
-				"image":"PreviewMSFTbutton+In-AppPreview. template+generatedocument+generated document"},
-				{"Subtitle":"Webhooks", 
-				"Paragraph":"Accommodating every integration our users want is not feasible. So, in addition to API access, we also added webhook support. Users can build their own automation based on key event triggers in RiskCloud.",
-				"image":"webhooksetupimages"
-				}]
-			},
-			{ "Title":"Conclusion",
-			"section":[
-				{"Subtitle":"Goals + Future Vision", 
-				"Paragraph":"Integrations consider the touchpoints of our users outside of our platform to provide a holistic perspective on the users' experience with RiskCloud. By increasing the ease of which RiskCloud fits into our users' existing processes, users do not feel the friction of adopting a new tool. We also achieve an increased stickiness by having out-of-the-box integrations with their existing tools."}]
+			{ "Title":["Through generative research, we learned that our users had a strong reliance on Excel and Word and were frequently downloading and re-uploading versioned files through their day. By providing a Microsoft integration, users could now edit their files in-app, decreasing friction in their workflow.","Sometimes, users were repeating the information within the platform into a separate local file, for reporting purposes, doubling their workload. With our Documents offering, we provided users with an easy way to export into their format of choice. Now, users could do more of their work within our application."]
 			}
-			]
+		]
 		
 }

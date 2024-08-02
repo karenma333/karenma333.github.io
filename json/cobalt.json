@@ -1,0 +1,17 @@
+{
+		"template":"project",
+		"id":"1",
+		"Title":"Cobalt - LogicGate Design System (2021)",
+		"Subtitle":"Fundamentals: guidelines for buttons and voice and tone",
+		"disclaimer":"I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.",
+
+		"category":[
+			{ "Title":"Context",
+			"details":["At the time of my contributions, the design system was in its infancy. Among other contributions to the design system, my most impactful work related to auditing button usage across the platform and creating guidelines on button usage, and creating voice and tone guidelines for copywriting."]
+			},
+			{ "Title":"Solution",
+			"details":["Buttons are a foundational component for design systems. They are widely used and providing guidelines for button usage gives a platform structure and consistency. After auditing our button usage across the application, I wrote guidelines on button placement, button copy, and button hierarchy.","Without a dedicated copywriter, copy was written by product managers, product designers, and front-end engineers. Inconsistencies are especially notable when it comes to error messages, empty states and guidance messaging. I facilitated a workshop to define our voice and wrote documentation for a more cohesive copywriting methodology."]
+			}
+		]
+		
+}
