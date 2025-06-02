@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
-var proj4Data = require("./json/windows.json");
+var proj4Data = require("./json/home.json");
 
 
 //create html files for static service
