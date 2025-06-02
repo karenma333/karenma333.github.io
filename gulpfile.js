@@ -3,6 +3,9 @@ var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
 var proj4Data = require("./json/home.json");
 
+var markdown = require('helper')
+var hbs = require('handlebars');
+hbs.registerHelper('markdown', markdown([options]));
 
 //create html files for static service
 gulp.task('export', function(done){
