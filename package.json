@@ -9,9 +9,11 @@
     "gulp": "^4.0.2",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-rename": "^2.0.0",
+    "helper-markdown": "^1.0.0",
     "window-engine": "^4.3.7"
   },
   "devDependencies": {
+    "gulp-markdown": "^8.0.0",
     "pagecrypt": "^5.4.0"
   },
   "scripts": {

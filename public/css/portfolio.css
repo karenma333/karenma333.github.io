@@ -67,15 +67,15 @@ main{
   align-self:center;
 }
 .about,.proj{
-    border-top: 1px solid grey;
+    border-top: 1px solid #D3D3D3;
 }
 
 
 @media screen and (max-width: 1440px){
-.homeContent{
+.content{
   margin:2rem 15rem 4rem 15rem;
 }
-.footer{
+.footer,header{
   margin:0rem 15rem 0rem 15rem;
 }
 }
@@ -84,7 +84,10 @@ main{
 .projBlurbs{
   padding-left:0px;
 }
-.homeContent{
+.content{
   margin:2rem 2rem 4rem 2rem;
+}
+.footer,header{
+  margin:0rem 2rem 0rem 2rem;
 }
 }
