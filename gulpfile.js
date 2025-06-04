@@ -1,6 +1,4 @@
 import gulp from 'gulp';
-import handlebars from 'gulp-compile-handlebars';
-import rename from 'gulp-rename';
 
 var proj4Data = "./json/home.json";
 var data = ["./markdown/about.md","./markdown/projectlist.md"]
