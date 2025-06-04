@@ -7,7 +7,7 @@
 
 		"category":[
 			{ "Title":"Context",
-			"details":["Automations, a rule builder that allowed users to automate parts of their work had long existed in the application. However, it proved too confusing for users and as a result, most automations were built by customer support staff on behalf of our customers. As the squad’s first product designer, I worked to define our long-term product strategy and immediate next steps."]
+			"details":["Automations, a rule builder that allowed users to automate parts of their work had long existed in the application. "]
 			},
 			{ "Title":"Process",
 			"details":["After conducting some discovery research and facilitating a series of product workshops, we concluded that we needed to make Automations easier to use and more trustworthy. A interface without such a sharp learning curve would allow us to shift the user base from our internal customer support staff back to our users. Without this move, scaling the product would require hiring more staffers. In addition to the rule builder itself, we needed to provide new features to increase trust from our users."]

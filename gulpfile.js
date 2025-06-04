@@ -3,7 +3,7 @@ import handlebars from 'gulp-compile-handlebars';
 import rename from 'gulp-rename';
 
 var proj4Data = "./json/home.json";
-
+var data = ["./json/jobdesign.json","./retirementPlanner.json"]
 //var markdown = require('helper-markdown')
 //var hbs = require('handlebars');
 //hbs.registerHelper('markdown', markdown([options]));
@@ -11,7 +11,7 @@ var proj4Data = "./json/home.json";
 //create html files for static service
 gulp.task('export', function(done){
 		//source files
-	var options={
+	/*var options={
 			ignorePartials:true,
 		   batch:['./views/partials']
 		}
@@ -21,7 +21,23 @@ gulp.task('export', function(done){
 			        .pipe(handlebars(file))
 			        .pipe(rename(name))
 			        .pipe(gulp.dest('.'));
-			return done();
+			return done();*/
+		var options={
+			ignorePartials:false,
+		   batch:['./views/partials']
+		}
+			for(var i=0;i<data.length;i++){
+				var file = data[i];
+				var name = i.toString()+".html";
+				gulp.src('./views/layouts/layout.handlebars')
+					        .pipe(handlebars(file))
+					        .pipe(rename(name))
+					        .pipe(gulp.dest('.'));
+				}
+			return gulp.src('./views/layouts/layout.handlebars')
+		        .pipe(handlebars(indexData,options))
+		       .pipe(rename('index.html'))
+		       .pipe(gulp.dest('.'));
 
 });
 
@@ -38,21 +54,6 @@ gulp.task("md", function(done){
 	return done();
 }
 );
-		/*options={
-			ignorePartials:false,
-		   batch:['./views/partials']
-		}
-			for(var i=0;i<data.length;i++){
-				var file = data[i];
-				var name = i.toString()+".html";
-				gulp.src('./views/layouts/layout.handlebars')
-					        .pipe(handlebars(file))
-					        .pipe(rename(name))
-					        .pipe(gulp.dest('.'));
-				}
-			return gulp.src('./views/layouts/layout.handlebars')
-		        .pipe(handlebars(indexData,options))
-		       .pipe(rename('index.html'))
-		       .pipe(gulp.dest('.'));*/
+
 
 
