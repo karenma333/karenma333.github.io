@@ -2,9 +2,6 @@ import gulp from 'gulp';
 
 var proj4Data = "./json/home.json";
 var data = ["./markdown/about.md","./markdown/projectlist.md"]
-//var markdown = require('helper-markdown')
-//var hbs = require('handlebars');
-//hbs.registerHelper('markdown', markdown([options]));
 
 import markdown from 'gulp-markdown';
 

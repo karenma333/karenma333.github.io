@@ -1,0 +1,19 @@
+
+Automations Rule Builder (2022)
+
+Defining product vision and patching UX debt
+
+I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.
+
+
+Context
+
+Automations, a rule builder that allowed users to automate parts of their work had long existed in the application. 
+			
+
+Process
+
+After conducting some discovery research and facilitating a series of product workshops, we concluded that we needed to make Automations easier to use and more trustworthy. A interface without such a sharp learning curve would allow us to shift the user base from our internal customer support staff back to our users. Without this move, scaling the product would require hiring more staffers. In addition to the rule builder itself, we needed to provide new features to increase trust from our users.
+
+Solution
+This project required an overhaul to taxonomy, for more user-friendly language, an overhaul to the rule building interface, as well as the addition of several audit capabilities, such as a history log, customer facing alerts, and automations preview, to provide a users a way to see what was going on.","Notably, our customers can create Automations via the UI, or via API and any changes we made needed to be compatible with developers who used our API. Power users also developed workarounds and hacks that relied on functionality that was technically broken. We needed to prevent anything from breaking while trying to pave the way for a future that didn’t need hacky workarounds.
