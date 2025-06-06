@@ -32,33 +32,77 @@ h4{
 p{
   margin:0;
 }
-.project{
-  margin-bottom:2em;
-}
-.projBlurbs h1, h3{
+
+.projBlurbs{
   font-family: 'Archivo', sans-serif;
 }
-.project div{
-  width:100%;
+.projBlurbs{
+  margin-bottom: 2em;
 }
 a, a:hover{
   color:inherit;
   /*text-decoration: none;
 */
 }
-.proj,.about{
-  padding-top:2em;
+nav a{
+  text-decoration: none;
+  padding-left:0.5em;
 }
+nav a:hover, .active{
+  font-weight:700;
+}
+.intro{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projList{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.projList a{
+  width:100%;
+}
+
 .container{
   margin: 0;
   max-width: none;
   padding: 0;
 }
 
-/*Home Page*/
-.moreAbout, .proj_details, .intro{
-  margin:3rem 0 3rem 0;
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  text-align: left;
+  border-radius: 0px;
+  background-color: #FFFFFC;
+  border:none;
+  border-bottom: 1px solid grey;
 }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  font-weight:500;
+}
+/* Style the collapsible content. Note: hidden by default */
+.projBlurbs {
+  display: none;
+  overflow: hidden;
+  padding: 1em;
+  border: 1px solid grey;
+  border-top:none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+} 
+.projBlurbs img{
+  width:100%;
+}
+
+/*Home Page*/
 
 main{
   max-width: 1200px;
@@ -66,13 +110,7 @@ main{
   justify-content: center;
   align-self:center;
 }
-.about,.proj{
-    border-top: 1px solid #D3D3D3;
-}
 
-.projList{
-  display:none;
-}
 @media screen and (max-width: 1440px){
 .content{
   margin:2rem 15rem 4rem 15rem;
@@ -83,9 +121,7 @@ main{
 }
 @media screen and (max-width: 780px){
 
-.projBlurbs{
-  padding-left:0px;
-}
+
 .content{
   margin:2rem 2rem 4rem 2rem;
 }

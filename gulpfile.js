@@ -1,7 +1,7 @@
 import gulp from 'gulp';
 
 var proj4Data = "./json/home.json";
-var data = ["./markdown/about.md","./markdown/projectlist.md"]
+var data = ["./markdown/plg.md","./markdown/devex.md"]
 
 import markdown from 'gulp-markdown';
 
@@ -16,6 +16,3 @@ gulp.task("md", function(done){
 	return done();
 }
 );
-
-
-

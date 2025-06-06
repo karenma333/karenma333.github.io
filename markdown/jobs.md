@@ -1,19 +1,9 @@
+![Image of Job Creation Wizard](./public/images/splashJobsRedesign.png)
+#### Summary
+Automations were a popular customer feature that allowed users to simplify their workflow using automated jobs. However, the complexity of the feature meant that our support staff spent frequent hours working to create new automations and diagnose errors in customer-created jobs. Additionally, as our customers became more familiar with the feature, they began to push the limits of what they could do, leading to errors and a loss of trust in our system. 
 
-Automations Rule Builder (2022)
+#### Solution
+After conducting some discovery research and facilitating a series of product workshops, we learned that many customer requests were actually already feasible on the back-end but were obfuscated by a confusing user interface. Also, a lack of trust was preventing customers from increasing their adoption of the feature, and leading to heavy reliance on our internal staff to prove and explain how automations worked. I decided to commit to an interface without such a sharp learning curve which would allow us to shift the user base from our internal customer support staff back to our users and also to invest in more trust-based features for the roadmap.
 
-Defining product vision and patching UX debt
-
-I have omitted and obfuscated confidential information in this case study; images and text may have been generalized. The information in this case study is my own.
-
-
-Context
-
-Automations, a rule builder that allowed users to automate parts of their work had long existed in the application. 
-			
-
-Process
-
-After conducting some discovery research and facilitating a series of product workshops, we concluded that we needed to make Automations easier to use and more trustworthy. A interface without such a sharp learning curve would allow us to shift the user base from our internal customer support staff back to our users. Without this move, scaling the product would require hiring more staffers. In addition to the rule builder itself, we needed to provide new features to increase trust from our users.
-
-Solution
-This project required an overhaul to taxonomy, for more user-friendly language, an overhaul to the rule building interface, as well as the addition of several audit capabilities, such as a history log, customer facing alerts, and automations preview, to provide a users a way to see what was going on.","Notably, our customers can create Automations via the UI, or via API and any changes we made needed to be compatible with developers who used our API. Power users also developed workarounds and hacks that relied on functionality that was technically broken. We needed to prevent anything from breaking while trying to pave the way for a future that didn’t need hacky workarounds.
+#### Outcomes
+This project required changes to taxonomy, for more user-friendly language, an overhaul to the rule building interface to better reveal existing functionality, as well as the addition of several audit capabilities, such as a history log, customer facing alerts, and automations preview, to provide a users a way to see what was going on.
