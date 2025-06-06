@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "static site generator using handlebars,partials and json data",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "window-engine": "^4.3.7"
+  },
+  "devDependencies": {
+    "gulp-markdown": "^8.0.0",
+    "pagecrypt": "^5.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenma333/karenma333.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenma333/karenma333.github.io/issues"
+  },
+  "homepage": "https://github.com/karenma333/karenma333.github.io#readme"
+}
