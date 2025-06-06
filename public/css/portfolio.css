@@ -14,6 +14,7 @@ body{
 h1{
   font-size: 24px;
   font-weight: 500;
+  margin:0;
 }
 h2{
   font-size:20px;
@@ -22,19 +23,9 @@ h2{
 }
 h3{
   font-size:16px;
-  font-weight: 700;
-  margin:0px;
-}
-h4{
-  font-size:14px;
-  font-weight:700;
 }
 p{
   margin:0;
-}
-
-.projBlurbs{
-  font-family: 'Archivo', sans-serif;
 }
 .projBlurbs{
   margin-bottom: 2em;
@@ -46,15 +37,19 @@ a, a:hover{
 }
 nav a{
   text-decoration: none;
-  padding-left:0.5em;
+  margin-left:8px;
+  font-size: 1.25em;
 }
-nav a:hover, .active{
-  font-weight:700;
+nav a:hover{
+  text-decoration: underline;
+}
+.selected{
+  font-weight: 600;
 }
 .intro{
   display:flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 .projList{
   display:flex;
@@ -64,11 +59,8 @@ nav a:hover, .active{
 .projList a{
   width:100%;
 }
-
-.container{
-  margin: 0;
-  max-width: none;
-  padding: 0;
+.content{
+  max-width:40em;
 }
 
  /* Style the button that is used to open and close the collapsible content */
@@ -81,25 +73,41 @@ nav a:hover, .active{
   border-radius: 0px;
   background-color: #FFFFFC;
   border:none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #D3D3D3;
+  font-size: 1em;
+  font-weight: 500;
+  font-family:inherit;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  font-weight:500;
+.collapsible:hover {
+  font-weight:700;
+}
+.collapsible:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  float: right;
+  font-size:1.25em;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
 }
 /* Style the collapsible content. Note: hidden by default */
 .projBlurbs {
   display: none;
   overflow: hidden;
-  padding: 1em;
-  border: 1px solid grey;
+  padding: 2em;
+  border: 1px solid #D3D3D3;
   border-top:none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 } 
 .projBlurbs img{
   width:100%;
+}
+.proj, .about{
+  margin-top:2em;
 }
 
 /*Home Page*/
@@ -113,7 +121,7 @@ main{
 
 @media screen and (max-width: 1440px){
 .content{
-  margin:2rem 15rem 4rem 15rem;
+  margin:2rem 15rem 2rem 15rem;
 }
 .footer,header{
   margin:0rem 15rem 0rem 15rem;
@@ -123,7 +131,7 @@ main{
 
 
 .content{
-  margin:2rem 2rem 4rem 2rem;
+  margin:2rem 2rem 2rem 2rem;
 }
 .footer,header{
   margin:0rem 2rem 0rem 2rem;
