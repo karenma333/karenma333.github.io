@@ -1,7 +1,7 @@
 /*Generic Styles*/
 body{
   font-family: 'DM Sans', sans-serif;
-  background-color:#FFFFFC;
+  background-color:#FFFFFF;
   color:#303342;
   font-size: 16px;
   line-height: 24px;
@@ -9,8 +9,7 @@ body{
   display:flex;
   justify-content: center;
   flex-direction:column;
-  margin-top:2em;
-
+  margin: 0;
 }
 h1{
   font-size: 24px;
@@ -36,22 +35,6 @@ a, a:hover{
   /*text-decoration: none;
 */
 }
-nav a{
-  text-decoration: none;
-  margin-left:8px;
-  font-size: 1.25em;
-}
-nav a:hover{
-  text-decoration: underline;
-}
-.selected{
-  font-weight: 600;
-}
-.intro{
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
 .projList{
   display:flex;
   flex-wrap: wrap;
@@ -60,62 +43,23 @@ nav a:hover{
 .projList a{
   width:100%;
 }
-.content{
-  max-width:40em;
-}
-
- /* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  cursor: pointer;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  width: 100%;
-  text-align: left;
-  border-radius: 0px;
-  background-color: #FFFFFC;
-  border:none;
-  border-bottom: 1px solid #D3D3D3;
-  font-size: 1em;
-  font-weight: 500;
-  font-family:inherit;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.collapsible:hover {
-  font-weight:700;
-}
-.collapsible:after {
-  content: '+'; /* Unicode character for "plus" sign (+) */
-  float: right;
-  font-size:1.25em;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "-"; /* Unicode character for "minus" sign (-) */
-}
-/* Style the collapsible content. Note: hidden by default */
-.projBlurbs {
-  display: none;
-  overflow: hidden;
-  padding: 2em;
-  border: 1px solid #D3D3D3;
-  border-top:none;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-} 
-.projBlurbs img{
-  width:100%;
-}
-.proj, .about{
+.proj{
   margin-top:2em;
 }
 
+.navbar{
+  border-bottom: 1px black solid;
+  margin:0 32px 0 32px;
+  height: 54px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
 /*Home Page*/
 
 main{
-  max-width: 1200px;
   display:flex;
+  flex-direction:column;
   justify-content: center;
   align-self:center;
 }
@@ -124,7 +68,7 @@ main{
 .content{
   margin:2rem 15rem 2rem 15rem;
 }
-.footer,header{
+footer, header{
   margin:0rem 15rem 0rem 15rem;
 }
 }
@@ -133,8 +77,5 @@ main{
 
 .content{
   margin:2rem 2rem 2rem 2rem;
-}
-.footer,header{
-  margin:0rem 2rem 0rem 2rem;
 }
 }

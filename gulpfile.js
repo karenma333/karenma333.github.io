@@ -1,6 +1,5 @@
 import gulp from 'gulp';
 
-var proj4Data = "./json/home.json";
 var data = ["./markdown/plg.md","./markdown/devex.md"]
 
 import markdown from 'gulp-markdown';
