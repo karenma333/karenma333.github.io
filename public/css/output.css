@@ -215,9 +215,6 @@ a, a:hover {
 .projList a {
   width: 100%;
 }
-.proj {
-  margin-top: 2em;
-}
 .navbar {
   border-bottom: 1px black solid;
   margin: 0 32px 0 32px;
@@ -233,12 +230,20 @@ a, a:hover {
 }
 main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-self: center;
+  width: 920px;
+  margin: 24px 32px 0 32px;
+  column-gap: 32px;
+}
+.summary {
+  width: 360px;
+}
+.proj {
+  width: 560px;
 }
 @media screen and (max-width: 1440px) {
-  .content {
+  content {
     margin: 2rem 15rem 2rem 15rem;
   }
   footer, header {
