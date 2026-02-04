@@ -1,3 +1,6 @@
+
+@import "tailwindcss";
+
 /*Generic Styles*/
 body{
   font-family: 'DM Sans', sans-serif;
@@ -17,9 +20,7 @@ h1{
   margin:0;
 }
 h2{
-  font-size:20px;
-  font-weight: 500;
-
+  font-size:18px;
 }
 h3{
   font-size:16px;
@@ -54,6 +55,11 @@ a, a:hover{
   display:flex;
   flex-direction:column;
   justify-content: center;
+}
+.sectionTitle{
+  border-bottom: 1px black solid;
+  height:40px;
+  margin-bottom: 16px;
 }
 /*Home Page*/
 
