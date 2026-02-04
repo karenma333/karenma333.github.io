@@ -113,14 +113,15 @@ main{
   margin: 24px 32px 0 32px;
   column-gap: 32px;
 }
-footer, header{
-  margin:0rem 15rem 0rem 15rem;
 }
+@media screen and (max-width: 1000px){
+main{
+  margin: 24px 32px 0 32px;
+  display:flex;
+  flex-wrap: wrap;
+  width:auto;
 }
-@media screen and (max-width: 780px){
-
-
 .content{
-  margin:2rem 2rem 2rem 2rem;
+  width:100%;
 }
 }
