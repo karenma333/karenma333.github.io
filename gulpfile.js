@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 
-var data = ["./markdown/retirementWizard.md","./markdown/jobs.md","./markdown/plg.md"]
+var data = ["./markdown/retirementWizard.md","./markdown/jobs.md","./markdown/plg.md","./markdown/navredesign.md"]
 
 import markdown from 'gulp-markdown';
 
