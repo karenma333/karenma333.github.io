@@ -45,7 +45,7 @@
 ### Summary
 After finding success launching a guided retirement planner for financial advisors, the product team set sights on a new audience: self-service retirement planning. This new audience brought challenges, as we needed to adapt a product meant for experts to one that novices would be able to navigate and understand. After simplifying the onboarding wizard, we saw a 44% increase in conversion for this step of the planning process. 
 
-### Highlights
+### Key Insights
  * Good default behavior bridges the gap for new users
  	* Our multi-step onboarding made sense when a guide was available to explain choices to users. In a self-service scenario, users were overwhelmed. 
  	* We identified likely defaults, like a retirement age of 65 and reduced the interface to focus on basics that most users were familiar with.  

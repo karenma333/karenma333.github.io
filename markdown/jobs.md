@@ -31,7 +31,7 @@
 
 <div class="pageTitle">
 
-## Shifting from B2B to B2B2C: An alternative experience for the novice user base
+## Automated Jobs Builder
 
 </div>
 
@@ -43,19 +43,27 @@
 <div class = "text">
 
 ### Summary
-Automations were a popular customer feature that allowed users to simplify their workflow using automated jobs. However, the complexity of the feature meant that our support staff spent frequent hours working to create new automations and diagnose errors in customer-created jobs. Additionally, as our customers became more familiar with the feature, they began to push the limits of what they could do, leading to errors and a loss of trust in our system. 
+Automations were a popular customer feature that allowed users to simplify their workflow using automated jobs. However, the complexity of the feature meant that our support staff spent many hours working to create new automations and diagnose errors in customer-created jobs. A lack of visibility into how jobs worked caused distrust and hesitancy to adopt further jobs-related features.  
+
+After interviewing our power users, analyzing our job usage data on the front and back end, and conducting an ethnographic study on our customer support team, I was able to identify a list of pain points. From there, I led a series of workshops with the product and engineering team to set a future product vision to aim for as well as clear initial steps for improvement. 
+
 
 ### Key Insights
-After conducting some discovery research and facilitating a series of product workshops, we learned that many customer requests were actually already feasible on the back-end but were obfuscated by a confusing user interface. Also, a lack of trust was preventing customers from increasing their adoption of the feature, and leading to heavy reliance on our internal staff to prove and explain how automations worked. I decided to commit to an interface without such a sharp learning curve which would allow us to shift the user base from our internal customer support staff back to our users and also to invest in more trust-based features for the roadmap.
-
-### What we did
-This project required changes to taxonomy, for more user-friendly language, an overhaul to the rule building interface to better reveal existing functionality, as well as the addition of several audit capabilities, such as a history log, customer facing alerts, and automations preview, to provide a users a way to see what was going on.
+* **Creating jobs is not a linear process**
+	* When observing our users, I noticed that often times they had multiple tabs open to make one job. They needed to reference different parts of a job, especially when making complex jobs with multiple paths. Then, they wanted to be able to test a job and verify that everything was as intended
+	* I introduced the concept of a job overview diagram that could be used in multiple different places in the application. Users could scan the job at a glance to check the whole job at once. Additionally, I introduced preview capabilities to check upcoming jobs
+* **Not everyone is a developer**
+	* Language used for jobs was directly mapped from back-end statuses and led to confusion when developer mental models did not match our users' understanding. For example, our developers considered a job that did not result in an action to be failed, causing a short spurt of panic from our users as they saw a series of jobs failing
+	* I tested different language, especially for job status and job scheduling to align with our customers' expectations
+* **Automation requires good audit**
+	* One of the themes from our research was that some customers would take hours to manually verify that all the automation was working correctly. With such a laborious process, they were also hesitant to further automate their workflow because the verification would be such a hassle
+	* I added a history of jobs fired, with customer alerts for failed jobs so they could reduce their verification process to focus on investigating any unexpected failures. 
 
 </div>
 
 ![Image of retirement advice onboarding](./public/images/JobTrigger.png)
-
 ![Image of retirement advice dashboard](./public/images/JobOperation.png)
+![Image of retirement advice dashboard](./public/images/JobPreview.png)
 ![Image of retirement advice dashboard](./public/images/JobHistory.png)
 ![Image of retirement advice dashboard](./public/images/JobHistoryDetails.png)
 ![Image of retirement advice dashboard](./public/images/JobSchedule.png)
