@@ -40,6 +40,7 @@
 ![Image of jobs overview](./public/images/splashJobs.png)
 
 </div>
+<div class = "text">
 
 ### Summary
 Automations were a popular customer feature that allowed users to simplify their workflow using automated jobs. However, the complexity of the feature meant that our support staff spent frequent hours working to create new automations and diagnose errors in customer-created jobs. Additionally, as our customers became more familiar with the feature, they began to push the limits of what they could do, leading to errors and a loss of trust in our system. 
@@ -50,6 +51,7 @@ After conducting some discovery research and facilitating a series of product wo
 ### What we did
 This project required changes to taxonomy, for more user-friendly language, an overhaul to the rule building interface to better reveal existing functionality, as well as the addition of several audit capabilities, such as a history log, customer facing alerts, and automations preview, to provide a users a way to see what was going on.
 
+</div>
 
 ![Image of retirement advice onboarding](./public/images/JobTrigger.png)
 
@@ -58,7 +60,6 @@ This project required changes to taxonomy, for more user-friendly language, an o
 ![Image of retirement advice dashboard](./public/images/JobHistoryDetails.png)
 ![Image of retirement advice dashboard](./public/images/JobSchedule.png)
 
-</div>
 
 <html>
 	</main>

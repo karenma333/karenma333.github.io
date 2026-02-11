@@ -24,11 +24,20 @@ h2{
   font-weight:400;
 }
 h3{
-  font-size:16px;
+  font-size:18px;
 }
-p{
-  font-size: 18px;
+p, li{
+  font-size: 16px;
   margin:0;
+}
+li{
+  line-height: 27px;
+}
+li p {
+  font-weight: 700;
+}
+ul{
+  margin-top:0px;
 }
 .projBlurbs{
   margin-bottom: 2em;
@@ -46,13 +55,20 @@ img{
   max-width: 800px;
   display:flex;
   align-self: center;
-  margin: 32px 0 32px 0;
+  margin: 32px 0 0 0;
 }
 .splash p img{
   max-height:600px;
 
 }
-
+.text{
+  max-width: 600px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-self: center;
+  margin-bottom:32px;
+}
 .projList{
   display:flex;
   flex-wrap: wrap;
