@@ -21,38 +21,39 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <h1>Karen Ma</h1>							
+    <div class="navbar projBar">
+        <div class="backButton">
+            <a href="./index.html">X</a>
+        </div>
+        <div class="pageTitle">
+            <h1>Product-led Growth and New User Tutorials</h1>							
+        </div>
     </div>
     <main class="writeup">
-<div>
-    <a href="./index.html">Back</a>
-</div>
 
-<div class="pageTitle">
 
-<h2>Shifting from B2B to B2B2C: An alternative experience for the novice user base</h2>
-</div>
 
 <div class="splash">
 
-<p><img src="./public/images/splashPLG.png" alt="image of homepage"></p>
+<p><img src="./public/images/splashPLG.png" alt="Image of home page with tutorials"></p>
 </div>
 
+<div class = "text">
 
 <h3>Summary</h3>
-<p>Following a plg free tier, our users were loss. Resulted in XYZ</p>
-<h3>What we did</h3>
-<ul>
-<li>Tutorials with sample queries</li>
-<li>Loading sample and real data. UI based </li>
-<li>Visibility and recommendations on queries to try</li>
-</ul>
+<p>The best way to prove that your database is capable and fast is to have users try it. Yet, when we looked at our data, a large percentage of new users would lose interest before they even loaded data into a database. By developing clear tutorials to guide users, we were able to improve data loading by 14% and also increased the ratio of users loading their own data vs sample data. </p>
+<h3>Design Details</h3>
+<h4>A landing page to direct users</h4>
+<p>After users signed up, we originally did not have any call to action. To remediate that, we created a home page where we could recommend next steps based on their interests. For existing users, we could use this space to announce new features and upcoming product releases.</p>
+<h4>Pre-packaged, personalized tutorials</h4>
+<p>Notebook tutorials allowed us to internally create and crowdsource personalized demos for users. Using jupyter notebooks allowed us to explain the recommended dataset and visualize the sample queries. </p>
+<h4>Improved load data for personal files</h4>
+<p>Previously loading data was an API only action and setting up the connection would cause our users to lose interest. By providing a wizard for quick file uploads, we retained users within the platform and could direct them to test queries after the files loaded. </p>
+</div>
+
 <p><img src="./public/images/splashPLG.png" alt="image of homepage">
 <img src="./public/images/plgLoadData.png" alt="Image of retirement advice dashboard">
 <img src="./public/images/plgSQL.png" alt="Image of retirement advice onboarding"></p>
-</div>
-
 <html>
     </main>
 </body>

@@ -21,19 +21,17 @@
 </head>
 
 <body>
-	<div class="navbar">
-		<h1>Karen Ma</h1>							
+	<div class="navbar projBar">
+		<div class="backButton">
+			<a href="./index.html">X</a>
+		</div>
+		<div class="pageTitle">
+			<h1>Product-led Growth and New User Tutorials</h1>							
+		</div>
 	</div>
 	<main class="writeup">
-<div>
-	<a href="./index.html">Back</a>
-</div>
 
-<div class="pageTitle">
 
-## Product-led Growth and New User Tutorials
-
-</div>
 
 <div class="splash">
 
@@ -44,18 +42,28 @@
 <div class = "text">
 
 ### Summary
-Following a plg free tier, our users were loss. Resulted in XYZ
+The best way to prove that your database is capable and fast is to have users try it. Yet, when we looked at our data, a large percentage of new users would lose interest before they even loaded data into a database. By developing clear tutorials to guide users, we were able to improve data loading by 14% and also increased the ratio of users loading their own data vs sample data. 
 
-### What we did
-- Tutorials with sample queries
-- Loading sample and real data. UI based 
-- Visibility and recommendations on queries to try
+### Design Details
+
+#### A landing page to direct users
+
+After users signed up, we originally did not have any call to action. To remediate that, we created a home page where we could recommend next steps based on their interests. For existing users, we could use this space to announce new features and upcoming product releases.
+
+#### Pre-packaged, personalized tutorials
+
+Notebook tutorials allowed us to internally create and crowdsource personalized demos for users. Using jupyter notebooks allowed us to explain the recommended dataset and visualize the sample queries. 
+
+#### Improved load data for personal files 
+
+Previously loading data was an API only action and setting up the connection would cause our users to lose interest. By providing a wizard for quick file uploads, we retained users within the platform and could direct them to test queries after the files loaded. 
+
+</div>
 
 ![image of homepage](./public/images/splashPLG.png)
 ![Image of retirement advice dashboard](./public/images/plgLoadData.png)
 ![Image of retirement advice onboarding](./public/images/plgSQL.png)
 
-</div>
 
 <html>
 	</main>
