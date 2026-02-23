@@ -43,21 +43,21 @@
 <div class = "text">
 
 ### Summary
-Automations were a popular customer feature that allowed users to simplify their workflow using automated jobs. However, the complexity of the feature meant that our support staff spent many hours working to create new automations and diagnose errors in customer-created jobs. A lack of visibility into how jobs worked caused distrust and hesitancy to adopt further jobs-related features.  
-
-After interviewing our power users, analyzing our job usage data on the front and back end, and conducting an ethnographic study on our customer support team, I was able to identify a list of pain points. From there, I led a series of workshops with the product and engineering team to set a future product vision to aim for as well as clear initial steps for improvement. 
-
+Automations allowed our users to create custom automated jobs for simplifying their workflow from sending slack notifications to triggering reports. However, the complexity of the feature meant that our support staff spent many hours troubleshooting and a lack of visibility into how jobs worked caused distrust and hesitancy to adopt further jobs-related features.  
 
 ### Key Insights
-* **Creating jobs is not a linear process**
-	* When observing our users, I noticed that often times they had multiple tabs open to make one job. They needed to reference different parts of a job, especially when making complex jobs with multiple paths. Then, they wanted to be able to test a job and verify that everything was as intended
-	* I introduced the concept of a job overview diagram that could be used in multiple different places in the application. Users could scan the job at a glance to check the whole job at once. Additionally, I introduced preview capabilities to check upcoming jobs
-* **Not everyone is a developer**
-	* Language used for jobs was directly mapped from back-end statuses and led to confusion when developer mental models did not match our users' understanding. For example, our developers considered a job that did not result in an action to be failed, causing a short spurt of panic from our users as they saw a series of jobs failing
-	* I tested different language, especially for job status and job scheduling to align with our customers' expectations
-* **Automation requires good audit**
-	* One of the themes from our research was that some customers would take hours to manually verify that all the automation was working correctly. With such a laborious process, they were also hesitant to further automate their workflow because the verification would be such a hassle
-	* I added a history of jobs fired, with customer alerts for failed jobs so they could reduce their verification process to focus on investigating any unexpected failures. 
+
+#### Shared understanding comes from shared terminology
+
+Misunderstandings due to terminology made automations even more confusing than it already was. From the definition of what was considered a day, to what is considered a failed job, we lacked a consensus, even internally on what the correct answer was. After creating an internal glossary with clarified definitions, I was able to add error text, help text and introduce new terms that were more precise and matched our users' language comprehension. 
+
+#### Automation requires good audits
+
+When it comes to GRC software, trust is the golden currency. Users were interested in offloading their workload to automations but needed a strong paper trail and clear visibility to trust their processes were being followed. By adding preview testing capabilities and a log of jobs fired with alerts for failed jobs, users could validate automated behavior and investigate any unexpected failures. 
+
+#### Power users can build anything from basic building blocks 
+
+Power users created jobs that were highly complex and surpassed our own expectations of what we thought was possible, creating chain reactions and hacking our scheduling logic. The original creation flow was too simplistic and didn't match how our users were using the feature. Introducing the idea of a jobs overview and overhauling the creation process better matched our users' mental models and revealed the true potential behind automated jobs. 
 
 </div>
 

@@ -31,30 +31,31 @@
 
 <div class="pageTitle">
 
-<h2>Navigation Redesign</h2>
+<h2>Navigation Refresh</h2>
 </div>
 
 <div class="splash">
 
 <p><img src="./public/images/splashNav.png" alt="Image of new navigation"></p>
 </div>
+<div class = "text">
 
 
 <h3>Summary</h3>
-<p>After observing the user interface was getting overcrowded, I initiated a project to revise the navigation on the platform. I created a new object hierarchy to better align to our customers&#39; mental models and scale with our growing feature set. We did a staged rollout, starting with an opt-in for existing customers and a default onto the new navigation for new customers. After 60 days, we saw an adoption of 20% of customers showing a preference for the new scheme. We defaulted all users to roll onto the new UI and after 30 day mark saw over 90% of customers using the new navigation. <a href="https://www.singlestore.com/blog/singlestores-new-portal-navigation/">Read more</a></p>
+<p>Part of the growing pains that comes with a startup is the inevitable need to review the information architecture. An interface that works well when you only have 5 features, works a lot less well when you&#39;ve got 15 features. I refreshed our information architecture to better align to our customers&#39; mental models and scale with our growing feature set and took the opportunity to add quality-of-life improvements as well. We did a staged rollout, starting with an opt-in for existing customers and a default onto the new navigation for new customers. After 60 days, we saw an adoption of 20% of customers showing a preference for the new scheme. We defaulted all users to roll onto the new UI and after 30 day mark saw over 90% of customers using the new navigation. </p>
 <h3>Design Details</h3>
-<p>This navigation project was scoped to solve for the following themes:</p>
-<ul>
-<li>Scale with feature development</li>
-<li>Keep it clean and focused</li>
-<li>Prevent users from losing context</li>
-<li>Orient users</li>
-</ul>
+<h4>One interface, two personas</h4>
+<p>As our product strategy shifted to attract more developers, we had core personas, Admins and Devs, that had drastically different priorities in the application. I identified their key workflows and designed the interface to fork appropriately based on their jobs-to-be-done. Settings and configurations were placed near each other while developers were able to easily access query and table details while writing sql queries.</p>
+<h4>Provide hierarchy clues when switching context</h4>
+<p>Depending on what a user was interacting with, they could be touching a single datebase, or a workspace connected to many databases, up to a project containing many workspace groups. I reorganized the information architecture to reflect the underlying hierarchy. Global search and navigation also provided a quick way for users to get where they needed to be. </p>
+<h4>Create patterns for scaling usage</h4>
+<p> Our users often started with one database on our most basic tier. We needed an interface that felt smooth for one database and seamlessly transitioned when they upgraded to dozens of databases and unlocked enterprise-level features. At any given time, users are focused on one workspace group, reducing visual clutter and page load times. I created a pattern to guide where new features should be placed and criteria that needed to be met before a feature gets top billing in the navigation.</p>
+ </div>
+
+
 <p><img src="./public/images/splashNav.png" alt="Image of retirement advice onboarding">
 <img src="./public/images/navWSG.png" alt="Image of retirement advice dashboard">
 <img src="./public/images/navDevelop.png" alt="Image of retirement advice dashboard"></p>
-</div>
-
 <html>
     </main>
 </body>

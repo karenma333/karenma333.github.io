@@ -46,14 +46,17 @@
 After finding success launching a guided retirement planner for financial advisors, the product team set sights on a new audience: self-service retirement planning. This new audience brought challenges, as we needed to adapt a product meant for experts to one that novices would be able to navigate and understand. After simplifying the onboarding wizard, we saw a 44% increase in conversion for this step of the planning process. 
 
 ### Key Insights
- * Good default behavior bridges the gap for new users
- 	* Our multi-step onboarding made sense when a guide was available to explain choices to users. In a self-service scenario, users were overwhelmed. 
- 	* We identified likely defaults, like a retirement age of 65 and reduced the interface to focus on basics that most users were familiar with.  
+ 
+#### Use defaults to bridge the knowledge gap for new users
+ 
+ Users were overwhelmed by the amount of customization during onboarding. Across our users, we pre-filled information based on reasonable default behavior.
  	
- * Build trust before asking for time investments
- 	* The original onboarding flow asked users for personal information, including linked banked accounts. Users were deterred from continuing because they didn't understand why we wanted this information
- 	* We let users see the projections and calculations we came up before offering a call-to-action to invest the time to personalize their experience
- 	</div>
+ 
+#### Build trust before asking for investments
+
+Users were deterred from investing their time and energy into learning our product because they didn't understand what the end goal was. We let users see the projections and calculations we came up before offering a call-to-action to invest the time to personalize their experience.
+
+</div>
 
 ![Image of retirement advice onboarding](./public/images/retireOnboard.png)
 ![Image of retirement advice dashboard](./public/images/retireDash.png)

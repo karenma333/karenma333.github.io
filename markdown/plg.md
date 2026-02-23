@@ -31,16 +31,17 @@
 
 <div class="pageTitle">
 
-## Shifting from B2B to B2B2C: An alternative experience for the novice user base
+## Product-led Growth and New User Tutorials
 
 </div>
 
 <div class="splash">
 
-![image of homepage](./public/images/splashPLG.png)
+![Image of home page with tutorials](./public/images/splashPLG.png)
 
 </div>
 
+<div class = "text">
 
 ### Summary
 Following a plg free tier, our users were loss. Resulted in XYZ
