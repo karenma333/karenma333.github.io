@@ -16,24 +16,27 @@
 	<link href="./output.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
        
 </head>
 
 <body>
 	<div class="navbar">
-		<h1>Karen Ma</h1>							
+		<a href="./index.html"><h1>Karen Ma</h1></a>							
 	</div>
 	<main class="writeup">
-<div class="back">
-	<a href="./index.html">Back</a>
-</div>
+<div class="title">
 
 <div class="pageTitle">
 
-## Self-Service Retirement Planner 
+## Self-service Retirement Planner
 
 </div>
+	<div  class="back">
+		<a href="./index.html">✖</a>
+	</div>
+</div>
+
 
 <div class="splash">
 

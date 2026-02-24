@@ -22,18 +22,21 @@
 
 <body>
 	<div class="navbar">
-		<h1>Karen Ma</h1>							
+		<a href="./index.html"><h1>Karen Ma</h1></a>							
 	</div>
 	<main class="writeup">
-<div>
-	<a href="./index.html">Back</a>
-</div>
+<div class="title">
 
 <div class="pageTitle">
 
 ## Automated Jobs Builder
 
 </div>
+	<div  class="back">
+		<a href="./index.html">✖</a>
+	</div>
+</div>
+
 
 <div class="splash">
 

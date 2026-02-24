@@ -21,15 +21,22 @@
 </head>
 
 <body>
-	<div class="navbar projBar">
-		<div class="backButton">
-			<a href="./index.html">X</a>
-		</div>
-		<div class="pageTitle">
-			<h1>Product-led Growth and New User Tutorials</h1>							
-		</div>
+	<div class="navbar">
+		<a href="./index.html"><h1>Karen Ma</h1></a>							
 	</div>
 	<main class="writeup">
+<div class="title">
+
+<div class="pageTitle">
+
+## PLG and Developer Onboarding
+
+</div>
+	<div  class="back">
+		<a href="./index.html">✖</a>
+	</div>
+</div>
+
 
 
 
