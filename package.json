@@ -4,7 +4,7 @@
   "description": "static site generator using handlebars,partials and json data",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "window-engine": "^4.3.7"
   },
   "devDependencies": {
